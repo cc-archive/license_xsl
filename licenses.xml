@@ -36,7 +36,7 @@
       <languages>es_CL</languages>
     </jurisdiction-info>
     <jurisdiction-info id="cn" launched="true">
-      <uri>http://creativecommons.org/worldwide/cn/</uri>
+      <uri>http://cn.creativecommons.org</uri>
       <languages>zh</languages>
     </jurisdiction-info>
     <jurisdiction-info launched="false" id="co">
