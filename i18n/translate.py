@@ -4,7 +4,7 @@ translate.py
 Pass one or more template files through a TAL parser with some simple
 locale look-up functions in the context for straightforward i18n expansion.
 
-Copyright 2005, Nathan R. Yergler, Creative Commons
+Copyright 2005-2006, Nathan R. Yergler, Creative Commons
 Licensed to the public under the GNU GPL version 2.
 
 Sample Usages:
@@ -37,53 +37,7 @@ from simpletal import simpleTAL, simpleTALES
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
 
-POFILE_DIR = '/home/nathan/Projects/iStr/i18n/'
-
-class CvsWrapper(object):
-    def __init__(self, root, module):
-        """Create a new wrapper on a CVS connection.
-        @param root The CVSROOT for the module, specified with the same format
-                    as -d to cvs.  For example:
-                    :pserver:anonymous@cvs.sf.net:/cvsroot/cctools
-        @param module The CVS module to checkout.
-        """
-        
-        self.__root = root
-        self.__module = module
-
-        self.__codir = None
-        
-    def co(self):
-        """Checkout the module to a directory in the temporary folder."""
-        target = self.__module.split('/')[-1]
-        targetdir = tempfile.gettempdir()
-
-        CVS_CMD_LINE = "cvs -d%s login; cvs -d%s co -d %s %s" % (
-            self.__root, self.__root, target, self.__module)
-        
-        cvs = subprocess.Popen(CVS_CMD_LINE, cwd=targetdir, shell=True)
-        cvs.wait()
-
-        self.__codir = os.path.join(targetdir, target)
-        return self.__codir
-    
-    def listFiles(self):
-        """Returns a sequence of files checked out from the module.
-        Each entry is the fully qualified path name.  The module is checked
-        out from CVS into a temporary directory."""
-        
-        if self.__codir is None:
-            # need to checkout the module
-            self.__codir = self.co()
-
-        return [os.path.join(self.__codir, n) for n in 
-                os.listdir(self.__codir)]
-    
-    def release(self):
-        """Release our checked out copy by removing the files."""
-
-        if self.__codir is not None:
-            os.path.rmdir(self.__codir)
+POFILE_DIR = 'i18n_po'
         
 class PoFile(object):
     def __init__(self, filename):
@@ -193,17 +147,17 @@ def loadCatalogs(source_dir):
 
 def loadOpts():
     """Parse command line options; returns a tuple of (opts, args)."""
-    parser = optparse.OptionParser(usage="%prog [--cvs|--podir podir] files",
+    parser = optparse.OptionParser(usage="%prog [options...] files",
                                    version="%%prog %s" % __version__)
 
     parser.add_option('--podir', dest='podir',
                      help='Directory containing .po translation files.')
-    parser.add_option('--cvs', dest='cvs', action='store_true',
-                     help='Checkout .po translations from CVS.')
     parser.add_option('-o', '--output', dest='outputDir',
                       help='Save output files to specified directory'
                       '(defaults to the same directory as input files).')
-    parser.set_defaults(cvs=False)
+    parser.set_defaults(podir = os.path.join(os.path.dirname(
+        os.path.abspath(__file__)), POFILE_DIR)
+                        )
     
     return parser.parse_args()
     
@@ -212,15 +166,10 @@ if __name__ == '__main__':
 
     # parse command line parameters and check for sanity
     (opts, args) = loadOpts()
-    if (not(opts.cvs)) and (getattr(opts, 'podir', None) is None):
-        print >> sys.stderr, "You must specify either --podir or --cvs."
+    if (getattr(opts, 'podir', None) is None):
+        print >> sys.stderr, "You must specify --podir."
         sys.exit(1)
 
-    # do the CVS checkout if necessary
-    if (opts.cvs):
-        langsource = CvsWrapper(CVSROOT, CVSMODULE)
-        opts.podir = langsource.co()
-        
     # load the catalogs
     LOCALES = loadCatalogs(opts.podir)
 
