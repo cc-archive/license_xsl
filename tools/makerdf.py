@@ -6,7 +6,7 @@ as a source for all canonical license URIs.
 
 Requires RDFlib (http://rdflib.net), lxml (http://codespeak.net/lxml).
 
-(c) 2005, Nathan R. Yergler, Creative Commons.
+(c) 2005-2006, Nathan R. Yergler, Creative Commons.
 """
 
 __version__ = 0.5
