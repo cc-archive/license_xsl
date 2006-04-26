@@ -3,7 +3,7 @@
 
 	<xsl:include href="./licenselocale.xsl"/>
 
-	<xsl:output method="xml" indent="yes"/>
+	<xsl:output method="xml" encoding="utf8" indent="yes"/>
 
  	<xsl:template match="answers">
 		<xsl:apply-templates/>
@@ -28,7 +28,7 @@
 				<xsl:choose>
   <xsl:when test="./jurisdiction='fi' or ./jurisdiction='il'">1.0</xsl:when>
   <xsl:when test="./jurisdiction='au' or ./jurisdiction='jp'">2.1</xsl:when>
-  <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn'">2.5</xsl:when>
+  <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn' or ./jurisdiction='tw'">2.5</xsl:when>
   <xsl:otherwise>2.0</xsl:otherwise>
 				</xsl:choose>
 			</xsl:otherwise>
@@ -87,7 +87,7 @@
 				<xsl:choose>
  <xsl:when test="./jurisdiction='fi' or ./jurisdiction='il'"> 1.0</xsl:when>
  <xsl:when test="./jurisdiction='au' or ./jurisdiction='jp'"> 2.1</xsl:when>
- <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn'"> 2.5</xsl:when>
+ <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn'or ./jurisdiction='tw'"> 2.5</xsl:when>
  <xsl:otherwise> 2.0</xsl:otherwise>
 
 				</xsl:choose>
