@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 	<xsl:include href="./licenselocale.xsl"/>
+	<xsl:include href="./support.xsl" />
 
 	<xsl:output method="xml" encoding="utf8" indent="yes"/>
 
@@ -20,19 +21,10 @@
 				<xsl:if test="./jurisdiction != '' and ./jurisdiction != '-'"><xsl:value-of select="concat(./jurisdiction,'/')"/></xsl:if>
 			</xsl:variable>
 			<xsl:variable name="version">
-		<xsl:choose>
-				<xsl:when test="./version != ''">
-					<xsl:value-of select="./version"/>
-				</xsl:when>
-			<xsl:otherwise>
-				<xsl:choose>
-  <xsl:when test="./jurisdiction='fi' or ./jurisdiction='il'">1.0</xsl:when>
-  <xsl:when test="./jurisdiction='au' or ./jurisdiction='jp'">2.1</xsl:when>
-  <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn' or ./jurisdiction='tw'">2.5</xsl:when>
-  <xsl:otherwise>2.0</xsl:otherwise>
-				</xsl:choose>
-			</xsl:otherwise>
-		</xsl:choose>
+			  <xsl:call-template name="version">
+				<xsl:with-param name="specified_version" select="./version"/>
+				<xsl:with-param name="jurisdiction" select="./jurisdiction" />
+			  </xsl:call-template>
 			</xsl:variable>
 			<xsl:variable name="noncommercial">
 				<xsl:if test="./commercial='n'">-nc</xsl:if>
@@ -84,13 +76,13 @@
 				</xsl:choose>
 			</xsl:variable>
 			<xsl:variable name="version">
-				<xsl:choose>
- <xsl:when test="./jurisdiction='fi' or ./jurisdiction='il'"> 1.0</xsl:when>
- <xsl:when test="./jurisdiction='au' or ./jurisdiction='jp'"> 2.1</xsl:when>
- <xsl:when test="./jurisdiction='' or ./jurisdiction='generic' or ./jurisdiction='-' or ./jurisdiction='es' or ./jurisdiction='ar' or ./jurisdiction='nl' or ./jurisdiction='hu' or ./jurisdiction='si' or ./jurisdiction='se' or ./jurisdiction='scotland' or ./jurisdiction='hr' or ./jurisdiction='ca' or ./jurisdiction='my' or ./jurisdiction='br' or ./jurisdiction='bg' or ./jurisdiction='mx' or ./jurisdiction='pl' or ./jurisdiction='cn'or ./jurisdiction='tw'"> 2.5</xsl:when>
- <xsl:otherwise> 2.0</xsl:otherwise>
-
-				</xsl:choose>
+			<xsl:variable name="version_num">
+			  <xsl:call-template name="version">
+				<xsl:with-param name="specified_version" select="./version"/>
+				<xsl:with-param name="jurisdiction" select="./jurisdiction" />
+			  </xsl:call-template>
+			</xsl:variable>
+			<xsl:value-of select="concat(' ', $version_num)"/>
 			</xsl:variable>
                         <xsl:variable name="attribution">
                           <xsl:call-template name="attribution"/>
