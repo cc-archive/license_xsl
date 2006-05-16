@@ -4,7 +4,7 @@
 	<xsl:include href="./licenselocale.xsl"/>
 	<xsl:include href="./support.xsl" />
 
-	<xsl:output method="xml" encoding="utf8" indent="yes"/>
+	<xsl:output method="xml" encoding="utf-8" indent="yes"/>
 
  	<xsl:template match="answers">
 		<xsl:apply-templates/>
