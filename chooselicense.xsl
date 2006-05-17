@@ -169,14 +169,44 @@
 		<xsl:variable name="license-uri-rdf">
 				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
-		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-			<Work rdf:about="">
+		<xsl:variable name="work-url">
+		   <xsl:choose>
+			<xsl:when test="/answers/work-info/work-url">
+				<xsl:value-of select="/answers/work-info/work-url" />
+			</xsl:when>
+			<xsl:otherwise></xsl:otherwise>
+		   <xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="source-url">
+			<xsl:when test="/answers/work-info/source-url">
+				<xsl:value-of select="/answers/work-info/source-url" />
+			</xsl:when>
+			<xsl:otherwise></xsl:otherwise>
+		</xsl:variable>
+		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+			<Work rdf:about="{$work-url}">
 				<xsl:if test="/answers/work-info/title">
 					<dc:title><xsl:value-of select="/answers/work-info/title"/></dc:title>
 				</xsl:if>
 				<xsl:if test="/answers/work-info/type">
 					<dc:type rdf:resource="http://purl.org/dc/dcmitype/{/answers/work-info/type}"/>
 				</xsl:if>
+				<xsl:if test="/answers/work-info/year">
+					<dc:date><xsl:value-of select="/answers/work-info/year" /></dc:date>
+				</xsl:if>
+				<xsl:if test="/answers/work-info/description">
+					<dc:description><xsl:value-of select="/answers/work-info/description" /></dc:description>
+				</xsl:if>
+				<xsl:if test="/answers/work-info/creator">
+					<dc:creator><Agent><xsl:value-of select="/answers/work-info/creator" /></Agent></dc:creator>
+				</xsl:if>
+				<xsl:if test="/answers/work-info/holder">
+					<dc:rights><Agent><xsl:value-of select="/answers/work-info/holder" /></Agent></dc:rights>
+				</xsl:if>
+				<xsl:if test="$source-url">
+					<dc:source rdf:resource="{$source-url}" />
+				</xsl:if>
+
 				<license rdf:resource="{$license-uri-rdf}"/>
 			</Work>
 			<License rdf:about="{$license-uri-rdf}">
