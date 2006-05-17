@@ -122,7 +122,7 @@
 		
 			<xsl:variable name="jurisdiction">
 				<xsl:choose>
-					<xsl:when test="./sampling='ncsamplingplus'"/>
+					<xsl:when test="./sampling='ncsamplingplus' and ./jurisdiction='br'"/>
 					<xsl:when test="./jurisdiction != '' and ./jurisdiction != '-'"><xsl:value-of select="concat(./jurisdiction,'/')"/></xsl:when>
 					<xsl:otherwise/>
 				</xsl:choose>
@@ -167,10 +167,7 @@
 	<xsl:template name="rdf">
 		<xsl:param name="license-uri"/>
 		<xsl:variable name="license-uri-rdf">
-			<xsl:choose>
-				<xsl:when test="$license-uri = concat($license-base,'publicdomain/')">http://web.resource.org/cc/PublicDomain</xsl:when>
-				<xsl:otherwise><xsl:value-of select="$license-uri"/></xsl:otherwise>
-			</xsl:choose>
+				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
 		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 			<Work rdf:about="">
@@ -192,9 +189,14 @@
    						<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
 					</xsl:when>
 				</xsl:choose>
-				<xsl:if test="not(contains($license-uri,'publicdomain'))">
-					<requires rdf:resource="http://web.resource.org/cc/Notice"/>
-				</xsl:if>
+				<xsl:choose>
+					<xsl:when test="contains($license-uri,'publicdomain')">
+						<rdfs:subClassOf rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+					</xsl:otherwise>
+				</xsl:choose>
 				<xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
 					<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
 				</xsl:if>
@@ -217,10 +219,7 @@
 	<xsl:template name="licenserdf">
 		<xsl:param name="license-uri"/>
 		<xsl:variable name="license-uri-rdf">
-			<xsl:choose>
-				<xsl:when test="$license-uri = concat($license-base,'publicdomain/')">http://web.resource.org/cc/PublicDomain</xsl:when>
-				<xsl:otherwise><xsl:value-of select="$license-uri"/></xsl:otherwise>
-			</xsl:choose>
+				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
 <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <License rdf:about="{$license-uri-rdf}">
@@ -265,8 +264,8 @@
 		<xsl:comment>Creative Commons License</xsl:comment>
 		<xsl:variable name="license-button">
 			<xsl:choose>
-				<xsl:when test="contains($license-uri,'publicdomain')">norights.gif</xsl:when>
-				<xsl:when test="contains($license-uri,'sampling')">recombo.gif</xsl:when>
+				<xsl:when test="contains($license-uri,'publicdomain')">norights-a.png</xsl:when>
+				<xsl:when test="contains($license-uri,'sampling')">sampling.png</xsl:when>
 				<xsl:when test="contains($license-uri,'LGPL')">cc-LGPL-a.png</xsl:when>
 				<xsl:when test="contains($license-uri,'GPL')">cc-GPL-a.png</xsl:when>
 				<xsl:when test="contains($license-uri,'br')">somerights20.pt.png</xsl:when>
