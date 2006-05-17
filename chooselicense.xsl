@@ -169,7 +169,7 @@
 		<xsl:variable name="license-uri-rdf">
 				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
-		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 			<Work rdf:about="">
 				<xsl:if test="/answers/work-info/title">
 					<dc:title><xsl:value-of select="/answers/work-info/title"/></dc:title>
