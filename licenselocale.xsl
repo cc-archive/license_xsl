@@ -7,7 +7,7 @@
 
   <xsl:template name="attribution">
     <xsl:choose>
-       
+       <!-- generated locale choice lines -->
        
          <xsl:when test="$license-locale='en' ">Attribution</xsl:when>
        
@@ -21,7 +21,7 @@
        
          <xsl:when test="$license-locale='es_MX' ">Atribución</xsl:when>
        
-         <xsl:when test="$license-locale='eu' ">Attribution</xsl:when>
+         <xsl:when test="$license-locale='eu' ">Aitortu</xsl:when>
        
          <xsl:when test="$license-locale='gl' ">Recoñecemento</xsl:when>
        
@@ -91,7 +91,7 @@
       <xsl:choose>
         <xsl:when test="$derivs='n'">
           <xsl:choose>
-            
+            <!-- generated locale choice lines -->
             
               <xsl:when test="$license-locale='en' ">NoDerivs</xsl:when>
             
@@ -105,7 +105,7 @@
             
               <xsl:when test="$license-locale='es_MX' ">No Derivadas</xsl:when>
             
-              <xsl:when test="$license-locale='eu' ">NoDerivs</xsl:when>
+              <xsl:when test="$license-locale='eu' ">LanEratorririkGabe</xsl:when>
             
               <xsl:when test="$license-locale='gl' ">SenObraDerivada</xsl:when>
             
@@ -170,7 +170,7 @@
  
         <xsl:when test="$derivs='sa'">
           <xsl:choose>
-            
+            <!-- generated locale choice lines -->
             
               <xsl:when test="$license-locale='en' ">ShareAlike</xsl:when>
             
@@ -184,7 +184,7 @@
             
               <xsl:when test="$license-locale='es_MX' ">Licenciamiento Recíproco</xsl:when>
             
-              <xsl:when test="$license-locale='eu' ">ShareAlike</xsl:when>
+              <xsl:when test="$license-locale='eu' ">PartekatuBerdin</xsl:when>
             
               <xsl:when test="$license-locale='gl' ">CompartirIgual</xsl:when>
             
@@ -263,7 +263,7 @@
     <xsl:variable name="prettystring">
       <xsl:if test="./commercial='n'">
         <xsl:choose>
-          
+          <!-- generated locale choice lines -->
           
             <xsl:when test="$license-locale='en' ">NonCommercial</xsl:when>
           
@@ -277,7 +277,7 @@
           
             <xsl:when test="$license-locale='es_MX' ">No Comercial</xsl:when>
           
-            <xsl:when test="$license-locale='eu' ">NonCommercial</xsl:when>
+            <xsl:when test="$license-locale='eu' ">EzKomertziala</xsl:when>
           
             <xsl:when test="$license-locale='gl' ">NonComercial</xsl:when>
           
@@ -364,7 +364,7 @@
           
           <xsl:when test="$license-locale='es_MX' ">obra</xsl:when>
           
-          <xsl:when test="$license-locale='eu' ">work</xsl:when>
+          <xsl:when test="$license-locale='eu' ">lana</xsl:when>
           
           <xsl:when test="$license-locale='gl' ">obra</xsl:when>
           
@@ -428,7 +428,7 @@
      </xsl:variable>
 
       <xsl:choose>
-       
+       <!-- generated locale choice lines -->
        
 
             <xsl:when test="$license-locale='en' ">This <xsl:value-of select="$work_type"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> License</a>.</xsl:when>
@@ -455,7 +455,7 @@
 
        
 
-            <xsl:when test="$license-locale='eu' ">This <xsl:value-of select="$work_type"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='eu' "><xsl:value-of select="$work_type"/> lan hau <a rel="license" href="{$license_url}">Creative Commons-en baimen baten mende dago</a>.</xsl:when>
 
        
 
@@ -531,7 +531,7 @@
 
        
 
-            <xsl:when test="$license-locale='he' "><span dir="rtl"><xsl:value-of select="$work_type"/> זו מופצת תחת <a rel="license" href="{$license_url}"> רישיון <xsl:value-of select="$license_name"/> של Creative Commons</a>.</xsl:when>
+            <xsl:when test="$license-locale='he' "><span dir="rtl"><xsl:value-of select="$work_type"/> זו מופצת תחת <a rel="license" href="{$license_url}"> רישיון <xsl:value-of select="$license_name"/> של Creative Commons</a>.</span></xsl:when>
 
        
 

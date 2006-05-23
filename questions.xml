@@ -89,7 +89,7 @@
    
     <label xml:lang="es_MX">¿Permitir uso comercial de tu obra?</label>
    
-    <label xml:lang="eu">Allow commercial uses of your work?</label>
+    <label xml:lang="eu">Zure lana merkataritza xedeetarako erabiltzea baimendu?</label>
    
     <label xml:lang="gl">Quere permitir usos comerciais da sua obra?</label>
    
@@ -161,7 +161,7 @@
    
     <description xml:lang="es_MX">El licenciante permite la copia, distribución, exhibición y representación de la obra. A cambio, los licenciatarios no podrán usar la obra con fines comerciales a menos que consigan el permiso del autor por escrito.</description>
    
-    <description xml:lang="eu">The licensor permits others to copy, distribute, display, and perform the work. In return, licensees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
+    <description xml:lang="eu">Lan hau kopiatu, banatu eta jendaurrean hedatzea onartzen du baimendunak. Ordainetan, lan hau ezin da merkataritza xedetarako erabili, baimendunak hartarako baimenik eman ezean.</description>
    
     <description xml:lang="gl">O licenciador permite copiar, distribuír e comunicar publicamente a obra. A cambio, esta obra non pode ser empregada con finalidades comerciais -- salvo que se obteña o permiso do licenciador.</description>
    
@@ -235,7 +235,7 @@
      
      <label xml:lang="es_MX">Si</label>
      
-     <label xml:lang="eu">Yes</label>
+     <label xml:lang="eu">Bai</label>
      
      <label xml:lang="gl">Si</label>
      
@@ -308,7 +308,7 @@
    
      <label xml:lang="es_MX">No</label>
    
-     <label xml:lang="eu">No</label>
+     <label xml:lang="eu">Ez</label>
    
      <label xml:lang="gl">Non</label>
    
@@ -383,7 +383,7 @@
    
    <label xml:lang="es_MX">¿Permitir modificaciones a tu obra?</label>
    
-   <label xml:lang="eu">Allow modifications of your work?</label>
+   <label xml:lang="eu">Zure lanaren aldaketak onartu?</label>
    
    <label xml:lang="gl">Quere permitir modificacións da sua obra?</label>
    
@@ -454,7 +454,7 @@
    
    <description xml:lang="es_MX">El licenciante permite que terceros copien, distribuyan, exhiban y representen la obra sin alterar-- no obras derivadas de la misma.</description>
    
-   <description xml:lang="eu">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
+   <description xml:lang="eu">Lanaren kopia aldatu gabeak kopiatu, banatu eta jendaurrean hedatzea onartzen du baimendunak, baina ez hartatik eratorritako lanik.</description>
    
    <description xml:lang="gl">O licenciador permite copiar, distribuír e comunicar publicamente soamente copias inalteradas da obra -- non obras derivadas baseadas nela.</description>
    
@@ -527,7 +527,7 @@
    
      <label xml:lang="es_MX">Si</label>
    
-     <label xml:lang="eu">Yes</label>
+     <label xml:lang="eu">Bai</label>
    
      <label xml:lang="gl">Si</label>
    
@@ -600,7 +600,7 @@
    
      <label xml:lang="es_MX">Licenciamiento Recíproco</label>
    
-     <label xml:lang="eu">ShareAlike</label>
+     <label xml:lang="eu">PartekatuBerdin</label>
    
      <label xml:lang="gl">CompartirIgual</label>
    
@@ -673,7 +673,7 @@
    
      <label xml:lang="es_MX">No</label>
    
-     <label xml:lang="eu">No</label>
+     <label xml:lang="eu">Ez</label>
    
      <label xml:lang="gl">Non</label>
    
@@ -748,7 +748,7 @@
    
    <label xml:lang="es_MX">Jurisdicción de tu licencia:</label>
    
-   <label xml:lang="eu">Jurisdiction of your license:</label>
+   <label xml:lang="eu">Zure baimenaren jurisdikzioa:</label>
    
    <label xml:lang="gl">Xurisdicción da sua licenza:</label>
    
@@ -819,7 +819,7 @@
    
    <description xml:lang="es_MX">Si desea proteger su obra bajo las leyes de propiedad intelectual de una jurisdicción específica, por favor seleccione la versión apropiada de la licencia.</description>
    
-   <description xml:lang="eu">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   <description xml:lang="eu">Zure lana jurisdikzio jakin bateko jabetza intelektualaren legeen arabera babestu nahi baduzu, mesedez, aukeratu baimenaren aldaera egokia.</description>
    
    <description xml:lang="gl">Se desexa protexe-la súa obra baixo as leis de propiedade intelectual dunha xurisdición específica, por favor, seleccione a versión apropiada da licenza.</description>
    
@@ -892,7 +892,7 @@
      
        <label xml:lang="es_MX">Genérica</label>
      
-       <label xml:lang="eu">Generic</label>
+       <label xml:lang="eu">Generikoa</label>
      
        <label xml:lang="gl">Xenérica</label>
      
@@ -1111,7 +1111,7 @@
      
        <label xml:lang="es_MX">Bélgica</label>
      
-       <label xml:lang="eu">Belgium</label>
+       <label xml:lang="eu">Belgika</label>
      
        <label xml:lang="gl">Bélxica</label>
      
@@ -1184,7 +1184,7 @@
      
        <label xml:lang="es_MX">Brasil</label>
      
-       <label xml:lang="eu">Brazil</label>
+       <label xml:lang="eu">Brasil</label>
      
        <label xml:lang="gl">Brasil</label>
      
@@ -1257,7 +1257,7 @@
      
        <label xml:lang="es_MX">Canadá</label>
      
-       <label xml:lang="eu">Canada</label>
+       <label xml:lang="eu">Kanada</label>
      
        <label xml:lang="gl">Canadá</label>
      
@@ -1330,7 +1330,7 @@
      
        <label xml:lang="es_MX">Chile</label>
      
-       <label xml:lang="eu">Chile</label>
+       <label xml:lang="eu">Txile</label>
      
        <label xml:lang="gl">Chile</label>
      
@@ -1403,7 +1403,7 @@
      
        <label xml:lang="es_MX">Alemania</label>
      
-       <label xml:lang="eu">Germany</label>
+       <label xml:lang="eu">Alemania</label>
      
        <label xml:lang="gl">Alemaña</label>
      
@@ -1476,7 +1476,7 @@
      
        <label xml:lang="es_MX">España</label>
      
-       <label xml:lang="eu">Spain</label>
+       <label xml:lang="eu">Espainia</label>
      
        <label xml:lang="gl">España</label>
      
@@ -1549,7 +1549,7 @@
      
        <label xml:lang="es_MX">Finlandia</label>
      
-       <label xml:lang="eu">Finland</label>
+       <label xml:lang="eu">Finlandia</label>
      
        <label xml:lang="gl">Finlandia</label>
      
@@ -1622,7 +1622,7 @@
      
        <label xml:lang="es_MX">Francia</label>
      
-       <label xml:lang="eu">France</label>
+       <label xml:lang="eu">Frantzia</label>
      
        <label xml:lang="gl">Francia</label>
      
@@ -1695,7 +1695,7 @@
      
        <label xml:lang="es_MX">Croacia</label>
      
-       <label xml:lang="eu">Croatia</label>
+       <label xml:lang="eu">Kroazia</label>
      
        <label xml:lang="gl">Croacia</label>
      
@@ -1914,7 +1914,7 @@
      
        <label xml:lang="es_MX">Japón</label>
      
-       <label xml:lang="eu">Japan</label>
+       <label xml:lang="eu">Japonia</label>
      
        <label xml:lang="gl">Xapón</label>
      
@@ -2060,7 +2060,7 @@
      
        <label xml:lang="es_MX">Holanda</label>
      
-       <label xml:lang="eu">Netherlands</label>
+       <label xml:lang="eu">Herbehereak</label>
      
        <label xml:lang="gl">Holanda</label>
      
@@ -2133,7 +2133,7 @@
      
        <label xml:lang="es_MX">Polonia</label>
      
-       <label xml:lang="eu">Poland</label>
+       <label xml:lang="eu">Polonia</label>
      
        <label xml:lang="gl">Polonia</label>
      
@@ -2196,7 +2196,7 @@
      
        <label xml:lang="en">Taiwan</label>
      
-       <label xml:lang="zh">中国台湾</label>
+       <label xml:lang="zh">台湾</label>
      
        <label xml:lang="af">Taiwan</label>
      
@@ -2279,7 +2279,7 @@
      
        <label xml:lang="es_MX">Inglaterra y País de Gales</label>
      
-       <label xml:lang="eu">UK: England &amp; Wales</label>
+       <label xml:lang="eu">Ingalaterra eta Gales</label>
      
        <label xml:lang="gl">Inglaterra e País de Gales</label>
      
@@ -2352,7 +2352,7 @@
      
        <label xml:lang="es_MX">Suráfrica</label>
      
-       <label xml:lang="eu">South Africa</label>
+       <label xml:lang="eu">Hegoafrika</label>
      
        <label xml:lang="gl">Sudáfrica</label>
      
@@ -2430,7 +2430,7 @@
   
    <label xml:lang="es_MX">Dominio público</label>
   
-   <label xml:lang="eu">Public Domain</label>
+   <label xml:lang="eu">Eskumen Publikoa</label>
   
    <label xml:lang="gl">Dominio Público</label>
   
@@ -2578,7 +2578,7 @@
    
      <label xml:lang="es_MX">Jurisdicción de tu licencia:</label>
    
-     <label xml:lang="eu">Jurisdiction of your license:</label>
+     <label xml:lang="eu">Zure baimenaren jurisdikzioa:</label>
    
      <label xml:lang="gl">Xurisdicción da sua licenza:</label>
    
@@ -2650,7 +2650,7 @@
    
      <description xml:lang="es_MX">Si desea proteger su obra bajo las leyes de propiedad intelectual de una jurisdicción específica, por favor seleccione la versión apropiada de la licencia.</description>
    
-     <description xml:lang="eu">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+     <description xml:lang="eu">Zure lana jurisdikzio jakin bateko jabetza intelektualaren legeen arabera babestu nahi baduzu, mesedez, aukeratu baimenaren aldaera egokia.</description>
    
      <description xml:lang="gl">Se desexa protexe-la súa obra baixo as leis de propiedade intelectual dunha xurisdición específica, por favor, seleccione a versión apropiada da licenza.</description>
    
@@ -2725,7 +2725,7 @@
      
        <label xml:lang="es_MX">Genérica</label>
      
-       <label xml:lang="eu">Generic</label>
+       <label xml:lang="eu">Generikoa</label>
      
        <label xml:lang="gl">Xenérica</label>
      
@@ -2799,7 +2799,7 @@
      
        <label xml:lang="es_MX">Brasil</label>
      
-       <label xml:lang="eu">Brazil</label>
+       <label xml:lang="eu">Brasil</label>
      
        <label xml:lang="gl">Brasil</label>
      
@@ -3165,7 +3165,7 @@
      
        <label xml:lang="es_MX">Sampling Plus No Comercial</label>
      
-       <label xml:lang="eu">NonCommercial Sampling Plus</label>
+       <label xml:lang="eu">Sampling Plus Ez Komertziala</label>
      
        <label xml:lang="gl">NonComercial Sampling Plus</label>
      
