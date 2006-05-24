@@ -31,9 +31,24 @@ import tempfile
 import subprocess
 import optparse
 import re
+import shutil
 
 from simpletal import simpleTAL, simpleTALES
 
+# import the ElementTree API
+try:
+    import elementtree.ElementTree as et
+    import xml.parsers.expat
+    ET = True
+except ImportError:
+    print "*" * 70
+    print "elementtree not available; generated XML will *not* be validated."
+    print "press Enter to continue."
+    print "*" * 70
+
+    raw_input()
+    ET = False
+    
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
 
@@ -189,9 +204,30 @@ if __name__ == '__main__':
         else:
             out_fn = os.path.join(output_dir, os.path.basename(in_fn)[:-3])
 
+        # generate a temporary intermediary file to validate the XML
+        temp_fn = "%s.tmp" % out_fn
+
+        # compile the template and write it to the temporary file
         template = simpleTAL.compileXMLTemplate (open (in_fn, 'r'))
-        output = file(out_fn, 'w')
+        output = file(temp_fn, 'w')
 
-        print 'writing to %s..' % out_fn
-        template.expand (context, output, 'utf8')
+        print 'writing to %s..' % temp_fn
+        template.expand (context, output, 'utf-8')
+        output.close()
+        
+        if ET:
+            # elementtree available
+            # re-read the temp file and parse it for well-formed-ness
+            try:
+                print 'validating XML structure of %s...' % temp_fn
+                tree = et.parse(temp_fn)
 
+            except xml.parsers.expat.ExpatError, e:
+                print
+                print "An error exists in %s: " % temp_fn
+                print e
+                sys.exit(1)
+                
+        # the file was either read correctly or elementtree is not available
+        print 'moving %s to %s...' % (temp_fn, out_fn)
+        shutil.move(temp_fn, out_fn)
