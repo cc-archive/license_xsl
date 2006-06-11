@@ -20,6 +20,7 @@
   		<xsl:when test="$jurisdiction='' or 
                                 $jurisdiction='generic' or 
 				$jurisdiction='-' or 
+				$jurisdiction='dk' or 
 				$jurisdiction='es' or 
 				$jurisdiction='ar' or 
 				$jurisdiction='nl' or 

@@ -53,6 +53,7 @@
 <xsl:when test="./jurisdiction='cl'"> Chile</xsl:when>
 <xsl:when test="./jurisdiction='cn'"> China</xsl:when>
 <xsl:when test="./jurisdiction='de'"> Germany</xsl:when>
+<xsl:when test="./jurisdiction='dk'"> Denmark</xsl:when>
 <xsl:when test="./jurisdiction='es'"> Spain</xsl:when>
 <xsl:when test="./jurisdiction='fi'"> Finland</xsl:when>
 <xsl:when test="./jurisdiction='fr'"> France</xsl:when>
