@@ -286,6 +286,15 @@
         country.br</label>
      </metal:repeat>
    </enum>
+
+   <enum id="tw">
+     <metal:repeat tal:repeat="locale locales">
+       <label tal:attributes="xml:lang locale"
+              tal:content="python: lookupString('country.tw', locale)">
+        country.tw</label>
+     </metal:repeat>
+   </enum>
+
   </field>
 
   <field id="sampling">

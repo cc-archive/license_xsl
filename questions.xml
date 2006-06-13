@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0"?>
 <questions xmlns:xml="http://www.w3.org/XML/1998/namespace">
 
  <licenseclass id="standard">
@@ -2858,6 +2858,81 @@
        <label xml:lang="se">Brasilien</label>
      
    </enum>
+
+   <enum id="tw">
+     
+       <label xml:lang="en">Taiwan</label>
+     
+       <label xml:lang="zh">台湾</label>
+     
+       <label xml:lang="af">Taiwan</label>
+     
+       <label xml:lang="ca">Taiwan</label>
+     
+       <label xml:lang="it">Taiwan</label>
+     
+       <label xml:lang="es_MX">Taiwan</label>
+     
+       <label xml:lang="eu">Taiwan</label>
+     
+       <label xml:lang="gl">Taiwan</label>
+     
+       <label xml:lang="es">Taiwan</label>
+     
+       <label xml:lang="nl">Taiwan</label>
+     
+       <label xml:lang="pt">Taiwan</label>
+     
+       <label xml:lang="es_CL">Taiwan</label>
+     
+       <label xml:lang="de_AT">Taiwan</label>
+     
+       <label xml:lang="es_AR">Taiwan</label>
+     
+       <label xml:lang="en_GB">Taiwan</label>
+     
+       <label xml:lang="en_CA">Taiwan</label>
+     
+       <label xml:lang="fr">Taiwan</label>
+     
+       <label xml:lang="bg">Тайван</label>
+     
+       <label xml:lang="hr">Tajvan</label>
+     
+       <label xml:lang="zh_TW">台灣</label>
+     
+       <label xml:lang="hu">Tajvan</label>
+     
+       <label xml:lang="fi">Taiwan</label>
+     
+       <label xml:lang="da">Taiwan</label>
+     
+       <label xml:lang="ja">Taiwan</label>
+     
+       <label xml:lang="fr_CA">Taiwan</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;טאיוון</label>
+     
+       <label xml:lang="ko">Taiwan</label>
+     
+       <label xml:lang="sv">Taiwan</label>
+     
+       <label xml:lang="st">Taiwan</label>
+     
+       <label xml:lang="kr">Taiwan</label>
+     
+       <label xml:lang="de">Taiwan</label>
+     
+       <label xml:lang="pl">Tajwan</label>
+     
+       <label xml:lang="ms">Taiwan</label>
+     
+       <label xml:lang="sl">Tajvan</label>
+     
+       <label xml:lang="se">Taiwan</label>
+     
+   </enum>
+
   </field>
 
   <field id="sampling">
