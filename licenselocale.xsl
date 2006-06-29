@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:variable name="license-locale">
@@ -53,7 +53,7 @@
        
          <xsl:when test="$license-locale='fi' ">Nimi mainittava</xsl:when>
        
-         <xsl:when test="$license-locale='da' ">Attribution</xsl:when>
+         <xsl:when test="$license-locale='da' ">Navngivelse</xsl:when>
        
          <xsl:when test="$license-locale='ja' ">帰属</xsl:when>
        
@@ -137,7 +137,7 @@
             
               <xsl:when test="$license-locale='fi' ">Ei jälkiperäisiä teoksia</xsl:when>
             
-              <xsl:when test="$license-locale='da' ">NoDerivs</xsl:when>
+              <xsl:when test="$license-locale='da' ">IngenBearbejdelse</xsl:when>
             
               <xsl:when test="$license-locale='ja' ">派生禁止</xsl:when>
             
@@ -216,7 +216,7 @@
             
               <xsl:when test="$license-locale='fi' ">Sama lisenssi</xsl:when>
             
-              <xsl:when test="$license-locale='da' ">ShareAlike</xsl:when>
+              <xsl:when test="$license-locale='da' ">DelPåSammeVilkår</xsl:when>
             
               <xsl:when test="$license-locale='ja' ">同一条件許諾</xsl:when>
             
@@ -309,7 +309,7 @@
           
             <xsl:when test="$license-locale='fi' ">Ei kaupalliseen käyttöön</xsl:when>
           
-            <xsl:when test="$license-locale='da' ">NonCommercial</xsl:when>
+            <xsl:when test="$license-locale='da' ">IkkeKommerciel</xsl:when>
           
             <xsl:when test="$license-locale='ja' ">非営利</xsl:when>
           
@@ -396,7 +396,7 @@
           
           <xsl:when test="$license-locale='fi' ">teos</xsl:when>
           
-          <xsl:when test="$license-locale='da' ">work</xsl:when>
+          <xsl:when test="$license-locale='da' ">værk</xsl:when>
           
           <xsl:when test="$license-locale='ja' ">作品</xsl:when>
           
@@ -519,7 +519,7 @@
 
        
 
-            <xsl:when test="$license-locale='da' ">This <xsl:value-of select="$work_type"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='da' ">Denne <xsl:value-of select="$work_type"/> er licensieret under en <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> Licens</a>.</xsl:when>
 
        
 
@@ -559,7 +559,7 @@
 
        
 
-            <xsl:when test="$license-locale='ms' "><xsl:value-of select="$jenis_karya"/> ini dilesen dibawah satu <a rel="license" href="{$license_url}">Lesen <xsl:value-of select="$nama_lesen"/> Creative Commons</a>.</xsl:when>
+            <xsl:when test="$license-locale='ms' "><xsl:value-of select="$work_type"/> ini dilesen dibawah satu <a rel="license" href="{$license_url}">Lesen <xsl:value-of select="$license_name"/> Creative Commons</a>.</xsl:when>
 
        
 
