@@ -39,42 +39,13 @@
 		</xsl:variable>
 		<xsl:variable name="license-name">
 			<xsl:variable name="jurisdiction">
-			        <xsl:choose>
-
-<xsl:when test="./jurisdiction=''"> </xsl:when>
-<xsl:when test="./jurisdiction='-'"/>
-<xsl:when test="./jurisdiction='ar'"> Argentina</xsl:when>
-<xsl:when test="./jurisdiction='at'"> Austria</xsl:when>
-<xsl:when test="./jurisdiction='au'"> Australia</xsl:when>
-<xsl:when test="./jurisdiction='bg'"> Bulgaria</xsl:when>
-<xsl:when test="./jurisdiction='be'"> Belgium</xsl:when>
-<xsl:when test="./jurisdiction='br'"> Brazil</xsl:when>
-<xsl:when test="./jurisdiction='ca'"> Canada</xsl:when>
-<xsl:when test="./jurisdiction='cl'"> Chile</xsl:when>
-<xsl:when test="./jurisdiction='cn'"> China</xsl:when>
-<xsl:when test="./jurisdiction='de'"> Germany</xsl:when>
-<xsl:when test="./jurisdiction='dk'"> Denmark</xsl:when>
-<xsl:when test="./jurisdiction='es'"> Spain</xsl:when>
-<xsl:when test="./jurisdiction='fi'"> Finland</xsl:when>
-<xsl:when test="./jurisdiction='fr'"> France</xsl:when>
-<xsl:when test="./jurisdiction='hr'"> Croatia</xsl:when>
-<xsl:when test="./jurisdiction='hu'"> Hungary</xsl:when>
-<xsl:when test="./jurisdiction='il'"> Israel</xsl:when>
-<xsl:when test="./jurisdiction='it'"> Italy</xsl:when>
-<xsl:when test="./jurisdiction='jp'"> Japan</xsl:when>
-<xsl:when test="./jurisdiction='kr'"> South Korea</xsl:when>
-<xsl:when test="./jurisdiction='mx'"> Mexico</xsl:when>
-<xsl:when test="./jurisdiction='my'"> Malaysia</xsl:when>
-<xsl:when test="./jurisdiction='nl'"> Netherlands</xsl:when>
-<xsl:when test="./jurisdiction='pl'"> Poland</xsl:when>
-<xsl:when test="./jurisdiction='scotland'"> Scotland</xsl:when>
-<xsl:when test="./jurisdiction='se'"> Sweden</xsl:when>
-<xsl:when test="./jurisdiction='si'"> Slovenia</xsl:when>
-<xsl:when test="./jurisdiction='tw'"> Taiwan</xsl:when>
-<xsl:when test="./jurisdiction='uk'"> England &amp; Wales</xsl:when>
-<xsl:when test="./jurisdiction='za'"> South Africa</xsl:when>
-
-				</xsl:choose>
+                            <xsl:variable name="j_name">
+                              <xsl:call-template name="license-jurisdiction">
+				<xsl:with-param name="jurisdiction" 
+                                                select="./jurisdiction"/>
+                              </xsl:call-template>
+                            </xsl:variable>
+                            <xsl:value-of select="concat(' ', $j_name)" />
 			</xsl:variable>
 			<xsl:variable name="version">
 			<xsl:variable name="version_num">

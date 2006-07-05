@@ -36,18 +36,7 @@ import shutil
 from simpletal import simpleTAL, simpleTALES
 
 # import the ElementTree API
-try:
-    import elementtree.ElementTree as et
-    import xml.parsers.expat
-    ET = True
-except ImportError:
-    print "*" * 70
-    print "elementtree not available; generated XML will *not* be validated."
-    print "press Enter to continue."
-    print "*" * 70
-
-    raw_input()
-    ET = False
+import lxml.etree as et
     
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
@@ -160,6 +149,20 @@ def loadCatalogs(source_dir):
 
     return langs
 
+def loadJurisdictions():
+    """Load licenses.xml and return a sequence of launched jurisdiction
+    codes."""
+
+    # parse licenses.xml -- assumes svn checkout layout
+    licenses_xml = et.parse(os.path.join(os.path.dirname(__file__),
+                                         '..', 'licenses.xml'))
+
+    # get the raw list
+    codes = licenses_xml.xpath('//jurisdiction-info[@launched="true"]/@id')
+
+    # strip out generic codes, as we don't add those to the license name
+    return [n for n in codes if n not in ('', '-')]
+
 def loadOpts():
     """Parse command line options; returns a tuple of (opts, args)."""
     parser = optparse.OptionParser(usage="%prog [options...] files",
@@ -185,15 +188,16 @@ if __name__ == '__main__':
         print >> sys.stderr, "You must specify --podir."
         sys.exit(1)
 
-    # load the catalogs
+    # load the catalogs and jurisdiction list
     LOCALES = loadCatalogs(opts.podir)
-
+    
     # determine our output directory
     output_dir = getattr(opts, 'outputDir', None)
 
     # set up our TAL context
     context = simpleTALES.Context(allowPythonPath=1)
     context.addGlobal ("locales", LOCALES.keys())
+    context.addGlobal ("jurisdictions", loadJurisdictions())
     context.addGlobal ("lookupString", lookupString)
 
     # iterate over the specified
@@ -215,18 +219,16 @@ if __name__ == '__main__':
         template.expand (context, output, 'utf-8')
         output.close()
         
-        if ET:
-            # elementtree available
-            # re-read the temp file and parse it for well-formed-ness
-            try:
-                print 'validating XML structure of %s...' % temp_fn
-                tree = et.parse(temp_fn)
+        # re-read the temp file and parse it for well-formed-ness
+        try:
+            print 'validating XML structure of %s...' % temp_fn
+            tree = et.parse(temp_fn)
 
-            except xml.parsers.expat.ExpatError, e:
-                print
-                print "An error exists in %s: " % temp_fn
-                print e
-                sys.exit(1)
+        except xml.parsers.expat.ExpatError, e:
+            print
+            print "An error exists in %s: " % temp_fn
+            print e
+            sys.exit(1)
                 
         # the file was either read correctly or elementtree is not available
         print 'moving %s to %s...' % (temp_fn, out_fn)

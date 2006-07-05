@@ -8,6 +8,36 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
     <xsl:value-of select="/answers/locale" />
   </xsl:variable>
 
+
+  <xsl:template name="license-jurisdiction">
+    <xsl:param name="jurisdiction" />
+
+    <xsl:choose>
+         <!-- Generic codes -->
+         <xsl:when test="$jurisdiction=''" />
+         <xsl:when test="$jurisdiction='-'" />
+
+      <metal:repeat tal:repeat="j jurisdictions">
+         <xsl:when test="$jurisdiction="
+                   tal:attributes="test python:'''$jurisdiction='%s' ''' % j">
+
+            <xsl:choose>
+               <!-- generated locale-specific jurisdiction choice lines -->
+            <metal:repeat tal:repeat="l locales">
+               <xsl:when test="$license-locale='en'"
+                    tal:attributes="test python:'''$license-locale='%s' '''%l"
+                    tal:content="python: lookupString('country.%s' % j, l)">
+                    Jurisdiction</xsl:when>
+            </metal:repeat>
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      </metal:repeat>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template name="attribution">
     <xsl:choose>
        <!-- generated locale choice lines -->
