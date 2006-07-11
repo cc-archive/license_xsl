@@ -121,7 +121,7 @@
    
     <label xml:lang="fi">Sallitko teoksen kaupallisen käytön?</label>
    
-    <label xml:lang="da">Allow commercial uses of your work?</label>
+    <label xml:lang="da">Tillad kommerciel brug af dit værk</label>
    
     <label xml:lang="ja">あなたの作品の商用利用を許しますか？</label>
    
@@ -193,7 +193,7 @@
    
     <description xml:lang="fi">Lisenssin antaja sallii teoksen kopioinnin, näyttämisen ja esittämisen. Lisenssin saaja ei saa käyttää teosta kaupallisiin tarkoituksiin ilman lisenssin antajalta saatua erillistä lupaa.</description>
    
-    <description xml:lang="da">The licensor permits others to copy, distribute, display, and perform the work. In return, licensees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
+    <description xml:lang="da">Licensgiver tillader andre at kopiere værket og gøre værket tilgængeligt for almenheden. Derimod må andre ikke bruge værket til kommercielle formål, medmindre de har fået tilladelse fra licensgiveren.</description>
    
     <description xml:lang="ja">ライセンスの許諾者は、他の人々がこの著作物を複製、頒布、展示、実演することを許諾します。そのかわり、ライセンスの受諾者は、ライセンスの許諾者から別途承諾を受けない限り、この著作物を営利目的で利用してはなりません。</description>
    
@@ -267,7 +267,7 @@
      
      <label xml:lang="fi">Kyllä</label>
      
-     <label xml:lang="da">Yes</label>
+     <label xml:lang="da">Ja</label>
      
      <label xml:lang="ja">はい</label>
      
@@ -340,7 +340,7 @@
    
      <label xml:lang="fi">Ei</label>
    
-     <label xml:lang="da">No</label>
+     <label xml:lang="da">Nej</label>
    
      <label xml:lang="ja">いいえ</label>
    
@@ -415,7 +415,7 @@
    
    <label xml:lang="fi">Salli teoksen muokkaaminen?</label>
    
-   <label xml:lang="da">Allow modifications of your work?</label>
+   <label xml:lang="da">Tillad ændringer af dit værk</label>
    
    <label xml:lang="ja">あなたの作品の改変を許しますか？</label>
    
@@ -486,7 +486,7 @@
    
    <description xml:lang="fi">Lisenssin antaja sallii teoksen kopioinnin. jakamisen, näyttämisen ja esittämisin ainoastaan muuttamattomassa muodossa. Jälkiperäisten teosten tekeminen on kielletty.</description>
    
-   <description xml:lang="da">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
+   <description xml:lang="da">Licensgiver tillader andre at kopiere værket og gøre værket tilgængeligt for almenheden, men kun i uændret form - der må ikke fremstilles eller tilgængeliggøres bearbejdelser af værket.</description>
    
    <description xml:lang="ja">ライセンスの許諾者は、他の人々に、この作品の全く変更を加えていないコピーのみを、複製、頒布、展示、実演することを許諾します。この作品に基づく二次的著作物は複製、頒布、展示、実演できません。</description>
    
@@ -559,7 +559,7 @@
    
      <label xml:lang="fi">Kyllä</label>
    
-     <label xml:lang="da">Yes</label>
+     <label xml:lang="da">Ja</label>
    
      <label xml:lang="ja">はい</label>
    
@@ -632,7 +632,7 @@
    
      <label xml:lang="fi">Sama lisenssi</label>
    
-     <label xml:lang="da">ShareAlike</label>
+     <label xml:lang="da">DelPåSammeVilkår</label>
    
      <label xml:lang="ja">同一条件許諾</label>
    
@@ -705,7 +705,7 @@
    
      <label xml:lang="fi">Ei</label>
    
-     <label xml:lang="da">No</label>
+     <label xml:lang="da">Nej</label>
    
      <label xml:lang="ja">いいえ</label>
    
@@ -780,7 +780,7 @@
    
    <label xml:lang="fi">Teokseen sovellettava oikeusjärjestelmä:</label>
    
-   <label xml:lang="da">Jurisdiction of your license:</label>
+   <label xml:lang="da">Jurisdiktion for din licens</label>
    
    <label xml:lang="ja">あなたのライセンスの管轄地：</label>
    
@@ -851,7 +851,7 @@
    
    <description xml:lang="fi">Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä suomalaista versiota lisenssistä.</description>
    
-   <description xml:lang="da">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   <description xml:lang="da">Hvis du ønsker en licens omfattet af ophavsretten i en specifik jurisdiktion, bedes du venligst vælge den rette jurisdiktion.</description>
    
    <description xml:lang="ja">あなたの作品を日本の著作権法の下で保護してほしい場合には、ライセンスの日本法版を選択してください。</description>
    
@@ -924,7 +924,7 @@
      
        <label xml:lang="fi">Yleisversio</label>
      
-       <label xml:lang="da">Generic</label>
+       <label xml:lang="da">Generisk</label>
      
        <label xml:lang="ja">一般</label>
      
@@ -997,7 +997,7 @@
      
        <label xml:lang="fi">Itävalta</label>
      
-       <label xml:lang="da">Austria</label>
+       <label xml:lang="da">Østrig</label>
      
        <label xml:lang="ja">Austria</label>
      
@@ -1070,7 +1070,7 @@
      
        <label xml:lang="fi">Australia</label>
      
-       <label xml:lang="da">Australia</label>
+       <label xml:lang="da">Australien</label>
      
        <label xml:lang="ja">Australia</label>
      
@@ -1143,7 +1143,7 @@
      
        <label xml:lang="fi">Belgia</label>
      
-       <label xml:lang="da">Belgium</label>
+       <label xml:lang="da">Belgien</label>
      
        <label xml:lang="ja">Belgium</label>
      
@@ -1216,7 +1216,7 @@
      
        <label xml:lang="fi">Brasilia</label>
      
-       <label xml:lang="da">Brazil</label>
+       <label xml:lang="da">Brasilien</label>
      
        <label xml:lang="ja">Brazil</label>
      
@@ -1435,7 +1435,7 @@
      
        <label xml:lang="fi">Saksa</label>
      
-       <label xml:lang="da">Germany</label>
+       <label xml:lang="da">Tyskland</label>
      
        <label xml:lang="ja">Germany</label>
      
@@ -1508,7 +1508,7 @@
      
        <label xml:lang="fi">Espanja</label>
      
-       <label xml:lang="da">Spain</label>
+       <label xml:lang="da">Spanien</label>
      
        <label xml:lang="ja">Spain</label>
      
@@ -1654,7 +1654,7 @@
      
        <label xml:lang="fi">Ranska</label>
      
-       <label xml:lang="da">France</label>
+       <label xml:lang="da">Frankrig</label>
      
        <label xml:lang="ja">France</label>
      
@@ -1727,7 +1727,7 @@
      
        <label xml:lang="fi">Kroatia</label>
      
-       <label xml:lang="da">Croatia</label>
+       <label xml:lang="da">Kroatien</label>
      
        <label xml:lang="ja">Croatia</label>
      
@@ -1873,7 +1873,7 @@
      
        <label xml:lang="fi">Italia</label>
      
-       <label xml:lang="da">Italy</label>
+       <label xml:lang="da">Italien</label>
      
        <label xml:lang="ja">Italy</label>
      
@@ -2092,7 +2092,7 @@
      
        <label xml:lang="fi">Hollanti</label>
      
-       <label xml:lang="da">Netherlands</label>
+       <label xml:lang="da">Holland</label>
      
        <label xml:lang="ja">Netherlands</label>
      
@@ -2165,7 +2165,7 @@
      
        <label xml:lang="fi">Puola</label>
      
-       <label xml:lang="da">Poland</label>
+       <label xml:lang="da">Polen</label>
      
        <label xml:lang="ja">Poland</label>
      
@@ -2311,7 +2311,7 @@
      
        <label xml:lang="fi">Englanti ja Wales</label>
      
-       <label xml:lang="da">UK: England &amp; Wales</label>
+       <label xml:lang="da">England og Wales</label>
      
        <label xml:lang="ja">UK: England &amp; Wales</label>
      
@@ -2384,7 +2384,7 @@
      
        <label xml:lang="fi">Etelä-Afrikka</label>
      
-       <label xml:lang="da">South Africa</label>
+       <label xml:lang="da">Sydafrika</label>
      
        <label xml:lang="ja">South Africa</label>
      
@@ -2610,7 +2610,7 @@
    
      <label xml:lang="fi">Teokseen sovellettava oikeusjärjestelmä:</label>
    
-     <label xml:lang="da">Jurisdiction of your license:</label>
+     <label xml:lang="da">Jurisdiktion for din licens</label>
    
      <label xml:lang="ja">あなたのライセンスの管轄地：</label>
    
@@ -2682,7 +2682,7 @@
    
      <description xml:lang="fi">Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä suomalaista versiota lisenssistä.</description>
    
-     <description xml:lang="da">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+     <description xml:lang="da">Hvis du ønsker en licens omfattet af ophavsretten i en specifik jurisdiktion, bedes du venligst vælge den rette jurisdiktion.</description>
    
      <description xml:lang="ja">あなたの作品を日本の著作権法の下で保護してほしい場合には、ライセンスの日本法版を選択してください。</description>
    
@@ -2757,7 +2757,7 @@
      
        <label xml:lang="fi">Yleisversio</label>
      
-       <label xml:lang="da">Generic</label>
+       <label xml:lang="da">Generisk</label>
      
        <label xml:lang="ja">一般</label>
      
@@ -2831,7 +2831,7 @@
      
        <label xml:lang="fi">Brasilia</label>
      
-       <label xml:lang="da">Brazil</label>
+       <label xml:lang="da">Brasilien</label>
      
        <label xml:lang="ja">Brazil</label>
      
@@ -2981,7 +2981,7 @@
     
       <label xml:lang="fi">Mikä Sämpläys lisenssi?</label>
     
-      <label xml:lang="da">What flavor of Sampling license?</label>
+      <label xml:lang="da">Hvilken type Samplinglicens?</label>
     
       <label xml:lang="ja">サンプリング・ライセンスのどんなフレーバーがお好みですか？</label>
     
@@ -3052,7 +3052,7 @@
     
       <description xml:lang="fi">Sämpläys lisenssi määrittelee teoksen miksaajille annettavat oikeudet. Pelkkä sämpläyslisenssi sallii pienten teoksesta otettujen palojen käytön mutta ei salli koko teoksen jakamista. Sämpläys Plus sallii lisenssinsaajan myös jakaa koko teoksen sellaisenaan ei kaupallisessa tarkoituksessa. Ei-kaupallinen-Sämpläys-Plus lisenssi sallii vain ei-kaupallisen sämpläyksen.</description>
     
-      <description xml:lang="da">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+      <description xml:lang="da">Typen af samplinglicens bestemmer, hvor stor frihed licensgiverne har. Sampling giver kun tilladelse til at bruge dele af et værk og forbyder brugen af hele værket. Sampling Plus giver licenstagerne tilladelse til at omarbejde dele af værket samt værket i dets helhed til ikke-kommerciel brug. Ikke-kommerciel Sampling Plus er begrænset i forhold til Sampling Plus, idet den kun giver tilladelse til at lave ikke -kommercielle bearbejdelser af dele af dit værk.</description>
     
       <description xml:lang="ja">サンプリングのフレーバーは、どれだけの自由をライセンスが持っているかを決めます。サンプリング・オンリーは、作品の一部だけ使うことを許容し、作品全体の共有を禁止します。サンプリング・プラスは、作品の一部をとり、改変することをライセンス利用者に許諾し、作品全体の共有を非営利目的に限って認めます。ノンコマーシャル・サンプリング・プラスは、あなたの作品の一部を使って創作された非営利二次著作物を認めることによって、サンプリング・プラス・ライセンスをさらに制限します。</description>
     
@@ -3272,7 +3272,7 @@
      
        <label xml:lang="fi">Ei kaupalliseen käyttöön sämpläys plus</label>
      
-       <label xml:lang="da">NonCommercial Sampling Plus</label>
+       <label xml:lang="da">IkkeKommerciel Sampling Plus</label>
      
        <label xml:lang="ja">非営利サンプリング・プラス</label>
      
