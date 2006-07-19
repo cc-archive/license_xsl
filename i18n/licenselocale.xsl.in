@@ -44,7 +44,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
        <metal:repeat tal:repeat="l locales">
          <xsl:when test="$license-locale='en'"
            tal:attributes="test python:'''$license-locale='%s' '''%l"
-           tal:content="python: lookupString('licenses.pretty_by', l)">
+           tal:content="python: lookupString('char.by_title', l)">
          Attribution</xsl:when>
        </metal:repeat>
        <xsl:otherwise>Attribution</xsl:otherwise>
@@ -63,7 +63,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
             <metal:repeat tal:repeat="locale locales">
               <xsl:when test="$license-locale='en'"
                 tal:attributes="test python:'''$license-locale='%s' '''%locale"
-                tal:content="python: lookupString('licenses.pretty_nd', locale)">
+                tal:content="python: lookupString('char.nd_title', locale)">
               NoDerivs</xsl:when>
             </metal:repeat>
 
@@ -77,7 +77,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
             <metal:repeat tal:repeat="locale locales">
               <xsl:when test="$license-locale='en'"
                 tal:attributes="test python:'''$license-locale='%s' ''' % locale"
-                tal:content="python: lookupString('licenses.pretty_sa', locale)">
+                tal:content="python: lookupString('char.sa_title', locale)">
               ShareAlike</xsl:when>
             </metal:repeat>
 
@@ -105,7 +105,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
           <metal:repeat tal:repeat="locale locales">
             <xsl:when test="$license-locale='en'"
               tal:attributes="test python:'''$license-locale='%s' ''' % locale"
-              tal:content="python: lookupString('licenses.pretty_nc', locale)">
+              tal:content="python: lookupString('char.nc_title', locale)">
             NonCommercial</xsl:when>
           </metal:repeat>
           <xsl:otherwise>NonCommercial</xsl:otherwise>
