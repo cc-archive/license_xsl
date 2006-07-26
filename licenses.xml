@@ -96,7 +96,7 @@
       <uri>http://creativecommons.org/worldwide/my/</uri>
       <languages>ms</languages>
     </jurisdiction-info>
-    <jurisdiction-info id="mt" launched="false">
+    <jurisdiction-info id="mt" launched="true">
       <uri>http://creativecommons.org/worldwide/mt/</uri>
     </jurisdiction-info>
     <jurisdiction-info id="mx" launched="true">
