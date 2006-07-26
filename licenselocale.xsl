@@ -1635,6 +1635,87 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='mt' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='en' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">马耳他</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Малта</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">馬爾他</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">מאלטה</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='kr' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='se' ">Malta</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
          <xsl:when test="$jurisdiction='mx' ">
 
             <xsl:choose>
