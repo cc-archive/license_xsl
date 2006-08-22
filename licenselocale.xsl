@@ -10,7 +10,7 @@
     <xsl:param name="jurisdiction" />
 
     <xsl:choose>
-         <!-- Generic codes -->
+         
          <xsl:when test="$jurisdiction=''" />
          <xsl:when test="$jurisdiction='-'" />
 
@@ -18,7 +18,7 @@
          <xsl:when test="$jurisdiction='ar' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Argentina</xsl:when>
             
@@ -99,7 +99,7 @@
          <xsl:when test="$jurisdiction='au' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Australia</xsl:when>
             
@@ -180,7 +180,7 @@
          <xsl:when test="$jurisdiction='at' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Austria</xsl:when>
             
@@ -261,7 +261,7 @@
          <xsl:when test="$jurisdiction='be' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Belgium</xsl:when>
             
@@ -342,7 +342,7 @@
          <xsl:when test="$jurisdiction='br' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Brazil</xsl:when>
             
@@ -423,7 +423,7 @@
          <xsl:when test="$jurisdiction='bg' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Bulgaria</xsl:when>
             
@@ -504,7 +504,7 @@
          <xsl:when test="$jurisdiction='ca' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Canada</xsl:when>
             
@@ -585,7 +585,7 @@
          <xsl:when test="$jurisdiction='cl' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Chile</xsl:when>
             
@@ -666,7 +666,7 @@
          <xsl:when test="$jurisdiction='cn' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Mainland China</xsl:when>
             
@@ -744,10 +744,91 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='co' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='en' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">哥伦比亚</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Colòmbia</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Колумбия</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">哥倫比亞</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Columbia</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">קולומביה</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='kr' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='se' ">Columbia</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
          <xsl:when test="$jurisdiction='hr' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Croatia</xsl:when>
             
@@ -828,7 +909,7 @@
          <xsl:when test="$jurisdiction='hu' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Hungary</xsl:when>
             
@@ -909,7 +990,7 @@
          <xsl:when test="$jurisdiction='dk' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Denmark</xsl:when>
             
@@ -990,7 +1071,7 @@
          <xsl:when test="$jurisdiction='fi' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Finland</xsl:when>
             
@@ -1071,7 +1152,7 @@
          <xsl:when test="$jurisdiction='fr' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">France</xsl:when>
             
@@ -1152,7 +1233,7 @@
          <xsl:when test="$jurisdiction='de' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Germany</xsl:when>
             
@@ -1233,7 +1314,7 @@
          <xsl:when test="$jurisdiction='il' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Israel</xsl:when>
             
@@ -1314,7 +1395,7 @@
          <xsl:when test="$jurisdiction='it' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Italy</xsl:when>
             
@@ -1395,7 +1476,7 @@
          <xsl:when test="$jurisdiction='jp' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Japan</xsl:when>
             
@@ -1476,7 +1557,7 @@
          <xsl:when test="$jurisdiction='kr' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Korea</xsl:when>
             
@@ -1557,7 +1638,7 @@
          <xsl:when test="$jurisdiction='my' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Malaysia</xsl:when>
             
@@ -1638,7 +1719,7 @@
          <xsl:when test="$jurisdiction='mt' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Malta</xsl:when>
             
@@ -1719,7 +1800,7 @@
          <xsl:when test="$jurisdiction='mx' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Mexico</xsl:when>
             
@@ -1800,7 +1881,7 @@
          <xsl:when test="$jurisdiction='nl' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Netherlands</xsl:when>
             
@@ -1881,7 +1962,7 @@
          <xsl:when test="$jurisdiction='pe' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Peru</xsl:when>
             
@@ -1962,7 +2043,7 @@
          <xsl:when test="$jurisdiction='pl' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Poland</xsl:when>
             
@@ -2043,7 +2124,7 @@
          <xsl:when test="$jurisdiction='si' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Slovenia</xsl:when>
             
@@ -2124,7 +2205,7 @@
          <xsl:when test="$jurisdiction='za' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">South Africa</xsl:when>
             
@@ -2205,7 +2286,7 @@
          <xsl:when test="$jurisdiction='es' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Spain</xsl:when>
             
@@ -2286,7 +2367,7 @@
          <xsl:when test="$jurisdiction='se' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Sweden</xsl:when>
             
@@ -2367,7 +2448,7 @@
          <xsl:when test="$jurisdiction='tw' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">Taiwan</xsl:when>
             
@@ -2448,7 +2529,7 @@
          <xsl:when test="$jurisdiction='uk' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">UK: England &amp; Wales</xsl:when>
             
@@ -2529,7 +2610,7 @@
          <xsl:when test="$jurisdiction='scotland' ">
 
             <xsl:choose>
-               <!-- generated locale-specific jurisdiction choice lines -->
+               
             
                <xsl:when test="$license-locale='en' ">UK: Scotland</xsl:when>
             
@@ -2612,7 +2693,7 @@
 
   <xsl:template name="attribution">
     <xsl:choose>
-       <!-- generated locale choice lines -->
+       
        
          <xsl:when test="$license-locale='en' ">Attribution</xsl:when>
        
@@ -2696,7 +2777,7 @@
       <xsl:choose>
         <xsl:when test="$derivs='n'">
           <xsl:choose>
-            <!-- generated locale choice lines -->
+            
             
               <xsl:when test="$license-locale='en' ">No Derivative Works</xsl:when>
             
@@ -2742,7 +2823,7 @@
             
               <xsl:when test="$license-locale='fi' ">Ei jälkiperäisiä teoksia</xsl:when>
             
-              <xsl:when test="$license-locale='da' ">Ingen bearbejdelser.</xsl:when>
+              <xsl:when test="$license-locale='da' ">Ingen bearbejdelser</xsl:when>
             
               <xsl:when test="$license-locale='ja' ">派生禁止</xsl:when>
             
@@ -2775,7 +2856,7 @@
  
         <xsl:when test="$derivs='sa'">
           <xsl:choose>
-            <!-- generated locale choice lines -->
+            
             
               <xsl:when test="$license-locale='en' ">Share Alike</xsl:when>
             
@@ -2868,7 +2949,7 @@
     <xsl:variable name="prettystring">
       <xsl:if test="./commercial='n'">
         <xsl:choose>
-          <!-- generated locale choice lines -->
+          
           
             <xsl:when test="$license-locale='en' ">Noncommercial</xsl:when>
           
@@ -3033,7 +3114,7 @@
      </xsl:variable>
 
       <xsl:choose>
-       <!-- generated locale choice lines -->
+       
        
 
             <xsl:when test="$license-locale='en' ">This <xsl:value-of select="$work_type"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> License</a>.</xsl:when>
