@@ -951,80 +951,79 @@
        <label xml:lang="se">Generisk</label>
      
    </enum>
-   <enum id="at">
+   <enum id="ar">
      
-       <label xml:lang="en">Austria</label>
+       <label xml:lang="en">Argentina</label>
      
-       <label xml:lang="zh">奥地利</label>
+       <label xml:lang="zh">阿根廷</label>
      
-       <label xml:lang="af">Austria</label>
+       <label xml:lang="af">Argentina</label>
      
-       <label xml:lang="ca">Àustria</label>
+       <label xml:lang="ca">Argentina</label>
      
-       <label xml:lang="it">Austria</label>
+       <label xml:lang="it">Argentina</label>
      
-       <label xml:lang="es_MX">Austria</label>
+       <label xml:lang="es_MX">Argentina</label>
      
-       <label xml:lang="eu">Austria</label>
+       <label xml:lang="eu">Argentina</label>
      
-       <label xml:lang="gl">Austria</label>
+       <label xml:lang="gl">Argentina</label>
      
-       <label xml:lang="es">Austria</label>
+       <label xml:lang="es">Argentina</label>
      
-       <label xml:lang="nl">Oostenrijk</label>
+       <label xml:lang="nl">Argentinië</label>
      
-       <label xml:lang="pt">Áustria</label>
+       <label xml:lang="pt">Argentina</label>
      
-       <label xml:lang="es_CL">Austria</label>
+       <label xml:lang="es_CL">Argentina</label>
      
-       <label xml:lang="de_AT">Österreich</label>
+       <label xml:lang="de_AT">Argentina</label>
      
-       <label xml:lang="es_AR">Austria</label>
+       <label xml:lang="es_AR">Argentina</label>
      
-       <label xml:lang="en_GB">Austria</label>
+       <label xml:lang="en_GB">Argentina</label>
      
-       <label xml:lang="en_CA">Austria</label>
+       <label xml:lang="en_CA">Argentina</label>
      
-       <label xml:lang="fr">Autriche</label>
+       <label xml:lang="fr">Argentina</label>
      
-       <label xml:lang="bg">Австрия</label>
+       <label xml:lang="bg">Аржентина</label>
      
-       <label xml:lang="hr">Austrija</label>
+       <label xml:lang="hr">Argentina</label>
      
-       <label xml:lang="zh_TW">奧地利</label>
+       <label xml:lang="zh_TW">阿根廷</label>
      
-       <label xml:lang="hu">Ausztria</label>
+       <label xml:lang="hu">Argentína</label>
      
-       <label xml:lang="fi">Itävalta</label>
+       <label xml:lang="fi">Argentiina</label>
      
-       <label xml:lang="da">Østrig</label>
+       <label xml:lang="da">Argentina</label>
      
-       <label xml:lang="ja">Austria</label>
+       <label xml:lang="ja">Argentina</label>
      
-       <label xml:lang="fr_CA">Autriche</label>
+       <label xml:lang="fr_CA">Argentina</label>
      
-       <label xml:lang="he">&lt;span dir="rtl"&gt;אוסטריה</label>
+       <label xml:lang="he">ארגנטינה</label>
      
-       <label xml:lang="ko">Austria</label>
+       <label xml:lang="ko">Argentina</label>
      
-       <label xml:lang="sv">Austria</label>
+       <label xml:lang="sv">Argentina</label>
      
-       <label xml:lang="st">Austria</label>
+       <label xml:lang="st">Argentina</label>
      
-       <label xml:lang="kr">Austria</label>
+       <label xml:lang="kr">Argentina</label>
      
-       <label xml:lang="de">Österreich</label>
+       <label xml:lang="de">Argentina</label>
      
-       <label xml:lang="pl">Austria</label>
+       <label xml:lang="pl">Argentyna</label>
      
-       <label xml:lang="ms">Austria</label>
+       <label xml:lang="ms">Argentina</label>
      
-       <label xml:lang="sl">Avstrija</label>
+       <label xml:lang="sl">Argentina</label>
      
-       <label xml:lang="se">Österrike</label>
+       <label xml:lang="se">Argentina</label>
      
-   </enum>
-   <enum id="au">
+   </enum><enum id="au">
      
        <label xml:lang="en">Australia</label>
      
@@ -1096,8 +1095,79 @@
      
        <label xml:lang="se">Australien</label>
      
-   </enum>
-   <enum id="be">
+   </enum><enum id="at">
+     
+       <label xml:lang="en">Austria</label>
+     
+       <label xml:lang="zh">奥地利</label>
+     
+       <label xml:lang="af">Austria</label>
+     
+       <label xml:lang="ca">Àustria</label>
+     
+       <label xml:lang="it">Austria</label>
+     
+       <label xml:lang="es_MX">Austria</label>
+     
+       <label xml:lang="eu">Austria</label>
+     
+       <label xml:lang="gl">Austria</label>
+     
+       <label xml:lang="es">Austria</label>
+     
+       <label xml:lang="nl">Oostenrijk</label>
+     
+       <label xml:lang="pt">Áustria</label>
+     
+       <label xml:lang="es_CL">Austria</label>
+     
+       <label xml:lang="de_AT">Österreich</label>
+     
+       <label xml:lang="es_AR">Austria</label>
+     
+       <label xml:lang="en_GB">Austria</label>
+     
+       <label xml:lang="en_CA">Austria</label>
+     
+       <label xml:lang="fr">Autriche</label>
+     
+       <label xml:lang="bg">Австрия</label>
+     
+       <label xml:lang="hr">Austrija</label>
+     
+       <label xml:lang="zh_TW">奧地利</label>
+     
+       <label xml:lang="hu">Ausztria</label>
+     
+       <label xml:lang="fi">Itävalta</label>
+     
+       <label xml:lang="da">Østrig</label>
+     
+       <label xml:lang="ja">Austria</label>
+     
+       <label xml:lang="fr_CA">Autriche</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl"&gt;אוסטריה</label>
+     
+       <label xml:lang="ko">Austria</label>
+     
+       <label xml:lang="sv">Austria</label>
+     
+       <label xml:lang="st">Austria</label>
+     
+       <label xml:lang="kr">Austria</label>
+     
+       <label xml:lang="de">Österreich</label>
+     
+       <label xml:lang="pl">Austria</label>
+     
+       <label xml:lang="ms">Austria</label>
+     
+       <label xml:lang="sl">Avstrija</label>
+     
+       <label xml:lang="se">Österrike</label>
+     
+   </enum><enum id="be">
      
        <label xml:lang="en">Belgium</label>
      
@@ -1169,8 +1239,7 @@
      
        <label xml:lang="se">Belgien</label>
      
-   </enum>
-   <enum id="br">
+   </enum><enum id="br">
      
        <label xml:lang="en">Brazil</label>
      
@@ -1242,8 +1311,79 @@
      
        <label xml:lang="se">Brasilien</label>
      
-   </enum>
-   <enum id="ca">
+   </enum><enum id="bg">
+     
+       <label xml:lang="en">Bulgaria</label>
+     
+       <label xml:lang="zh">保加利亚</label>
+     
+       <label xml:lang="af">Bulgaria</label>
+     
+       <label xml:lang="ca">Bulgària</label>
+     
+       <label xml:lang="it">Bulgaria</label>
+     
+       <label xml:lang="es_MX">Bulgaria</label>
+     
+       <label xml:lang="eu">Bulgaria</label>
+     
+       <label xml:lang="gl">Bulgaria</label>
+     
+       <label xml:lang="es">Bulgaria</label>
+     
+       <label xml:lang="nl">Bulgaria</label>
+     
+       <label xml:lang="pt">Bulgaria</label>
+     
+       <label xml:lang="es_CL">Bulgaria</label>
+     
+       <label xml:lang="de_AT">Bulgaria</label>
+     
+       <label xml:lang="es_AR">Bulgaria</label>
+     
+       <label xml:lang="en_GB">Bulgaria</label>
+     
+       <label xml:lang="en_CA">Bulgaria</label>
+     
+       <label xml:lang="fr">Bulgaria</label>
+     
+       <label xml:lang="bg">България</label>
+     
+       <label xml:lang="hr">Bugarska</label>
+     
+       <label xml:lang="zh_TW">保加利亞</label>
+     
+       <label xml:lang="hu">Bulgária</label>
+     
+       <label xml:lang="fi">Bulgaria</label>
+     
+       <label xml:lang="da">Bulgarien</label>
+     
+       <label xml:lang="ja">Bulgaria</label>
+     
+       <label xml:lang="fr_CA">Bulgaria</label>
+     
+       <label xml:lang="he">בולגריה</label>
+     
+       <label xml:lang="ko">Bulgaria</label>
+     
+       <label xml:lang="sv">Bulgaria</label>
+     
+       <label xml:lang="st">Bulgaria</label>
+     
+       <label xml:lang="kr">Bulgaria</label>
+     
+       <label xml:lang="de">Bulgaria</label>
+     
+       <label xml:lang="pl">Bulgaria</label>
+     
+       <label xml:lang="ms">Bulgaria</label>
+     
+       <label xml:lang="sl">Bolgarija</label>
+     
+       <label xml:lang="se">Bulgarien</label>
+     
+   </enum><enum id="ca">
      
        <label xml:lang="en">Canada</label>
      
@@ -1315,8 +1455,7 @@
      
        <label xml:lang="se">Kanada</label>
      
-   </enum>
-   <enum id="cl">
+   </enum><enum id="cl">
      
        <label xml:lang="en">Chile</label>
      
@@ -1388,300 +1527,151 @@
      
        <label xml:lang="se">Chile</label>
      
-   </enum>
-   <enum id="de">
+   </enum><enum id="cn">
      
-       <label xml:lang="en">Germany</label>
+       <label xml:lang="en">Mainland China</label>
      
-       <label xml:lang="zh">德国</label>
+       <label xml:lang="zh">中国大陆</label>
      
-       <label xml:lang="af">Germany</label>
+       <label xml:lang="af">Mainland China</label>
      
-       <label xml:lang="ca">Alemanya</label>
+       <label xml:lang="ca">Xina</label>
      
-       <label xml:lang="it">Germania</label>
+       <label xml:lang="it">Cina</label>
      
-       <label xml:lang="es_MX">Alemania</label>
+       <label xml:lang="es_MX">China</label>
      
-       <label xml:lang="eu">Alemania</label>
+       <label xml:lang="eu">Txina</label>
      
-       <label xml:lang="gl">Alemaña</label>
+       <label xml:lang="gl">China</label>
      
-       <label xml:lang="es">Alemania</label>
+       <label xml:lang="es">China</label>
      
-       <label xml:lang="nl">Duitsland</label>
+       <label xml:lang="nl">China</label>
      
-       <label xml:lang="pt">Alemanha</label>
+       <label xml:lang="pt">China</label>
      
-       <label xml:lang="es_CL">Alemania</label>
+       <label xml:lang="es_CL">China</label>
      
-       <label xml:lang="de_AT">Deutschland</label>
+       <label xml:lang="de_AT">China</label>
      
-       <label xml:lang="es_AR">Alemania</label>
+       <label xml:lang="es_AR">China</label>
      
-       <label xml:lang="en_GB">Germany</label>
+       <label xml:lang="en_GB">China</label>
      
-       <label xml:lang="en_CA">Germany</label>
+       <label xml:lang="en_CA">Mainland China</label>
      
-       <label xml:lang="fr">Allemagne</label>
+       <label xml:lang="fr">Chine</label>
      
-       <label xml:lang="bg">Германия</label>
+       <label xml:lang="bg">Китай</label>
      
-       <label xml:lang="hr">Njemačka</label>
+       <label xml:lang="hr">Kina</label>
      
-       <label xml:lang="zh_TW">德國</label>
+       <label xml:lang="zh_TW">中國大陸</label>
      
-       <label xml:lang="hu">Németország</label>
+       <label xml:lang="hu">Kína</label>
      
-       <label xml:lang="fi">Saksa</label>
+       <label xml:lang="fi">Kiina</label>
      
-       <label xml:lang="da">Tyskland</label>
+       <label xml:lang="da">Kina</label>
      
-       <label xml:lang="ja">Germany</label>
+       <label xml:lang="ja">Mainland China</label>
      
-       <label xml:lang="fr_CA">Allemagne</label>
+       <label xml:lang="fr_CA">Chine</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;גרמניה</label>
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;סין</label>
      
-       <label xml:lang="ko">Germany</label>
+       <label xml:lang="ko">Mainland China</label>
      
-       <label xml:lang="sv">Germany</label>
+       <label xml:lang="sv">Mainland China</label>
      
-       <label xml:lang="st">Germany</label>
+       <label xml:lang="st">Mainland China</label>
      
-       <label xml:lang="kr">Germany</label>
+       <label xml:lang="kr">Mainland China</label>
      
-       <label xml:lang="de">Deutschland</label>
+       <label xml:lang="de">China</label>
      
-       <label xml:lang="pl">Niemcy</label>
+       <label xml:lang="pl">Chiny</label>
      
-       <label xml:lang="ms">Negara Jerman</label>
+       <label xml:lang="ms">Tanah Besar Cina</label>
      
-       <label xml:lang="sl">Nemčija</label>
+       <label xml:lang="sl">Kitajska</label>
      
-       <label xml:lang="se">Tyskland</label>
+       <label xml:lang="se">Kina</label>
      
-   </enum>
-   <enum id="es">
+   </enum><enum id="co">
      
-       <label xml:lang="en">Spain</label>
+       <label xml:lang="en">Colombia</label>
      
-       <label xml:lang="zh">西班牙</label>
+       <label xml:lang="zh">哥伦比亚</label>
      
-       <label xml:lang="af">Spain</label>
+       <label xml:lang="af">Colombia</label>
      
-       <label xml:lang="ca">Espanya</label>
+       <label xml:lang="ca">Colòmbia</label>
      
-       <label xml:lang="it">Spagna</label>
+       <label xml:lang="it">Colombia</label>
      
-       <label xml:lang="es_MX">España</label>
+       <label xml:lang="es_MX">Colombia</label>
      
-       <label xml:lang="eu">Espainia</label>
+       <label xml:lang="eu">Colombia</label>
      
-       <label xml:lang="gl">España</label>
+       <label xml:lang="gl">Colombia</label>
      
-       <label xml:lang="es">España</label>
+       <label xml:lang="es">Colombia</label>
      
-       <label xml:lang="nl">Spanje</label>
+       <label xml:lang="nl">Colombia</label>
      
-       <label xml:lang="pt">Espanha</label>
+       <label xml:lang="pt">Colombia</label>
      
-       <label xml:lang="es_CL">España</label>
+       <label xml:lang="es_CL">Colombia</label>
      
-       <label xml:lang="de_AT">Spanien</label>
+       <label xml:lang="de_AT">Colombia</label>
      
-       <label xml:lang="es_AR">España</label>
+       <label xml:lang="es_AR">Colombia</label>
      
-       <label xml:lang="en_GB">Spain</label>
+       <label xml:lang="en_GB">Colombia</label>
      
-       <label xml:lang="en_CA">Spain</label>
+       <label xml:lang="en_CA">Colombia</label>
      
-       <label xml:lang="fr">Espagne</label>
+       <label xml:lang="fr">Colombia</label>
      
-       <label xml:lang="bg">Испания</label>
+       <label xml:lang="bg">Колумбия</label>
      
-       <label xml:lang="hr">Španjolska</label>
+       <label xml:lang="hr">Colombia</label>
      
-       <label xml:lang="zh_TW">西班牙</label>
+       <label xml:lang="zh_TW">哥倫比亞</label>
      
-       <label xml:lang="hu">Spanyolország</label>
+       <label xml:lang="hu">Colombia</label>
      
-       <label xml:lang="fi">Espanja</label>
+       <label xml:lang="fi">Colombia</label>
      
-       <label xml:lang="da">Spanien</label>
+       <label xml:lang="da">Columbia</label>
      
-       <label xml:lang="ja">Spain</label>
+       <label xml:lang="ja">Colombia</label>
      
-       <label xml:lang="fr_CA">Espagne</label>
+       <label xml:lang="fr_CA">Colombia</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ספרד</label>
+       <label xml:lang="he">קולומביה</label>
      
-       <label xml:lang="ko">Spain</label>
+       <label xml:lang="ko">Colombia</label>
      
-       <label xml:lang="sv">Spain</label>
+       <label xml:lang="sv">Colombia</label>
      
-       <label xml:lang="st">Spain</label>
+       <label xml:lang="st">Colombia</label>
      
-       <label xml:lang="kr">Spain</label>
+       <label xml:lang="kr">Colombia</label>
      
-       <label xml:lang="de">Spanien</label>
+       <label xml:lang="de">Colombia</label>
      
-       <label xml:lang="pl">Hiszpania</label>
+       <label xml:lang="pl">Colombia</label>
      
-       <label xml:lang="ms">Sepanyol</label>
+       <label xml:lang="ms">Colombia</label>
      
-       <label xml:lang="sl">Španija</label>
+       <label xml:lang="sl">Colombia</label>
      
-       <label xml:lang="se">Spanien</label>
+       <label xml:lang="se">Columbia</label>
      
-   </enum>
-   <enum id="fi">
-     
-       <label xml:lang="en">Finland</label>
-     
-       <label xml:lang="zh">芬兰</label>
-     
-       <label xml:lang="af">Finland</label>
-     
-       <label xml:lang="ca">Finlàndia</label>
-     
-       <label xml:lang="it">Finlandia</label>
-     
-       <label xml:lang="es_MX">Finlandia</label>
-     
-       <label xml:lang="eu">Finlandia</label>
-     
-       <label xml:lang="gl">Finlandia</label>
-     
-       <label xml:lang="es">Finlandia</label>
-     
-       <label xml:lang="nl">Finland</label>
-     
-       <label xml:lang="pt">Finlândia</label>
-     
-       <label xml:lang="es_CL">Finlandia</label>
-     
-       <label xml:lang="de_AT">Finnland</label>
-     
-       <label xml:lang="es_AR">Finlandia</label>
-     
-       <label xml:lang="en_GB">Finland</label>
-     
-       <label xml:lang="en_CA">Finland</label>
-     
-       <label xml:lang="fr">Finlande</label>
-     
-       <label xml:lang="bg">Финландия</label>
-     
-       <label xml:lang="hr">Finska</label>
-     
-       <label xml:lang="zh_TW">芬蘭</label>
-     
-       <label xml:lang="hu">Finnország</label>
-     
-       <label xml:lang="fi">Suomi</label>
-     
-       <label xml:lang="da">Finland</label>
-     
-       <label xml:lang="ja">Finland</label>
-     
-       <label xml:lang="fr_CA">Finlande</label>
-     
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;פינלנד</label>
-     
-       <label xml:lang="ko">Finland</label>
-     
-       <label xml:lang="sv">Finland</label>
-     
-       <label xml:lang="st">Finland</label>
-     
-       <label xml:lang="kr">Finland</label>
-     
-       <label xml:lang="de">Finnland</label>
-     
-       <label xml:lang="pl">Finlandia</label>
-     
-       <label xml:lang="ms">Finland</label>
-     
-       <label xml:lang="sl">Finska</label>
-     
-       <label xml:lang="se">Finland</label>
-     
-   </enum>
-   <enum id="fr">
-     
-       <label xml:lang="en">France</label>
-     
-       <label xml:lang="zh">法国</label>
-     
-       <label xml:lang="af">France</label>
-     
-       <label xml:lang="ca">França</label>
-     
-       <label xml:lang="it">Francia</label>
-     
-       <label xml:lang="es_MX">Francia</label>
-     
-       <label xml:lang="eu">Frantzia</label>
-     
-       <label xml:lang="gl">Francia</label>
-     
-       <label xml:lang="es">Francia</label>
-     
-       <label xml:lang="nl">Frankrijk</label>
-     
-       <label xml:lang="pt">França</label>
-     
-       <label xml:lang="es_CL">Francia</label>
-     
-       <label xml:lang="de_AT">Frankreich</label>
-     
-       <label xml:lang="es_AR">Francia</label>
-     
-       <label xml:lang="en_GB">France</label>
-     
-       <label xml:lang="en_CA">France</label>
-     
-       <label xml:lang="fr">France</label>
-     
-       <label xml:lang="bg">Франция</label>
-     
-       <label xml:lang="hr">Francuska</label>
-     
-       <label xml:lang="zh_TW">法國</label>
-     
-       <label xml:lang="hu">Franciaország</label>
-     
-       <label xml:lang="fi">Ranska</label>
-     
-       <label xml:lang="da">Frankrig</label>
-     
-       <label xml:lang="ja">France</label>
-     
-       <label xml:lang="fr_CA">France</label>
-     
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;צרפת</label>
-     
-       <label xml:lang="ko">France</label>
-     
-       <label xml:lang="sv">France</label>
-     
-       <label xml:lang="st">France</label>
-     
-       <label xml:lang="kr">France</label>
-     
-       <label xml:lang="de">Frankreich</label>
-     
-       <label xml:lang="pl">Francja</label>
-     
-       <label xml:lang="ms">Perancis</label>
-     
-       <label xml:lang="sl">Francija</label>
-     
-       <label xml:lang="se">Frankrike</label>
-     
-   </enum>
-   <enum id="hr">
+   </enum><enum id="hr">
      
        <label xml:lang="en">Croatia</label>
      
@@ -1753,8 +1743,367 @@
      
        <label xml:lang="se">Kroatien</label>
      
-   </enum>
-   <enum id="il">
+   </enum><enum id="hu">
+     
+       <label xml:lang="en">Hungary</label>
+     
+       <label xml:lang="zh">匈牙利</label>
+     
+       <label xml:lang="af">Hungary</label>
+     
+       <label xml:lang="ca">Hongria</label>
+     
+       <label xml:lang="it">Hungary</label>
+     
+       <label xml:lang="es_MX">Hungría</label>
+     
+       <label xml:lang="eu">Hungary</label>
+     
+       <label xml:lang="gl">Hungary</label>
+     
+       <label xml:lang="es">Hungría</label>
+     
+       <label xml:lang="nl">Hungary</label>
+     
+       <label xml:lang="pt">Hungary</label>
+     
+       <label xml:lang="es_CL">Hungría</label>
+     
+       <label xml:lang="de_AT">Hungary</label>
+     
+       <label xml:lang="es_AR">Hungría</label>
+     
+       <label xml:lang="en_GB">Hungary</label>
+     
+       <label xml:lang="en_CA">Hungary</label>
+     
+       <label xml:lang="fr">Hungary</label>
+     
+       <label xml:lang="bg">Унгария</label>
+     
+       <label xml:lang="hr">Mađarska</label>
+     
+       <label xml:lang="zh_TW">匈牙利</label>
+     
+       <label xml:lang="hu">Magyarország</label>
+     
+       <label xml:lang="fi">Hungary</label>
+     
+       <label xml:lang="da">Ungarn</label>
+     
+       <label xml:lang="ja">Hungary</label>
+     
+       <label xml:lang="fr_CA">Hungary</label>
+     
+       <label xml:lang="he">הונגריה</label>
+     
+       <label xml:lang="ko">Hungary</label>
+     
+       <label xml:lang="sv">Hungary</label>
+     
+       <label xml:lang="st">Hungary</label>
+     
+       <label xml:lang="kr">Hungary</label>
+     
+       <label xml:lang="de">Hungary</label>
+     
+       <label xml:lang="pl">Hungary</label>
+     
+       <label xml:lang="ms">Hungary</label>
+     
+       <label xml:lang="sl">Madžarska</label>
+     
+       <label xml:lang="se">Ungern</label>
+     
+   </enum><enum id="dk">
+     
+       <label xml:lang="en">Denmark</label>
+     
+       <label xml:lang="zh">丹麦</label>
+     
+       <label xml:lang="af">Denmark</label>
+     
+       <label xml:lang="ca">Dinamarca</label>
+     
+       <label xml:lang="it">Denmark</label>
+     
+       <label xml:lang="es_MX">Dinamarca</label>
+     
+       <label xml:lang="eu">Denmark</label>
+     
+       <label xml:lang="gl">Denmark</label>
+     
+       <label xml:lang="es">Dinamarca</label>
+     
+       <label xml:lang="nl">Denmark</label>
+     
+       <label xml:lang="pt">Denmark</label>
+     
+       <label xml:lang="es_CL">Dinamarca</label>
+     
+       <label xml:lang="de_AT">Denmark</label>
+     
+       <label xml:lang="es_AR">Dinamarca</label>
+     
+       <label xml:lang="en_GB">Denmark</label>
+     
+       <label xml:lang="en_CA">Denmark</label>
+     
+       <label xml:lang="fr">Denmark</label>
+     
+       <label xml:lang="bg">Дания</label>
+     
+       <label xml:lang="hr">Danska</label>
+     
+       <label xml:lang="zh_TW">丹麥</label>
+     
+       <label xml:lang="hu">Dánia</label>
+     
+       <label xml:lang="fi">Denmark</label>
+     
+       <label xml:lang="da">Danmark</label>
+     
+       <label xml:lang="ja">Denmark</label>
+     
+       <label xml:lang="fr_CA">Denmark</label>
+     
+       <label xml:lang="he">דנמרק</label>
+     
+       <label xml:lang="ko">Denmark</label>
+     
+       <label xml:lang="sv">Denmark</label>
+     
+       <label xml:lang="st">Denmark</label>
+     
+       <label xml:lang="kr">Denmark</label>
+     
+       <label xml:lang="de">Denmark</label>
+     
+       <label xml:lang="pl">Denmark</label>
+     
+       <label xml:lang="ms">Denmark</label>
+     
+       <label xml:lang="sl">Danska</label>
+     
+       <label xml:lang="se">Danmark</label>
+     
+   </enum><enum id="fi">
+     
+       <label xml:lang="en">Finland</label>
+     
+       <label xml:lang="zh">芬兰</label>
+     
+       <label xml:lang="af">Finland</label>
+     
+       <label xml:lang="ca">Finlàndia</label>
+     
+       <label xml:lang="it">Finlandia</label>
+     
+       <label xml:lang="es_MX">Finlandia</label>
+     
+       <label xml:lang="eu">Finlandia</label>
+     
+       <label xml:lang="gl">Finlandia</label>
+     
+       <label xml:lang="es">Finlandia</label>
+     
+       <label xml:lang="nl">Finland</label>
+     
+       <label xml:lang="pt">Finlândia</label>
+     
+       <label xml:lang="es_CL">Finlandia</label>
+     
+       <label xml:lang="de_AT">Finnland</label>
+     
+       <label xml:lang="es_AR">Finlandia</label>
+     
+       <label xml:lang="en_GB">Finland</label>
+     
+       <label xml:lang="en_CA">Finland</label>
+     
+       <label xml:lang="fr">Finlande</label>
+     
+       <label xml:lang="bg">Финландия</label>
+     
+       <label xml:lang="hr">Finska</label>
+     
+       <label xml:lang="zh_TW">芬蘭</label>
+     
+       <label xml:lang="hu">Finnország</label>
+     
+       <label xml:lang="fi">Suomi</label>
+     
+       <label xml:lang="da">Finland</label>
+     
+       <label xml:lang="ja">Finland</label>
+     
+       <label xml:lang="fr_CA">Finlande</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;פינלנד</label>
+     
+       <label xml:lang="ko">Finland</label>
+     
+       <label xml:lang="sv">Finland</label>
+     
+       <label xml:lang="st">Finland</label>
+     
+       <label xml:lang="kr">Finland</label>
+     
+       <label xml:lang="de">Finnland</label>
+     
+       <label xml:lang="pl">Finlandia</label>
+     
+       <label xml:lang="ms">Finland</label>
+     
+       <label xml:lang="sl">Finska</label>
+     
+       <label xml:lang="se">Finland</label>
+     
+   </enum><enum id="fr">
+     
+       <label xml:lang="en">France</label>
+     
+       <label xml:lang="zh">法国</label>
+     
+       <label xml:lang="af">France</label>
+     
+       <label xml:lang="ca">França</label>
+     
+       <label xml:lang="it">Francia</label>
+     
+       <label xml:lang="es_MX">Francia</label>
+     
+       <label xml:lang="eu">Frantzia</label>
+     
+       <label xml:lang="gl">Francia</label>
+     
+       <label xml:lang="es">Francia</label>
+     
+       <label xml:lang="nl">Frankrijk</label>
+     
+       <label xml:lang="pt">França</label>
+     
+       <label xml:lang="es_CL">Francia</label>
+     
+       <label xml:lang="de_AT">Frankreich</label>
+     
+       <label xml:lang="es_AR">Francia</label>
+     
+       <label xml:lang="en_GB">France</label>
+     
+       <label xml:lang="en_CA">France</label>
+     
+       <label xml:lang="fr">France</label>
+     
+       <label xml:lang="bg">Франция</label>
+     
+       <label xml:lang="hr">Francuska</label>
+     
+       <label xml:lang="zh_TW">法國</label>
+     
+       <label xml:lang="hu">Franciaország</label>
+     
+       <label xml:lang="fi">Ranska</label>
+     
+       <label xml:lang="da">Frankrig</label>
+     
+       <label xml:lang="ja">France</label>
+     
+       <label xml:lang="fr_CA">France</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;צרפת</label>
+     
+       <label xml:lang="ko">France</label>
+     
+       <label xml:lang="sv">France</label>
+     
+       <label xml:lang="st">France</label>
+     
+       <label xml:lang="kr">France</label>
+     
+       <label xml:lang="de">Frankreich</label>
+     
+       <label xml:lang="pl">Francja</label>
+     
+       <label xml:lang="ms">Perancis</label>
+     
+       <label xml:lang="sl">Francija</label>
+     
+       <label xml:lang="se">Frankrike</label>
+     
+   </enum><enum id="de">
+     
+       <label xml:lang="en">Germany</label>
+     
+       <label xml:lang="zh">德国</label>
+     
+       <label xml:lang="af">Germany</label>
+     
+       <label xml:lang="ca">Alemanya</label>
+     
+       <label xml:lang="it">Germania</label>
+     
+       <label xml:lang="es_MX">Alemania</label>
+     
+       <label xml:lang="eu">Alemania</label>
+     
+       <label xml:lang="gl">Alemaña</label>
+     
+       <label xml:lang="es">Alemania</label>
+     
+       <label xml:lang="nl">Duitsland</label>
+     
+       <label xml:lang="pt">Alemanha</label>
+     
+       <label xml:lang="es_CL">Alemania</label>
+     
+       <label xml:lang="de_AT">Deutschland</label>
+     
+       <label xml:lang="es_AR">Alemania</label>
+     
+       <label xml:lang="en_GB">Germany</label>
+     
+       <label xml:lang="en_CA">Germany</label>
+     
+       <label xml:lang="fr">Allemagne</label>
+     
+       <label xml:lang="bg">Германия</label>
+     
+       <label xml:lang="hr">Njemačka</label>
+     
+       <label xml:lang="zh_TW">德國</label>
+     
+       <label xml:lang="hu">Németország</label>
+     
+       <label xml:lang="fi">Saksa</label>
+     
+       <label xml:lang="da">Tyskland</label>
+     
+       <label xml:lang="ja">Germany</label>
+     
+       <label xml:lang="fr_CA">Allemagne</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;גרמניה</label>
+     
+       <label xml:lang="ko">Germany</label>
+     
+       <label xml:lang="sv">Germany</label>
+     
+       <label xml:lang="st">Germany</label>
+     
+       <label xml:lang="kr">Germany</label>
+     
+       <label xml:lang="de">Deutschland</label>
+     
+       <label xml:lang="pl">Niemcy</label>
+     
+       <label xml:lang="ms">Negara Jerman</label>
+     
+       <label xml:lang="sl">Nemčija</label>
+     
+       <label xml:lang="se">Tyskland</label>
+     
+   </enum><enum id="il">
      
        <label xml:lang="en">Israel</label>
      
@@ -1826,8 +2175,7 @@
      
        <label xml:lang="se">Israel</label>
      
-   </enum>
-   <enum id="it">
+   </enum><enum id="it">
      
        <label xml:lang="en">Italy</label>
      
@@ -1899,8 +2247,7 @@
      
        <label xml:lang="se">Italien</label>
      
-   </enum>
-   <enum id="jp">
+   </enum><enum id="jp">
      
        <label xml:lang="en">Japan</label>
      
@@ -1972,8 +2319,7 @@
      
        <label xml:lang="se">Japan</label>
      
-   </enum>
-   <enum id="kr">
+   </enum><enum id="kr">
      
        <label xml:lang="en">Korea</label>
      
@@ -2045,8 +2391,223 @@
      
        <label xml:lang="se">Korea</label>
      
-   </enum>
-   <enum id="nl">
+   </enum><enum id="my">
+     
+       <label xml:lang="en">Malaysia</label>
+     
+       <label xml:lang="zh">马来西亚</label>
+     
+       <label xml:lang="af">Malaysia</label>
+     
+       <label xml:lang="ca">Malàisia</label>
+     
+       <label xml:lang="it">Malaysia</label>
+     
+       <label xml:lang="es_MX">Malasia</label>
+     
+       <label xml:lang="eu">Malaysia</label>
+     
+       <label xml:lang="gl">Malaysia</label>
+     
+       <label xml:lang="es">Malasia</label>
+     
+       <label xml:lang="nl">Malaysia</label>
+     
+       <label xml:lang="pt">Malaysia</label>
+     
+       <label xml:lang="es_CL">Malasia</label>
+     
+       <label xml:lang="de_AT">Malaysia</label>
+     
+       <label xml:lang="es_AR">Malasia</label>
+     
+       <label xml:lang="en_GB">Malaysia</label>
+     
+       <label xml:lang="en_CA">Malaysia</label>
+     
+       <label xml:lang="fr">Malaysia</label>
+     
+       <label xml:lang="bg">Малайзия</label>
+     
+       <label xml:lang="hr">Malezija</label>
+     
+       <label xml:lang="zh_TW">馬來西亞</label>
+     
+       <label xml:lang="hu">Malajzia</label>
+     
+       <label xml:lang="fi">Malaysia</label>
+     
+       <label xml:lang="da">Malaysia</label>
+     
+       <label xml:lang="ja">Malaysia</label>
+     
+       <label xml:lang="fr_CA">Malaysia</label>
+     
+       <label xml:lang="he">מלזיה</label>
+     
+       <label xml:lang="ko">Malaysia</label>
+     
+       <label xml:lang="sv">Malaysia</label>
+     
+       <label xml:lang="st">Malaysia</label>
+     
+       <label xml:lang="kr">Malaysia</label>
+     
+       <label xml:lang="de">Malaysia</label>
+     
+       <label xml:lang="pl">Malaysia</label>
+     
+       <label xml:lang="ms">Malaysia</label>
+     
+       <label xml:lang="sl">Malezija</label>
+     
+       <label xml:lang="se">Malaysia</label>
+     
+   </enum><enum id="mt">
+     
+       <label xml:lang="en">Malta</label>
+     
+       <label xml:lang="zh">马耳他</label>
+     
+       <label xml:lang="af">Malta</label>
+     
+       <label xml:lang="ca">Malta</label>
+     
+       <label xml:lang="it">Malta</label>
+     
+       <label xml:lang="es_MX">Malta</label>
+     
+       <label xml:lang="eu">Malta</label>
+     
+       <label xml:lang="gl">Malta</label>
+     
+       <label xml:lang="es">Malta</label>
+     
+       <label xml:lang="nl">Malta</label>
+     
+       <label xml:lang="pt">Malta</label>
+     
+       <label xml:lang="es_CL">Malta</label>
+     
+       <label xml:lang="de_AT">Malta</label>
+     
+       <label xml:lang="es_AR">Malta</label>
+     
+       <label xml:lang="en_GB">Malta</label>
+     
+       <label xml:lang="en_CA">Malta</label>
+     
+       <label xml:lang="fr">Malta</label>
+     
+       <label xml:lang="bg">Малта</label>
+     
+       <label xml:lang="hr">Malta</label>
+     
+       <label xml:lang="zh_TW">馬爾他</label>
+     
+       <label xml:lang="hu">Malta</label>
+     
+       <label xml:lang="fi">Malta</label>
+     
+       <label xml:lang="da">Malta</label>
+     
+       <label xml:lang="ja">Malta</label>
+     
+       <label xml:lang="fr_CA">Malta</label>
+     
+       <label xml:lang="he">מאלטה</label>
+     
+       <label xml:lang="ko">Malta</label>
+     
+       <label xml:lang="sv">Malta</label>
+     
+       <label xml:lang="st">Malta</label>
+     
+       <label xml:lang="kr">Malta</label>
+     
+       <label xml:lang="de">Malta</label>
+     
+       <label xml:lang="pl">Malta</label>
+     
+       <label xml:lang="ms">Malta</label>
+     
+       <label xml:lang="sl">Malta</label>
+     
+       <label xml:lang="se">Malta</label>
+     
+   </enum><enum id="mx">
+     
+       <label xml:lang="en">Mexico</label>
+     
+       <label xml:lang="zh">墨西哥</label>
+     
+       <label xml:lang="af">Mexico</label>
+     
+       <label xml:lang="ca">Mèxic</label>
+     
+       <label xml:lang="it">Mexico</label>
+     
+       <label xml:lang="es_MX">México</label>
+     
+       <label xml:lang="eu">Mexico</label>
+     
+       <label xml:lang="gl">Mexico</label>
+     
+       <label xml:lang="es">México</label>
+     
+       <label xml:lang="nl">Mexico</label>
+     
+       <label xml:lang="pt">Mexico</label>
+     
+       <label xml:lang="es_CL">México</label>
+     
+       <label xml:lang="de_AT">Mexico</label>
+     
+       <label xml:lang="es_AR">México</label>
+     
+       <label xml:lang="en_GB">Mexico</label>
+     
+       <label xml:lang="en_CA">Mexico</label>
+     
+       <label xml:lang="fr">Mexico</label>
+     
+       <label xml:lang="bg">Мексико</label>
+     
+       <label xml:lang="hr">Meksiko</label>
+     
+       <label xml:lang="zh_TW">墨西哥</label>
+     
+       <label xml:lang="hu">Mexikó</label>
+     
+       <label xml:lang="fi">Mexico</label>
+     
+       <label xml:lang="da">Mexico</label>
+     
+       <label xml:lang="ja">Mexico</label>
+     
+       <label xml:lang="fr_CA">Mexico</label>
+     
+       <label xml:lang="he">מקסיקו</label>
+     
+       <label xml:lang="ko">Mexico</label>
+     
+       <label xml:lang="sv">Mexico</label>
+     
+       <label xml:lang="st">Mexico</label>
+     
+       <label xml:lang="kr">Mexico</label>
+     
+       <label xml:lang="de">Mexico</label>
+     
+       <label xml:lang="pl">Mexico</label>
+     
+       <label xml:lang="ms">Mexico</label>
+     
+       <label xml:lang="sl">Mehika</label>
+     
+       <label xml:lang="se">Mexiko</label>
+     
+   </enum><enum id="nl">
      
        <label xml:lang="en">Netherlands</label>
      
@@ -2118,8 +2679,79 @@
      
        <label xml:lang="se">Nederländerna</label>
      
-   </enum>
-   <enum id="pl">
+   </enum><enum id="pe">
+     
+       <label xml:lang="en">Peru</label>
+     
+       <label xml:lang="zh">Peru</label>
+     
+       <label xml:lang="af">Peru</label>
+     
+       <label xml:lang="ca">Peru</label>
+     
+       <label xml:lang="it">Peru</label>
+     
+       <label xml:lang="es_MX">Peru</label>
+     
+       <label xml:lang="eu">Peru</label>
+     
+       <label xml:lang="gl">Peru</label>
+     
+       <label xml:lang="es">Peru</label>
+     
+       <label xml:lang="nl">Peru</label>
+     
+       <label xml:lang="pt">Peru</label>
+     
+       <label xml:lang="es_CL">Peru</label>
+     
+       <label xml:lang="de_AT">Peru</label>
+     
+       <label xml:lang="es_AR">Peru</label>
+     
+       <label xml:lang="en_GB">Peru</label>
+     
+       <label xml:lang="en_CA">Peru</label>
+     
+       <label xml:lang="fr">Peru</label>
+     
+       <label xml:lang="bg">Peru</label>
+     
+       <label xml:lang="hr">Peru</label>
+     
+       <label xml:lang="zh_TW">Peru</label>
+     
+       <label xml:lang="hu">Peru</label>
+     
+       <label xml:lang="fi">Peru</label>
+     
+       <label xml:lang="da">Peru</label>
+     
+       <label xml:lang="ja">Peru</label>
+     
+       <label xml:lang="fr_CA">Peru</label>
+     
+       <label xml:lang="he">Peru</label>
+     
+       <label xml:lang="ko">Peru</label>
+     
+       <label xml:lang="sv">Peru</label>
+     
+       <label xml:lang="st">Peru</label>
+     
+       <label xml:lang="kr">Peru</label>
+     
+       <label xml:lang="de">Peru</label>
+     
+       <label xml:lang="pl">Peru</label>
+     
+       <label xml:lang="ms">Peru</label>
+     
+       <label xml:lang="sl">Peru</label>
+     
+       <label xml:lang="se">Peru</label>
+     
+   </enum><enum id="pl">
      
        <label xml:lang="en">Poland</label>
      
@@ -2191,8 +2823,295 @@
      
        <label xml:lang="se">Polen</label>
      
-   </enum>
-   <enum id="tw">
+   </enum><enum id="si">
+     
+       <label xml:lang="en">Slovenia</label>
+     
+       <label xml:lang="zh">斯洛文尼亚</label>
+     
+       <label xml:lang="af">Slovenia</label>
+     
+       <label xml:lang="ca">Eslovènia</label>
+     
+       <label xml:lang="it">Slovenia</label>
+     
+       <label xml:lang="es_MX">Eslovenia</label>
+     
+       <label xml:lang="eu">Slovenia</label>
+     
+       <label xml:lang="gl">Slovenia</label>
+     
+       <label xml:lang="es">Eslovenia</label>
+     
+       <label xml:lang="nl">Slovenia</label>
+     
+       <label xml:lang="pt">Slovenia</label>
+     
+       <label xml:lang="es_CL">Eslovenia</label>
+     
+       <label xml:lang="de_AT">Slovenia</label>
+     
+       <label xml:lang="es_AR">Eslovenia</label>
+     
+       <label xml:lang="en_GB">Slovenia</label>
+     
+       <label xml:lang="en_CA">Slovenia</label>
+     
+       <label xml:lang="fr">Slovenia</label>
+     
+       <label xml:lang="bg">Словения</label>
+     
+       <label xml:lang="hr">Slovenija</label>
+     
+       <label xml:lang="zh_TW">斯洛維尼亞</label>
+     
+       <label xml:lang="hu">Szlovénia</label>
+     
+       <label xml:lang="fi">Slovenia</label>
+     
+       <label xml:lang="da">Slovenien</label>
+     
+       <label xml:lang="ja">Slovenia</label>
+     
+       <label xml:lang="fr_CA">Slovenia</label>
+     
+       <label xml:lang="he">סלובניה</label>
+     
+       <label xml:lang="ko">Slovenia</label>
+     
+       <label xml:lang="sv">Slovenia</label>
+     
+       <label xml:lang="st">Slovenia</label>
+     
+       <label xml:lang="kr">Slovenia</label>
+     
+       <label xml:lang="de">Slovenia</label>
+     
+       <label xml:lang="pl">Slovenia</label>
+     
+       <label xml:lang="ms">Slovenia</label>
+     
+       <label xml:lang="sl">Slovenija</label>
+     
+       <label xml:lang="se">Slovenien</label>
+     
+   </enum><enum id="za">
+     
+       <label xml:lang="en">South Africa</label>
+     
+       <label xml:lang="zh">南非</label>
+     
+       <label xml:lang="af">Suid Afrika</label>
+     
+       <label xml:lang="ca">Sudàfrica</label>
+     
+       <label xml:lang="it">Sud Africa</label>
+     
+       <label xml:lang="es_MX">Suráfrica</label>
+     
+       <label xml:lang="eu">Hegoafrika</label>
+     
+       <label xml:lang="gl">Sudáfrica</label>
+     
+       <label xml:lang="es">Suráfrica</label>
+     
+       <label xml:lang="nl">Zuid-Afrika</label>
+     
+       <label xml:lang="pt">África do Sul</label>
+     
+       <label xml:lang="es_CL">Sudáfrica</label>
+     
+       <label xml:lang="de_AT">Südafrika</label>
+     
+       <label xml:lang="es_AR">Sudáfrica</label>
+     
+       <label xml:lang="en_GB">South Africa</label>
+     
+       <label xml:lang="en_CA">South Africa</label>
+     
+       <label xml:lang="fr">Afrique du Sud</label>
+     
+       <label xml:lang="bg">Южна Африка</label>
+     
+       <label xml:lang="hr">Južna Afrika</label>
+     
+       <label xml:lang="zh_TW">南非</label>
+     
+       <label xml:lang="hu">Dél-Afrika</label>
+     
+       <label xml:lang="fi">Etelä-Afrikka</label>
+     
+       <label xml:lang="da">Sydafrika</label>
+     
+       <label xml:lang="ja">South Africa</label>
+     
+       <label xml:lang="fr_CA">Afrique du Sud</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;דרום אפריקה</label>
+     
+       <label xml:lang="ko">South Africa</label>
+     
+       <label xml:lang="sv">South Africa</label>
+     
+       <label xml:lang="st">South Africa</label>
+     
+       <label xml:lang="kr">South Africa</label>
+     
+       <label xml:lang="de">Südafrika</label>
+     
+       <label xml:lang="pl">Południowa Afryka</label>
+     
+       <label xml:lang="ms">Afrika Selatan</label>
+     
+       <label xml:lang="sl">Južnoafriška Republika</label>
+     
+       <label xml:lang="se">Sydafrika</label>
+     
+   </enum><enum id="es">
+     
+       <label xml:lang="en">Spain</label>
+     
+       <label xml:lang="zh">西班牙</label>
+     
+       <label xml:lang="af">Spain</label>
+     
+       <label xml:lang="ca">Espanya</label>
+     
+       <label xml:lang="it">Spagna</label>
+     
+       <label xml:lang="es_MX">España</label>
+     
+       <label xml:lang="eu">Espainia</label>
+     
+       <label xml:lang="gl">España</label>
+     
+       <label xml:lang="es">España</label>
+     
+       <label xml:lang="nl">Spanje</label>
+     
+       <label xml:lang="pt">Espanha</label>
+     
+       <label xml:lang="es_CL">España</label>
+     
+       <label xml:lang="de_AT">Spanien</label>
+     
+       <label xml:lang="es_AR">España</label>
+     
+       <label xml:lang="en_GB">Spain</label>
+     
+       <label xml:lang="en_CA">Spain</label>
+     
+       <label xml:lang="fr">Espagne</label>
+     
+       <label xml:lang="bg">Испания</label>
+     
+       <label xml:lang="hr">Španjolska</label>
+     
+       <label xml:lang="zh_TW">西班牙</label>
+     
+       <label xml:lang="hu">Spanyolország</label>
+     
+       <label xml:lang="fi">Espanja</label>
+     
+       <label xml:lang="da">Spanien</label>
+     
+       <label xml:lang="ja">Spain</label>
+     
+       <label xml:lang="fr_CA">Espagne</label>
+     
+       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ספרד</label>
+     
+       <label xml:lang="ko">Spain</label>
+     
+       <label xml:lang="sv">Spain</label>
+     
+       <label xml:lang="st">Spain</label>
+     
+       <label xml:lang="kr">Spain</label>
+     
+       <label xml:lang="de">Spanien</label>
+     
+       <label xml:lang="pl">Hiszpania</label>
+     
+       <label xml:lang="ms">Sepanyol</label>
+     
+       <label xml:lang="sl">Španija</label>
+     
+       <label xml:lang="se">Spanien</label>
+     
+   </enum><enum id="se">
+     
+       <label xml:lang="en">Sweden</label>
+     
+       <label xml:lang="zh">瑞典</label>
+     
+       <label xml:lang="af">Sweden</label>
+     
+       <label xml:lang="ca">Suècia</label>
+     
+       <label xml:lang="it">Sweden</label>
+     
+       <label xml:lang="es_MX">Suecia</label>
+     
+       <label xml:lang="eu">Sweden</label>
+     
+       <label xml:lang="gl">Sweden</label>
+     
+       <label xml:lang="es">Suecia</label>
+     
+       <label xml:lang="nl">Sweden</label>
+     
+       <label xml:lang="pt">Sweden</label>
+     
+       <label xml:lang="es_CL">Suecia</label>
+     
+       <label xml:lang="de_AT">Sweden</label>
+     
+       <label xml:lang="es_AR">Suecia</label>
+     
+       <label xml:lang="en_GB">Sweden</label>
+     
+       <label xml:lang="en_CA">Sweden</label>
+     
+       <label xml:lang="fr">Sweden</label>
+     
+       <label xml:lang="bg">Швеция</label>
+     
+       <label xml:lang="hr">Švedska</label>
+     
+       <label xml:lang="zh_TW">瑞典</label>
+     
+       <label xml:lang="hu">Svédország</label>
+     
+       <label xml:lang="fi">Sweden</label>
+     
+       <label xml:lang="da">Sverige</label>
+     
+       <label xml:lang="ja">Sweden</label>
+     
+       <label xml:lang="fr_CA">Sweden</label>
+     
+       <label xml:lang="he">שוודיה</label>
+     
+       <label xml:lang="ko">Sweden</label>
+     
+       <label xml:lang="sv">Sweden</label>
+     
+       <label xml:lang="st">Sweden</label>
+     
+       <label xml:lang="kr">Sweden</label>
+     
+       <label xml:lang="de">Sweden</label>
+     
+       <label xml:lang="pl">Sweden</label>
+     
+       <label xml:lang="ms">Sweden</label>
+     
+       <label xml:lang="sl">Švedska</label>
+     
+       <label xml:lang="se">Sverige</label>
+     
+   </enum><enum id="tw">
      
        <label xml:lang="en">Taiwan</label>
      
@@ -2264,8 +3183,7 @@
      
        <label xml:lang="se">Taiwan</label>
      
-   </enum>
-   <enum id="uk">
+   </enum><enum id="uk">
      
        <label xml:lang="en">UK: England &amp; Wales</label>
      
@@ -2337,78 +3255,77 @@
      
        <label xml:lang="se">UK: England &amp; Wales</label>
      
-   </enum>
-   <enum id="za">
+   </enum><enum id="scotland">
      
-       <label xml:lang="en">South Africa</label>
+       <label xml:lang="en">UK: Scotland</label>
      
-       <label xml:lang="zh">南非</label>
+       <label xml:lang="zh">英国：苏格兰</label>
      
-       <label xml:lang="af">Suid Afrika</label>
+       <label xml:lang="af">UK: Scotland</label>
      
-       <label xml:lang="ca">Sudàfrica</label>
+       <label xml:lang="ca">Escòcia</label>
      
-       <label xml:lang="it">Sud Africa</label>
+       <label xml:lang="it">UK: Scotland</label>
      
-       <label xml:lang="es_MX">Suráfrica</label>
+       <label xml:lang="es_MX">Escocia</label>
      
-       <label xml:lang="eu">Hegoafrika</label>
+       <label xml:lang="eu">UK: Scotland</label>
      
-       <label xml:lang="gl">Sudáfrica</label>
+       <label xml:lang="gl">UK: Scotland</label>
      
-       <label xml:lang="es">Suráfrica</label>
+       <label xml:lang="es">Escocia</label>
      
-       <label xml:lang="nl">Zuid-Afrika</label>
+       <label xml:lang="nl">Schotland</label>
      
-       <label xml:lang="pt">África do Sul</label>
+       <label xml:lang="pt">UK: Scotland</label>
      
-       <label xml:lang="es_CL">Sudáfrica</label>
+       <label xml:lang="es_CL">Escocia</label>
      
-       <label xml:lang="de_AT">Südafrika</label>
+       <label xml:lang="de_AT">UK: Scotland</label>
      
-       <label xml:lang="es_AR">Sudáfrica</label>
+       <label xml:lang="es_AR">Reino Unido: Escocia</label>
      
-       <label xml:lang="en_GB">South Africa</label>
+       <label xml:lang="en_GB">UK: Scotland</label>
      
-       <label xml:lang="en_CA">South Africa</label>
+       <label xml:lang="en_CA">UK: Scotland</label>
      
-       <label xml:lang="fr">Afrique du Sud</label>
+       <label xml:lang="fr">UK: Scotland</label>
      
-       <label xml:lang="bg">Южна Африка</label>
+       <label xml:lang="bg">Обединено кралство: Шотландия</label>
      
-       <label xml:lang="hr">Južna Afrika</label>
+       <label xml:lang="hr">VB: Škotska</label>
      
-       <label xml:lang="zh_TW">南非</label>
+       <label xml:lang="zh_TW">英國: 蘇格蘭</label>
      
-       <label xml:lang="hu">Dél-Afrika</label>
+       <label xml:lang="hu">UK: Skócia</label>
      
-       <label xml:lang="fi">Etelä-Afrikka</label>
+       <label xml:lang="fi">UK: Scotland</label>
      
-       <label xml:lang="da">Sydafrika</label>
+       <label xml:lang="da">Skotland</label>
      
-       <label xml:lang="ja">South Africa</label>
+       <label xml:lang="ja">UK: Scotland</label>
      
-       <label xml:lang="fr_CA">Afrique du Sud</label>
+       <label xml:lang="fr_CA">UK: Scotland</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;דרום אפריקה</label>
+       <label xml:lang="he">סקוטלנד</label>
      
-       <label xml:lang="ko">South Africa</label>
+       <label xml:lang="ko">UK: Scotland</label>
      
-       <label xml:lang="sv">South Africa</label>
+       <label xml:lang="sv">UK: Scotland</label>
      
-       <label xml:lang="st">South Africa</label>
+       <label xml:lang="st">UK: Scotland</label>
      
-       <label xml:lang="kr">South Africa</label>
+       <label xml:lang="kr">UK: Scotland</label>
      
-       <label xml:lang="de">Südafrika</label>
+       <label xml:lang="de">UK: Scotland</label>
      
-       <label xml:lang="pl">Południowa Afryka</label>
+       <label xml:lang="pl">UK: Scotland</label>
      
-       <label xml:lang="ms">Afrika Selatan</label>
+       <label xml:lang="ms">UK: Scotland</label>
      
-       <label xml:lang="sl">Južnoafriška Republika</label>
+       <label xml:lang="sl">Združeno kraljestvo: Škotska</label>
      
-       <label xml:lang="se">Sydafrika</label>
+       <label xml:lang="se">UK: Skottland</label>
      
    </enum>
 
