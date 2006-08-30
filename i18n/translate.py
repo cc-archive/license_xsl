@@ -24,6 +24,7 @@ translate.py --podir ../pofiles -o .. template.xml.in
 
 __version__ = "$Revision$"
 
+import re
 import sys
 import os
 import fnmatch
@@ -122,7 +123,30 @@ class PoFile(object):
             return unicode(self.strings[key], 'utf8')
         else:
             return default
-        
+
+def fix_tags(input):
+    """Pass the input string through an HTML parser to balance any incomplete
+    tags and perform entity (specifically &) substitutions."""
+
+    tag_re = re.compile("<.+>")
+    match = re.match(tag_re, input)
+
+    # the input string contains what appears to be markup
+    parser = et.HTMLParser()
+    tree = et.fromstring(input, parser)
+
+    # determine what to return --
+
+    # if the tag matched at position 0, return the conents of the <body>
+    if match and match.start() == 0:
+
+        return et.tostring(tree.xpath('//html/body')[0])[6:-7]
+
+    else:
+        # otherwise return the contents of the first <p> in <body>
+
+        return et.tostring(tree.xpath('//html/body/p')[0])[3:-4]
+    
 def lookupString(key, locale):
     global LOCALES
     
@@ -130,7 +154,7 @@ def lookupString(key, locale):
              LOCALES['en'].get(key, None) or \
              key
 
-    return result
+    return fix_tags(result)
 
 def loadCatalogs(source_dir):
     """Load the translation catalogs and return a dictionary mapping
@@ -220,14 +244,15 @@ if __name__ == '__main__':
         output.close()
         
         # re-read the temp file and parse it for well-formed-ness
+        et.clearErrorLog()
         try:
             print 'validating XML structure of %s...' % temp_fn
             tree = et.parse(temp_fn)
 
-        except xml.parsers.expat.ExpatError, e:
+        except et.XMLSyntaxError, e:
             print
             print "An error exists in %s: " % temp_fn
-            print e
+            print e.error_log
             sys.exit(1)
                 
         # the file was either read correctly or elementtree is not available
