@@ -124,28 +124,31 @@ class PoFile(object):
         else:
             return default
 
-def fix_tags(input):
+def fix_tags(input_string):
     """Pass the input string through an HTML parser to balance any incomplete
     tags and perform entity (specifically &) substitutions."""
 
+    input_string = input_string.replace(':', '__')
+    
     tag_re = re.compile("<.+>")
-    match = re.match(tag_re, input)
+    match = re.match(tag_re, input_string)
 
     # the input string contains what appears to be markup
-    parser = et.HTMLParser()
-    tree = et.fromstring(input, parser)
+    tree = et.HTML(input_string)
 
     # determine what to return --
 
     # if the tag matched at position 0, return the conents of the <body>
     if match and match.start() == 0:
 
-        return et.tostring(tree.xpath('//html/body')[0])[6:-7]
+        return et.tostring(tree.xpath('//html/body')[0]
+                           )[6:-7].replace('__', ':')
 
     else:
         # otherwise return the contents of the first <p> in <body>
 
-        return et.tostring(tree.xpath('//html/body/p')[0])[3:-4]
+        return et.tostring(tree.xpath('//html/body/p')[0]
+                           )[3:-4].replace('__', ':')
     
 def lookupString(key, locale):
     global LOCALES
