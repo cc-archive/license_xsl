@@ -128,16 +128,26 @@ def fix_tags(input_string):
     """Pass the input string through an HTML parser to balance any incomplete
     tags and perform entity (specifically &) substitutions."""
 
-    input_string = input_string.replace(':', '__')
+    # convert & to &amp;
+    input_string = re.sub('&(?!amp;)', '&amp;', input_string)
     
     tag_re = re.compile("<.+>")
     match = re.match(tag_re, input_string)
 
+    if not(match):
+        return input_string
+    
     # the input string contains what appears to be markup
-    tree = et.HTML(input_string)
+    try:
+        # try to parse as XML to see if we're well formed
+        tree = et.XML(input_string)
+    except Exception, e:
+        # not well formed; parse as HTML, escaping namespace declarations
+        tree = et.HTML(input_string.replace(':', '__'))
+    else:
+        return input_string
 
     # determine what to return --
-
     # if the tag matched at position 0, return the conents of the <body>
     if match and match.start() == 0:
 
