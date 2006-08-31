@@ -127,7 +127,7 @@
    
     <label xml:lang="fr_CA">Autorisez-vous les utilisations commerciales de votre création ?</label>
    
-    <label xml:lang="he">&lt;span dir="rtl"&gt;האם להתיר שימוש מסחרי ביצירתך?&lt;/span&gt;</label>
+    <label xml:lang="he"><span dir="rtl">האם להתיר שימוש מסחרי ביצירתך?</span></label>
    
     <label xml:lang="ko">Allow commercial uses of your work?</label>
    
@@ -157,7 +157,7 @@
    
     <description xml:lang="ca">El llicenciador us permet copiar, distribuir i comunicar públicament l'obra. A canvi, no podeu utilitzar l'obra per a finalitats comercials -- excepte si en rebeu un permís exprés.</description>
    
-    <description xml:lang="it">Il &lt;em&gt;licenziante&lt;/em&gt; acconsente che altri copino, distribuiscano, esibiscano ed eseguano l'opera. In cambio i &lt;em&gt;licenziatari&lt;/em&gt; non possono usare l'&lt;em&gt;opera&lt;/em&gt; per scopi commerciali &amp;mdash; a meno che non abbiano ottenuto il permesso del &lt;em&gt;licenziante&lt;/em&gt;.</description>
+    <description xml:lang="it">Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano l'opera. In cambio i <em>licenziatari</em> non possono usare l'<em>opera</em> per scopi commerciali &amp;mdash; a meno che non abbiano ottenuto il permesso del <em>licenziante</em>.</description>
    
     <description xml:lang="es_MX">El licenciante permite la copia, distribución, exhibición y representación de la obra. A cambio, los licenciatarios no podrán usar la obra con fines comerciales a menos que consigan el permiso del autor por escrito.</description>
    
@@ -199,7 +199,7 @@
    
     <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation du donneur de licence.</description>
    
-    <description xml:lang="he">&lt;p dir="rtl" align="right"&gt;נותן הרישיון מרשה לאחרים להעתיק, להפיץ, להציג ו/או לבצע את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות -- אלא אם קיבלו את הסכמת נותן הרשיון.</description>
+    <description xml:lang="he"><p dir="rtl" align="right">&#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1502;&#1512;&#1513;&#1492; &#1500;&#1488;&#1495;&#1512;&#1497;&#1501; &#1500;&#1492;&#1506;&#1514;&#1497;&#1511;, &#1500;&#1492;&#1508;&#1497;&#1509;, &#1500;&#1492;&#1510;&#1497;&#1490; &#1493;/&#1488;&#1493; &#1500;&#1489;&#1510;&#1506; &#1488;&#1514; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492;. &#1489;&#1514;&#1502;&#1493;&#1512;&#1492;, &#1492;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501; &#1488;&#1497;&#1504;&#1501; &#1512;&#1513;&#1488;&#1497;&#1501; &#1500;&#1492;&#1513;&#1514;&#1502;&#1513; &#1489;&#1497;&#1510;&#1497;&#1512;&#1492; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514; -- &#1488;&#1500;&#1488; &#1488;&#1501; &#1511;&#1497;&#1489;&#1500;&#1493; &#1488;&#1514; &#1492;&#1505;&#1499;&#1502;&#1514; &#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1513;&#1497;&#1493;&#1503;.</p></description>
    
     <description xml:lang="ko">이용허락자는 이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 그 대신 이용자는 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다.</description>
    
@@ -215,7 +215,7 @@
    
     <description xml:lang="ms">Pemberi lesen membenarkan orang-orang lain membuat salinan, mengedar, mempamerkan dan membuat pertunjukkan karya tersebut. Sebaliknya, penerima lesen tidak dbenarkan menggunakan karya tersebut untuk tujuan komersial - kecuali mereka mendapat kebenaran pemberi lesen.</description>
    
-    <description xml:lang="sl">Dajalec licence dovoli uporabnikom, da reproducirajo, distribuirajo, dajejo v najem in javno priobčujejo delo. V zameno za to, uporabniki ne smejo uporabljati dela v komercialne namene -- razen če dobijo dovoljenje dajalca licence.</description>
+    <description xml:lang="sl">Dajalec licence dovoli uporabnikom, da reproducirajo, distribuirajo, dajejo v najem in priobčujejo delo javnosti. V zameno za to, uporabniki ne smejo uporabljati dela v komercialne namene -- razen če dobijo dovoljenje dajalca licence.</description>
    
     <description xml:lang="se">Licensgivaren tillåter andra att kopiera, distribuera, visa och framföra verket. I gengäld får licenstagarna inte använda verket för kommersiella ändamål -- om de inte får licensgivarens tillstånd.</description>
    
@@ -421,7 +421,7 @@
    
    <label xml:lang="fr_CA">Autorisez-vous les modifications de votre création ?</label>
    
-   <label xml:lang="he">&lt;span dir="rtl"&gt;האם להתיר עריכת שינויים ביצירתך?&lt;/span&gt;</label>
+   <label xml:lang="he"><span dir="rtl">האם להתיר עריכת שינויים ביצירתך?</span></label>
    
    <label xml:lang="ko">Allow modifications of your work?</label>
    
@@ -450,7 +450,7 @@
    
    <description xml:lang="ca">El llicenciador us permet copiar, distribuir i comunicar públicament només còpies inalterades de l'obra original -- no obres derivades que se'n puguin generar.</description>
    
-   <description xml:lang="it">Il &lt;em&gt;licenziante&lt;/em&gt; acconsente che altri copino, distribuiscano, esibiscano ed eseguano solo copie inalterate dell'&lt;em&gt;opera&lt;/em&gt; &amp;mdash; non &lt;em&gt;opere derivate&lt;/em&gt; da essa.</description>
+   <description xml:lang="it">Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano solo copie inalterate dell'<em>opera</em> &amp;mdash; non <em>opere derivate</em> da essa.</description>
    
    <description xml:lang="es_MX">El licenciante permite que terceros copien, distribuyan, exhiban y representen la obra sin alterar-- no obras derivadas de la misma.</description>
    
@@ -492,7 +492,7 @@
    
    <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public à la condition qu'elle ne soit pas modifiée pour créer une oeuvre dérivée.</description>
    
-   <description xml:lang="he">&lt;p dir="rtl" align="right"&gt;נותן הרישיון מאפשר למשתמשים להעתיק, להפיץ, להציג ולבצע רק העתקים זהים למקור של היצירה, שלא עברו כל שינוי -- לא יצירות נגזרות המבוססות עליה.</description>
+   <description xml:lang="he"><p dir="rtl" align="right">&#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1502;&#1488;&#1508;&#1513;&#1512; &#1500;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501; &#1500;&#1492;&#1506;&#1514;&#1497;&#1511;, &#1500;&#1492;&#1508;&#1497;&#1509;, &#1500;&#1492;&#1510;&#1497;&#1490; &#1493;&#1500;&#1489;&#1510;&#1506; &#1512;&#1511; &#1492;&#1506;&#1514;&#1511;&#1497;&#1501; &#1494;&#1492;&#1497;&#1501; &#1500;&#1502;&#1511;&#1493;&#1512; &#1513;&#1500; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492;, &#1513;&#1500;&#1488; &#1506;&#1489;&#1512;&#1493; &#1499;&#1500; &#1513;&#1497;&#1504;&#1493;&#1497; -- &#1500;&#1488; &#1497;&#1510;&#1497;&#1512;&#1493;&#1514; &#1504;&#1490;&#1494;&#1512;&#1493;&#1514; &#1492;&#1502;&#1489;&#1493;&#1505;&#1505;&#1493;&#1514; &#1506;&#1500;&#1497;&#1492;.</p></description>
    
    <description xml:lang="ko">이용허락자는 이 저작물을 개작 또는 변경하지 않는 것을 조건으로 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 이 저작물에 기한 이차적 저작물의 작성과 복제, 배포, 전송, 전시, 공연 및 방송은 금지됩니다.</description>
    
@@ -508,7 +508,7 @@
    
    <description xml:lang="ms">Pemberi lesen membenarkan orang-orang lain mebuat salinan, mengedar, mempamerkan dan membuat pertunjukkan hanya dengan karya-karya yang tidak diubah - bukan karya terbitan bedasarkan atasnya.</description>
    
-   <description xml:lang="sl">Dajalec licence dovoli uporabnikom, da reproducirajo, distribuirajo, dajejo v najem in javno priobčujejo samo nespremenjene primerke dela -- ne predelav dela.</description>
+   <description xml:lang="sl">Dajalec licence dovoli uporabnikom, da reproducirajo, distribuirajo, dajejo v najem in priobčujejo javnosti samo nespremenjene primerke dela -- ne predelav dela.</description>
    
    <description xml:lang="se">Licensgivaren tillåter andra att kopiera, distribuera, visa och framföra verket endast i oförändrad form -- inte i bearbetad form.</description>
    
@@ -786,7 +786,7 @@
    
    <label xml:lang="fr_CA">Juridiction de votre contrat :</label>
    
-   <label xml:lang="he">&lt;span dir="rtl"&gt;תחום השיפוט של הרישיון:&lt;/span&gt;</label>
+   <label xml:lang="he"><span dir="rtl">תחום השיפוט של הרישיון:</span></label>
    
    <label xml:lang="ko">Jurisdiction of your license:</label>
    
@@ -857,7 +857,7 @@
    
    <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-   <description xml:lang="he">&lt;p dir="rtl" align="right"&gt;אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</description>
+   <description xml:lang="he"><p dir="rtl" align="right">&#1488;&#1501; &#1488;&#1514;/&#1492; &#1502;&#1506;&#1493;&#1504;&#1497;&#1497;&#1503; &#1489;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1502;&#1493;&#1514;&#1488;&#1501; &#1500;&#1491;&#1497;&#1504;&#1497; &#1494;&#1499;&#1493;&#1497;&#1493;&#1514; &#1492;&#1497;&#1493;&#1510;&#1512;&#1497;&#1501; &#1513;&#1500; &#1514;&#1495;&#1493;&#1501; &#1513;&#1497;&#1508;&#1493;&#1496; &#1502;&#1505;&#1493;&#1497;&#1497;&#1501; (&#1502;&#1491;&#1497;&#1504;&#1492; &#1502;&#1505;&#1493;&#1497;&#1497;&#1502;&#1514;), &#1488;&#1504;&#1488; &#1489;&#1495;&#1512;/&#1497; &#1488;&#1514; &#1514;&#1495;&#1493;&#1501; &#1492;&#1513;&#1497;&#1508;&#1493;&#1496; &#1492;&#1502;&#1514;&#1488;&#1497;&#1501;.</p></description>
    
    <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -1075,7 +1075,7 @@
      
        <label xml:lang="fr_CA">Australie</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;אוסטרליה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1488;&#1493;&#1505;&#1496;&#1512;&#1500;&#1497;&#1492;</span></label>
      
        <label xml:lang="ko">Australia</label>
      
@@ -1147,7 +1147,7 @@
      
        <label xml:lang="fr_CA">Autriche</label>
      
-       <label xml:lang="he">&lt;span dir="rtl"&gt;אוסטריה</label>
+       <label xml:lang="he"><span dir="rtl">&#1488;&#1493;&#1505;&#1496;&#1512;&#1497;&#1492;</span></label>
      
        <label xml:lang="ko">Austria</label>
      
@@ -1219,7 +1219,7 @@
      
        <label xml:lang="fr_CA">Belgique</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;בלגיה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1500;&#1490;&#1497;&#1492;</span></label>
      
        <label xml:lang="ko">Belgium</label>
      
@@ -1291,7 +1291,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ברזיל</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1512;&#1494;&#1497;&#1500;</span></label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -1435,7 +1435,7 @@
      
        <label xml:lang="fr_CA">Canada</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;קנדה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1504;&#1491;&#1492;</span></label>
      
        <label xml:lang="ko">Canada</label>
      
@@ -1579,7 +1579,7 @@
      
        <label xml:lang="fr_CA">Chine</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;סין</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1505;&#1497;&#1503;</span></label>
      
        <label xml:lang="ko">Mainland China</label>
      
@@ -1667,7 +1667,7 @@
      
        <label xml:lang="ms">Colombia</label>
      
-       <label xml:lang="sl">Colombia</label>
+       <label xml:lang="sl">Kolumbija</label>
      
        <label xml:lang="se">Columbia</label>
      
@@ -1723,7 +1723,7 @@
      
        <label xml:lang="fr_CA">Croatie</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;קרואטיה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1512;&#1493;&#1488;&#1496;&#1497;&#1492;</span></label>
      
        <label xml:lang="ko">Croatia</label>
      
@@ -1939,7 +1939,7 @@
      
        <label xml:lang="fr_CA">Finlande</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;פינלנד</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1508;&#1497;&#1504;&#1500;&#1504;&#1491;</span></label>
      
        <label xml:lang="ko">Finland</label>
      
@@ -2011,7 +2011,7 @@
      
        <label xml:lang="fr_CA">France</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;צרפת</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1510;&#1512;&#1508;&#1514;</span></label>
      
        <label xml:lang="ko">France</label>
      
@@ -2083,7 +2083,7 @@
      
        <label xml:lang="fr_CA">Allemagne</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;גרמניה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1490;&#1512;&#1502;&#1504;&#1497;&#1492;</span></label>
      
        <label xml:lang="ko">Germany</label>
      
@@ -2155,7 +2155,7 @@
      
        <label xml:lang="fr_CA">Israel</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ישראל</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1497;&#1513;&#1512;&#1488;&#1500;</span></label>
      
        <label xml:lang="ko">Israel</label>
      
@@ -2299,7 +2299,7 @@
      
        <label xml:lang="fr_CA">Japon</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;יפן</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1497;&#1508;&#1503;</span></label>
      
        <label xml:lang="ko">Japan</label>
      
@@ -2371,7 +2371,7 @@
      
        <label xml:lang="fr_CA">Korea</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;קוריאה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1493;&#1512;&#1497;&#1488;&#1492;</span></label>
      
        <label xml:lang="ko">대한민국</label>
      
@@ -2659,7 +2659,7 @@
      
        <label xml:lang="fr_CA">Pays-Bas</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;הולנד</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1492;&#1493;&#1500;&#1504;&#1491;</span></label>
      
        <label xml:lang="ko">Netherlands</label>
      
@@ -2803,7 +2803,7 @@
      
        <label xml:lang="fr_CA">Pologne</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;פולין</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1508;&#1493;&#1500;&#1497;&#1503;</span></label>
      
        <label xml:lang="ko">Poland</label>
      
@@ -2947,7 +2947,7 @@
      
        <label xml:lang="fr_CA">Afrique du Sud</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;דרום אפריקה</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1491;&#1512;&#1493;&#1501; &#1488;&#1508;&#1512;&#1497;&#1511;&#1492;</span></label>
      
        <label xml:lang="ko">South Africa</label>
      
@@ -3019,7 +3019,7 @@
      
        <label xml:lang="fr_CA">Espagne</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ספרד</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1505;&#1508;&#1512;&#1491;</span></label>
      
        <label xml:lang="ko">Spain</label>
      
@@ -3163,7 +3163,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;טאיוון</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1496;&#1488;&#1497;&#1493;&#1493;&#1503;</span></label>
      
        <label xml:lang="ko">Taiwan</label>
      
@@ -3385,7 +3385,7 @@
   
    <label xml:lang="fr_CA">Domaine Public</label>
   
-   <label xml:lang="he">&lt;span dir="rtl"&gt;הקדשה לנחלת הכלל</label>
+   <label xml:lang="he"><span dir="rtl">&#1492;&#1511;&#1491;&#1513;&#1492; &#1500;&#1504;&#1495;&#1500;&#1514; &#1492;&#1499;&#1500;&#1500;</span></label>
   
    <label xml:lang="ko">퍼블릭도메인</label>
   
@@ -3401,7 +3401,7 @@
   
    <label xml:lang="ms">Domain awam</label>
   
-   <label xml:lang="sl">javna domena</label>
+   <label xml:lang="sl">Javna domena</label>
   
    <label xml:lang="se">Public Domain</label>
   
@@ -3417,7 +3417,7 @@
   
    <label xml:lang="ca">Sampling</label>
   
-   <label xml:lang="it">&lt;span lang="en"&gt;Sampling&lt;/span&gt;</label>
+   <label xml:lang="it"><span lang="en">Sampling</span></label>
   
    <label xml:lang="es_MX">Sampling</label>
   
@@ -3533,7 +3533,7 @@
    
      <label xml:lang="fr_CA">Juridiction de votre contrat :</label>
    
-     <label xml:lang="he">&lt;span dir="rtl"&gt;תחום השיפוט של הרישיון:&lt;/span&gt;</label>
+     <label xml:lang="he"><span dir="rtl">תחום השיפוט של הרישיון:</span></label>
    
      <label xml:lang="ko">Jurisdiction of your license:</label>
    
@@ -3605,7 +3605,7 @@
    
      <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-     <description xml:lang="he">&lt;p dir="rtl" align="right"&gt;אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</description>
+     <description xml:lang="he"><p dir="rtl" align="right">&#1488;&#1501; &#1488;&#1514;/&#1492; &#1502;&#1506;&#1493;&#1504;&#1497;&#1497;&#1503; &#1489;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1502;&#1493;&#1514;&#1488;&#1501; &#1500;&#1491;&#1497;&#1504;&#1497; &#1494;&#1499;&#1493;&#1497;&#1493;&#1514; &#1492;&#1497;&#1493;&#1510;&#1512;&#1497;&#1501; &#1513;&#1500; &#1514;&#1495;&#1493;&#1501; &#1513;&#1497;&#1508;&#1493;&#1496; &#1502;&#1505;&#1493;&#1497;&#1497;&#1501; (&#1502;&#1491;&#1497;&#1504;&#1492; &#1502;&#1505;&#1493;&#1497;&#1497;&#1502;&#1514;), &#1488;&#1504;&#1488; &#1489;&#1495;&#1512;/&#1497; &#1488;&#1514; &#1514;&#1495;&#1493;&#1501; &#1492;&#1513;&#1497;&#1508;&#1493;&#1496; &#1492;&#1502;&#1514;&#1488;&#1497;&#1501;.</p></description>
    
      <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -3754,7 +3754,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;ברזיל</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1512;&#1494;&#1497;&#1500;</span></label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -3828,7 +3828,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he">&lt;span dir="rtl" align="right"&gt;טאיוון</label>
+       <label xml:lang="he"><span dir="rtl" align="right">&#1496;&#1488;&#1497;&#1493;&#1493;&#1503;</span></label>
      
        <label xml:lang="ko">Taiwan</label>
      
@@ -3904,7 +3904,7 @@
     
       <label xml:lang="fr_CA">Quelle option d'autorisation de sampling ?</label>
     
-      <label xml:lang="he">&lt;span dir="rtl"&gt;איזה סוג של רישיון דגימה?&lt;/span&gt;</label>
+      <label xml:lang="he"><span dir="rtl">איזה סוג של רישיון דגימה?</span></label>
     
       <label xml:lang="ko">What flavor of Sampling license?</label>
     
@@ -3975,7 +3975,7 @@
     
       <description xml:lang="fr_CA">Les options des contrats Sampling déterminent le degré de liberté offerts aux utilisateurs qui acceptent le contrat.\nLe contrat "Sampling" simple autorise l'utilisation d'extraits mais interdit le partage de la création originale dans son intégralité.\nLe contrat "Sampling Plus" autorise les utilisateurs qui acceptent le contrat à transformer des extraits de la création originale, et à la partager dans son intégralité à titre non commercial.\nLe contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que "Sampling Plus" et n'autorise que la création d'oeuvres dérivées non commerciales à partir des extraits de votre création</description>
     
-      <description xml:lang="he">&lt;P dir="rtl" align="right"&gt;סוג רישיון הדגימה קובע כמה חופש ניתן למשתמשים. רישיון "דגימה" בלבד מאפשר לעשות שימוש בקטעים מהיצירה ואוסר על שיתוף של היצירה במלואה. רישיון "דגימה פלוס" מאפשר הן לקחת ולעבד קטעים מתוך היצירה וכן לשתף את היצירה במלואה למטרות שאינן מסחריות. רישיון "דגימה פלוס לשימוש לא מסחרי" מגביל את תנאי רישיון "דגימה פלוס" בכך שלפיו גם השימוש בקטעים מהיצירה ביצירות נגזרות מורשה רק למטרות שאינן מסחריות.</description>
+      <description xml:lang="he"><p dir="rtl" align="right">&#1505;&#1493;&#1490; &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1491;&#1490;&#1497;&#1502;&#1492; &#1511;&#1493;&#1489;&#1506; &#1499;&#1502;&#1492; &#1495;&#1493;&#1508;&#1513; &#1504;&#1497;&#1514;&#1503; &#1500;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492;" &#1489;&#1500;&#1489;&#1491; &#1502;&#1488;&#1508;&#1513;&#1512; &#1500;&#1506;&#1513;&#1493;&#1514; &#1513;&#1497;&#1502;&#1493;&#1513; &#1489;&#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1493;&#1488;&#1493;&#1505;&#1512; &#1506;&#1500; &#1513;&#1497;&#1514;&#1493;&#1507; &#1513;&#1500; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1502;&#1500;&#1493;&#1488;&#1492;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505;" &#1502;&#1488;&#1508;&#1513;&#1512; &#1492;&#1503; &#1500;&#1511;&#1495;&#1514; &#1493;&#1500;&#1506;&#1489;&#1491; &#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1514;&#1493;&#1498; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1493;&#1499;&#1503; &#1500;&#1513;&#1514;&#1507; &#1488;&#1514; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1502;&#1500;&#1493;&#1488;&#1492; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1513;&#1488;&#1497;&#1504;&#1503; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505; &#1500;&#1513;&#1497;&#1502;&#1493;&#1513; &#1500;&#1488; &#1502;&#1505;&#1495;&#1512;&#1497;" &#1502;&#1490;&#1489;&#1497;&#1500; &#1488;&#1514; &#1514;&#1504;&#1488;&#1497; &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505;" &#1489;&#1499;&#1498; &#1513;&#1500;&#1508;&#1497;&#1493; &#1490;&#1501; &#1492;&#1513;&#1497;&#1502;&#1493;&#1513; &#1489;&#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1497;&#1510;&#1497;&#1512;&#1493;&#1514; &#1504;&#1490;&#1494;&#1512;&#1493;&#1514; &#1502;&#1493;&#1512;&#1513;&#1492; &#1512;&#1511; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1513;&#1488;&#1497;&#1504;&#1503; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514;.</p></description>
     
       <description xml:lang="ko">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
@@ -3991,7 +3991,7 @@
     
       <description xml:lang="ms">Jenis Perasa Mengambil Contoh memastikan jumlah kebebasan yang diberi kepada penerima lesen. Mengambil Contoh hanya membenarkan potongan-potongan digunakan dan melarang perkongsian karya dalam keseluruhannya. Mengambil Contoh Tambah membenarkan penerima lesen mengambil dan mengubah bentuk potongan-potongan karya begitu juga berkongsi karya dalam keseluruhannya untuk pengunaan bukan komersial. Bukan Komersial Mengambil Contoh Tambah menghadkan Lesen Mengambil Cuba Tambah lebih juga dengan hanya membenarkan terbitan bukan-komersial untuk dicipta daripada potongan-potongan karya anda.</description>
     
-      <description xml:lang="sl">"Sampling Flavor" določa, kakšen obseg pravic imajo uporabniki. "Sampling" dovoli le uporabo koščkov dela in prepoveduje disribuiranje celotnega dela. "Sampling Plus"  uporabnikom dovoljuje, da vzamejo in predelajo koščke dela ter distribuirajo celotno delo v nekomercialne namene. "Nekomercialno Sampling Plus" še bolj omejuje licenco. "Sampling Plus" tako, da dovoli le nekomercialne predelave delčkov vašega dela.</description>
+      <description xml:lang="sl">"Sampling Flavor" določa, kakšen obseg pravic imajo uporabniki. "Sampling" dovoli le uporabo koščkov dela in prepoveduje disribuiranje celotnega dela. "Sampling Plus"  uporabnikom dovoljuje, da vzamejo in predelajo koščke dela ter distribuirajo celotno delo v nekomercialne namene. "Nekomercialno Sampling Plus" še bolj omejuje licenco "Sampling Plus" tako, da dovoli le nekomercialne predelave delčkov vašega dela.</description>
     
       <description xml:lang="se">Smaken på Samplingslicensen avgör hur mycket frihet licenstagarna har. Sampling tillåter endast att delar används och förbjuder delning av hela verk. Sampling Plus tillåter licenstagarna att ta och omforma delar av verket, och att dela hela verket för icke-kommersiella ändamål. Icke-kommersiell Sampling Plus begränsar Sampling Plus licensen ytterligare genom att endast tillåta icke-kommersiella bearbetningar att skapas från delarna av ditt verk.</description>
     
@@ -4007,7 +4007,7 @@
      
        <label xml:lang="ca">Sampling</label>
      
-       <label xml:lang="it">&lt;span lang="en"&gt;Sampling&lt;/span&gt;</label>
+       <label xml:lang="it"><span lang="en">Sampling</span></label>
      
        <label xml:lang="es_MX">Sampling</label>
      
@@ -4080,7 +4080,7 @@
      
        <label xml:lang="ca">Sampling Plus</label>
      
-       <label xml:lang="it">&lt;span lang="en"&gt;Sampling Plus&lt;/span&gt;</label>
+       <label xml:lang="it"><span lang="en">Sampling Plus</span></label>
      
        <label xml:lang="es_MX">Sampling Plus</label>
      
