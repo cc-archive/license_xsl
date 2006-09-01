@@ -131,7 +131,7 @@ def fix_tags(input_string):
     # convert & to &amp;
     input_string = re.sub('&(?!amp;)', '&amp;', input_string)
     
-    tag_re = re.compile("<.+>")
+    tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")
     match = re.match(tag_re, input_string)
 
     if not(match):
@@ -141,8 +141,25 @@ def fix_tags(input_string):
     try:
         # try to parse as XML to see if we're well formed
         tree = et.XML(input_string)
+
+        # valid XML
+        return input_string
+    
     except Exception, e:
-        # not well formed; parse as HTML, escaping namespace declarations
+        # not well formed XML -- probably unbalanced tags
+
+        # try the stupid solution -- just close the first tag we find
+        new_input = input_string + "</" + match.groups()[0] + ">"
+
+        try:
+            et.XML(new_input)
+
+            return new_input
+        except Exception, e:
+            # OK, that didn't work... fall back to HTML
+            pass
+                        
+        # no success -- parse as HTML, escaping namespace declarations
         tree = et.HTML(input_string.replace(':', '__'))
     else:
         return input_string
