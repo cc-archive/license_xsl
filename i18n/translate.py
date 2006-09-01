@@ -272,17 +272,23 @@ if __name__ == '__main__':
         print 'writing to %s..' % temp_fn
         template.expand (context, output, 'utf-8')
         output.close()
+
+        # try to clear the error log before checking validity
+        try:
+            et.clearErrorLog()
+        except AttributeError:
+            # lxml < 1.1
+            pass
         
         # re-read the temp file and parse it for well-formed-ness
-        et.clearErrorLog()
         try:
             print 'validating XML structure of %s...' % temp_fn
             tree = et.parse(temp_fn)
 
-        except et.XMLSyntaxError, e:
+        except Exception, e:
             print
             print "An error exists in %s: " % temp_fn
-            print e.error_log
+            print e
             sys.exit(1)
                 
         # the file was either read correctly or elementtree is not available
