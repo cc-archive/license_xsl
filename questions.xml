@@ -199,7 +199,7 @@
    
     <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation du donneur de licence.</description>
    
-    <description xml:lang="he"><p dir="rtl" align="right">&#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1502;&#1512;&#1513;&#1492; &#1500;&#1488;&#1495;&#1512;&#1497;&#1501; &#1500;&#1492;&#1506;&#1514;&#1497;&#1511;, &#1500;&#1492;&#1508;&#1497;&#1509;, &#1500;&#1492;&#1510;&#1497;&#1490; &#1493;/&#1488;&#1493; &#1500;&#1489;&#1510;&#1506; &#1488;&#1514; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492;. &#1489;&#1514;&#1502;&#1493;&#1512;&#1492;, &#1492;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501; &#1488;&#1497;&#1504;&#1501; &#1512;&#1513;&#1488;&#1497;&#1501; &#1500;&#1492;&#1513;&#1514;&#1502;&#1513; &#1489;&#1497;&#1510;&#1497;&#1512;&#1492; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514; -- &#1488;&#1500;&#1488; &#1488;&#1501; &#1511;&#1497;&#1489;&#1500;&#1493; &#1488;&#1514; &#1492;&#1505;&#1499;&#1502;&#1514; &#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1513;&#1497;&#1493;&#1503;.</p></description>
+    <description xml:lang="he"><p dir="rtl" align="right">נותן הרישיון מרשה לאחרים להעתיק, להפיץ, להציג ו/או לבצע את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות -- אלא אם קיבלו את הסכמת נותן הרשיון.</p></description>
    
     <description xml:lang="ko">이용허락자는 이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 그 대신 이용자는 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다.</description>
    
@@ -492,7 +492,7 @@
    
    <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public à la condition qu'elle ne soit pas modifiée pour créer une oeuvre dérivée.</description>
    
-   <description xml:lang="he"><p dir="rtl" align="right">&#1504;&#1493;&#1514;&#1503; &#1492;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1502;&#1488;&#1508;&#1513;&#1512; &#1500;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501; &#1500;&#1492;&#1506;&#1514;&#1497;&#1511;, &#1500;&#1492;&#1508;&#1497;&#1509;, &#1500;&#1492;&#1510;&#1497;&#1490; &#1493;&#1500;&#1489;&#1510;&#1506; &#1512;&#1511; &#1492;&#1506;&#1514;&#1511;&#1497;&#1501; &#1494;&#1492;&#1497;&#1501; &#1500;&#1502;&#1511;&#1493;&#1512; &#1513;&#1500; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492;, &#1513;&#1500;&#1488; &#1506;&#1489;&#1512;&#1493; &#1499;&#1500; &#1513;&#1497;&#1504;&#1493;&#1497; -- &#1500;&#1488; &#1497;&#1510;&#1497;&#1512;&#1493;&#1514; &#1504;&#1490;&#1494;&#1512;&#1493;&#1514; &#1492;&#1502;&#1489;&#1493;&#1505;&#1505;&#1493;&#1514; &#1506;&#1500;&#1497;&#1492;.</p></description>
+   <description xml:lang="he"><p dir="rtl" align="right">נותן הרישיון מאפשר למשתמשים להעתיק, להפיץ, להציג ולבצע רק העתקים זהים למקור של היצירה, שלא עברו כל שינוי -- לא יצירות נגזרות המבוססות עליה.</p></description>
    
    <description xml:lang="ko">이용허락자는 이 저작물을 개작 또는 변경하지 않는 것을 조건으로 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 이 저작물에 기한 이차적 저작물의 작성과 복제, 배포, 전송, 전시, 공연 및 방송은 금지됩니다.</description>
    
@@ -857,7 +857,7 @@
    
    <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-   <description xml:lang="he"><p dir="rtl" align="right">&#1488;&#1501; &#1488;&#1514;/&#1492; &#1502;&#1506;&#1493;&#1504;&#1497;&#1497;&#1503; &#1489;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1502;&#1493;&#1514;&#1488;&#1501; &#1500;&#1491;&#1497;&#1504;&#1497; &#1494;&#1499;&#1493;&#1497;&#1493;&#1514; &#1492;&#1497;&#1493;&#1510;&#1512;&#1497;&#1501; &#1513;&#1500; &#1514;&#1495;&#1493;&#1501; &#1513;&#1497;&#1508;&#1493;&#1496; &#1502;&#1505;&#1493;&#1497;&#1497;&#1501; (&#1502;&#1491;&#1497;&#1504;&#1492; &#1502;&#1505;&#1493;&#1497;&#1497;&#1502;&#1514;), &#1488;&#1504;&#1488; &#1489;&#1495;&#1512;/&#1497; &#1488;&#1514; &#1514;&#1495;&#1493;&#1501; &#1492;&#1513;&#1497;&#1508;&#1493;&#1496; &#1492;&#1502;&#1514;&#1488;&#1497;&#1501;.</p></description>
+   <description xml:lang="he"><p dir="rtl" align="right">אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</p></description>
    
    <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -1075,7 +1075,7 @@
      
        <label xml:lang="fr_CA">Australie</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1488;&#1493;&#1505;&#1496;&#1512;&#1500;&#1497;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">אוסטרליה</span></label>
      
        <label xml:lang="ko">Australia</label>
      
@@ -1147,7 +1147,7 @@
      
        <label xml:lang="fr_CA">Autriche</label>
      
-       <label xml:lang="he"><span dir="rtl">&#1488;&#1493;&#1505;&#1496;&#1512;&#1497;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl">אוסטריה</span></label>
      
        <label xml:lang="ko">Austria</label>
      
@@ -1219,7 +1219,7 @@
      
        <label xml:lang="fr_CA">Belgique</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1500;&#1490;&#1497;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">בלגיה</span></label>
      
        <label xml:lang="ko">Belgium</label>
      
@@ -1291,7 +1291,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1512;&#1494;&#1497;&#1500;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">ברזיל</span></label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -1435,7 +1435,7 @@
      
        <label xml:lang="fr_CA">Canada</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1504;&#1491;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">קנדה</span></label>
      
        <label xml:lang="ko">Canada</label>
      
@@ -1579,7 +1579,7 @@
      
        <label xml:lang="fr_CA">Chine</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1505;&#1497;&#1503;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">סין</span></label>
      
        <label xml:lang="ko">Mainland China</label>
      
@@ -1723,7 +1723,7 @@
      
        <label xml:lang="fr_CA">Croatie</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1512;&#1493;&#1488;&#1496;&#1497;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">קרואטיה</span></label>
      
        <label xml:lang="ko">Croatia</label>
      
@@ -1939,7 +1939,7 @@
      
        <label xml:lang="fr_CA">Finlande</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1508;&#1497;&#1504;&#1500;&#1504;&#1491;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">פינלנד</span></label>
      
        <label xml:lang="ko">Finland</label>
      
@@ -2011,7 +2011,7 @@
      
        <label xml:lang="fr_CA">France</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1510;&#1512;&#1508;&#1514;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">צרפת</span></label>
      
        <label xml:lang="ko">France</label>
      
@@ -2083,7 +2083,7 @@
      
        <label xml:lang="fr_CA">Allemagne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1490;&#1512;&#1502;&#1504;&#1497;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">גרמניה</span></label>
      
        <label xml:lang="ko">Germany</label>
      
@@ -2155,7 +2155,7 @@
      
        <label xml:lang="fr_CA">Israel</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1497;&#1513;&#1512;&#1488;&#1500;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">ישראל</span></label>
      
        <label xml:lang="ko">Israel</label>
      
@@ -2299,7 +2299,7 @@
      
        <label xml:lang="fr_CA">Japon</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1497;&#1508;&#1503;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">יפן</span></label>
      
        <label xml:lang="ko">Japan</label>
      
@@ -2371,7 +2371,7 @@
      
        <label xml:lang="fr_CA">Korea</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1511;&#1493;&#1512;&#1497;&#1488;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">קוריאה</span></label>
      
        <label xml:lang="ko">대한민국</label>
      
@@ -2659,7 +2659,7 @@
      
        <label xml:lang="fr_CA">Pays-Bas</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1492;&#1493;&#1500;&#1504;&#1491;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">הולנד</span></label>
      
        <label xml:lang="ko">Netherlands</label>
      
@@ -2803,7 +2803,7 @@
      
        <label xml:lang="fr_CA">Pologne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1508;&#1493;&#1500;&#1497;&#1503;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">פולין</span></label>
      
        <label xml:lang="ko">Poland</label>
      
@@ -2947,7 +2947,7 @@
      
        <label xml:lang="fr_CA">Afrique du Sud</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1491;&#1512;&#1493;&#1501; &#1488;&#1508;&#1512;&#1497;&#1511;&#1492;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">דרום אפריקה</span></label>
      
        <label xml:lang="ko">South Africa</label>
      
@@ -3019,7 +3019,7 @@
      
        <label xml:lang="fr_CA">Espagne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1505;&#1508;&#1512;&#1491;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">ספרד</span></label>
      
        <label xml:lang="ko">Spain</label>
      
@@ -3163,7 +3163,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1496;&#1488;&#1497;&#1493;&#1493;&#1503;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">טאיוון</span></label>
      
        <label xml:lang="ko">Taiwan</label>
      
@@ -3385,7 +3385,7 @@
   
    <label xml:lang="fr_CA">Domaine Public</label>
   
-   <label xml:lang="he"><span dir="rtl">&#1492;&#1511;&#1491;&#1513;&#1492; &#1500;&#1504;&#1495;&#1500;&#1514; &#1492;&#1499;&#1500;&#1500;</span></label>
+   <label xml:lang="he"><span dir="rtl">הקדשה לנחלת הכלל</span></label>
   
    <label xml:lang="ko">퍼블릭도메인</label>
   
@@ -3605,7 +3605,7 @@
    
      <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-     <description xml:lang="he"><p dir="rtl" align="right">&#1488;&#1501; &#1488;&#1514;/&#1492; &#1502;&#1506;&#1493;&#1504;&#1497;&#1497;&#1503; &#1489;&#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1502;&#1493;&#1514;&#1488;&#1501; &#1500;&#1491;&#1497;&#1504;&#1497; &#1494;&#1499;&#1493;&#1497;&#1493;&#1514; &#1492;&#1497;&#1493;&#1510;&#1512;&#1497;&#1501; &#1513;&#1500; &#1514;&#1495;&#1493;&#1501; &#1513;&#1497;&#1508;&#1493;&#1496; &#1502;&#1505;&#1493;&#1497;&#1497;&#1501; (&#1502;&#1491;&#1497;&#1504;&#1492; &#1502;&#1505;&#1493;&#1497;&#1497;&#1502;&#1514;), &#1488;&#1504;&#1488; &#1489;&#1495;&#1512;/&#1497; &#1488;&#1514; &#1514;&#1495;&#1493;&#1501; &#1492;&#1513;&#1497;&#1508;&#1493;&#1496; &#1492;&#1502;&#1514;&#1488;&#1497;&#1501;.</p></description>
+     <description xml:lang="he"><p dir="rtl" align="right">אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</p></description>
    
      <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -3754,7 +3754,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1489;&#1512;&#1494;&#1497;&#1500;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">ברזיל</span></label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -3828,7 +3828,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">&#1496;&#1488;&#1497;&#1493;&#1493;&#1503;</span></label>
+       <label xml:lang="he"><span dir="rtl" align="right">טאיוון</span></label>
      
        <label xml:lang="ko">Taiwan</label>
      
@@ -3975,7 +3975,7 @@
     
       <description xml:lang="fr_CA">Les options des contrats Sampling déterminent le degré de liberté offerts aux utilisateurs qui acceptent le contrat.\nLe contrat "Sampling" simple autorise l'utilisation d'extraits mais interdit le partage de la création originale dans son intégralité.\nLe contrat "Sampling Plus" autorise les utilisateurs qui acceptent le contrat à transformer des extraits de la création originale, et à la partager dans son intégralité à titre non commercial.\nLe contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que "Sampling Plus" et n'autorise que la création d'oeuvres dérivées non commerciales à partir des extraits de votre création</description>
     
-      <description xml:lang="he"><p dir="rtl" align="right">&#1505;&#1493;&#1490; &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; &#1492;&#1491;&#1490;&#1497;&#1502;&#1492; &#1511;&#1493;&#1489;&#1506; &#1499;&#1502;&#1492; &#1495;&#1493;&#1508;&#1513; &#1504;&#1497;&#1514;&#1503; &#1500;&#1502;&#1513;&#1514;&#1502;&#1513;&#1497;&#1501;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492;" &#1489;&#1500;&#1489;&#1491; &#1502;&#1488;&#1508;&#1513;&#1512; &#1500;&#1506;&#1513;&#1493;&#1514; &#1513;&#1497;&#1502;&#1493;&#1513; &#1489;&#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1493;&#1488;&#1493;&#1505;&#1512; &#1506;&#1500; &#1513;&#1497;&#1514;&#1493;&#1507; &#1513;&#1500; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1502;&#1500;&#1493;&#1488;&#1492;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505;" &#1502;&#1488;&#1508;&#1513;&#1512; &#1492;&#1503; &#1500;&#1511;&#1495;&#1514; &#1493;&#1500;&#1506;&#1489;&#1491; &#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1514;&#1493;&#1498; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1493;&#1499;&#1503; &#1500;&#1513;&#1514;&#1507; &#1488;&#1514; &#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1502;&#1500;&#1493;&#1488;&#1492; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1513;&#1488;&#1497;&#1504;&#1503; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514;. &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505; &#1500;&#1513;&#1497;&#1502;&#1493;&#1513; &#1500;&#1488; &#1502;&#1505;&#1495;&#1512;&#1497;" &#1502;&#1490;&#1489;&#1497;&#1500; &#1488;&#1514; &#1514;&#1504;&#1488;&#1497; &#1512;&#1497;&#1513;&#1497;&#1493;&#1503; "&#1491;&#1490;&#1497;&#1502;&#1492; &#1508;&#1500;&#1493;&#1505;" &#1489;&#1499;&#1498; &#1513;&#1500;&#1508;&#1497;&#1493; &#1490;&#1501; &#1492;&#1513;&#1497;&#1502;&#1493;&#1513; &#1489;&#1511;&#1496;&#1506;&#1497;&#1501; &#1502;&#1492;&#1497;&#1510;&#1497;&#1512;&#1492; &#1489;&#1497;&#1510;&#1497;&#1512;&#1493;&#1514; &#1504;&#1490;&#1494;&#1512;&#1493;&#1514; &#1502;&#1493;&#1512;&#1513;&#1492; &#1512;&#1511; &#1500;&#1502;&#1496;&#1512;&#1493;&#1514; &#1513;&#1488;&#1497;&#1504;&#1503; &#1502;&#1505;&#1495;&#1512;&#1497;&#1493;&#1514;.</p></description>
+      <description xml:lang="he"><P dir="rtl" align="right">סוג רישיון הדגימה קובע כמה חופש ניתן למשתמשים. רישיון "דגימה" בלבד מאפשר לעשות שימוש בקטעים מהיצירה ואוסר על שיתוף של היצירה במלואה. רישיון "דגימה פלוס" מאפשר הן לקחת ולעבד קטעים מתוך היצירה וכן לשתף את היצירה במלואה למטרות שאינן מסחריות. רישיון "דגימה פלוס לשימוש לא מסחרי" מגביל את תנאי רישיון "דגימה פלוס" בכך שלפיו גם השימוש בקטעים מהיצירה ביצירות נגזרות מורשה רק למטרות שאינן מסחריות.</P></description>
     
       <description xml:lang="ko">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
