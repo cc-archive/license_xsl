@@ -262,7 +262,7 @@
 				<xsl:otherwise>somerights20.png</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/{$license-button}"/></a><br/>
+		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width: 0" src="http://creativecommons.org/images/public/{$license-button}"/></a><br/>
 		<xsl:call-template name="thiswork">
 			<xsl:with-param name="license_name" 
 					select="$license-name" />
