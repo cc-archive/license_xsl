@@ -235,6 +235,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by-nc/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/cl/"/>
@@ -390,6 +391,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by-sa/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/cl/"/>
@@ -500,6 +502,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/cl/"/>
@@ -616,6 +619,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by-nc-nd/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/cl/"/>
@@ -754,6 +758,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by-nd/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/cl/"/>
@@ -864,6 +869,7 @@
 </jurisdiction>
         <jurisdiction id="za">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/za/"/>
+<version id="2.5" uri="http://creativecommons.org/licenses/by-nc-sa/2.5/za/"/>
 </jurisdiction>
         <jurisdiction id="cl">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/cl/"/>
