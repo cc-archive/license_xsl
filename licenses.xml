@@ -925,6 +925,9 @@
        <jurisdiction id="tw">
           <version id="1.0" uri="http://creativecommons.org/licenses/sampling+/1.0/tw/"/>
        </jurisdiction>
+       <jurisdiction id="de">
+          <version id="1.0" uri="http://creativecommons.org/licenses/sampling+/1.0/de/"/>
+       </jurisdiction>
    </license>
    <license id="nc-sampling+">
        <jurisdiction id="-">

@@ -94,7 +94,7 @@
 		
 			<xsl:variable name="jurisdiction">
 				<xsl:choose>
-					<xsl:when test="./sampling='ncsamplingplus' and ./jurisdiction='br'"/>
+					<xsl:when test="(./sampling='ncsamplingplus' and ./jurisdiction='br') or (./sampling!='samplingplus' and ./jurisdiction='de')"/>
 					<xsl:when test="./jurisdiction != '' and ./jurisdiction != '-'"><xsl:value-of select="concat(./jurisdiction,'/')"/></xsl:when>
 					<xsl:otherwise/>
 				</xsl:choose>
