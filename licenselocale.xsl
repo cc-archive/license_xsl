@@ -3205,7 +3205,7 @@
 
        
 
-            <xsl:when test="$license-locale='da' ">Denne <xsl:value-of select="$work_type"/> er licensieret under en <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> Licens</a>.</xsl:when>
+            <xsl:when test="$license-locale='da' ">Dette <xsl:value-of select="$work_type"/> er licensieret under en <a rel="license" href="{$license_url}">Creative Commons <xsl:value-of select="$license_name"/> Licens</a>.</xsl:when>
 
        
 
