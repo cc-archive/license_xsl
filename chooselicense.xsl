@@ -141,7 +141,7 @@
 		<xsl:variable name="license-uri-rdf">
 				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
-		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 			<Work rdf:about="{/answers/work-info/work-url}">
 				<xsl:if test="/answers/work-info/title">
 					<dc:title><xsl:value-of select="/answers/work-info/title"/></dc:title>
@@ -252,17 +252,11 @@
 		<xsl:comment>Creative Commons License</xsl:comment>
 		<xsl:variable name="license-button">
 			<xsl:choose>
-				<xsl:when test="contains($license-uri,'publicdomain')">norights-a.png</xsl:when>
-				<xsl:when test="contains($license-uri,'sampling')">sampling.png</xsl:when>
-				<xsl:when test="contains($license-uri,'LGPL')">cc-LGPL-a.png</xsl:when>
-				<xsl:when test="contains($license-uri,'GPL')">cc-GPL-a.png</xsl:when>
-				<xsl:when test="contains($license-uri,'br')">somerights20.pt.png</xsl:when>
-				<xsl:when test="contains($license-uri,'fr')">somerights20.fr.png</xsl:when>
-				<xsl:when test="contains($license-uri,'pl')">somerights20.pl.png</xsl:when>
-				<xsl:otherwise>somerights20.png</xsl:otherwise>
+				<xsl:when test="contains($license-uri,'GPL')">http://i.creativecommons.org/l<xsl:value-of select="substring-after($license-uri,'http://creativecommons.org/licenses')"/>88x62.png</xsl:when>
+				<xsl:otherwise>http://i.creativecommons.org/l<xsl:value-of select="substring-after($license-uri,'http://creativecommons.org/licenses')"/>88x31.png</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width: 0" src="http://creativecommons.org/images/public/{$license-button}"/></a><br/>
+		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width: 0" src="{$license-button}"/></a><br/>
 		<xsl:call-template name="thiswork">
 			<xsl:with-param name="license_name" 
 					select="$license-name" />
