@@ -191,7 +191,7 @@
 				<xsl:if test="contains($license-uri,'GPL')">
    <requires rdf:resource="http://web.resource.org/cc/SourceCode" />
 				</xsl:if>
-				<xsl:if test="contains($license-uri,'-nc')">
+				<xsl:if test="contains($license-uri,'-nc') or contains($license-uri, 'nc-')">
 					<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
 				</xsl:if>
 				<xsl:if test="not(contains($license-uri,'-nd'))">
