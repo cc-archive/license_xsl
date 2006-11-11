@@ -44,9 +44,11 @@
             
                <xsl:when test="$license-locale='es_CL' ">Argentina</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">Argentina</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Argentinien</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Argentina</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Argentina</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Argentina</xsl:when>
             
@@ -80,7 +82,7 @@
             
                <xsl:when test="$license-locale='kr' ">Argentina</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">Argentina</xsl:when>
+               <xsl:when test="$license-locale='de' ">Argentinien</xsl:when>
             
                <xsl:when test="$license-locale='pl' ">Argentyna</xsl:when>
             
@@ -128,6 +130,8 @@
                <xsl:when test="$license-locale='de_AT' ">Australien</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Australia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Austrália</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Australia</xsl:when>
             
@@ -210,6 +214,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Austria</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Áustria</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Austria</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Austria</xsl:when>
@@ -290,6 +296,8 @@
                <xsl:when test="$license-locale='de_AT' ">Belgien</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Bélgica</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Bélgica</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Belgium</xsl:when>
             
@@ -372,6 +380,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Brasil</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Brasil</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Brazil</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Brazil</xsl:when>
@@ -452,6 +462,8 @@
                <xsl:when test="$license-locale='de_AT' ">Bulgaria</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Bulgaria</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Bulgaria</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Bulgaria</xsl:when>
             
@@ -534,6 +546,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Canadá</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Canadá</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Canada</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Canada</xsl:when>
@@ -614,6 +628,8 @@
                <xsl:when test="$license-locale='de_AT' ">Chile</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Chile</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Chile</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Chile</xsl:when>
             
@@ -696,6 +712,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">China</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">China</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">China</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Mainland China</xsl:when>
@@ -776,6 +794,8 @@
                <xsl:when test="$license-locale='de_AT' ">Colombia</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Colombia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Colombia</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Colombia</xsl:when>
             
@@ -858,6 +878,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Croacia</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Croácia</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Croatia</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Croatia</xsl:when>
@@ -938,6 +960,8 @@
                <xsl:when test="$license-locale='de_AT' ">Hungary</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Hungría</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Hungary</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Hungary</xsl:when>
             
@@ -1020,6 +1044,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Dinamarca</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Denmark</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Denmark</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Denmark</xsl:when>
@@ -1100,6 +1126,8 @@
                <xsl:when test="$license-locale='de_AT' ">Finnland</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Finlandia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Filândia</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Finland</xsl:when>
             
@@ -1182,6 +1210,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Francia</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">França</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">France</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">France</xsl:when>
@@ -1262,6 +1292,8 @@
                <xsl:when test="$license-locale='de_AT' ">Deutschland</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Alemania</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Alemanha</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Germany</xsl:when>
             
@@ -1344,6 +1376,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Israel</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Israel</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Israel</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Israel</xsl:when>
@@ -1424,6 +1458,8 @@
                <xsl:when test="$license-locale='de_AT' ">Italien</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Italia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Itália</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Italy</xsl:when>
             
@@ -1506,6 +1542,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Japón</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Japão</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Japan</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Japan</xsl:when>
@@ -1586,6 +1624,8 @@
                <xsl:when test="$license-locale='de_AT' ">Korea</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Corea del Sur</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Correia</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Korea</xsl:when>
             
@@ -1668,6 +1708,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Malasia</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Malaysia</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Malaysia</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Malaysia</xsl:when>
@@ -1748,6 +1790,8 @@
                <xsl:when test="$license-locale='de_AT' ">Malta</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Malta</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Malta</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Malta</xsl:when>
             
@@ -1830,6 +1874,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">México</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Mexico</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Mexico</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Mexico</xsl:when>
@@ -1910,6 +1956,8 @@
                <xsl:when test="$license-locale='de_AT' ">Niederlande</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Holanda</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Holanda</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Netherlands</xsl:when>
             
@@ -1992,6 +2040,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Peru</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Peru</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Peru</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Peru</xsl:when>
@@ -2073,6 +2123,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Polonia</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Polonia</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Poland</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Poland</xsl:when>
@@ -2121,6 +2173,89 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='pt' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='en' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">葡萄牙</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Portogallo</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Португалия</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">葡萄牙</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Portugália</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Portugali</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='he' "><span dir="rtl" align="right">פורטוגל</span></xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='kr' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Portugalia</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Portugal</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Portugalska</xsl:when>
+            
+               <xsl:when test="$license-locale='se' ">Portugal</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
          <xsl:when test="$jurisdiction='si' ">
 
             <xsl:choose>
@@ -2153,6 +2288,8 @@
                <xsl:when test="$license-locale='de_AT' ">Slovenia</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Eslovenia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Slovenia</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Slovenia</xsl:when>
             
@@ -2235,6 +2372,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Sudáfrica</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">África do Sul</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">South Africa</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">South Africa</xsl:when>
@@ -2315,6 +2454,8 @@
                <xsl:when test="$license-locale='de_AT' ">Spanien</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">España</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Espanha</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Spain</xsl:when>
             
@@ -2397,6 +2538,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Suecia</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Sweden</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">Sweden</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">Sweden</xsl:when>
@@ -2477,6 +2620,8 @@
                <xsl:when test="$license-locale='de_AT' ">Taiwan</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Taiwan</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Taiwan</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">Taiwan</xsl:when>
             
@@ -2559,6 +2704,8 @@
             
                <xsl:when test="$license-locale='es_AR' ">Reino Unido: Inglaterra y Gales</xsl:when>
             
+               <xsl:when test="$license-locale='pt_PT' ">Reino Unido</xsl:when>
+            
                <xsl:when test="$license-locale='en_GB' ">UK: England &amp; Wales</xsl:when>
             
                <xsl:when test="$license-locale='en_CA' ">UK: England &amp; Wales</xsl:when>
@@ -2639,6 +2786,8 @@
                <xsl:when test="$license-locale='de_AT' ">UK: Scotland</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Reino Unido: Escocia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">UK: Scotland</xsl:when>
             
                <xsl:when test="$license-locale='en_GB' ">UK: Scotland</xsl:when>
             
@@ -2722,6 +2871,8 @@
          <xsl:when test="$license-locale='de_AT' ">Namensnennung</xsl:when>
        
          <xsl:when test="$license-locale='es_AR' ">Atribución</xsl:when>
+       
+         <xsl:when test="$license-locale='pt_PT' ">Atribuição</xsl:when>
        
          <xsl:when test="$license-locale='en_GB' ">Attribution</xsl:when>
        
@@ -2807,6 +2958,8 @@
             
               <xsl:when test="$license-locale='es_AR' ">Sin Obras Derivadas</xsl:when>
             
+              <xsl:when test="$license-locale='pt_PT' ">Não a Obras Derivadas</xsl:when>
+            
               <xsl:when test="$license-locale='en_GB' ">No Derivative Works</xsl:when>
             
               <xsl:when test="$license-locale='en_CA' ">No Derivative Works</xsl:when>
@@ -2885,6 +3038,8 @@
               <xsl:when test="$license-locale='de_AT' ">Weitergabe unter gleichen Bedingungen</xsl:when>
             
               <xsl:when test="$license-locale='es_AR' ">Compartir Obras Derivadas Igual</xsl:when>
+            
+              <xsl:when test="$license-locale='pt_PT' ">Partilha nos termos da mesma Licença</xsl:when>
             
               <xsl:when test="$license-locale='en_GB' ">Share Alike</xsl:when>
             
@@ -2979,6 +3134,8 @@
           
             <xsl:when test="$license-locale='es_AR' ">No Comercial</xsl:when>
           
+            <xsl:when test="$license-locale='pt_PT' ">Uso Não-Comercial</xsl:when>
+          
             <xsl:when test="$license-locale='en_GB' ">Non-Commercial</xsl:when>
           
             <xsl:when test="$license-locale='en_CA' ">Noncommercial</xsl:when>
@@ -3065,6 +3222,8 @@
           <xsl:when test="$license-locale='de_AT' ">Inhalt</xsl:when>
           
           <xsl:when test="$license-locale='es_AR' ">obra</xsl:when>
+          
+          <xsl:when test="$license-locale='pt_PT' ">obra</xsl:when>
           
           <xsl:when test="$license-locale='en_GB' ">work</xsl:when>
           
@@ -3170,6 +3329,10 @@
        
 
             <xsl:when test="$license-locale='es_AR' ">Esta <xsl:value-of select="$work_type"/> está licenciada bajo una <a rel="license" href="{$license_url}">Licencia Creative Commons <xsl:value-of select="$license_name"/> </a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='pt_PT' ">Esta <xsl:value-of select="$work_type"/> está licenciada sob uma <a rel="license" href="{$license_url}">Licença Creative Commons</a>.</xsl:when>
 
        
 

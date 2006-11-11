@@ -32,6 +32,8 @@
   
     <label xml:lang="es_AR">Creative Commons</label>
   
+    <label xml:lang="pt_PT">Creative Commons</label>
+  
     <label xml:lang="en_GB">Creative Commons</label>
   
     <label xml:lang="en_CA">Creative Commons</label>
@@ -101,9 +103,11 @@
    
     <label xml:lang="es_CL">¿Quieres autorizar usos comerciales de tu obra?</label>
    
-    <label xml:lang="de_AT">Allow commercial uses of your work?</label>
+    <label xml:lang="de_AT">Möchten Sie kommerzielle Nutzungen Ihres Werkes erlauben?</label>
    
     <label xml:lang="es_AR">¿Permite usos comerciales de su obra?</label>
+   
+    <label xml:lang="pt_PT">Permite o uso comercial da obra?</label>
    
     <label xml:lang="en_GB">Allow commercial uses of your work?</label>
    
@@ -137,7 +141,7 @@
    
     <label xml:lang="kr">Allow commercial uses of your work?</label>
    
-    <label xml:lang="de">Allow commercial uses of your work?</label>
+    <label xml:lang="de">Möchten Sie kommerzielle Nutzungen Ihres Werkes erlauben?</label>
    
     <label xml:lang="pl">Czy zezwalasz na komercyjne wykorzystywanie swojego utworu?</label>
    
@@ -176,6 +180,8 @@
     <description xml:lang="de_AT">Der Lizenzgeber erlaubt Vervielfältigung, Verbreitung und öffentliche Wiedergabe seines Inhalts. Der Lizenznehmer darf den Schutzgegenstand nicht für kommerzielle Zwecke verwenden, es sei denn, der Lizenzgeber erteilt seine schriftliche Einwilligung.</description>
    
     <description xml:lang="es_AR">El licenciante permite a otros copiar, distribuir, exhibir y ejecutar la obra. A cambio, los licenciatarios no pueden usar la obra con fines comerciales, a menos que ellos obtengan el permiso del licenciante.</description>
+   
+    <description xml:lang="pt_PT">O licenciante permite copiar, distribuir, exibir e executar a obra. Em contrapartida, o licenciado não poderá utilizar esta obra com finalidades comerciais -- a menos que obtenha permissão do licenciante.</description>
    
     <description xml:lang="en_GB">The licensor permits others to copy, distribute, display, and perform the work. In return, licencees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
    
@@ -251,6 +257,8 @@
      
      <label xml:lang="es_AR">Si</label>
      
+     <label xml:lang="pt_PT">Sim</label>
+     
      <label xml:lang="en_GB">Yes</label>
      
      <label xml:lang="en_CA">Yes</label>
@@ -324,6 +332,8 @@
    
      <label xml:lang="es_AR">No</label>
    
+     <label xml:lang="pt_PT">Não</label>
+   
      <label xml:lang="en_GB">No</label>
    
      <label xml:lang="en_CA">No</label>
@@ -395,9 +405,11 @@
    
    <label xml:lang="es_CL">¿Quieres permitir modificaciones de tu obra?</label>
    
-   <label xml:lang="de_AT">Allow modifications of your work?</label>
+   <label xml:lang="de_AT">Möchten Sie Bearbeitungen Ihres Werkes erlauben?</label>
    
    <label xml:lang="es_AR">¿Permite modificaciones de su obra?</label>
+   
+   <label xml:lang="pt_PT">Permite alterações à obra?</label>
    
    <label xml:lang="en_GB">Allow modifications of your work?</label>
    
@@ -431,7 +443,7 @@
    
    <label xml:lang="kr">Allow modifications of your work?</label>
    
-   <label xml:lang="de">Allow modifications of your work?</label>
+   <label xml:lang="de">Möchten Sie Bearbeitungen Ihres Werkes erlauben?</label>
    
    <label xml:lang="pl">Czy zezwalasz na modyfikacje swojego utworu?</label>
    
@@ -469,6 +481,8 @@
    <description xml:lang="de_AT">Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe seines Inhalts ausschließlich in unveränderter Form - Bearbeitungen sind nicht erlaubt.</description>
    
    <description xml:lang="es_AR">El licenciante permite a otros copiar, distribuir, exhibir y ejecutar sólo copias inalteradas de la obra, y no obras derivadas basadas en ella.</description>
+   
+   <description xml:lang="pt_PT">O licenciante permite copiar, distribuir, exibir e executar somente cópias inalteradas da obra -- mas não obras derivadas baseadas nesta.</description>
    
    <description xml:lang="en_GB">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
    
@@ -543,6 +557,8 @@
    
      <label xml:lang="es_AR">Si</label>
    
+     <label xml:lang="pt_PT">Sim</label>
+   
      <label xml:lang="en_GB">Yes</label>
    
      <label xml:lang="en_CA">Yes</label>
@@ -616,6 +632,8 @@
    
      <label xml:lang="es_AR">CompartirDerivadasIgual</label>
    
+     <label xml:lang="pt_PT">Partilha nos termos da mesma licença</label>
+   
      <label xml:lang="en_GB">ShareAlike</label>
    
      <label xml:lang="en_CA">ShareAlike</label>
@@ -688,6 +706,8 @@
      <label xml:lang="de_AT">Nein</label>
    
      <label xml:lang="es_AR">No</label>
+   
+     <label xml:lang="pt_PT">Não</label>
    
      <label xml:lang="en_GB">No</label>
    
@@ -764,6 +784,8 @@
    
    <label xml:lang="es_AR">Jurisdicción de su licencia:</label>
    
+   <label xml:lang="pt_PT">Jurisdição da licença:</label>
+   
    <label xml:lang="en_GB">Jurisdiction of your license:</label>
    
    <label xml:lang="en_CA">Jurisdiction of your license:</label>
@@ -834,6 +856,8 @@
    <description xml:lang="de_AT">Falls Sie Ihren Inhalt unter Verwendung einer anderen Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende internationale Lizenzversion aus.</description>
    
    <description xml:lang="es_AR">Si usted desea una licencia gobernada por el derecho de autor de una jurísdicción en especial, por favor seleccione la que sea apropiada.</description>
+   
+   <description xml:lang="pt_PT">Se desejar protecção para seu trabalho sob o Direito de  Autor Português, por favor seleccione a versão em português da licença.</description>
    
    <description xml:lang="en_GB">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
@@ -908,6 +932,8 @@
      
        <label xml:lang="es_AR">Genérica</label>
      
+       <label xml:lang="pt_PT">Genérica</label>
+     
        <label xml:lang="en_GB">Generic</label>
      
        <label xml:lang="en_CA">Generic</label>
@@ -977,9 +1003,11 @@
      
        <label xml:lang="es_CL">Argentina</label>
      
-       <label xml:lang="de_AT">Argentina</label>
+       <label xml:lang="de_AT">Argentinien</label>
      
        <label xml:lang="es_AR">Argentina</label>
+     
+       <label xml:lang="pt_PT">Argentina</label>
      
        <label xml:lang="en_GB">Argentina</label>
      
@@ -1013,7 +1041,7 @@
      
        <label xml:lang="kr">Argentina</label>
      
-       <label xml:lang="de">Argentina</label>
+       <label xml:lang="de">Argentinien</label>
      
        <label xml:lang="pl">Argentyna</label>
      
@@ -1052,6 +1080,8 @@
        <label xml:lang="de_AT">Australien</label>
      
        <label xml:lang="es_AR">Australia</label>
+     
+       <label xml:lang="pt_PT">Austrália</label>
      
        <label xml:lang="en_GB">Australia</label>
      
@@ -1125,6 +1155,8 @@
      
        <label xml:lang="es_AR">Austria</label>
      
+       <label xml:lang="pt_PT">Áustria</label>
+     
        <label xml:lang="en_GB">Austria</label>
      
        <label xml:lang="en_CA">Austria</label>
@@ -1196,6 +1228,8 @@
        <label xml:lang="de_AT">Belgien</label>
      
        <label xml:lang="es_AR">Bélgica</label>
+     
+       <label xml:lang="pt_PT">Bélgica</label>
      
        <label xml:lang="en_GB">Belgium</label>
      
@@ -1269,6 +1303,8 @@
      
        <label xml:lang="es_AR">Brasil</label>
      
+       <label xml:lang="pt_PT">Brasil</label>
+     
        <label xml:lang="en_GB">Brazil</label>
      
        <label xml:lang="en_CA">Brazil</label>
@@ -1340,6 +1376,8 @@
        <label xml:lang="de_AT">Bulgaria</label>
      
        <label xml:lang="es_AR">Bulgaria</label>
+     
+       <label xml:lang="pt_PT">Bulgaria</label>
      
        <label xml:lang="en_GB">Bulgaria</label>
      
@@ -1413,6 +1451,8 @@
      
        <label xml:lang="es_AR">Canadá</label>
      
+       <label xml:lang="pt_PT">Canadá</label>
+     
        <label xml:lang="en_GB">Canada</label>
      
        <label xml:lang="en_CA">Canada</label>
@@ -1484,6 +1524,8 @@
        <label xml:lang="de_AT">Chile</label>
      
        <label xml:lang="es_AR">Chile</label>
+     
+       <label xml:lang="pt_PT">Chile</label>
      
        <label xml:lang="en_GB">Chile</label>
      
@@ -1557,6 +1599,8 @@
      
        <label xml:lang="es_AR">China</label>
      
+       <label xml:lang="pt_PT">China</label>
+     
        <label xml:lang="en_GB">China</label>
      
        <label xml:lang="en_CA">Mainland China</label>
@@ -1628,6 +1672,8 @@
        <label xml:lang="de_AT">Colombia</label>
      
        <label xml:lang="es_AR">Colombia</label>
+     
+       <label xml:lang="pt_PT">Colombia</label>
      
        <label xml:lang="en_GB">Colombia</label>
      
@@ -1701,6 +1747,8 @@
      
        <label xml:lang="es_AR">Croacia</label>
      
+       <label xml:lang="pt_PT">Croácia</label>
+     
        <label xml:lang="en_GB">Croatia</label>
      
        <label xml:lang="en_CA">Croatia</label>
@@ -1772,6 +1820,8 @@
        <label xml:lang="de_AT">Hungary</label>
      
        <label xml:lang="es_AR">Hungría</label>
+     
+       <label xml:lang="pt_PT">Hungary</label>
      
        <label xml:lang="en_GB">Hungary</label>
      
@@ -1845,6 +1895,8 @@
      
        <label xml:lang="es_AR">Dinamarca</label>
      
+       <label xml:lang="pt_PT">Denmark</label>
+     
        <label xml:lang="en_GB">Denmark</label>
      
        <label xml:lang="en_CA">Denmark</label>
@@ -1916,6 +1968,8 @@
        <label xml:lang="de_AT">Finnland</label>
      
        <label xml:lang="es_AR">Finlandia</label>
+     
+       <label xml:lang="pt_PT">Filândia</label>
      
        <label xml:lang="en_GB">Finland</label>
      
@@ -1989,6 +2043,8 @@
      
        <label xml:lang="es_AR">Francia</label>
      
+       <label xml:lang="pt_PT">França</label>
+     
        <label xml:lang="en_GB">France</label>
      
        <label xml:lang="en_CA">France</label>
@@ -2060,6 +2116,8 @@
        <label xml:lang="de_AT">Deutschland</label>
      
        <label xml:lang="es_AR">Alemania</label>
+     
+       <label xml:lang="pt_PT">Alemanha</label>
      
        <label xml:lang="en_GB">Germany</label>
      
@@ -2133,6 +2191,8 @@
      
        <label xml:lang="es_AR">Israel</label>
      
+       <label xml:lang="pt_PT">Israel</label>
+     
        <label xml:lang="en_GB">Israel</label>
      
        <label xml:lang="en_CA">Israel</label>
@@ -2204,6 +2264,8 @@
        <label xml:lang="de_AT">Italien</label>
      
        <label xml:lang="es_AR">Italia</label>
+     
+       <label xml:lang="pt_PT">Itália</label>
      
        <label xml:lang="en_GB">Italy</label>
      
@@ -2277,6 +2339,8 @@
      
        <label xml:lang="es_AR">Japón</label>
      
+       <label xml:lang="pt_PT">Japão</label>
+     
        <label xml:lang="en_GB">Japan</label>
      
        <label xml:lang="en_CA">Japan</label>
@@ -2348,6 +2412,8 @@
        <label xml:lang="de_AT">Korea</label>
      
        <label xml:lang="es_AR">Corea del Sur</label>
+     
+       <label xml:lang="pt_PT">Correia</label>
      
        <label xml:lang="en_GB">Korea</label>
      
@@ -2421,6 +2487,8 @@
      
        <label xml:lang="es_AR">Malasia</label>
      
+       <label xml:lang="pt_PT">Malaysia</label>
+     
        <label xml:lang="en_GB">Malaysia</label>
      
        <label xml:lang="en_CA">Malaysia</label>
@@ -2492,6 +2560,8 @@
        <label xml:lang="de_AT">Malta</label>
      
        <label xml:lang="es_AR">Malta</label>
+     
+       <label xml:lang="pt_PT">Malta</label>
      
        <label xml:lang="en_GB">Malta</label>
      
@@ -2565,6 +2635,8 @@
      
        <label xml:lang="es_AR">México</label>
      
+       <label xml:lang="pt_PT">Mexico</label>
+     
        <label xml:lang="en_GB">Mexico</label>
      
        <label xml:lang="en_CA">Mexico</label>
@@ -2636,6 +2708,8 @@
        <label xml:lang="de_AT">Niederlande</label>
      
        <label xml:lang="es_AR">Holanda</label>
+     
+       <label xml:lang="pt_PT">Holanda</label>
      
        <label xml:lang="en_GB">Netherlands</label>
      
@@ -2709,6 +2783,8 @@
      
        <label xml:lang="es_AR">Peru</label>
      
+       <label xml:lang="pt_PT">Peru</label>
+     
        <label xml:lang="en_GB">Peru</label>
      
        <label xml:lang="en_CA">Peru</label>
@@ -2781,6 +2857,8 @@
      
        <label xml:lang="es_AR">Polonia</label>
      
+       <label xml:lang="pt_PT">Polonia</label>
+     
        <label xml:lang="en_GB">Poland</label>
      
        <label xml:lang="en_CA">Poland</label>
@@ -2823,6 +2901,80 @@
      
        <label xml:lang="se">Polen</label>
      
+   </enum><enum id="pt">
+     
+       <label xml:lang="en">Portugal</label>
+     
+       <label xml:lang="zh">葡萄牙</label>
+     
+       <label xml:lang="af">Portugal</label>
+     
+       <label xml:lang="ca">Portugal</label>
+     
+       <label xml:lang="it">Portogallo</label>
+     
+       <label xml:lang="es_MX">Portugal</label>
+     
+       <label xml:lang="eu">Portugal</label>
+     
+       <label xml:lang="gl">Portugal</label>
+     
+       <label xml:lang="es">Portugal</label>
+     
+       <label xml:lang="nl">Portugal</label>
+     
+       <label xml:lang="pt">Portugal</label>
+     
+       <label xml:lang="es_CL">Portugal</label>
+     
+       <label xml:lang="de_AT">Portugal</label>
+     
+       <label xml:lang="es_AR">Portugal</label>
+     
+       <label xml:lang="pt_PT">Portugal</label>
+     
+       <label xml:lang="en_GB">Portugal</label>
+     
+       <label xml:lang="en_CA">Portugal</label>
+     
+       <label xml:lang="fr">Portugal</label>
+     
+       <label xml:lang="bg">Португалия</label>
+     
+       <label xml:lang="hr">Portugal</label>
+     
+       <label xml:lang="zh_TW">葡萄牙</label>
+     
+       <label xml:lang="hu">Portugália</label>
+     
+       <label xml:lang="fi">Portugali</label>
+     
+       <label xml:lang="da">Portugal</label>
+     
+       <label xml:lang="ja">Portugal</label>
+     
+       <label xml:lang="fr_CA">Portugal</label>
+     
+       <label xml:lang="he"><span dir="rtl" align="right">פורטוגל</span></label>
+     
+       <label xml:lang="ko">Portugal</label>
+     
+       <label xml:lang="sv">Portugal</label>
+     
+       <label xml:lang="st">Portugal</label>
+     
+       <label xml:lang="kr">Portugal</label>
+     
+       <label xml:lang="de">Portugal</label>
+     
+       <label xml:lang="pl">Portugalia</label>
+     
+       <label xml:lang="ms">Portugal</label>
+     
+       <label xml:lang="sl">Portugalska</label>
+     
+       <label xml:lang="se">Portugal</label>
+     
    </enum><enum id="si">
      
        <label xml:lang="en">Slovenia</label>
@@ -2852,6 +3004,8 @@
        <label xml:lang="de_AT">Slovenia</label>
      
        <label xml:lang="es_AR">Eslovenia</label>
+     
+       <label xml:lang="pt_PT">Slovenia</label>
      
        <label xml:lang="en_GB">Slovenia</label>
      
@@ -2925,6 +3079,8 @@
      
        <label xml:lang="es_AR">Sudáfrica</label>
      
+       <label xml:lang="pt_PT">África do Sul</label>
+     
        <label xml:lang="en_GB">South Africa</label>
      
        <label xml:lang="en_CA">South Africa</label>
@@ -2996,6 +3152,8 @@
        <label xml:lang="de_AT">Spanien</label>
      
        <label xml:lang="es_AR">España</label>
+     
+       <label xml:lang="pt_PT">Espanha</label>
      
        <label xml:lang="en_GB">Spain</label>
      
@@ -3069,6 +3227,8 @@
      
        <label xml:lang="es_AR">Suecia</label>
      
+       <label xml:lang="pt_PT">Sweden</label>
+     
        <label xml:lang="en_GB">Sweden</label>
      
        <label xml:lang="en_CA">Sweden</label>
@@ -3140,6 +3300,8 @@
        <label xml:lang="de_AT">Taiwan</label>
      
        <label xml:lang="es_AR">Taiwan</label>
+     
+       <label xml:lang="pt_PT">Taiwan</label>
      
        <label xml:lang="en_GB">Taiwan</label>
      
@@ -3213,6 +3375,8 @@
      
        <label xml:lang="es_AR">Reino Unido: Inglaterra y Gales</label>
      
+       <label xml:lang="pt_PT">Reino Unido</label>
+     
        <label xml:lang="en_GB">UK: England &amp; Wales</label>
      
        <label xml:lang="en_CA">UK: England &amp; Wales</label>
@@ -3284,6 +3448,8 @@
        <label xml:lang="de_AT">UK: Scotland</label>
      
        <label xml:lang="es_AR">Reino Unido: Escocia</label>
+     
+       <label xml:lang="pt_PT">UK: Scotland</label>
      
        <label xml:lang="en_GB">UK: Scotland</label>
      
@@ -3363,6 +3529,8 @@
   
    <label xml:lang="es_AR">Dominio Público</label>
   
+   <label xml:lang="pt_PT">Domínio Público</label>
+  
    <label xml:lang="en_GB">Public Domain</label>
   
    <label xml:lang="en_CA">Public Domain</label>
@@ -3433,9 +3601,11 @@
   
    <label xml:lang="es_CL">Sampling</label>
   
-   <label xml:lang="de_AT">Recombo</label>
+   <label xml:lang="de_AT">Sampling</label>
   
    <label xml:lang="es_AR">Sampling</label>
+  
+   <label xml:lang="pt_PT">Sampling</label>
   
    <label xml:lang="en_GB">Sampling</label>
   
@@ -3469,7 +3639,7 @@
   
    <label xml:lang="kr">Sampling</label>
   
-   <label xml:lang="de">Recombo</label>
+   <label xml:lang="de">Sampling</label>
   
    <label xml:lang="pl">Sampling</label>
   
@@ -3510,6 +3680,8 @@
      <label xml:lang="de_AT">Rechtsordnung:</label>
    
      <label xml:lang="es_AR">Jurisdicción de su licencia:</label>
+   
+     <label xml:lang="pt_PT">Jurisdição da licença:</label>
    
      <label xml:lang="en_GB">Jurisdiction of your license:</label>
    
@@ -3582,6 +3754,8 @@
      <description xml:lang="de_AT">Falls Sie Ihren Inhalt unter Verwendung einer anderen Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende internationale Lizenzversion aus.</description>
    
      <description xml:lang="es_AR">Si usted desea una licencia gobernada por el derecho de autor de una jurísdicción en especial, por favor seleccione la que sea apropiada.</description>
+   
+     <description xml:lang="pt_PT">Se desejar protecção para seu trabalho sob o Direito de  Autor Português, por favor seleccione a versão em português da licença.</description>
    
      <description xml:lang="en_GB">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
@@ -3658,6 +3832,8 @@
      
        <label xml:lang="es_AR">Genérica</label>
      
+       <label xml:lang="pt_PT">Genérica</label>
+     
        <label xml:lang="en_GB">Generic</label>
      
        <label xml:lang="en_CA">Generic</label>
@@ -3731,6 +3907,8 @@
        <label xml:lang="de_AT">Brasilien</label>
      
        <label xml:lang="es_AR">Brasil</label>
+     
+       <label xml:lang="pt_PT">Brasil</label>
      
        <label xml:lang="en_GB">Brazil</label>
      
@@ -3806,6 +3984,8 @@
      
        <label xml:lang="es_AR">Taiwan</label>
      
+       <label xml:lang="pt_PT">Taiwan</label>
+     
        <label xml:lang="en_GB">Taiwan</label>
      
        <label xml:lang="en_CA">Taiwan</label>
@@ -3878,9 +4058,11 @@
     
       <label xml:lang="es_CL">¿Qué opción de licencia Sampling deseas?</label>
     
-      <label xml:lang="de_AT">What flavor of Sampling license?</label>
+      <label xml:lang="de_AT">Welche Art von Sampling Lizenz möchten Sie wählen?</label>
     
       <label xml:lang="es_AR">¿Qué tipo de licencia Sampling desea?</label>
+    
+      <label xml:lang="pt_PT">Qual o tipo de licença de Sampling?</label>
     
       <label xml:lang="en_GB">What flavor of Sampling license?</label>
     
@@ -3914,7 +4096,7 @@
     
       <label xml:lang="kr">What flavor of Sampling license?</label>
     
-      <label xml:lang="de">What flavor of Sampling license?</label>
+      <label xml:lang="de">Welche Art von Sampling Lizenz möchten Sie wählen?</label>
     
       <label xml:lang="pl">Jakiego typu licencję na Sampling wybierasz?</label>
     
@@ -3949,9 +4131,11 @@
     
       <description xml:lang="es_CL">Las diferentes opciones de las licencias de Sampling permiten determinar la libertad que tienen los usuarios para utilizar la obra. Sólo Sampling permite el uso de fragmentos de la obra pero prohibe el intercambio de la obra completa. La opción Sampling Plus permite tomar y transformar fragmentos de la obra y además compartir la obra completa con finalidades no comerciales. Finalmente, la opción de Noncommercial Sampling Plus es más restrictiva que la de Sampling Plus ya que sólo autoriza la creación de obras derivadas no comerciales a partir de los fragmentos de la obra original.</description>
     
-      <description xml:lang="de_AT">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+      <description xml:lang="de_AT">Die Art the Sampling-Lizenz definiert wieviel Freiheit der Lizenznehmer hat. Die Sampling Lizenz ermöglicht nur die teilweise Nutzung des Werkes und verbietet die Nutzung des Werkes. Sampling Plus ermöglicht dem Lizenznehmer Teile des Werkes zu verändern und das Werk insgesamt für nicht kommerzielle Zwecke zu nutzen. Die nicht-kommerzielle Sampling Plus Lizenz ermöglicht nur nicht-kommerzielle Bearbeitungen von Teilen des Werkes.</description>
     
       <description xml:lang="es_AR">Los Tipos de Sampling determinan cuanta libertad tienen los licenciatarios. La licencia Sampling a secas permite el uso de fragmentos de la obra pero prohibe el intercambio de la obra completa. La opción Sampling Plus permite tomar y transformar fragmentos de la obra, pero además compartir la obra completa sin fines comerciales. La opción de Noncommercial Sampling Plus es más restrictiva que la de Sampling Plus ya que sólo autoriza la creación de obras derivadas no comerciales a partir de los fragmentos de su obra original.</description>
+    
+      <description xml:lang="pt_PT">A licença de Sampling determina que direitos os licenciados terão. A licença de "Sampling" permite que somente pedaços da obra sejam utilizados e proíbe a partilha da obra inteira. A licença chamada "Sampling Plus" permite aos licenciados retirar e transformar pedaços da obra, bem como partilhar a obra inteira, desde que não se faça uso comercial da obra original. A licença Sampling Plus-Uso Não Comercial é mais restrita do que a licença Sampling Plus, pois por esta licença, a obra derivada resultante da utilização de trechos da obra original também não poderá ser usada para fins comerciais.</description>
     
       <description xml:lang="en_GB">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
@@ -3985,7 +4169,7 @@
     
       <description xml:lang="kr">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
-      <description xml:lang="de">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+      <description xml:lang="de">Die Art the Sampling-Lizenz definiert wieviel Freiheit der Lizenznehmer hat. Die Sampling Lizenz ermöglicht nur die teilweise Nutzung des Werkes und verbietet die Nutzung des Werkes. Sampling Plus ermöglicht dem Lizenznehmer Teile des Werkes zu verändern und das Werk insgesamt für nicht kommerzielle Zwecke zu nutzen. Die nicht-kommerzielle Sampling Plus Lizenz ermöglicht nur nicht-kommerzielle Bearbeitungen von Teilen des Werkes.</description>
     
       <description xml:lang="pl">Typ licencji Sampling określa zakres swobody zapewnianej licencjobiorcom. Licencja Sampling pozwala jedynie na użycie fragmentów utworu, a zabrania dystrybucji całego utworu. Licencja Sampling Plus zezwala licencjobiorcom zmieniać fragmenty utworu oraz dystrybuować całość utworu dla celów niekomercyjnych. Licencja Sampling Plus Niekomercyjna ogranicza licencję Sampling Plus, zezwalając jedynie na tworzenie niekomercyjnych utworów zależnych z wykorzystaniem fragmentów utworu.</description>
     
@@ -4023,9 +4207,11 @@
      
        <label xml:lang="es_CL">Sampling</label>
      
-       <label xml:lang="de_AT">Recombo</label>
+       <label xml:lang="de_AT">Sampling</label>
      
        <label xml:lang="es_AR">Sampling</label>
+     
+       <label xml:lang="pt_PT">Sampling</label>
      
        <label xml:lang="en_GB">Sampling</label>
      
@@ -4059,7 +4245,7 @@
      
        <label xml:lang="kr">Sampling</label>
      
-       <label xml:lang="de">Recombo</label>
+       <label xml:lang="de">Sampling</label>
      
        <label xml:lang="pl">Sampling</label>
      
@@ -4099,6 +4285,8 @@
        <label xml:lang="de_AT">Sampling Plus</label>
      
        <label xml:lang="es_AR">Sampling Plus</label>
+     
+       <label xml:lang="pt_PT">Sampling Plus</label>
      
        <label xml:lang="en_GB">Sampling Plus</label>
      
@@ -4169,9 +4357,11 @@
      
        <label xml:lang="es_CL">Sampling Plus No Comercial</label>
      
-       <label xml:lang="de_AT">NonCommercial Sampling Plus</label>
+       <label xml:lang="de_AT">NichtKommerzielle Sampling Plus</label>
      
        <label xml:lang="es_AR">Sampling Plus NoComercial</label>
+     
+       <label xml:lang="pt_PT">Uso Não-Comercial para Sampling Plus</label>
      
        <label xml:lang="en_GB">Non-Commercial Sampling Plus</label>
      
@@ -4205,7 +4395,7 @@
      
        <label xml:lang="kr">비영리 Sampling Plus</label>
      
-       <label xml:lang="de">NonCommercial Sampling Plus</label>
+       <label xml:lang="de">NichtKommerzielle Sampling Plus</label>
      
        <label xml:lang="pl">Użycie niekomercyne-Sampling Plus</label>
      
