@@ -652,7 +652,7 @@
    
      <label xml:lang="da">DelPåSammeVilkår</label>
    
-     <label xml:lang="ja">同一条件許諾</label>
+     <label xml:lang="ja">継承</label>
    
      <label xml:lang="fr_CA">ShareAlike</label>
    
@@ -1027,7 +1027,7 @@
      
        <label xml:lang="da">Argentina</label>
      
-       <label xml:lang="ja">Argentina</label>
+       <label xml:lang="ja">アルゼンチン</label>
      
        <label xml:lang="fr_CA">Argentina</label>
      
@@ -1101,7 +1101,7 @@
      
        <label xml:lang="da">Australien</label>
      
-       <label xml:lang="ja">Australia</label>
+       <label xml:lang="ja">オーストリア</label>
      
        <label xml:lang="fr_CA">Australie</label>
      
@@ -1175,7 +1175,7 @@
      
        <label xml:lang="da">Østrig</label>
      
-       <label xml:lang="ja">Austria</label>
+       <label xml:lang="ja">オーストリア</label>
      
        <label xml:lang="fr_CA">Autriche</label>
      
@@ -1249,7 +1249,7 @@
      
        <label xml:lang="da">Belgien</label>
      
-       <label xml:lang="ja">Belgium</label>
+       <label xml:lang="ja">ベルギー</label>
      
        <label xml:lang="fr_CA">Belgique</label>
      
@@ -1323,7 +1323,7 @@
      
        <label xml:lang="da">Brasilien</label>
      
-       <label xml:lang="ja">Brazil</label>
+       <label xml:lang="ja">ブラジル</label>
      
        <label xml:lang="fr_CA">Brésil</label>
      
@@ -1397,7 +1397,7 @@
      
        <label xml:lang="da">Bulgarien</label>
      
-       <label xml:lang="ja">Bulgaria</label>
+       <label xml:lang="ja">ブルガリア</label>
      
        <label xml:lang="fr_CA">Bulgaria</label>
      
@@ -1471,7 +1471,7 @@
      
        <label xml:lang="da">Canada</label>
      
-       <label xml:lang="ja">Canada</label>
+       <label xml:lang="ja">カナダ</label>
      
        <label xml:lang="fr_CA">Canada</label>
      
@@ -1545,7 +1545,7 @@
      
        <label xml:lang="da">Chile</label>
      
-       <label xml:lang="ja">Chile</label>
+       <label xml:lang="ja">チリ</label>
      
        <label xml:lang="fr_CA">Chile</label>
      
@@ -1619,7 +1619,7 @@
      
        <label xml:lang="da">Kina</label>
      
-       <label xml:lang="ja">Mainland China</label>
+       <label xml:lang="ja">中華人民共和国</label>
      
        <label xml:lang="fr_CA">Chine</label>
      
@@ -1693,7 +1693,7 @@
      
        <label xml:lang="da">Columbia</label>
      
-       <label xml:lang="ja">Colombia</label>
+       <label xml:lang="ja">コロンビア</label>
      
        <label xml:lang="fr_CA">Colombia</label>
      
@@ -1767,7 +1767,7 @@
      
        <label xml:lang="da">Kroatien</label>
      
-       <label xml:lang="ja">Croatia</label>
+       <label xml:lang="ja">クロアチア</label>
      
        <label xml:lang="fr_CA">Croatie</label>
      
@@ -1841,7 +1841,7 @@
      
        <label xml:lang="da">Ungarn</label>
      
-       <label xml:lang="ja">Hungary</label>
+       <label xml:lang="ja">ハンガリー</label>
      
        <label xml:lang="fr_CA">Hungary</label>
      
@@ -1915,7 +1915,7 @@
      
        <label xml:lang="da">Danmark</label>
      
-       <label xml:lang="ja">Denmark</label>
+       <label xml:lang="ja">デンマーク</label>
      
        <label xml:lang="fr_CA">Denmark</label>
      
@@ -1989,7 +1989,7 @@
      
        <label xml:lang="da">Finland</label>
      
-       <label xml:lang="ja">Finland</label>
+       <label xml:lang="ja">フィンランド</label>
      
        <label xml:lang="fr_CA">Finlande</label>
      
@@ -2063,7 +2063,7 @@
      
        <label xml:lang="da">Frankrig</label>
      
-       <label xml:lang="ja">France</label>
+       <label xml:lang="ja">フランス</label>
      
        <label xml:lang="fr_CA">France</label>
      
@@ -2137,7 +2137,7 @@
      
        <label xml:lang="da">Tyskland</label>
      
-       <label xml:lang="ja">Germany</label>
+       <label xml:lang="ja">ドイツ</label>
      
        <label xml:lang="fr_CA">Allemagne</label>
      
@@ -2211,7 +2211,7 @@
      
        <label xml:lang="da">Israel</label>
      
-       <label xml:lang="ja">Israel</label>
+       <label xml:lang="ja">イスラエル</label>
      
        <label xml:lang="fr_CA">Israel</label>
      
@@ -2285,7 +2285,7 @@
      
        <label xml:lang="da">Italien</label>
      
-       <label xml:lang="ja">Italy</label>
+       <label xml:lang="ja">イタリア</label>
      
        <label xml:lang="fr_CA">Italie</label>
      
@@ -2433,7 +2433,7 @@
      
        <label xml:lang="da">Korea</label>
      
-       <label xml:lang="ja">Korea</label>
+       <label xml:lang="ja">韓国</label>
      
        <label xml:lang="fr_CA">Korea</label>
      
@@ -2507,7 +2507,7 @@
      
        <label xml:lang="da">Malaysia</label>
      
-       <label xml:lang="ja">Malaysia</label>
+       <label xml:lang="ja">マレーシア</label>
      
        <label xml:lang="fr_CA">Malaysia</label>
      
@@ -2581,7 +2581,7 @@
      
        <label xml:lang="da">Malta</label>
      
-       <label xml:lang="ja">Malta</label>
+       <label xml:lang="ja">マルタ</label>
      
        <label xml:lang="fr_CA">Malta</label>
      
@@ -2655,7 +2655,7 @@
      
        <label xml:lang="da">Mexico</label>
      
-       <label xml:lang="ja">Mexico</label>
+       <label xml:lang="ja">メキシコ</label>
      
        <label xml:lang="fr_CA">Mexico</label>
      
@@ -2729,7 +2729,7 @@
      
        <label xml:lang="da">Holland</label>
      
-       <label xml:lang="ja">Netherlands</label>
+       <label xml:lang="ja">オランダ</label>
      
        <label xml:lang="fr_CA">Pays-Bas</label>
      
@@ -2803,7 +2803,7 @@
      
        <label xml:lang="da">Peru</label>
      
-       <label xml:lang="ja">Peru</label>
+       <label xml:lang="ja">ペルー</label>
      
        <label xml:lang="fr_CA">Peru</label>
      
@@ -2877,7 +2877,7 @@
      
        <label xml:lang="da">Polen</label>
      
-       <label xml:lang="ja">Poland</label>
+       <label xml:lang="ja">ポーランド</label>
      
        <label xml:lang="fr_CA">Pologne</label>
      
@@ -2951,7 +2951,7 @@
      
        <label xml:lang="da">Portugal</label>
      
-       <label xml:lang="ja">Portugal</label>
+       <label xml:lang="ja">ポルトガル</label>
      
        <label xml:lang="fr_CA">Portugal</label>
      
@@ -3025,7 +3025,7 @@
      
        <label xml:lang="da">Slovenien</label>
      
-       <label xml:lang="ja">Slovenia</label>
+       <label xml:lang="ja">スロベニア</label>
      
        <label xml:lang="fr_CA">Slovenia</label>
      
@@ -3099,7 +3099,7 @@
      
        <label xml:lang="da">Sydafrika</label>
      
-       <label xml:lang="ja">South Africa</label>
+       <label xml:lang="ja">南アフリカ</label>
      
        <label xml:lang="fr_CA">Afrique du Sud</label>
      
@@ -3173,7 +3173,7 @@
      
        <label xml:lang="da">Spanien</label>
      
-       <label xml:lang="ja">Spain</label>
+       <label xml:lang="ja">スペイン</label>
      
        <label xml:lang="fr_CA">Espagne</label>
      
@@ -3247,7 +3247,7 @@
      
        <label xml:lang="da">Sverige</label>
      
-       <label xml:lang="ja">Sweden</label>
+       <label xml:lang="ja">スエーデン</label>
      
        <label xml:lang="fr_CA">Sweden</label>
      
@@ -3321,7 +3321,7 @@
      
        <label xml:lang="da">Taiwan</label>
      
-       <label xml:lang="ja">Taiwan</label>
+       <label xml:lang="ja">台湾（中華民国）</label>
      
        <label xml:lang="fr_CA">Taiwan</label>
      
@@ -3395,7 +3395,7 @@
      
        <label xml:lang="da">England og Wales</label>
      
-       <label xml:lang="ja">UK: England &amp; Wales</label>
+       <label xml:lang="ja">イングランド＆ウェールズ（英）</label>
      
        <label xml:lang="fr_CA">Royaume-Uni</label>
      
@@ -3469,7 +3469,7 @@
      
        <label xml:lang="da">Skotland</label>
      
-       <label xml:lang="ja">UK: Scotland</label>
+       <label xml:lang="ja">スコットランド（英）</label>
      
        <label xml:lang="fr_CA">UK: Scotland</label>
      
@@ -3928,7 +3928,7 @@
      
        <label xml:lang="da">Brasilien</label>
      
-       <label xml:lang="ja">Brazil</label>
+       <label xml:lang="ja">ブラジル</label>
      
        <label xml:lang="fr_CA">Brésil</label>
      
@@ -4004,7 +4004,7 @@
      
        <label xml:lang="da">Taiwan</label>
      
-       <label xml:lang="ja">Taiwan</label>
+       <label xml:lang="ja">台湾（中華民国）</label>
      
        <label xml:lang="fr_CA">Taiwan</label>
      
@@ -4082,7 +4082,7 @@
     
       <label xml:lang="da">Hvilken type Samplinglicens?</label>
     
-      <label xml:lang="ja">サンプリング・ライセンスのどんなフレーバーがお好みですか？</label>
+      <label xml:lang="ja">どのサンプリング・ライセンスを選ばれますか？</label>
     
       <label xml:lang="fr_CA">Quelle option d'autorisation de sampling ?</label>
     
