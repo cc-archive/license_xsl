@@ -131,7 +131,7 @@
    
     <label xml:lang="fr_CA">Autorisez-vous les utilisations commerciales de votre création ?</label>
    
-    <label xml:lang="he"><span dir="rtl">האם להתיר שימוש מסחרי ביצירתך?</span></label>
+    <label xml:lang="he"><span dir="rtl">האם להתיר שימושים מסחריים ביצירתך?</span></label>
    
     <label xml:lang="ko">Allow commercial uses of your work?</label>
    
@@ -433,7 +433,7 @@
    
    <label xml:lang="fr_CA">Autorisez-vous les modifications de votre création ?</label>
    
-   <label xml:lang="he"><span dir="rtl">האם להתיר עריכת שינויים ביצירתך?</span></label>
+   <label xml:lang="he">האם להתיר עריכת שינויים ביצירתך?</label>
    
    <label xml:lang="ko">Allow modifications of your work?</label>
    
@@ -808,7 +808,7 @@
    
    <label xml:lang="fr_CA">Juridiction de votre contrat :</label>
    
-   <label xml:lang="he"><span dir="rtl">תחום השיפוט של הרישיון:</span></label>
+   <label xml:lang="he">תחום השיפוט של הרישיון:</label>
    
    <label xml:lang="ko">Jurisdiction of your license:</label>
    
@@ -2807,7 +2807,7 @@
      
        <label xml:lang="fr_CA">Peru</label>
      
-       <label xml:lang="he">Peru</label>
+       <label xml:lang="he">פרו</label>
      
        <label xml:lang="ko">Peru</label>
      
@@ -3705,7 +3705,7 @@
    
      <label xml:lang="fr_CA">Juridiction de votre contrat :</label>
    
-     <label xml:lang="he"><span dir="rtl">תחום השיפוט של הרישיון:</span></label>
+     <label xml:lang="he">תחום השיפוט של הרישיון:</label>
    
      <label xml:lang="ko">Jurisdiction of your license:</label>
    
@@ -4086,7 +4086,7 @@
     
       <label xml:lang="fr_CA">Quelle option d'autorisation de sampling ?</label>
     
-      <label xml:lang="he"><span dir="rtl">איזה סוג של רישיון דגימה?</span></label>
+      <label xml:lang="he">איזה טעם של רישיון דגימה?</label>
     
       <label xml:lang="ko">What flavor of Sampling license?</label>
     
@@ -4159,7 +4159,7 @@
     
       <description xml:lang="fr_CA">Les options des contrats Sampling déterminent le degré de liberté offerts aux utilisateurs qui acceptent le contrat.\nLe contrat "Sampling" simple autorise l'utilisation d'extraits mais interdit le partage de la création originale dans son intégralité.\nLe contrat "Sampling Plus" autorise les utilisateurs qui acceptent le contrat à transformer des extraits de la création originale, et à la partager dans son intégralité à titre non commercial.\nLe contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que "Sampling Plus" et n'autorise que la création d'oeuvres dérivées non commerciales à partir des extraits de votre création</description>
     
-      <description xml:lang="he"><P dir="rtl" align="right">סוג רישיון הדגימה קובע כמה חופש ניתן למשתמשים. רישיון "דגימה" בלבד מאפשר לעשות שימוש בקטעים מהיצירה ואוסר על שיתוף של היצירה במלואה. רישיון "דגימה פלוס" מאפשר הן לקחת ולעבד קטעים מתוך היצירה וכן לשתף את היצירה במלואה למטרות שאינן מסחריות. רישיון "דגימה פלוס לשימוש לא מסחרי" מגביל את תנאי רישיון "דגימה פלוס" בכך שלפיו גם השימוש בקטעים מהיצירה ביצירות נגזרות מורשה רק למטרות שאינן מסחריות.</P></description>
+      <description xml:lang="he">הטעם של רישיון הדגימה קובע כמה חופש יש למשתמשים מקבלי הרישיון. רישיון "דגימה" בלבד מאפשר לעשות שימוש בקטעים מהיצירה ואוסר על שיתוף של היצירה במלואה. רישיון "דגימה פלוס" מאפשר הן לקחת ולעבד קטעים מתוך היצירה וכן לשתף את היצירה במלואה למטרות שאינן מסחריות. רישיון "דגימה פלוס לשימוש לא מסחרי" מגביל את תנאי רישיון "דגימה פלוס" בכך שלפיו גם השימוש בקטעים מהיצירה מורשה רק ביצירות נגזרות  שאינן למטרות מסחריות.</description>
     
       <description xml:lang="ko">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     

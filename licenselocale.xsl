@@ -2064,7 +2064,7 @@
             
                <xsl:when test="$license-locale='fr_CA' ">Peru</xsl:when>
             
-               <xsl:when test="$license-locale='he' ">Peru</xsl:when>
+               <xsl:when test="$license-locale='he' ">פרו</xsl:when>
             
                <xsl:when test="$license-locale='ko' ">Peru</xsl:when>
             
@@ -2896,7 +2896,7 @@
        
          <xsl:when test="$license-locale='fr_CA' ">Paternité</xsl:when>
        
-         <xsl:when test="$license-locale='he' "><p dir="rtl" align="right">דרישת ייחוס</p></xsl:when>
+         <xsl:when test="$license-locale='he' ">דרישת ייחוס</xsl:when>
        
          <xsl:when test="$license-locale='ko' ">저작자표시</xsl:when>
        
