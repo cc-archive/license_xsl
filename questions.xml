@@ -131,7 +131,7 @@
    
     <label xml:lang="fr_CA">Autorisez-vous les utilisations commerciales de votre création ?</label>
    
-    <label xml:lang="he"><span dir="rtl">האם להתיר שימושים מסחריים ביצירתך?</span></label>
+    <label xml:lang="he">האם להתיר שימושים מסחריים ביצירתך?</label>
    
     <label xml:lang="ko">Allow commercial uses of your work?</label>
    
@@ -205,7 +205,7 @@
    
     <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation du donneur de licence.</description>
    
-    <description xml:lang="he"><p dir="rtl" align="right">נותן הרישיון מרשה לאחרים להעתיק, להפיץ, להציג ו/או לבצע את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות -- אלא אם קיבלו את הסכמת נותן הרשיון.</p></description>
+    <description xml:lang="he">מעניק הרישיון מרשה לאחרים להעתיק, להפיץ, להציג ולבצע את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות -- אלא אם קיבלו את הסכמת נותן הרשיון.</description>
    
     <description xml:lang="ko">이용허락자는 이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 그 대신 이용자는 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다.</description>
    
@@ -506,7 +506,7 @@
    
    <description xml:lang="fr_CA">L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public à la condition qu'elle ne soit pas modifiée pour créer une oeuvre dérivée.</description>
    
-   <description xml:lang="he"><p dir="rtl" align="right">נותן הרישיון מאפשר למשתמשים להעתיק, להפיץ, להציג ולבצע רק העתקים זהים למקור של היצירה, שלא עברו כל שינוי -- לא יצירות נגזרות המבוססות עליה.</p></description>
+   <description xml:lang="he">מעניק הרישיון מאפשר לאחרים להעתיק, להפיץ, להציג ולבצע רק העתקים זהים למקור של היצירה, שלא עברו כל שינוי -- לא יצירות נגזרות המבוססות עליה.</description>
    
    <description xml:lang="ko">이용허락자는 이 저작물을 개작 또는 변경하지 않는 것을 조건으로 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 이 저작물에 기한 이차적 저작물의 작성과 복제, 배포, 전송, 전시, 공연 및 방송은 금지됩니다.</description>
    
@@ -881,7 +881,7 @@
    
    <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-   <description xml:lang="he"><p dir="rtl" align="right">אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</p></description>
+   <description xml:lang="he">אם ברצונך לבחור ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), יש לבחור את תחום השיפוט המתאים.</description>
    
    <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -956,7 +956,7 @@
      
        <label xml:lang="fr_CA">Générique</label>
      
-       <label xml:lang="he">כללי</label>
+       <label xml:lang="he">לא מותאם</label>
      
        <label xml:lang="ko">일반</label>
      
@@ -1105,7 +1105,7 @@
      
        <label xml:lang="fr_CA">Australie</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">אוסטרליה</span></label>
+       <label xml:lang="he">אוסטרליה</label>
      
        <label xml:lang="ko">Australia</label>
      
@@ -1179,7 +1179,7 @@
      
        <label xml:lang="fr_CA">Autriche</label>
      
-       <label xml:lang="he"><span dir="rtl">אוסטריה</span></label>
+       <label xml:lang="he">אוסטריה</label>
      
        <label xml:lang="ko">Austria</label>
      
@@ -1253,7 +1253,7 @@
      
        <label xml:lang="fr_CA">Belgique</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">בלגיה</span></label>
+       <label xml:lang="he">בלגיה</label>
      
        <label xml:lang="ko">Belgium</label>
      
@@ -1327,7 +1327,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">ברזיל</span></label>
+       <label xml:lang="he">ברזיל</label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -1475,7 +1475,7 @@
      
        <label xml:lang="fr_CA">Canada</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">קנדה</span></label>
+       <label xml:lang="he">קנדה</label>
      
        <label xml:lang="ko">Canada</label>
      
@@ -1623,7 +1623,7 @@
      
        <label xml:lang="fr_CA">Chine</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">סין</span></label>
+       <label xml:lang="he">סין</label>
      
        <label xml:lang="ko">Mainland China</label>
      
@@ -1771,7 +1771,7 @@
      
        <label xml:lang="fr_CA">Croatie</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">קרואטיה</span></label>
+       <label xml:lang="he">קרואטיה</label>
      
        <label xml:lang="ko">Croatia</label>
      
@@ -1993,7 +1993,7 @@
      
        <label xml:lang="fr_CA">Finlande</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">פינלנד</span></label>
+       <label xml:lang="he">פינלנד</label>
      
        <label xml:lang="ko">Finland</label>
      
@@ -2067,7 +2067,7 @@
      
        <label xml:lang="fr_CA">France</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">צרפת</span></label>
+       <label xml:lang="he">צרפת</label>
      
        <label xml:lang="ko">France</label>
      
@@ -2141,7 +2141,7 @@
      
        <label xml:lang="fr_CA">Allemagne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">גרמניה</span></label>
+       <label xml:lang="he">גרמניה</label>
      
        <label xml:lang="ko">Germany</label>
      
@@ -2215,7 +2215,7 @@
      
        <label xml:lang="fr_CA">Israel</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">ישראל</span></label>
+       <label xml:lang="he">ישראל</label>
      
        <label xml:lang="ko">Israel</label>
      
@@ -2363,7 +2363,7 @@
      
        <label xml:lang="fr_CA">Japon</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">יפן</span></label>
+       <label xml:lang="he">יפן</label>
      
        <label xml:lang="ko">Japan</label>
      
@@ -2437,7 +2437,7 @@
      
        <label xml:lang="fr_CA">Korea</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">קוריאה</span></label>
+       <label xml:lang="he">קוריאה</label>
      
        <label xml:lang="ko">대한민국</label>
      
@@ -2733,7 +2733,7 @@
      
        <label xml:lang="fr_CA">Pays-Bas</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">הולנד</span></label>
+       <label xml:lang="he">הולנד</label>
      
        <label xml:lang="ko">Netherlands</label>
      
@@ -2881,7 +2881,7 @@
      
        <label xml:lang="fr_CA">Pologne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">פולין</span></label>
+       <label xml:lang="he">פולין</label>
      
        <label xml:lang="ko">Poland</label>
      
@@ -2955,7 +2955,7 @@
      
        <label xml:lang="fr_CA">Portugal</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">פורטוגל</span></label>
+       <label xml:lang="he">פורטוגל</label>
      
        <label xml:lang="ko">Portugal</label>
      
@@ -3103,7 +3103,7 @@
      
        <label xml:lang="fr_CA">Afrique du Sud</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">דרום אפריקה</span></label>
+       <label xml:lang="he">דרום אפריקה</label>
      
        <label xml:lang="ko">South Africa</label>
      
@@ -3177,7 +3177,7 @@
      
        <label xml:lang="fr_CA">Espagne</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">ספרד</span></label>
+       <label xml:lang="he">ספרד</label>
      
        <label xml:lang="ko">Spain</label>
      
@@ -3325,7 +3325,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">טאיוון</span></label>
+       <label xml:lang="he">טאיוואן</label>
      
        <label xml:lang="ko">Taiwan</label>
      
@@ -3553,7 +3553,7 @@
   
    <label xml:lang="fr_CA">Domaine Public</label>
   
-   <label xml:lang="he"><span dir="rtl">הקדשה לנחלת הכלל</span></label>
+   <label xml:lang="he">הקדשה לנחלת הכלל</label>
   
    <label xml:lang="ko">퍼블릭도메인</label>
   
@@ -3779,7 +3779,7 @@
    
      <description xml:lang="fr_CA">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-     <description xml:lang="he"><p dir="rtl" align="right">אם את/ה מעוניין ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), אנא בחר/י את תחום השיפוט המתאים.</p></description>
+     <description xml:lang="he">אם ברצונך לבחור ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), יש לבחור את תחום השיפוט המתאים.</description>
    
      <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
    
@@ -3856,7 +3856,7 @@
      
        <label xml:lang="fr_CA">Générique</label>
      
-       <label xml:lang="he">כללי</label>
+       <label xml:lang="he">לא מותאם</label>
      
        <label xml:lang="ko">일반</label>
      
@@ -3932,7 +3932,7 @@
      
        <label xml:lang="fr_CA">Brésil</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">ברזיל</span></label>
+       <label xml:lang="he">ברזיל</label>
      
        <label xml:lang="ko">Brazil</label>
      
@@ -4008,7 +4008,7 @@
      
        <label xml:lang="fr_CA">Taiwan</label>
      
-       <label xml:lang="he"><span dir="rtl" align="right">טאיוון</span></label>
+       <label xml:lang="he">טאיוואן</label>
      
        <label xml:lang="ko">Taiwan</label>
      
