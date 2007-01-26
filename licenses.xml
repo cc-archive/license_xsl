@@ -74,7 +74,7 @@
       <uri>http://creativecommons.org.il</uri>
       <languages>he</languages>
     </jurisdiction-info>
-    <jurisdiction-info id="in" launched="false">
+    <jurisdiction-info id="in" launched="true">
       <uri>http://cc-india.org</uri>
       <languages>hi en-in</languages>
     </jurisdiction-info>
