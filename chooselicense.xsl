@@ -249,25 +249,19 @@
 		<xsl:param name="license-uri"/>
 		<xsl:param name="license-name"/>
 		<xsl:param name="rdf"/>
-		<xsl:comment>Creative Commons License</xsl:comment>
 		<xsl:variable name="license-button">
 			<xsl:choose>
 				<xsl:when test="contains($license-uri,'GPL')">http://i.creativecommons.org/l<xsl:value-of select="substring-after($license-uri,'http://creativecommons.org/licenses')"/>88x62.png</xsl:when>
 				<xsl:otherwise>http://i.creativecommons.org/l<xsl:value-of select="substring-after($license-uri,'http://creativecommons.org/licenses')"/>88x31.png</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width: 0" src="{$license-button}"/></a><br/>
+		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width:0" src="{$license-button}"/></a><br/>
 		<xsl:call-template name="thiswork">
 			<xsl:with-param name="license_name" 
 					select="$license-name" />
 			<xsl:with-param name="license_url" 
 					select="$license-uri" />
 		</xsl:call-template>
-		<xsl:comment>/Creative Commons License</xsl:comment>
-
-		<xsl:text disable-output-escaping="yes">&lt;!-- </xsl:text>
-			<xsl:copy-of select="$rdf"/>
-		<xsl:text disable-output-escaping="yes"> --&gt;</xsl:text>
 
 	</xsl:template>
 
