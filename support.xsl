@@ -11,8 +11,7 @@
 	</xsl:when>
 	<xsl:otherwise>
 	   <xsl:choose>
-  		<xsl:when test="$jurisdiction='fi' or 
-                                $jurisdiction='il'">1.0</xsl:when>
+  		<xsl:when test="$jurisdiction='fi'">1.0</xsl:when>
 
   		<xsl:when test="$jurisdiction='jp'">2.1</xsl:when>
 
@@ -43,6 +42,7 @@
 				$jurisdiction='za' or 
 				$jurisdiction='pt' or 
 				$jurisdiction='in' or 
+				$jurisdiction='il' or 
 				$jurisdiction='tw'">2.5</xsl:when>
   		<xsl:otherwise>2.0</xsl:otherwise>
 	   </xsl:choose>
