@@ -141,7 +141,7 @@
 		<xsl:variable name="license-uri-rdf">
 				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
-		<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+		<rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 			<Work rdf:about="{/answers/work-info/work-url}">
 				<xsl:if test="/answers/work-info/title">
 					<dc:title><xsl:value-of select="/answers/work-info/title"/></dc:title>
@@ -168,37 +168,37 @@
 				<license rdf:resource="{$license-uri-rdf}"/>
 			</Work>
 			<License rdf:about="{$license-uri-rdf}">
-				<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+				<permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
 				<xsl:choose>
 					<xsl:when test="starts-with($license-uri,concat($license-base,'sampling+/'))">
-   						<permits rdf:resource="http://web.resource.org/cc/Sharing"/>
+   						<permits rdf:resource="http://creativecommons.org/ns#Sharing"/>
 					</xsl:when>
 					<xsl:when test="not(starts-with($license-uri,concat($license-base,'sampling/')))">
-   						<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   						<permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
 					</xsl:when>
 				</xsl:choose>
 				<xsl:choose>
 					<xsl:when test="contains($license-uri,'publicdomain')">
-						<rdfs:subClassOf rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+						<rdfs:subClassOf rdf:resource="http://creativecommons.org/ns#PublicDomain"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+						<requires rdf:resource="http://creativecommons.org/ns#Notice"/>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
-					<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+					<requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
 				</xsl:if>
 				<xsl:if test="contains($license-uri,'GPL')">
-   <requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+   <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
 				</xsl:if>
 				<xsl:if test="contains($license-uri,'-nc') or contains($license-uri, 'nc-')">
-					<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+					<prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
 				</xsl:if>
 				<xsl:if test="not(contains($license-uri,'-nd'))">
-					<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+					<permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
 				</xsl:if>
 				<xsl:if test="(contains($license-uri,'-sa') or contains($license-uri, 'GPL'))">
-					<requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+					<requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
 				</xsl:if>
 			</License>
 		</rdf:RDF>
@@ -209,37 +209,37 @@
 		<xsl:variable name="license-uri-rdf">
 				<xsl:value-of select="$license-uri"/>
 		</xsl:variable>
-<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <License rdf:about="{$license-uri-rdf}">
-   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
     <xsl:choose>
         <xsl:when test="starts-with($license-uri,concat($license-base,'sampling+/'))">
-   <permits rdf:resource="http://web.resource.org/cc/Sharing"/>
+   <permits rdf:resource="http://creativecommons.org/ns#Sharing"/>
         </xsl:when>
         <xsl:when test="not(starts-with($license-uri,concat($license-base,'sampling/')))">
-   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
         </xsl:when>
     </xsl:choose>
     <xsl:if test="not(contains($license-uri,'publicdomain'))">
-   <requires rdf:resource="http://web.resource.org/cc/Notice"/>
+   <requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     </xsl:if>
     <xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
-   <requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+   <requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     </xsl:if>
     <xsl:if test="contains($license-uri,'-nc')">
-   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+   <prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     </xsl:if>
    <xsl:if test="contains($license-uri,'GPL')">
-     <requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+     <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
    </xsl:if>
     <xsl:if test="not(contains($license-uri,'-nd'))">
-   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+   <permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     </xsl:if>
 <xsl:if test="(contains($license-uri,'-sa') or contains($license-uri, 'GPL'))">
-   <requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+   <requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
 </xsl:if>
     <xsl:if test="contains($license-uri, 'devnations')">
-   <prohibits rdf:resource="http://web.resource.org/cc/HighIncomeNationUse"/>
+   <prohibits rdf:resource="http://creativecommons.org/ns#HighIncomeNationUse"/>
     </xsl:if>
 </License>
 </rdf:RDF>
