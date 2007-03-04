@@ -255,7 +255,7 @@
 				<xsl:otherwise>http://i.creativecommons.org/l<xsl:value-of select="substring-after($license-uri,'http://creativecommons.org/licenses')"/>88x31.png</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width:0" src="{$license-button}"/></a><br/>
+		<a rel="license" href="{$license-uri}"><img alt="Creative Commons License" style="border-width:0" src="{$license-button}" /></a><br/>
 		<xsl:call-template name="thiswork">
 			<xsl:with-param name="license_name" 
 					select="$license-name" />
