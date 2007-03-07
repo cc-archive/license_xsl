@@ -122,18 +122,38 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
   <xsl:template name="thiswork">
      <xsl:param name="license_name" />
      <xsl:param name="license_url" />
+     <xsl:variable name="work_type_raw" select="/answers/work-info/type" />
+     <xsl:variable name="work_type_word">
+
+       <!-- translate "work" -->
+       <xsl:choose>
+	 <metal:repeat tal:repeat="locale locales">
+           <xsl:when test="$license-locale='en'"
+              tal:attributes="test python:'''$license-locale='%s' ''' % locale"
+              tal:content="structure python: lookupString('util.work', locale)">
+           </xsl:when>
+         </metal:repeat>
+
+         <xsl:otherwise 
+              tal:content="structure python:lookupString('util.work', 'en')">
+         </xsl:otherwise>
+       </xsl:choose>
+
+     </xsl:variable>
+
      <xsl:variable name="work_type">
        <xsl:choose>
-          <metal:repeat tal:repeat="locale locales">
-          <xsl:when test="$license-locale='en'"
-             tal:attributes="test python:'''$license-locale='%s' ''' % locale"
-             tal:content="structure python: lookupString('util.work', locale)">
-          </xsl:when>
-          </metal:repeat>
+	 <xsl:when test="$work_type_raw=''">
+	   <!-- no work type provided, don't create any RDFa -->
+	   <xsl:value-of select="$work_type_word" />
+	 </xsl:when>
 
-          <xsl:otherwise 
-               tal:content="structure python:lookupString('util.work', 'en')">
-          </xsl:otherwise>
+	 <xsl:otherwise>
+	   <span xmlns:dc="http://purl.org/dc/elements/1.1" rel="dc:type"
+		 href="http://purl.org/dc/dcmitype/{$work_type_raw}">
+	     <xsl:value-of select="$work_type_word" /></span>
+	 </xsl:otherwise>
+
        </xsl:choose>
      </xsl:variable>
 
