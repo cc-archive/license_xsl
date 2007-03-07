@@ -4,7 +4,7 @@ translate.py
 Pass one or more template files through a TAL parser with some simple
 locale look-up functions in the context for straightforward i18n expansion.
 
-Copyright 2005-2006, Nathan R. Yergler, Creative Commons
+Copyright 2005-2007, Nathan R. Yergler, Creative Commons
 Licensed to the public under the GNU GPL version 2.
 
 Sample Usages:
@@ -84,7 +84,7 @@ class PoFile(object):
 
                         #<xsl:value-of select="$license-name"/>
                         value = value[:match.start()] + \
-                                '<xsl:value-of select="$' + \
+                                '<xsl:copy-of select="$' + \
                                 value[match.start() + 2:match.end() - 1] + \
                                 '"/>' + value[match.end():]
                     else:
