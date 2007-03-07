@@ -3614,7 +3614,7 @@
 	 </xsl:when>
 
 	 <xsl:otherwise>
-	   <span href="http://purl.org/dc/dcmitype/{$work_type_raw}" rel="dc:type" xmlns:dc="http://purl.org/dc/elements/1.1">
+	   <span href="http://purl.org/dc/dcmitype/{$work_type_raw}" rel="dc:type" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	     <xsl:value-of select="$work_type_word" /></span>
 	 </xsl:otherwise>
 

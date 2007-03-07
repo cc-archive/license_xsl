@@ -149,7 +149,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 	 </xsl:when>
 
 	 <xsl:otherwise>
-	   <span xmlns:dc="http://purl.org/dc/elements/1.1" rel="dc:type"
+	   <span xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:type"
 		 href="http://purl.org/dc/dcmitype/{$work_type_raw}">
 	     <xsl:value-of select="$work_type_word" /></span>
 	 </xsl:otherwise>
