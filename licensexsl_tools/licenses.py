@@ -220,7 +220,8 @@ def addInfo(filename, jurisdiction, uri, languages, launched):
     fileopen=open(filename,'w')
     tree.write(fileopen)
 
-if __name__ == '__main__':
+def main():
+    """Run the licenses tool."""
     parser = makeOpts()
     opts, args = parser.parse_args()
 
@@ -242,3 +243,6 @@ if __name__ == '__main__':
                 opts.juris_uri,
                 opts.langs,
                 opts.launched)
+
+if __name__ == '__main__':
+    main()

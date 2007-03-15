@@ -76,8 +76,9 @@ def assembleRDF(instream, outstream, verbose=False):
             uris.append(uri)
 
     graph.serialize(outstream)
-    
-if __name__ == '__main__':
+
+def main():
+    """Run the makerdf script."""
     optparser = initOpts()
     (options, args) = optparser.parse_args()
 
@@ -90,3 +91,6 @@ if __name__ == '__main__':
     else:
         print output.getvalue()
         
+
+if __name__ == '__main__':
+    main()
