@@ -100,6 +100,7 @@
     </jurisdiction-info>
     <jurisdiction-info id="mt" launched="true">
       <uri>http://creativecommons.org/worldwide/mt/</uri>
+      <languages>en</languages>
     </jurisdiction-info>
     <jurisdiction-info id="mx" launched="true">
       <uri>http://creativecommons.org.mx</uri>
