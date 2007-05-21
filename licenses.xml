@@ -144,7 +144,7 @@
       <uri>http://creativecommons.org/worldwide/se/</uri>
       <languages>se</languages>
     </jurisdiction-info>
-    <jurisdiction-info id="ch" launched="false">
+    <jurisdiction-info id="ch" launched="true">
       <uri>http://creativecommons.org/worldwide/ch/</uri>
       <languages>de_CH fr_CH it_CH</languages>
     </jurisdiction-info>
