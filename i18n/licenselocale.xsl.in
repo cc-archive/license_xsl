@@ -131,12 +131,10 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
      <xsl:variable name="more_perms_url" select="/answers/work-info/more_permissions_url" />
 
 
-<xsl:variable name="spacing">  </xsl:variable>
-
 <xsl:variable name="work_title">
    <xsl:choose>
       <xsl:when test="$work_title_raw != ''">
-         <span rel="dc:title"><xsl:value-of select="$work_title_raw" /></span>
+         <span xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:title"><xsl:value-of select="$work_title_raw" /></span>
       </xsl:when>
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
@@ -145,7 +143,8 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 <xsl:variable name="work_author">
    <xsl:choose>
       <xsl:when test="$attribution_url != ''">
-        <a rel="cc:attributionURL" property="cc:attributionName"
+        <a xmlns:cc="http://creativecommons.org/ns#"
+           rel="cc:attributionURL" property="cc:attributionName"
            href="{$attribution_url}">
          <xsl:choose>
             <xsl:when test="$attribution_name != ''">
@@ -163,7 +162,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 <xsl:variable name="more_perms_link">
    <xsl:choose>
       <xsl:when test="$more_perms_url != ''">
-         <a rel="cc:morePermissions" href="{$more_perms_url}"><xsl:value-of select="$more_perms_url" /></a>
+         <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:morePermissions" href="{$more_perms_url}"><xsl:value-of select="$more_perms_url" /></a>
       </xsl:when>
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
@@ -195,15 +194,13 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 	 </xsl:when>
 
 	 <xsl:otherwise>
-	   <span rel="dc:type" href="http://purl.org/dc/dcmitype/{$work_type_raw}">
+	   <span xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:type" href="http://purl.org/dc/dcmitype/{$work_type_raw}">
 	     <xsl:value-of select="$work_type_word" /></span>
 	 </xsl:otherwise>
 
        </xsl:choose>
      </xsl:variable>
 
-<span xmlns:dc="http://purl.org/dc/elements/1.1/" 
-      xmlns:cc="http://creativecommons.org/ns#">
 
 <!-- actual selection of appropriate string occurs in the following block -->
 <xsl:choose>
@@ -317,7 +314,6 @@ This work is licensed under a <a href="{$license-uri}" rel="license">Creative Co
 
 <!-- More Permissions Information -->
    <xsl:if test="$more_perms_link != ''">
-      <xsl:value-of select="$spacing" />
       <xsl:choose>
        <!-- generated locale choice lines -->
        <metal:repeat tal:repeat="locale locales">
@@ -337,7 +333,6 @@ Permissions beyond the scope of this license may be available at ${more_perms_li
       
    </xsl:if>
 
-</span>
   </xsl:template>
 
 </xsl:stylesheet>
