@@ -3858,13 +3858,27 @@
      <xsl:variable name="attribution_name" select="/answers/work-info/attribution_name" />
      <xsl:variable name="attribution_url" select="/answers/work-info/attribution_url" />
      <xsl:variable name="more_perms_url" select="/answers/work-info/more_permissions_url" />
-
+     <xsl:variable name="source_url" select="/answers/work-info/source_work_url" />
 
 <xsl:variable name="work_title">
    <xsl:choose>
       <xsl:when test="$work_title_raw != ''">
-         <span rel="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="$work_title_raw" /></span>
+
+       <xsl:choose>
+	 <xsl:when test="$work_type_raw=''">
+	   
+           <span property="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="$work_title_raw" /></span>
+	 </xsl:when>
+
+	 <xsl:otherwise>
+           <span href="http://purl.org/dc/dcmitype/{$work_type_raw}" property="dc:title" rel="dc:type" xmlns:dc="http://purl.org/dc/elements/1.1/">
+              <xsl:value-of select="$work_title_raw" />
+           </span>
+	 </xsl:otherwise>
+
+       </xsl:choose>
       </xsl:when>
+
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
 </xsl:variable>
@@ -4017,170 +4031,170 @@
        
        
 
-            <xsl:when test="$license-locale='eo' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='eo' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zh' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zh' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='af' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='af' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pt_PT' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pt_PT' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='it' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='it' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='bg' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='bg' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_US' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_US' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fi' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fi' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='eu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='eu' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zu' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='gl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='gl' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='nl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nl' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pt' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pt' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='nso' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nso' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_CL' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_CL' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='de_AT' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='de_AT' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_AR' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_AR' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ca' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ca' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_GB' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_GB' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_CA' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_CA' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='de' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='de' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='hr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='hr' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zh_TW' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zh_TW' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='hu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='hu' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_MX' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_MX' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='da' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='da' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ja' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ja' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr_CA' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr_CA' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='he' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='he' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ko' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ko' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='sv' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='sv' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='mk' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='mk' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='st' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='st' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='kr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='kr' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_PE' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_PE' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pl' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ms' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ms' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='sl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='sl' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
-            <xsl:otherwise>The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:otherwise>
+            <xsl:otherwise><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:otherwise>
       </xsl:choose>
 
 
@@ -4376,170 +4390,170 @@
        
        
 
-            <xsl:when test="$license-locale='eo' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='eo' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zh' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zh' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='af' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='af' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pt_PT' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pt_PT' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='it' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='it' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='bg' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='bg' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_US' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_US' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fi' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fi' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='eu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='eu' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zu' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='gl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='gl' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='nl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nl' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pt' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pt' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='nso' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nso' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_CL' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_CL' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='de_AT' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='de_AT' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_AR' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_AR' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ca' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ca' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_GB' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_GB' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='en_CA' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_CA' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='de' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='de' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='hr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='hr' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='zh_TW' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='zh_TW' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='hu' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='hu' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_MX' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_MX' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='da' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='da' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ja' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ja' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr_CA' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr_CA' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='he' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='he' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ko' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ko' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='sv' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='sv' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='mk' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='mk' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='st' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='st' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='kr' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='kr' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='es_PE' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='es_PE' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='pl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='pl' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='ms' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='ms' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='sl' ">The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='sl' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
-            <xsl:otherwise>The <xsl:copy-of select="$work_type"/> <xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:otherwise>
+            <xsl:otherwise><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:otherwise>
       </xsl:choose>
 
 
@@ -4725,6 +4739,10 @@
 
   </xsl:otherwise>
 </xsl:choose>
+
+<xsl:if test="$source_url != ''">
+<span href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/" />
+</xsl:if>
 
 
    <xsl:if test="$more_perms_link != ''">
