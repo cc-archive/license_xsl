@@ -3859,6 +3859,7 @@
      <xsl:variable name="attribution_url" select="/answers/work-info/attribution_url" />
      <xsl:variable name="more_perms_url" select="/answers/work-info/more_permissions_url" />
      <xsl:variable name="source_url" select="/answers/work-info/source_work_url" />
+     <xsl:variable name="source_domain" select="/answers/work-info/source_work_domain" />
 
 <xsl:variable name="work_title">
    <xsl:choose>
@@ -3895,6 +3896,11 @@
                <xsl:value-of select="$attribution_url" />
             </xsl:otherwise>
          </xsl:choose></a>
+      </xsl:when>
+      <xsl:when test="$attribution_name != ''">
+        <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">
+          <xsl:value-of select="$attribution_name" />
+        </span>
       </xsl:when>
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
@@ -4745,7 +4751,7 @@
 <br />
 
 <xsl:variable name="source_link">
-   <a href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="$source_url" /></a>
+   <a href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="$source_domain" /></a>
 </xsl:variable>
 
 
