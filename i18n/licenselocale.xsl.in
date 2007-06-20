@@ -314,6 +314,7 @@ This work is licensed under a <a href="{$license-uri}" rel="license">Creative Co
 
 <!-- More Permissions Information -->
    <xsl:if test="$more_perms_link != ''">
+<br/>
       <xsl:choose>
        <!-- generated locale choice lines -->
        <metal:repeat tal:repeat="locale locales">
