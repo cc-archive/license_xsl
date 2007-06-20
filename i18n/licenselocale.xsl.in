@@ -131,6 +131,8 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
      <xsl:variable name="more_perms_url" select="/answers/work-info/more_permissions_url" />
 
 
+<xsl:variable name="spacing">  </xsl:variable>
+
 <xsl:variable name="work_title">
    <xsl:choose>
       <xsl:when test="$work_title_raw != ''">
@@ -161,7 +163,7 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 <xsl:variable name="more_perms_link">
    <xsl:choose>
       <xsl:when test="$more_perms_url != ''">
-         <a rel="cc:morePermissions" href="{$more_perm_url}"><xsl:value-of select="$more_perms_url" /></a>
+         <a rel="cc:morePermissions" href="{$more_perms_url}"><xsl:value-of select="$more_perms_url" /></a>
       </xsl:when>
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
@@ -193,18 +195,17 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 	 </xsl:when>
 
 	 <xsl:otherwise>
-	   <span xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:type"
-		 href="http://purl.org/dc/dcmitype/{$work_type_raw}">
+	   <span rel="dc:type" href="http://purl.org/dc/dcmitype/{$work_type_raw}">
 	     <xsl:value-of select="$work_type_word" /></span>
 	 </xsl:otherwise>
 
        </xsl:choose>
      </xsl:variable>
 
-<!-- actual selection of appropriate string occurs in the following block -->
 <span xmlns:dc="http://purl.org/dc/elements/1.1/" 
       xmlns:cc="http://creativecommons.org/ns#">
 
+<!-- actual selection of appropriate string occurs in the following block -->
 <xsl:choose>
   <xsl:when test="$work_author != ''">
     <!-- attribution -->
@@ -314,13 +315,13 @@ This work is licensed under a <a href="{$license-uri}" rel="license">Creative Co
   </xsl:otherwise>
 </xsl:choose>
 
-
 <!-- More Permissions Information -->
    <xsl:if test="$more_perms_link != ''">
+      <xsl:value-of select="$spacing" />
       <xsl:choose>
        <!-- generated locale choice lines -->
        <metal:repeat tal:repeat="locale locales">
-
+	
             <xsl:when test="$license-locale='en'"
               tal:attributes="test python:'''$license-locale='%s' ''' % locale"
               tal:content="structure python: lookupString('license.more_perms_available', locale)">
@@ -337,7 +338,6 @@ Permissions beyond the scope of this license may be available at ${more_perms_li
    </xsl:if>
 
 </span>
-
   </xsl:template>
 
 </xsl:stylesheet>

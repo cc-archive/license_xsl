@@ -3860,6 +3860,8 @@
      <xsl:variable name="more_perms_url" select="/answers/work-info/more_permissions_url" />
 
 
+<xsl:variable name="spacing">  </xsl:variable>
+
 <xsl:variable name="work_title">
    <xsl:choose>
       <xsl:when test="$work_title_raw != ''">
@@ -3889,7 +3891,7 @@
 <xsl:variable name="more_perms_link">
    <xsl:choose>
       <xsl:when test="$more_perms_url != ''">
-         <a href="{$more_perm_url}" rel="cc:morePermissions"><xsl:value-of select="$more_perms_url" /></a>
+         <a href="{$more_perms_url}" rel="cc:morePermissions"><xsl:value-of select="$more_perms_url" /></a>
       </xsl:when>
       <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
@@ -3996,15 +3998,15 @@
 	 </xsl:when>
 
 	 <xsl:otherwise>
-	   <span href="http://purl.org/dc/dcmitype/{$work_type_raw}" rel="dc:type" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	   <span href="http://purl.org/dc/dcmitype/{$work_type_raw}" rel="dc:type">
 	     <xsl:value-of select="$work_type_word" /></span>
 	 </xsl:otherwise>
 
        </xsl:choose>
      </xsl:variable>
 
-
 <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
 
 <xsl:choose>
   <xsl:when test="$work_author != ''">
@@ -4728,172 +4730,172 @@
 </xsl:choose>
 
 
-
    <xsl:if test="$more_perms_link != ''">
+      <xsl:value-of select="$spacing" />
       <xsl:choose>
        
        
-
+	
             <xsl:when test="$license-locale='eo' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='en' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='zh' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='af' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='pt_PT' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='it' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='bg' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='en_US' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='fi' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='eu' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='zu' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='gl' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='es' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='nl' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='pt' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='nso' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='es_CL' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='de_AT' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='es_AR' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='ca' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='en_GB' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='en_CA' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='fr' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='de' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='hr' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='zh_TW' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='hu' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='es_MX' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='da' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='ja' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='fr_CA' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='he' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='ko' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='sv' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='mk' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='st' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='kr' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='es_PE' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='pl' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='ms' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
-
+	
             <xsl:when test="$license-locale='sl' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
@@ -4903,7 +4905,6 @@
    </xsl:if>
 
 </span>
-
   </xsl:template>
 
 </xsl:stylesheet>
