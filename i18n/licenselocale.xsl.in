@@ -329,9 +329,31 @@ This work is licensed under a <a href="{$license-uri}" rel="license">Creative Co
   </xsl:otherwise>
 </xsl:choose>
 
-<xsl:if test="$source_url != ''">
-<span xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:source" href="{$source_url}" />
-</xsl:if>
+<!-- Source Information -->
+   <xsl:if test="$source_url != ''">
+<br/>
+
+<xsl:variable name="source_link">
+   <a xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:source" href="{$source_url}"><xsl:value-of select="source_url" /></a>
+</xsl:variable>
+
+
+      <xsl:choose>
+       <!-- generated locale choice lines -->
+       <metal:repeat tal:repeat="locale locales">
+	
+            <xsl:when test="$license-locale='en'"
+              tal:attributes="test python:'''$license-locale='%s' ''' % locale"
+              tal:content="structure python: lookupString('license.work_based_on', locale)">
+
+            </xsl:when>
+
+       </metal:repeat>
+            <xsl:otherwise tal:content="structure python:lookupString('license.work_based_on', 'en')">
+            </xsl:otherwise>
+      </xsl:choose>
+      
+   </xsl:if>
 
 <!-- More Permissions Information -->
    <xsl:if test="$more_perms_link != ''">

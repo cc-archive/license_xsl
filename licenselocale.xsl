@@ -4740,9 +4740,186 @@
   </xsl:otherwise>
 </xsl:choose>
 
-<xsl:if test="$source_url != ''">
-<span href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/" />
-</xsl:if>
+
+   <xsl:if test="$source_url != ''">
+<br />
+
+<xsl:variable name="source_link">
+   <a href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="source_url" /></a>
+</xsl:variable>
+
+
+      <xsl:choose>
+       
+       
+	
+            <xsl:when test="$license-locale='eo' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='en' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='zh' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='af' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='pt_PT' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='it' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='bg' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='en_US' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='fi' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='eu' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='zu' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='gl' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='es' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='nl' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='pt' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='nso' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='es_CL' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='de_AT' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='es_AR' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='ca' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='en_GB' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='en_CA' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='fr' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='de' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='hr' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='zh_TW' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='hu' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='es_MX' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='da' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='ja' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='fr_CA' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='he' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='ko' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='sv' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='mk' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='st' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='kr' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='es_PE' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='pl' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='ms' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+	
+            <xsl:when test="$license-locale='sl' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+
+       
+            <xsl:otherwise>Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:otherwise>
+      </xsl:choose>
+      
+   </xsl:if>
 
 
    <xsl:if test="$more_perms_link != ''">
