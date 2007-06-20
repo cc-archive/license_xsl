@@ -334,7 +334,7 @@ This work is licensed under a <a href="{$license-uri}" rel="license">Creative Co
 <br/>
 
 <xsl:variable name="source_link">
-   <a xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:source" href="{$source_url}"><xsl:value-of select="source_url" /></a>
+   <a xmlns:dc="http://purl.org/dc/elements/1.1/" rel="dc:source" href="{$source_url}"><xsl:value-of select="$source_url" /></a>
 </xsl:variable>
 
 

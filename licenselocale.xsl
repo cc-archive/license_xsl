@@ -4745,7 +4745,7 @@
 <br />
 
 <xsl:variable name="source_link">
-   <a href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="source_url" /></a>
+   <a href="{$source_url}" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/"><xsl:value-of select="$source_url" /></a>
 </xsl:variable>
 
 
