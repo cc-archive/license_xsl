@@ -41,6 +41,7 @@
 				$jurisdiction='in' or 
 				$jurisdiction='ch' or 
 				$jurisdiction='il' or 
+				$jurisdiction='mk' or 
 				$jurisdiction='tw'">2.5</xsl:when>
 
   		<xsl:when test="$jurisdiction='' or 
