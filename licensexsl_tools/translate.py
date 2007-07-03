@@ -42,7 +42,7 @@ import lxml.etree as et
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
 
-POFILE_DIR = 'i18n_po'
+POFILE_DIR = '../i18n/i18n_po'
         
 class PoFile(object):
     def __init__(self, filename):
@@ -233,7 +233,7 @@ def loadOpts():
     
     return parser.parse_args()
     
-if __name__ == '__main__':
+def main():
     global LOCALES
 
     # parse command line parameters and check for sanity
@@ -294,3 +294,7 @@ if __name__ == '__main__':
         # the file was either read correctly or elementtree is not available
         print 'moving %s to %s...' % (temp_fn, out_fn)
         shutil.move(temp_fn, out_fn)
+
+if __name__ == '__main__':
+
+    main()

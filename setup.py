@@ -27,13 +27,16 @@ setup(
 
     entry_points = {'console_scripts' : 
                     ['makerdf = licensexsl_tools.makerdf:main',
-                     'licenses = licensexsl_tools.licenses:main']
+                     'licenses = licensexsl_tools.licenses:main',
+                     'translate = licensexsl_tools.translate:main']
                     },
     
     install_requires = ['setuptools',
                         'rdflib',
                         'lxml',
+                        'SimpleTAL',
                         ],
+    dependency_links = ['http://www.owlfish.com/software/simpleTAL/download.html'],
     
     include_package_data = True,
     zip_safe = True,
