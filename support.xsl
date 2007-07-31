@@ -19,7 +19,6 @@
 				$jurisdiction='es' or 
 				$jurisdiction='ar' or 
 				$jurisdiction='au' or 
-				$jurisdiction='nl' or 
 				$jurisdiction='hu' or 
 				$jurisdiction='si' or 
 				$jurisdiction='se' or 
@@ -47,6 +46,7 @@
   		<xsl:when test="$jurisdiction='' or 
                                 $jurisdiction='generic' or 
 				$jurisdiction='-' or 
+				$jurisdiction='nl' or 
 				$jurisdiction='us'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
