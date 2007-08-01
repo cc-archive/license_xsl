@@ -14,8 +14,18 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 
     <xsl:choose>
          <!-- Generic codes -->
-         <xsl:when test="$jurisdiction=''" />
-         <xsl:when test="$jurisdiction='-'" />
+         <xsl:when test="$jurisdiction='' or $jurisdiction='-'" >
+            <xsl:choose>
+               <!-- generated locale-specific jurisdiction choice lines -->
+            <metal:repeat tal:repeat="l locales">
+               <xsl:when test="$license-locale='en'"
+                    tal:attributes="test python:'''$license-locale='%s' '''%l"
+                    tal:content="structure python: lookupString('util.Unported', l)">
+                    Jurisdiction</xsl:when>
+            </metal:repeat>
+
+            </xsl:choose>
+         </xsl:when>
 
       <metal:repeat tal:repeat="j jurisdictions">
          <xsl:when test="$jurisdiction="
