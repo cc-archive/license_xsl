@@ -1041,18 +1041,20 @@
        </jurisdiction>
    </license>
  </licenseclass>
- <licenseclass id="software">
+ <licenseclass id="gpl">
    <license id="GPL">
        <jurisdiction id="-">
           <version id="2.0" uri="http://creativecommons.org/licenses/GPL/2.0/"/>
         </jurisdiction>
       </license>
+ </licenseclass>
+ <licenseclass id="lgpl">
       <license id="LGPL">
         <jurisdiction id="-">
           <version id="2.1" uri="http://creativecommons.org/licenses/LGPL/2.1/"/>
         </jurisdiction>
       </license>
-    </licenseclass>
+</licenseclass>
     <licenseclass id="devnations">
       <license id="devnations">
         <jurisdiction id="-">

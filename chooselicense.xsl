@@ -84,7 +84,7 @@
 		</xsl:call-template>
  	</xsl:template>
 
- 	<xsl:template match="license-recombo">
+ 	<xsl:template match="license-sampling">
 		<xsl:variable name="license-uri">
 			<xsl:variable name="stype">
 				<xsl:if test="./sampling='sampling'">sampling</xsl:if>
