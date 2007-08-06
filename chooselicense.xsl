@@ -136,6 +136,13 @@
 		</xsl:call-template>
  	</xsl:template>
 
+ 	<xsl:template match="license-mit">
+		<xsl:call-template name="output">
+			<xsl:with-param name="license-uri" select="concat($license-base,'MIT/')"/>
+			<xsl:with-param name="license-name" select="'MIT License'"/>
+		</xsl:call-template>
+ 	</xsl:template>
+
 	<xsl:template match="license-devnations">
 		<xsl:call-template name="output">
 			<xsl:with-param name="license-uri" select="concat($license-base, 'devnations/2.0/')"/>
@@ -195,7 +202,7 @@
 				<xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
 					<requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
 				</xsl:if>
-				<xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD')">
+				<xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD') or contains($license-uri,'MIT')">
    <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
 				</xsl:if>
 				<xsl:if test="contains($license-uri,'-nc') or contains($license-uri, 'nc-')">
@@ -236,7 +243,7 @@
     <xsl:if test="contains($license-uri,'-nc')">
    <prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     </xsl:if>
-   <xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD')">
+   <xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD') or contains($license-uri,'MIT')">
      <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
    </xsl:if>
     <xsl:if test="not(contains($license-uri,'-nd'))">
