@@ -12,17 +12,36 @@ else:
 
 import translate
 import babel.messages.catalog
+import babel.messages.pofile
+import StringIO
 
-'''Input: a po filename that needs to be converted.
+def key2en_US(key):
+    pofile = get_PoFile('en_US')
+    return unicode(pofile[key], 'utf-8')
+
+'''Input: a po fd that needs to be converted.
 Output: a po file string that has the same contents as
 the original PO file, but the keys have been replaced with
 en_US values for those keys.'''
-def pofilename2converted(pofilename):
-    pass
+def pofd2converted(pofd):
+    r = babel.messages.pofile.read_po(pofd)
+    # r._messages is a mapping from string ID to Message object
+    # Message objects should have .string gotten from them
+    new_cat = babel.messages.catalog.Catalog()
+    for key in r._messages:
+	value = unicode(r[key].string)
+	english_key = key2en_US(key)
+	new_cat.add(english_key, value)
+    ## Set some other properties of new_cat
+    out_fd = StringIO.StringIO()
+    babel.messages.pofile.write_po(out_fd, new_cat)
+    ret = out_fd.getvalue()
 
+    unicode_test = unicode(ret, 'utf-8')
+    return ret
 
 def get_PoFile(language):
-	return translate.PoFile("license_xsl/i18n/i18n_po/icommons-%s.po" % language)
+	return translate.PoFile("../i18n/i18n_po/icommons-%s.po" % language)
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
