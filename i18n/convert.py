@@ -10,6 +10,6 @@ Output: a po file string that has the same contents as
 the original PO file, but the keys have been replaced with
 en_US values for those keys.'''
 def pofilename2converted(pofilename):
-	pass
+    pass
 
 
