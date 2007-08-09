@@ -5,6 +5,7 @@
 
 DEBUG=0
 import sys
+import os
 if not DEBUG:
     debug_stream = open('/dev/null', 'w')
 else:
@@ -40,8 +41,14 @@ def pofd2converted(pofd):
     unicode_test = unicode(ret, 'utf-8')
     return ret
 
+def get_dirname_of_this_file():
+    ## FIXME: Totally evil
+    import sys
+    my_file = sys._getframe().f_code.co_filename
+    return os.path.dirname(my_file)
+
 def get_PoFile(language):
-	return translate.PoFile("../i18n/i18n_po/icommons-%s.po" % language)
+    return translate.PoFile(os.path.join(get_dirname_of_this_file(), "../i18n/i18n_po/icommons-%s.po" % language))
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
