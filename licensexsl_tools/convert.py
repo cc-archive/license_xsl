@@ -83,7 +83,7 @@ def extremely_slow_translation_function(s, out_lang):
 			found_key = entry
 			print >> debug_stream, 'yahoo, found', found_key
 	if found_key is None:
-		print >> debug_stream, 'sad, did not find match for', u
+		print >> debug_stream, 'sad, did not find match'
 
 	real_po = get_PoFile(out_lang)
 	return real_po.get(found_key, u)
