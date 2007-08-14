@@ -16,6 +16,11 @@ import babel.messages.catalog
 import babel.messages.pofile
 import StringIO
 
+def get_default_pofile_path():
+    return os.path.join(get_dirname_of_this_file(), "../i18n/i18n_po/")
+
+POFILE_PATH=get_default_pofile_path()
+
 def key2en_US(key):
     pofile = get_PoFile('en_US')
     return unicode(pofile[key], 'utf-8')
@@ -30,9 +35,11 @@ def pofd2converted(pofd):
     # Message objects should have .string gotten from them
     new_cat = babel.messages.catalog.Catalog()
     for key in r._messages:
+	# In the case that the key does not exist, add the old key
 	value = unicode(r[key].string)
-	english_key = key2en_US(key)
-	new_cat.add(english_key, value)
+	if value: # only bother converting those that are translated
+	    english_key = key2en_US(key)
+	    new_cat.add(english_key, value)
     ## Set some other properties of new_cat
     out_fd = StringIO.StringIO()
     babel.messages.pofile.write_po(out_fd, new_cat)
@@ -48,7 +55,7 @@ def get_dirname_of_this_file():
     return os.path.dirname(my_file)
 
 def get_PoFile(language):
-    return translate.PoFile(os.path.join(get_dirname_of_this_file(), "../i18n/i18n_po/icommons-%s.po" % language))
+    return translate.PoFile(os.path.join(POFILE_PATH, "icommons-%s.po" % language))
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
