@@ -29,6 +29,9 @@ POFILE_PATH=get_default_pofile_path()
 
 def key2canonical(key):
     pofile = get_PoFile('en')
+    if key not in pofile.strings:
+	key = key.strip() # gosh darn it
+	print 'had to strip key, hope it helped!', key
     return unicode(pofile[key], 'utf-8')
 
 '''Input: a po fd that needs to be converted.
@@ -44,8 +47,13 @@ def pofd2converted(pofd):
 	# In the case that the key does not exist, add the old key
 	value = unicode(r[key].string)
 	if value: # only bother converting those that are translated
-	    english_key = key2canonical(key)
-	    new_cat.add(english_key, value)
+	    try:
+	        english_key = key2canonical(key)
+	        new_cat.add(english_key, value)
+	    except KeyError:
+	        print 'sad, could not find English for', key, 'so adding it with old lame key'
+	        new_cat.add(key, value)
+
     ## Set some other properties of new_cat
     out_fd = StringIO.StringIO()
     babel.messages.pofile.write_po(out_fd, new_cat)
