@@ -74,7 +74,10 @@ def country_id2name(country_id, language):
 		return country_id
 
 def extremely_slow_translation_function(s, out_lang):
-	u = unicode(s, 'utf-8')
+	try:
+		u = unicode(s)
+	except:
+		u = unicode(s, 'utf-8')
 	# First, look through the en po for such a string
 	en_po = get_PoFile('en')
 	found_key = None
