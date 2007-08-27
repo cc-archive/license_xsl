@@ -4658,7 +4658,7 @@
 
        
 
-            <xsl:when test="$license-locale='en' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='en' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4682,7 +4682,7 @@
 
        
 
-            <xsl:when test="$license-locale='en_US' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_US' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4746,11 +4746,11 @@
 
        
 
-            <xsl:when test="$license-locale='en_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4766,11 +4766,11 @@
 
        
 
-            <xsl:when test="$license-locale='hu' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='hu' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='fr_CH' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr_CH' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4786,7 +4786,7 @@
 
        
 
-            <xsl:when test="$license-locale='fr_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4794,7 +4794,7 @@
 
        
 
-            <xsl:when test="$license-locale='fr_LU' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr_LU' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4806,15 +4806,15 @@
 
        
 
-            <xsl:when test="$license-locale='sv' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='sv' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='mk' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='mk' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
-            <xsl:when test="$license-locale='st' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='st' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4826,7 +4826,7 @@
 
        
 
-            <xsl:when test="$license-locale='pl' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='pl' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -4837,7 +4837,7 @@
             <xsl:when test="$license-locale='sl' ">To <xsl:copy-of select="$work_type"/> je namenjeno\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">javni domeni</a>.</xsl:when>
 
        
-            <xsl:otherwise>This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:otherwise>
+            <xsl:otherwise>This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:otherwise>
       </xsl:choose>
 
   </xsl:when>
