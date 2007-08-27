@@ -238,6 +238,29 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 
 <!-- actual selection of appropriate string occurs in the following block -->
 <xsl:choose>
+
+  <!-- check for public domain -->
+  <xsl:when test="contains($license_url, 'publicdomain')">
+
+      <xsl:choose>
+       <!-- generated locale choice lines -->
+       <metal:repeat tal:repeat="locale locales">
+
+            <xsl:when test="$license-locale='en'"
+              tal:attributes="test python:'''$license-locale='%s' ''' % locale"
+              tal:content="structure python: lookupString('license.work_type_dedicated', locale)">
+This work is licensed under a <a href="{$license-uri}" rel="license">Creative Commons <xsl:value-of select="$licensename"/> License</a>.
+
+            </xsl:when>
+
+       </metal:repeat>
+            <xsl:otherwise tal:content="structure python:lookupString('license.work_type_dedicated', 'en')">
+This work is licensed under a <a href="{$license-uri}" rel="license">Creative Commons <xsl:value-of select="$licensename"/> License</a>.
+            </xsl:otherwise>
+      </xsl:choose>
+
+  </xsl:when>
+
   <xsl:when test="$work_author != ''">
     <!-- attribution -->
 

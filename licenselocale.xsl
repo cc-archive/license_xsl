@@ -969,7 +969,7 @@
             
                <xsl:when test="$license-locale='de_CH' ">China</xsl:when>
             
-               <xsl:when test="$license-locale='nl' ">China</xsl:when>
+               <xsl:when test="$license-locale='nl' ">China (vasteland)</xsl:when>
             
                <xsl:when test="$license-locale='pt' ">China</xsl:when>
             
@@ -2284,7 +2284,7 @@
             
                <xsl:when test="$license-locale='en' ">Macedonia</xsl:when>
             
-               <xsl:when test="$license-locale='zh' ">Macedonia</xsl:when>
+               <xsl:when test="$license-locale='zh' ">马其顿</xsl:when>
             
                <xsl:when test="$license-locale='af' ">Macedonia</xsl:when>
             
@@ -2308,7 +2308,7 @@
             
                <xsl:when test="$license-locale='de_CH' ">Mazedonien</xsl:when>
             
-               <xsl:when test="$license-locale='nl' ">Macedonia</xsl:when>
+               <xsl:when test="$license-locale='nl' ">Macedonië</xsl:when>
             
                <xsl:when test="$license-locale='pt' ">Macedonia</xsl:when>
             
@@ -2332,7 +2332,7 @@
             
                <xsl:when test="$license-locale='bg' ">Македония</xsl:when>
             
-               <xsl:when test="$license-locale='hr' ">Macedonia</xsl:when>
+               <xsl:when test="$license-locale='hr' ">Makedonija</xsl:when>
             
                <xsl:when test="$license-locale='zh_TW' ">馬其頓</xsl:when>
             
@@ -2356,7 +2356,7 @@
             
                <xsl:when test="$license-locale='ko' ">Macedonia</xsl:when>
             
-               <xsl:when test="$license-locale='sv' ">Macedonia</xsl:when>
+               <xsl:when test="$license-locale='sv' ">Makedonien</xsl:when>
             
                <xsl:when test="$license-locale='mk' ">Macedonia</xsl:when>
             
@@ -2799,7 +2799,7 @@
             
                <xsl:when test="$license-locale='en' ">Peru</xsl:when>
             
-               <xsl:when test="$license-locale='zh' ">Peru</xsl:when>
+               <xsl:when test="$license-locale='zh' ">秘鲁</xsl:when>
             
                <xsl:when test="$license-locale='af' ">Peru</xsl:when>
             
@@ -4646,6 +4646,202 @@
 
 
 <xsl:choose>
+
+  
+  <xsl:when test="contains($license_url, 'publicdomain')">
+
+      <xsl:choose>
+       
+       
+
+            <xsl:when test="$license-locale='eo' ">Tiu ĉi <xsl:copy-of select="$work_type"/> estas dediĉita kiel <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Publika Havaĵo</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='en' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='zh' ">本<xsl:copy-of select="$work_type"/>捐献给<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">公共领域</a>。</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='af' ">Hierdie <xsl:copy-of select="$work_type"/> is geskenk aan die\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Openbare Domein</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='pt_PT' ">Este(a) <xsl:copy-of select="$work_type"/> é dedicado ao <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Domínio Publico</a>.\n\n<p> AVISO IMPORTANTE\n"A dedicação ao Domínio Público não se aplica à jurisdição portuguesa. Esta modalidade aplica-se, por exemplo, se sua obra estiver submetida ao direito dos Estados Unidos da América do Norte. Se a sua obra for regida pelo direito português, a opção "Domínio Público" não produzirá quaisquer efeitos jurídicos sobre sua obra. Para o Portugal, pode utilizar qualquer outra licença do Creative Commons, que são perfeitamente válidas e eficazes no ordenamento jurídico português. Pode ver essas licenças na página http://creativecommons.org/license/?lang=pt" \n</p>\n\n<p>\nImportant Reminder "The Creative Commons Public Domain License does not apply to the jurisdiction of Portugal. This option applies, for example, to works subject to American law. If your work is subject to Portuguese law, the "Public Domain" option will not have any legal effects regarding your work. For Portugal, you can use any other type of Creative Commons license, which have full force and effect under Portuguese law. You can choose these licenses at http://creativecommons.org/license/?lang=pt"\n</p></xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='it' ">Questo/a <xsl:copy-of select="$work_type"/> è stato donato al <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Pubblico dominio</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es_PE' ">Esta <xsl:copy-of select="$work_type"/> se ofrece al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='en_US' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='fi' ">Tämä <xsl:copy-of select="$work_type"/> kuuluu\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domainiin</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='eu' "><xsl:copy-of select="$work_type"/> lan hau\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Eskumen Publikora</a> eskaintzen da.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='zu' ">Lolu <xsl:copy-of select="$work_type"/> lunikezelwe\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">eMphakathini</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='gl' ">Esta <xsl:copy-of select="$work_type"/> ofrécese ao <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es' ">Esta <xsl:copy-of select="$work_type"/> se ofrece al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='de_CH' ">Dieses <xsl:copy-of select="$work_type"/> fällt in die \n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='nl' ">Er is een <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Verklaring publiek domein</a> van toepassing op dit  <xsl:copy-of select="$work_type"/>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='pt' ">Este(a) <xsl:copy-of select="$work_type"/> está liberado(a) em <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Domínio Publico</a>.\n\n<p> AVISO IMPORTANTE\n"A dedicação ao Domínio Público não se aplica à jurisdição brasileira. Esta modalidade aplica-se, por exemplo, se sua obra estiver submetida ao direito dos Estados Unidos da América do Norte. Se sua obra for regida pelo direito brasileiro, a opção "Domínio Público" não produzirá quaisquer efeitos jurídicos sobre sua obra. Para o Brasil, você pode utilizar qualquer outra licença do Creative Commons, que são perfeitamente válidas e eficazes no ordenamento jurídico brasileiro. Você pode ver essas licenças na página http://creativecommons.org/license/?lang=pt" \n</p>\n\n<p>\nImportant Reminder "The Creative Commons Public Domain License does not apply to the jurisdiction of Brazil. This option applies, for example, to works subject to American law. If your work is subject to Brazilian law, the "Public Domain" option will not have any legal effects regarding your work. For Brazil, you can use any other type of Creative Commons license, which have full force and effect under Brazilian law. You can choose these licenses at http://creativecommons.org/license/?lang=pt"\n</p></xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='nso' ">Ye <xsl:copy-of select="$work_type"/> e neelwa\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Bulegetše Setšhaba</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es_CO' ">Esta <xsl:copy-of select="$work_type"/> se ofrece al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es_CL' ">Esta <xsl:copy-of select="$work_type"/> se ofrece al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='de_AT' ">Dieses <xsl:copy-of select="$work_type"/> fällt in die \n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es_AR' ">Esta <xsl:copy-of select="$work_type"/> está dedicada al <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.\n\n<p>WARNING: The Creative Commons Public Domain Dedication does not apply to the jurisdiction of Argentina. This option applies, for example, to works subject to United States law. If your work is subject to Argentinian law, this "Public Domain Dedication" will not have any legal effects regarding your work. For Argentina, you can use any other type of Creative Commons license available, which have full force and effect under Argentinian law. You can choose these licenses at http://creativecommons.org/license/</p>\n\n<p>ADVERTENCIA: La Dedicación al Dominio Público de Creative Commons no se aplicará a la jurisdicción Argentina. Esta opción se aplica, por ejemplo, para las obras sujetas a las leyes de Estados Unidos. Si la obra esta sujeta a la ley Argentina, esta “Dedicación al Dominio Público” no tendrá ningún efecto en relación a su obra. Para Argentina, usted puede usar cualquier otra Licencia de Creative Commons disponible, la que tendrá plena fuerza y efectos bajo la ley Argentina. Usted puede elegir estas licencias en http://creativecommons.org/license/</p></xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='ca' ">Aquesta <xsl:copy-of select="$work_type"/> s'ha ofert al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Domini Públic</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='en_GB' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='en_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='fr' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='bg' ">Това <xsl:copy-of select="$work_type"/> е отдадено като \n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Обществена Собственост</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='hr' ">Ovo <xsl:copy-of select="$work_type"/> preneseno je na <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">javnu domenu</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='zh_TW' ">本 <xsl:copy-of select="$work_type"/> 已貢獻至\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">公共領域 (Public Domain)</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='hu' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='fr_CH' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='es_MX' ">Esta <xsl:copy-of select="$work_type"/> se ofrece al\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Dominio Público</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='da' ">Dette <xsl:copy-of select="$work_type"/> er dedikeret til <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">the Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='ja' ">この <xsl:copy-of select="$work_type"/> は、<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">パブリック・ドメイン</a>に寄贈されています。</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='fr_CA' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='he' "><xsl:copy-of select="$work_type"/> מוקדשת <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">לנחלת הכלל</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='fr_LU' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='de' ">Dieses <xsl:copy-of select="$work_type"/> fällt in die \n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='ko' ">이 <xsl:copy-of select="$work_type"/>은 <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>에 기증되었습니다.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='sv' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='mk' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='st' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='kr' ">이 <xsl:copy-of select="$work_type"/>은 <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>에 기증되었습니다.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='it_CH' ">Questo/a <xsl:copy-of select="$work_type"/> è stato donato al <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Pubblico dominio</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='pl' ">This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='ms' "><xsl:copy-of select="$work_type"/> ini didedikasi kepada\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Domain Awam</a>.</xsl:when>
+
+       
+
+            <xsl:when test="$license-locale='sl' ">To <xsl:copy-of select="$work_type"/> je namenjeno\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">javni domeni</a>.</xsl:when>
+
+       
+            <xsl:otherwise>This <xsl:copy-of select="$work_type"/> is dedicated to the\n<a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:otherwise>
+      </xsl:choose>
+
+  </xsl:when>
+
   <xsl:when test="$work_author != ''">
     
 
@@ -4713,7 +4909,7 @@
 
        
 
-            <xsl:when test="$license-locale='nl' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">$ {werk_titel} van $ {werk_maker} is in licentie gegeven volgens een <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$licentie_naam"/> licentie</a>.</xsl:when>
 
        
 
@@ -4908,7 +5104,7 @@
 
        
 
-            <xsl:when test="$license-locale='nl' ">This <xsl:copy-of select="$work_type"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">$ {werk_type} van $ {werk_maker} is in licentie gegeven volgens een <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$licentie_naam"/> licentie</a>.</xsl:when>
 
        
 
@@ -5112,7 +5308,7 @@
 
        
 
-            <xsl:when test="$license-locale='nl' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">$ {werk_titel} is in licentie gegeven volgens een <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$licentie_naam"/> licentie</a>.</xsl:when>
 
        
 
@@ -5467,7 +5663,7 @@
 
        
 	
-            <xsl:when test="$license-locale='zh' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='zh' ">基于<xsl:copy-of select="$source_link"/>上的作品创作。</xsl:when>
 
        
 	
@@ -5515,7 +5711,7 @@
 
        
 	
-            <xsl:when test="$license-locale='nl' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">Gebaseerd op een werk op <xsl:copy-of select="$bron_link"/>.</xsl:when>
 
        
 	
@@ -5567,7 +5763,7 @@
 
        
 	
-            <xsl:when test="$license-locale='zh_TW' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='zh_TW' ">基于<xsl:copy-of select="$source_link"/>上的作品创作。</xsl:when>
 
        
 	
@@ -5710,7 +5906,7 @@
 
        
 	
-            <xsl:when test="$license-locale='nl' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">Toestemming met betrekking tot rechten die niet onder deze licentie vallen zijn beschikbaar voor $ {more_perms_link}.</xsl:when>
 
        
 	
@@ -5806,7 +6002,7 @@
 
        
 	
-            <xsl:when test="$license-locale='sv' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='sv' ">Tillstånd utöver denna licens kan vara tillgängligt från <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
 	
