@@ -11,11 +11,31 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
 
   <xsl:template name="license-jurisdiction">
     <xsl:param name="jurisdiction" />
+    <xsl:param name="version" />
 
     <xsl:choose>
-         <!-- Generic codes -->
+         <!-- Generic / Unported codes -->
          <xsl:when test="$jurisdiction='' or $jurisdiction='-'" >
             <xsl:choose>
+	      <!-- distinguish between unported and generic -->
+
+	      <xsl:when test="$version != '3.0'">
+		<xsl:choose>
+
+               <!-- generated locale-specific jurisdiction choice lines -->
+            <metal:repeat tal:repeat="l locales">
+               <xsl:when test="$license-locale='en'"
+                    tal:attributes="test python:'''$license-locale='%s' '''%l"
+                    tal:content="structure python: lookupString('util.Generic', l)">
+                    Jurisdiction</xsl:when>
+            </metal:repeat>
+
+		</xsl:choose>
+	      </xsl:when>
+
+	      <xsl:otherwise>
+		<xsl:choose>
+
                <!-- generated locale-specific jurisdiction choice lines -->
             <metal:repeat tal:repeat="l locales">
                <xsl:when test="$license-locale='en'"
@@ -24,6 +44,9 @@ xmlns:tal="http://xml.zope.org/namespaces/tal">
                     Jurisdiction</xsl:when>
             </metal:repeat>
 
+		</xsl:choose>
+	      </xsl:otherwise>
+	      
             </xsl:choose>
          </xsl:when>
 

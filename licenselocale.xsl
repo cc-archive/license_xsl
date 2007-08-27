@@ -8,11 +8,118 @@
 
   <xsl:template name="license-jurisdiction">
     <xsl:param name="jurisdiction" />
+    <xsl:param name="version" />
 
     <xsl:choose>
          
          <xsl:when test="$jurisdiction='' or $jurisdiction='-'">
             <xsl:choose>
+	      
+
+	      <xsl:when test="$version != '3.0'">
+		<xsl:choose>
+
+               
+            
+               <xsl:when test="$license-locale='eo' ">Ĝenerale</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">Generic</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">未本地化版本</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Generies</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Generico</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">Generic</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Raakaversio</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Generikoa</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">Engadlulisiwe</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Xenérica</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">US-amerikanisch (nicht portiert)</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Unported</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">E sa fetišwago</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">US-amerikanisch (nicht portiert)</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Genèrica</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Generic</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Generic</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Générique</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Неадаптиран</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">nelokalizirana licenca</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">未移植或不限定</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Általános</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">Générique</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Genérica</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Generisk</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">一般</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Générique</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">לא מותאם</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">Générique</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">US-amerikanisch (nicht portiert)</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">일반</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Generisk</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">Нелокализирана лиценца</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Generic</xsl:when>
+            
+               <xsl:when test="$license-locale='kr' ">일반</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">Generico</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Ogólny</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Umum</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Generično</xsl:when>
+            
+
+		</xsl:choose>
+	      </xsl:when>
+
+	      <xsl:otherwise>
+		<xsl:choose>
+
                
             
                <xsl:when test="$license-locale='eo' ">Unported</xsl:when>
@@ -108,6 +215,9 @@
                <xsl:when test="$license-locale='sl' ">Unported</xsl:when>
             
 
+		</xsl:choose>
+	      </xsl:otherwise>
+	      
             </xsl:choose>
          </xsl:when>
 

@@ -39,10 +39,18 @@
 		</xsl:variable>
 		<xsl:variable name="license-name">
 			<xsl:variable name="jurisdiction">
+			<xsl:variable name="version_num">
+			  <xsl:call-template name="version">
+				<xsl:with-param name="specified_version" select="./version"/>
+				<xsl:with-param name="jurisdiction" select="./jurisdiction" />
+			  </xsl:call-template>
+			</xsl:variable>
                             <xsl:variable name="j_name">
                               <xsl:call-template name="license-jurisdiction">
 				<xsl:with-param name="jurisdiction" 
                                                 select="./jurisdiction"/>
+				<xsl:with-param name="version" 
+                                                select="$version_num"/>
                               </xsl:call-template>
                             </xsl:variable>
                             <xsl:value-of select="concat(' ', $j_name)" />
