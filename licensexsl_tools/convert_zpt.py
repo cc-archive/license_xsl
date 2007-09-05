@@ -33,9 +33,9 @@ def convert_zpt_string(s):
 	convert_zpt_dom_elements(dom.firstChild.childNodes)
 
 	# Hand an XML "string" back
-	xml_str = dom.toxml()
+	xml_str = unicode(dom.toxml(encoding='utf-8'), 'utf-8')
 	for replaceme in xml_hack_replacements:
-		xml_str.replace(replaceme, xml_hack_replacements[replaceme])
+		xml_str.replace(replaceme.decode('utf-8'), xml_hack_replacements[replaceme].decode('utf-8'))
 	return xml_str
 
 def convert_zpt_dom_elements(elts):
@@ -131,7 +131,7 @@ def add_translation_spans_to_dom_elts(elts):
 						value = value[2:-1]
 					else:
 						value = value[1:]
-						insert_me.setAttribute('i18n:name', value)
+					insert_me.setAttribute('i18n:name', value)
 					replacements.append(insert_me)
 
 			# Okay, got replacements.  Now for DOM surgery.
@@ -149,8 +149,9 @@ def main(filename):
 	new_string = convert_zpt_string(old_string)
 	assert(type(new_string) == unicode)
 	# Totally lame hacks.  First of all, swipe out the first <?xml> thing
-	if new_string.split('\n')[0] == '<?xml version="1.0" ?>':
+	if new_string.split('\n')[0] == '<?xml version="1.0" encoding="utf-8"?>':
 		new_string = '\n'.join(new_string.split('\n')[1:])
+	assert not new_string.startswith("<?xml")
 	# Secondly, make sure it ends in a newline if it did before.
 	if old_string[-1] == '\n' and new_string[-1] != '\n':
 		new_string += '\n'
