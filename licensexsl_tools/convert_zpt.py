@@ -9,6 +9,8 @@ import convert
 import re
 import babel.messages.pofile
 
+xml_hack_replacements = {}
+
 def key2en(key):
 	filename = os.path.join(convert.get_default_pofile_path(), 'icommons-en.po')
 	pofile = babel.messages.pofile.read_po(open(filename))
@@ -31,7 +33,10 @@ def convert_zpt_string(s):
 	convert_zpt_dom_elements(dom.firstChild.childNodes)
 
 	# Hand an XML "string" back
-	return dom.toxml()
+	xml_str = dom.toxml()
+	for replaceme in xml_hack_replacements:
+		xml_str.replace(replaceme, xml_hack_replacements[replaceme])
+	return xml_str
 
 def convert_zpt_dom_elements(elts):
 	''' Input: A list of DOM elements where you want <span i18n:translate="bbq"></span>
@@ -45,9 +50,6 @@ def convert_zpt_dom_elements(elts):
 	# 2. remove the i18n:translate attribute
 	# 3. look up the i18n_value for that key
 	# 4. Turn that i18n_value into DOM elements we can insert safely into this DOM object
-
-	print 'nothing'
-#bbqqq
 
 	for elt in elts:
 		if hasattr(elt, 'attributes') and elt.attributes:
@@ -80,14 +82,23 @@ def convert_zpt_dom_elements(elts):
 			convert_zpt_dom_elements(elt.childNodes)
 
 def i18nstring2dom_elts(u):
+	global xml_hack_replacements # A lookup table for what Python generates vs. what translation expects
+
 	u = unicode(u)
 	wrapped = '<xml>%s</xml>' % u.encode('utf-8')
 	s_as_dom_elts = parseString(wrapped)
-	de_xmled = s_as_dom_elts.toxml(encoding='utf-8').split('\n', 1)[1]
+	original_de_xmled = de_xmled = s_as_dom_elts.toxml(encoding='utf-8').split('\n', 1)[1]
+
+	# <evil hacks> :-)
 	if '<br />' in wrapped:
 		de_xmled = de_xmled.replace('<br/>', '<br />')
 	if '"' in wrapped:
 		de_xmled = de_xmled.replace('&quot;', '"')
+
+	if original_de_xmled != de_xmled:
+		xml_hack_replacements[original_de_xmled] = de_xmled
+	# </evil>
+
 	assert(de_xmled == wrapped)
 
 	return s_as_dom_elts.firstChild.childNodes
