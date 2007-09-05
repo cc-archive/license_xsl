@@ -63,7 +63,8 @@ def pofd2converted(pofd):
     return ret
 
 def get_PoFile(language):
-    return translate.PoFile(os.path.join(POFILE_PATH, "icommons-%s.po" % language))
+    print 'using pofile', os.path.join(POFILE_PATH, 'icommons-%s.po' % language)
+    return translate.PoFile(os.path.join(POFILE_PATH, "icommons-%s.po" % language), add_xsl = False)
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
