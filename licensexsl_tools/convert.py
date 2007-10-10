@@ -11,13 +11,12 @@ if not DEBUG:
 else:
     debug_stream = sys.stdout
 
-import translate
 import babel.messages.catalog
 import babel.messages.pofile
 import StringIO
 
 def get_dirname_of_this_file():
-    ## FIXME: Totally evil
+    ## FYI: Totally evil
     import sys
     my_file = sys._getframe().f_code.co_filename
     return os.path.dirname(my_file)
@@ -28,6 +27,8 @@ def get_default_pofile_path():
 POFILE_PATH=get_default_pofile_path()
 
 def key2canonical(key):
+    # FIXME: Probably doesn't work due to API change from NY's translate.py
+    # to babel.
     pofile = get_PoFile('en')
     if key not in pofile.strings:
 	key = key.strip() # gosh darn it
@@ -63,14 +64,15 @@ def pofd2converted(pofd):
     return ret
 
 def get_PoFile(language):
-    print 'using pofile', os.path.join(POFILE_PATH, 'icommons-%s.po' % language)
-    return translate.PoFile(os.path.join(POFILE_PATH, "icommons-%s.po" % language), add_xsl = False)
+    pofile = os.path.join(POFILE_PATH, language, 'cc_org.po')
+    print 'using pofile', pofile
+    return babel.messages.pofile.read_po(open(pofile))
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
 	po = get_PoFile(language)
 	try:
-		return unicode(po['country.%s' % country_id], 'utf-8')
+		return po['country.%s' % country_id].string
 	except KeyError:
 		return country_id
 
@@ -82,14 +84,15 @@ def extremely_slow_translation_function(s, out_lang):
 	# First, look through the en po for such a string
 	en_po = get_PoFile('en')
 	found_key = None
-	for entry in en_po.strings:
-		if en_po.get(entry, '') == u:
+	for entry in en_po._messages:
+		if en_po[entry].string == u:
 			found_key = entry
 			print >> debug_stream, 'yahoo, found', found_key
 	if found_key is None:
 		print >> debug_stream, 'sad, did not find match'
 
 	real_po = get_PoFile(out_lang)
-	return real_po.get(found_key, u)
+	if found_key in real_po._messages:
+		return real_po[found_key].string
 	# Return the version in out_lang's PO.
-
+	return u # but if we don't find it, fail silently!
