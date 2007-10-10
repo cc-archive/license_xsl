@@ -3,6 +3,11 @@
 ## This program converts a PO file from using the internal ID
 ## to using the en string as the identifier.
 
+try:
+	import psyco
+except:
+	pass # slo be it
+
 DEBUG=0
 import sys
 import os
@@ -83,10 +88,10 @@ def get_PoFile(language, use_cache = True):
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
 	po = get_PoFile(language)
-	try:
-		return po['country.%s' % country_id].string
-	except KeyError:
-		return country_id
+	country_key = 'country.%s' % country_id
+	if country_key in po:
+		return po[country_key].string
+	return country_id # so sad, can't find country
 
 def extremely_slow_translation_function(s, out_lang):
 	try:
