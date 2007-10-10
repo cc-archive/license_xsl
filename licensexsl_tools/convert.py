@@ -63,10 +63,22 @@ def pofd2converted(pofd):
     unicode_test = unicode(ret, 'utf-8')
     return ret
 
-def get_PoFile(language):
-    pofile = os.path.join(POFILE_PATH, language, 'cc_org.po')
-    print 'using pofile', pofile
-    return babel.messages.pofile.read_po(open(pofile))
+# Code cleanup: convert to a class with __call__ maybe
+
+pofile_cache = {}
+def get_PoFile(language, use_cache = True):
+    global pofile_cache
+
+    if (not use_cache) or (language not in pofile_cache):
+        pofile = os.path.join(POFILE_PATH, language, 'cc_org.po')
+        print 'reading pofile', pofile
+        ret = babel.messages.pofile.read_po(open(pofile))
+    if use_cache:
+        if language in pofile_cache:
+            ret = pofile_cache[language]
+        else:
+            pofile_cache[language] = ret
+    return ret
 
 def country_id2name(country_id, language):
 	# Now gotta look it up with gettext...
