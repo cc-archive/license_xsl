@@ -35,6 +35,7 @@ setup(
                         'rdflib',
                         'lxml',
                         'SimpleTAL',
+                        'Babel',
                         ],
     dependency_links = ['http://www.owlfish.com/software/simpleTAL/download.html'],
     
