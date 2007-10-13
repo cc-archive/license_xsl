@@ -46,6 +46,8 @@
   		<xsl:when test="$jurisdiction='' or 
                                 $jurisdiction='generic' or 
 				$jurisdiction='-' or 
+				$jurisdiction='lu' or 
+				$jurisdiction='gr' or 
 				$jurisdiction='nl' or 
 				$jurisdiction='us'">3.0</xsl:when>
 
