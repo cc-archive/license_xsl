@@ -4056,6 +4056,208 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='gr' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='eo' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Greece</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Greece</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
+         <xsl:when test="$jurisdiction='lu' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='eo' ">Luksemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">卢森堡</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Люксембург</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">ELuxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Luksemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">盧森堡</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Luksemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Luxemburgo</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Luxemborg</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">ルクセンブルグ</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">לוקסמבורג</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Luxemburg</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">Луксембург</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Luxembourg</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Luksemburg</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
     </xsl:choose>
   </xsl:template>
 
