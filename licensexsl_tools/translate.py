@@ -38,6 +38,7 @@ import lxml.etree as et
     
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
+VARIABLE_RE = re.compile('\$\{.*?\}', re.I|re.M|re.S)
 
 POFILE_DIR = '../i18n/i18n_po'
 
@@ -94,7 +95,29 @@ def fix_tags(input_string):
 
         return et.tostring(tree.xpath('//html/body/p')[0]
                            )[3:-4].replace('__', ':')
+
+def replace_vars(value):
+    """Replace gettext variable declarations with XSLT copy-of's."""
     
+    match = VARIABLE_RE.search(value) 	 
+    while match is not None: 	 
+        if value[match.start() - 1] != '"': 	 
+
+            #<xsl:value-of select="$license-name"/> 	 
+            value = value[:match.start()] + \
+                   '<xsl:copy-of select="$' + \
+                    value[match.start() + 2:match.end() - 1] + \
+                    '"/>' + value[match.end():]
+        else:
+            value = value[:match.start()] + \
+                    '{$' + \
+                    value[match.start() + 2:match.end() - 1] + \
+                    '}' + value[match.end():]
+
+        match = VARIABLE_RE.search(value, match.end())
+
+    return value
+                             
 def lookupString(key, locale):
     global LOCALES
 
@@ -105,7 +128,7 @@ def lookupString(key, locale):
     else:
         result = key
 
-    return fix_tags(result)
+    return fix_tags(replace_vars(result))
 
 def loadCatalogs(source_dir):
     """Load the translation catalogs and return a dictionary mapping
