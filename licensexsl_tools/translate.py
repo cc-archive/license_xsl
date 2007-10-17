@@ -10,11 +10,6 @@ Licensed to the public under the GNU GPL version 2.
 Sample Usages:
 --------------
 
-translate.py --cvs template.xml.in
-
-   Checks out .po files from CVS and passes template.xml.in through the
-   parser, generating template.xml.
-
 translate.py --podir ../pofiles -o .. template.xml.in
 
    Reads .po files from ../pofiles/ and generates template.xml in the parent
@@ -33,7 +28,9 @@ import subprocess
 import optparse
 import re
 import shutil
+import glob
 
+from babel.messages.pofile import read_po
 from simpletal import simpleTAL, simpleTALES
 
 # import the ElementTree API
@@ -41,88 +38,10 @@ import lxml.etree as et
     
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
+VARIABLE_RE = re.compile('\$\{.*?\}', re.I|re.M|re.S)
 
 POFILE_DIR = '../i18n/i18n_po'
-        
-class PoFile(object):
-    def __init__(self, filename):
-        self.filename = filename
-        self.language = None
-        
-        self.reload()
 
-    def reload(self):
-        """Reload the .po file and parse it's contents."""
-        var_re = re.compile('\$\{.*?\}', re.I|re.M|re.S)
-        
-        self.metadata = {}
-        self.strings = {}
-
-        curkey = None
-        input_file = file(self.filename, 'r')
-        
-        for line in input_file:
-            line = line.strip()
-            if line == "":
-                continue
-            
-            # parse each line in the file
-            words = line.split(' ', 1)
-
-            # check for a message 
-            if words[0].lower() == 'msgid':
-                curkey = words[1][1:-1]
-
-            # check for a translation
-            elif words[0].lower() == 'msgstr':
-                value = words[1][1:-1]
-
-                value = value.replace('\\"', '"')
-                match = var_re.search(value)
-                while match is not None:
-                    if value[match.start() - 1] != '"':
-
-                        #<xsl:value-of select="$license-name"/>
-                        value = value[:match.start()] + \
-                                '<xsl:copy-of select="$' + \
-                                value[match.start() + 2:match.end() - 1] + \
-                                '"/>' + value[match.end():]
-                    else:
-                        value = value[:match.start()] + \
-                                '{$' + \
-                                value[match.start() + 2:match.end() - 1] + \
-                                '}' + value[match.end():]
-                        
-                    match = var_re.search(value, match.end())
-                    
-                self.strings[curkey] = value
-                curkey = None
-
-            # check for metadata
-            elif line[0] == line[-1] == '"':
-                key, value = [n.strip() for n in
-                              line[1:-1].strip().split(':', 1)]
-
-                # check for bogus escaped CRs
-                if value[-2:] == '\\n':
-                    value = value[:-2]
-                    
-                self.metadata[key] = value
-
-                if key == 'Language-Code':
-                    self.language = value
-
-            else:
-                print 'unknown line:\n%s' % line
-                
-    def __getitem__(self, key):
-        return self.strings[key]
-
-    def get(self, key, default):
-        if key in self.strings:
-            return unicode(self.strings[key], 'utf8')
-        else:
-            return default
 
 def fix_tags(input_string):
     """Pass the input string through an HTML parser to balance any incomplete
@@ -176,15 +95,40 @@ def fix_tags(input_string):
 
         return et.tostring(tree.xpath('//html/body/p')[0]
                            )[3:-4].replace('__', ':')
+
+def replace_vars(value):
+    """Replace gettext variable declarations with XSLT copy-of's."""
     
+    match = VARIABLE_RE.search(value) 	 
+    while match is not None: 	 
+        if value[match.start() - 1] != '"': 	 
+
+            #<xsl:value-of select="$license-name"/> 	 
+            value = value[:match.start()] + \
+                   '<xsl:copy-of select="$' + \
+                    value[match.start() + 2:match.end() - 1] + \
+                    '"/>' + value[match.end():]
+        else:
+            value = value[:match.start()] + \
+                    '{$' + \
+                    value[match.start() + 2:match.end() - 1] + \
+                    '}' + value[match.end():]
+
+        match = VARIABLE_RE.search(value, match.end())
+
+    return value
+                             
 def lookupString(key, locale):
     global LOCALES
-    
-    result = LOCALES[locale].get(key, None) or \
-             LOCALES['en'].get(key, None) or \
-             key
 
-    return fix_tags(result)
+    if key in LOCALES[locale]:
+        result = LOCALES[locale][key].string
+    elif key in LOCALES['en']:
+        result = LOCALES['en'][key].string
+    else:
+        result = key
+
+    return fix_tags(replace_vars(result))
 
 def loadCatalogs(source_dir):
     """Load the translation catalogs and return a dictionary mapping
@@ -192,14 +136,18 @@ def loadCatalogs(source_dir):
 
     langs = {}
     
-    for pofile in fnmatch.filter(os.listdir(source_dir), '*.po'):
-        language = os.path.splitext(pofile)[0].split('-')[-1]
+    for root, dirnames, filenames in os.walk(source_dir):
+        for fn in filenames:
+            if fn[-3:] == '.po':
 
-        if language == 'CVS':
-            continue
-        
-        print 'loading catalog for %s...' % os.path.basename(pofile)
-        langs[language] = PoFile(os.path.join(source_dir, pofile))
+                # figure out what locale this is based on pathname
+                locale = root.split(os.sep)[-1]
+                print 'loading catalog for %s...' % locale
+                
+                msg_catalog = read_po(
+                    file(os.path.abspath(os.path.join(root, fn)), 'r'))
+                
+                langs[locale] = msg_catalog
 
     return langs
 
