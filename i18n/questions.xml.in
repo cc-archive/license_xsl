@@ -117,7 +117,7 @@
   </metal:repeat>
  </licenseclass>
 
- <licenseclass id="recombo">
+ <licenseclass id="sampling">
   <metal:repeat tal:repeat="locale locales" >
    <label tal:attributes="xml:lang locale"
               tal:content="structure python: lookupString('util.Sampling', locale)"
