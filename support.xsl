@@ -47,6 +47,8 @@
                                 $jurisdiction='generic' or 
 				$jurisdiction='-' or 
 				$jurisdiction='nl' or 
+				$jurisdiction='gr' or 
+				$jurisdiction='lu' or 
 				$jurisdiction='us'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
