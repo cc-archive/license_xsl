@@ -4258,10 +4258,116 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='nz' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='eo' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">New Zealand</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">New Zealand</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
     </xsl:choose>
   </xsl:template>
 
   <xsl:template name="attribution">
+    <xsl:param name="attrib" />
+
+    <xsl:choose>
+      <xsl:when test="$attrib='n'" />
+      <xsl:otherwise>
     <xsl:choose>
        
        
@@ -4357,10 +4463,14 @@
        
        <xsl:otherwise>Attribution</xsl:otherwise>
     </xsl:choose>
+    </xsl:otherwise>
+      </xsl:choose>
   </xsl:template>
 
   <xsl:template name="derivatives">
     <xsl:param name="derivs" />
+    <xsl:param name="attrib" />
+    <xsl:param name="comm" />
 
     <xsl:variable name="prettystring">
 
@@ -4568,13 +4678,19 @@
     </xsl:variable>
 
     <xsl:if test="string-length($prettystring) &gt; 0">
-      <xsl:value-of select="concat('-', $prettystring)" />
+      <xsl:if test="$attrib != '' or $comm != ''">
+	<xsl:value-of select="concat('-', $prettystring)" />
+      </xsl:if>
+      <xsl:if test="$attrib = '' and $comm = ''">
+	<xsl:value-of select="$prettystring" />
+      </xsl:if>
     </xsl:if>
 
   </xsl:template>
 
   <xsl:template name="noncommercial">
     <xsl:param name="commercial" />
+    <xsl:param name="attrib" />
 
     <xsl:variable name="prettystring">
       <xsl:if test="./commercial='n'">
@@ -4677,7 +4793,12 @@
     </xsl:variable>
 
     <xsl:if test="string-length($prettystring) &gt; 0">
-      <xsl:value-of select="concat('-', $prettystring)" />
+      <xsl:if test="$attrib != ''">
+	<xsl:value-of select="concat('-', $prettystring)" />
+      </xsl:if>
+      <xsl:if test="$attrib = ''">
+	<xsl:value-of select="$prettystring" />
+      </xsl:if>
     </xsl:if>
 
   </xsl:template>

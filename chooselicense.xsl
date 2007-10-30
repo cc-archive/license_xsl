@@ -26,16 +26,33 @@
 				<xsl:with-param name="jurisdiction" select="./jurisdiction" />
 			  </xsl:call-template>
 			</xsl:variable>
+			<xsl:variable name="attribution">
+			  <xsl:if test="./attribution!='n'">by</xsl:if>
+			</xsl:variable>
 			<xsl:variable name="noncommercial">
-				<xsl:if test="./commercial='n'">-nc</xsl:if>
+			  <xsl:choose>
+			    <xsl:when test="./commercial='n' and $attribution!=''">-nc</xsl:when>
+			    <xsl:when test="./commercial='n' and $attribution=''">nc</xsl:when>
+			    <xsl:otherwise/>
+			  </xsl:choose>
 			</xsl:variable>
 			<xsl:variable name="derivatives">
-				<xsl:choose>
-					<xsl:when test="./derivatives='n'">-nd</xsl:when>
-					<xsl:when test="./derivatives='sa'">-sa</xsl:when>
-				</xsl:choose>
+			  <xsl:variable name="derivcode">
+			    <xsl:choose>
+			      <xsl:when test="./derivatives='n'">nd</xsl:when>
+			      <xsl:when test="./derivatives='sa'">sa</xsl:when>
+			    </xsl:choose>
+			  </xsl:variable>
+			  <xsl:choose>
+			    <xsl:when test="$derivcode != '' and ($attribution!='' or $noncommercial !='')">
+			      <xsl:value-of select="concat('-', $derivcode)" />
+			    </xsl:when>
+			    <xsl:otherwise>
+			      <xsl:value-of select="$derivcode" />
+			    </xsl:otherwise>
+			  </xsl:choose>
 			</xsl:variable>
-			<xsl:value-of select="concat($license-base,'by',$noncommercial,$derivatives,'/',$version,'/',$jurisdiction)"/>
+			<xsl:value-of select="concat($license-base,$attribution,$noncommercial,$derivatives,'/',$version,'/',$jurisdiction)"/>
 		</xsl:variable>
 		<xsl:variable name="license-name">
 			<xsl:variable name="jurisdiction">
@@ -65,16 +82,21 @@
 			<xsl:value-of select="concat(' ', $version_num)"/>
 			</xsl:variable>
                         <xsl:variable name="attribution">
-                          <xsl:call-template name="attribution"/>
+                          <xsl:call-template name="attribution">
+			    <xsl:with-param name="attrib" select="./attribution" />
+			  </xsl:call-template>
                         </xsl:variable>
 			<xsl:variable name="noncommercial">
 			  <xsl:call-template name="noncommercial">
 				<xsl:with-param name="commercial" select="./commercial"/>
+				<xsl:with-param name="attrib" select="$attribution" />
 			  </xsl:call-template>
 			</xsl:variable>
 			<xsl:variable name="derivatives">
 			  <xsl:call-template name="derivatives">
 				<xsl:with-param name="derivs" select="./derivatives"/>
+				<xsl:with-param name="comm" select="$noncommercial" />
+				<xsl:with-param name="attrib" select="$attribution" />
 			  </xsl:call-template>
 			</xsl:variable>
 			<xsl:value-of select="concat($attribution,$noncommercial,$derivatives,$version,$jurisdiction)"/>
@@ -207,19 +229,19 @@
 						<requires rdf:resource="http://creativecommons.org/ns#Notice"/>
 					</xsl:otherwise>
 				</xsl:choose>
-				<xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
+				<xsl:if test="contains($license-uri,'by') or contains($license-uri,'sampling')">
 					<requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
 				</xsl:if>
 				<xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD') or contains($license-uri,'MIT')">
    <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
 				</xsl:if>
-				<xsl:if test="contains($license-uri,'-nc') or contains($license-uri, 'nc-')">
+				<xsl:if test="contains($license-uri,'nc')">
 					<prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
 				</xsl:if>
-				<xsl:if test="not(contains($license-uri,'-nd'))">
+				<xsl:if test="not(contains($license-uri,'nd'))">
 					<permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
 				</xsl:if>
-				<xsl:if test="(contains($license-uri,'-sa') or contains($license-uri, 'GPL'))">
+				<xsl:if test="((contains($license-uri,'sa') and not(contains($license-uri, 'sampling'))) or contains($license-uri, 'GPL'))">
 					<requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
 				</xsl:if>
 			</License>
@@ -245,19 +267,19 @@
     <xsl:if test="not(contains($license-uri,'publicdomain'))">
    <requires rdf:resource="http://creativecommons.org/ns#Notice"/>
     </xsl:if>
-    <xsl:if test="not(contains($license-uri,'publicdomain') or contains($license-uri,'GPL'))">
+    <xsl:if test="contains($license-uri,'by') or contains($license-uri,'sampling')">
    <requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
     </xsl:if>
-    <xsl:if test="contains($license-uri,'-nc')">
+    <xsl:if test="contains($license-uri,'nc')">
    <prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
     </xsl:if>
    <xsl:if test="contains($license-uri,'GPL') or contains($license-uri,'BSD') or contains($license-uri,'MIT')">
      <requires rdf:resource="http://creativecommons.org/ns#SourceCode" />
    </xsl:if>
-    <xsl:if test="not(contains($license-uri,'-nd'))">
+    <xsl:if test="not(contains($license-uri,'nd'))">
    <permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
     </xsl:if>
-<xsl:if test="(contains($license-uri,'-sa') or contains($license-uri, 'GPL'))">
+<xsl:if test="((contains($license-uri,'sa') and not(contains($license-uri, 'sampling'))) or contains($license-uri, 'GPL'))">
    <requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
 </xsl:if>
     <xsl:if test="contains($license-uri, 'devnations')">
