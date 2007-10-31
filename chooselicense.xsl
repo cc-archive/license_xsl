@@ -54,11 +54,11 @@
 			</xsl:variable>
 			<xsl:choose>
 
-			  <xsl:when test="($version='1.0' or ($version='2.0' and $jurisdiction='jp')) and $attribution='by' and $noncommercial='-nc' and $derivatives='-nd'">
+			  <xsl:when test="($version='1.0' or ($version='2.0' and $jurisdiction='jp/')) and $attribution='by' and $noncommercial='-nc' and $derivatives='-nd'">
 			    <xsl:value-of select="concat($license-base,$attribution,'-nd-nc/',$version,'/',$jurisdiction)"/>
 			  </xsl:when>
 
-			  <xsl:when test="($version='1.0' or ($version='2.0' and $jurisdiction='jp')) and $attribution='' and $noncommercial='nc' and $derivatives='-nd'">
+			  <xsl:when test="($version='1.0' or ($version='2.0' and $jurisdiction='jp/')) and $attribution='' and $noncommercial='nc' and $derivatives='-nd'">
 			    <xsl:value-of select="concat($license-base,'nd-nc/',$version,'/',$jurisdiction)"/>
 			  </xsl:when>
 			  
