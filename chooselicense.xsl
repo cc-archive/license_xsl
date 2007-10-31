@@ -33,11 +33,29 @@
 			  </xsl:choose>
 			</xsl:variable>
 			<xsl:variable name="noncommercial">
+			  <!-- we include a choice based on version here to 
+			       accomodate the 1.0 v. everything else order
+			       shift. -->
 			  <xsl:choose>
-			    <xsl:when test="./commercial='n' and $attribution!=''">-nc</xsl:when>
-			    <xsl:when test="./commercial='n' and $attribution=''">nc</xsl:when>
-			    <xsl:otherwise/>
+
+			    <xsl:when test="$version='1.0'">
+			      <xsl:choose>
+				<xsl:when test="./commercial='n' and (./derivatives='n' or ./derivatives='sa' or $attribution!='')">-nc</xsl:when>
+				<xsl:when test="./commercial='n'">nc</xsl:when>
+				<xsl:otherwise />
+			      </xsl:choose>
+			    </xsl:when>
+
+			    <xsl:otherwise>
+			      <xsl:choose>
+				<xsl:when test="./commercial='n' and $attribution!=''">-nc</xsl:when>
+				<xsl:when test="./commercial='n'">nc</xsl:when>
+				<xsl:otherwise />
+			      </xsl:choose>
+			    </xsl:otherwise>
+
 			  </xsl:choose>
+
 			</xsl:variable>
 			<xsl:variable name="derivatives">
 			  <xsl:variable name="derivcode">
@@ -46,8 +64,14 @@
 			      <xsl:when test="./derivatives='sa'">sa</xsl:when>
 			    </xsl:choose>
 			  </xsl:variable>
+			  <!-- we include a choice based on version here to 
+			       accomodate the 1.0 v. everything else order
+			       shift. -->
 			  <xsl:choose>
-			    <xsl:when test="$derivcode != '' and ($attribution!='' or $noncommercial !='')">
+			    <xsl:when test="$derivcode != '' and $version != '1.0' and ($attribution!='' or $noncommercial !='')">
+			      <xsl:value-of select="concat('-', $derivcode)" />
+			    </xsl:when>
+			    <xsl:when test="$derivcode != '' and $version='1.0' and $attribution!=''">
 			      <xsl:value-of select="concat('-', $derivcode)" />
 			    </xsl:when>
 			    <xsl:otherwise>
@@ -55,7 +79,14 @@
 			    </xsl:otherwise>
 			  </xsl:choose>
 			</xsl:variable>
-			<xsl:value-of select="concat($license-base,$attribution,$noncommercial,$derivatives,'/',$version,'/',$jurisdiction)"/>
+			<xsl:choose>
+			  <xsl:when test="$version='1.0'">
+			    <xsl:value-of select="concat($license-base,$attribution,$derivatives,$noncommercial,'/',$version,'/',$jurisdiction)"/>
+			  </xsl:when>
+			  <xsl:otherwise>
+			    <xsl:value-of select="concat($license-base,$attribution,$noncommercial,$derivatives,'/',$version,'/',$jurisdiction)"/>
+			  </xsl:otherwise>
+			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="license-name">
 			<xsl:variable name="jurisdiction">
