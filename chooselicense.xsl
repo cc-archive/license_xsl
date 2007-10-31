@@ -27,35 +27,14 @@
 			  </xsl:call-template>
 			</xsl:variable>
 			<xsl:variable name="attribution">
-			  <xsl:choose>
-			    <xsl:when test="./attribution='n'"></xsl:when>
-			    <xsl:otherwise>by</xsl:otherwise>
-			  </xsl:choose>
+			  <xsl:if test="./attribution!='n'">by</xsl:if>
 			</xsl:variable>
 			<xsl:variable name="noncommercial">
-			  <!-- we include a choice based on version here to 
-			       accomodate the 1.0 v. everything else order
-			       shift. -->
 			  <xsl:choose>
-
-			    <xsl:when test="$version='1.0'">
-			      <xsl:choose>
-				<xsl:when test="./commercial='n' and (./derivatives='n' or ./derivatives='sa' or $attribution!='')">-nc</xsl:when>
-				<xsl:when test="./commercial='n'">nc</xsl:when>
-				<xsl:otherwise />
-			      </xsl:choose>
-			    </xsl:when>
-
-			    <xsl:otherwise>
-			      <xsl:choose>
-				<xsl:when test="./commercial='n' and $attribution!=''">-nc</xsl:when>
-				<xsl:when test="./commercial='n'">nc</xsl:when>
-				<xsl:otherwise />
-			      </xsl:choose>
-			    </xsl:otherwise>
-
+			    <xsl:when test="./commercial='n' and $attribution!=''">-nc</xsl:when>
+			    <xsl:when test="./commercial='n' and $attribution=''">nc</xsl:when>
+			    <xsl:otherwise/>
 			  </xsl:choose>
-
 			</xsl:variable>
 			<xsl:variable name="derivatives">
 			  <xsl:variable name="derivcode">
@@ -64,14 +43,8 @@
 			      <xsl:when test="./derivatives='sa'">sa</xsl:when>
 			    </xsl:choose>
 			  </xsl:variable>
-			  <!-- we include a choice based on version here to 
-			       accomodate the 1.0 v. everything else order
-			       shift. -->
 			  <xsl:choose>
-			    <xsl:when test="$derivcode != '' and $version != '1.0' and ($attribution!='' or $noncommercial !='')">
-			      <xsl:value-of select="concat('-', $derivcode)" />
-			    </xsl:when>
-			    <xsl:when test="$derivcode != '' and $version='1.0' and $attribution!=''">
+			    <xsl:when test="$derivcode != '' and ($attribution!='' or $noncommercial !='')">
 			      <xsl:value-of select="concat('-', $derivcode)" />
 			    </xsl:when>
 			    <xsl:otherwise>
@@ -80,13 +53,21 @@
 			  </xsl:choose>
 			</xsl:variable>
 			<xsl:choose>
-			  <xsl:when test="$version='1.0'">
-			    <xsl:value-of select="concat($license-base,$attribution,$derivatives,$noncommercial,'/',$version,'/',$jurisdiction)"/>
+
+			  <xsl:when test="$version='1.0' and $attribution='by' and $noncommercial='-nc' and $derivatives='-nd'">
+			    <xsl:value-of select="concat($license-base,$attribution,'-nd-nc/',$version,'/',$jurisdiction)"/>
 			  </xsl:when>
+
+			  <xsl:when test="$version='1.0' and $attribution='' and $noncommercial='nc' and $derivatives='-nd'">
+			    <xsl:value-of select="concat($license-base,'nd-nc/',$version,'/',$jurisdiction)"/>
+			  </xsl:when>
+			  
 			  <xsl:otherwise>
 			    <xsl:value-of select="concat($license-base,$attribution,$noncommercial,$derivatives,'/',$version,'/',$jurisdiction)"/>
 			  </xsl:otherwise>
+
 			</xsl:choose>
+
 		</xsl:variable>
 		<xsl:variable name="license-name">
 			<xsl:variable name="jurisdiction">
