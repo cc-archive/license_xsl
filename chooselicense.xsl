@@ -27,7 +27,10 @@
 			  </xsl:call-template>
 			</xsl:variable>
 			<xsl:variable name="attribution">
-			  <xsl:if test="./attribution!='n'">by</xsl:if>
+			<xsl:choose>
+			  <xsl:when test="./attribution='n'"></xsl:when>
+			  <xsl:otherwise>by</xsl:otherwise>
+			</xsl:choose>
 			</xsl:variable>
 			<xsl:variable name="noncommercial">
 			  <xsl:choose>
