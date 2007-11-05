@@ -1089,6 +1089,20 @@
        </jurisdiction>
    </license>
  </licenseclass>
+ <licenseclass id="bsd">
+   <license id="BSD">
+       <jurisdiction id="-">
+          <version id="-" uri="http://creativecommons.org/licenses/BSD/"/>
+       </jurisdiction>
+   </license>
+ </licenseclass>
+ <licenseclass id="mit">
+   <license id="MIT">
+       <jurisdiction id="-">
+          <version id="-" uri="http://creativecommons.org/licenses/MIT/"/>
+       </jurisdiction>
+   </license>
+ </licenseclass>
  <licenseclass id="gpl">
    <license id="GPL">
        <jurisdiction id="-">
