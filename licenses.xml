@@ -179,9 +179,10 @@
       <uri>http://luxcommons.lu</uri>
       <languages>fr_LU</languages>
     </jurisdiction-info>
-  <jurisdiction-info launched="true" id="nz"/>
+  <jurisdiction-info launched="true" id="nz">
       <uri>http://creativecommons.org/international/nz/</uri>
       <languages>en_NZ</languages>
+  </jurisdiction-info>
   </jurisdictions>
 <licenses>
  <licenseclass id="standard">
