@@ -50,6 +50,7 @@
 				$jurisdiction='lu' or 
 				$jurisdiction='gr' or 
 				$jurisdiction='nl' or 
+				$jurisdiction='ph' or 
 				$jurisdiction='us'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
