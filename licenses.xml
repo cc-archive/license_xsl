@@ -183,6 +183,9 @@
       <uri>http://creativecommons.org/worldwide/nz/</uri>
       <languages>en_NZ mi</languages>
     </jurisdiction-info>
+    <jurisdiction-info id="hk" launched="false">
+      <uri>http://creativecommons.org/worldwide/hk/</uri>
+    </jurisdiction-info>
   </jurisdictions>
 <licenses>
  <licenseclass id="standard">
