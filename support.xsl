@@ -43,15 +43,16 @@
 				$jurisdiction='mk' or 
 				$jurisdiction='tw'">2.5</xsl:when>
 
-  		<xsl:when test="$jurisdiction='' or 
-                                $jurisdiction='generic' or 
-				$jurisdiction='-' or 
-				$jurisdiction='nz' or 
-				$jurisdiction='lu' or 
-				$jurisdiction='gr' or 
-				$jurisdiction='nl' or 
-				$jurisdiction='ph' or 
-				$jurisdiction='us'">3.0</xsl:when>
+  		<xsl:when test="$jurisdiction='' or
+                                $jurisdiction='generic' or
+                                $jurisdiction='-' or
+                                $jurisdiction='nz' or
+                                $jurisdiction='lu' or
+                                $jurisdiction='gr' or
+                                $jurisdiction='nl' or
+                                $jurisdiction='ph' or
+                                $jurisdiction='rs' or
+                                $jurisdiction='us'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
 	   </xsl:choose>

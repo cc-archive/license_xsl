@@ -186,7 +186,11 @@
     <jurisdiction-info id="hk" launched="false">
       <uri>http://creativecommons.org/worldwide/hk/</uri>
     </jurisdiction-info>
-  </jurisdictions>
+  <jurisdiction-info launched="true" id="rs">
+	<uri>http://creativecommons.org/international/rs/</uri>
+	<languages>sr sr_LATN</languages>
+    </jurisdiction-info>
+</jurisdictions>
 <licenses>
  <licenseclass id="standard">
     <license id="by-nc">
