@@ -76,7 +76,6 @@ def get_PoFile(language, use_cache = True):
 
     if (not use_cache) or (language not in pofile_cache):
         pofile = os.path.join(POFILE_PATH, language, 'cc_org.po')
-        print 'reading pofile', pofile
         ret = babel.messages.pofile.read_po(open(pofile))
     if use_cache:
         if language in pofile_cache:
