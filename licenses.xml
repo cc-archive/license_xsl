@@ -144,9 +144,8 @@
       <languages>es ca gl eu</languages>
     </jurisdiction-info>
     <jurisdiction-info id="se" launched="true">
-      <uri>http://creativecommons.org/worldwide/se/</uri>
       <languages>sv</languages>
-    </jurisdiction-info>
+    <uri>http://www.creativecommons.se</uri></jurisdiction-info>
     <jurisdiction-info id="ch" launched="true">
       <uri>http://creativecommons.org/worldwide/ch/</uri>
       <languages>de_CH fr_CH it_CH</languages>
