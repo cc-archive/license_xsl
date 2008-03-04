@@ -112,8 +112,8 @@
  <licenseclass id="publicdomain">
   <metal:repeat tal:repeat="locale locales" >
    <label tal:attributes="xml:lang locale"
-              tal:content="structure python: lookupString('util.Public_Domain', locale)"
-    >util.Public_Domain</label>
+              tal:content="structure python: lookupString('licenses.pretty_publicdomain', locale)"
+    >licenses.pretty_publicdomain</label>
   </metal:repeat>
  </licenseclass>
 
