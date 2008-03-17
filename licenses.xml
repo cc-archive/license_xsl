@@ -95,9 +95,8 @@
       <languages>ko</languages>
     </jurisdiction-info>
     <jurisdiction-info id="mk" launched="true">
-      <uri>http://creativecommons.org/worldwide/mk/</uri>
       <languages>mk</languages>
-    </jurisdiction-info>
+    <uri>http://cc.org.mk</uri></jurisdiction-info>
     <jurisdiction-info id="my" launched="true">
       <uri>http://creativecommons.org/worldwide/my/</uri>
       <languages>ms</languages>
