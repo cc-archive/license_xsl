@@ -23,7 +23,6 @@
 				$jurisdiction='si' or 
 				$jurisdiction='se' or 
 				$jurisdiction='scotland' or 
-				$jurisdiction='hr' or 
 				$jurisdiction='ca' or 
 				$jurisdiction='my' or 
 				$jurisdiction='br' or 
