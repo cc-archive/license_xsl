@@ -42,8 +42,7 @@
     </jurisdiction-info>
     <jurisdiction-info launched="true" id="co">
       <languages>es_CO</languages>
-      <uri>http://creativecommons.org/worldwide/co/</uri>
-    </jurisdiction-info>
+      <uri>http://co.creativecommons.org/</uri></jurisdiction-info>
     <jurisdiction-info id="hr" launched="true">
       <uri>http://creativecommons.org/worldwide/hr/</uri>
       <languages>hr</languages>
