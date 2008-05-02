@@ -5495,113 +5495,113 @@
             <xsl:choose>
                
             
-               <xsl:when test="$license-locale='el' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='el' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='eo' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='eo' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='en' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='en' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_PR' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_PR' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='af' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='af' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='tr' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='tr' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ca' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ca' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='it' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='it' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_PE' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_PE' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='en_US' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='en_US' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ga' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ga' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_MX' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_MX' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='eu' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='eu' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='zh' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='zh' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='gl' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='gl' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='sr_LATN' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='sr_LATN' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='de_CH' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='de_CH' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='nl' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='nl' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='pt' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='pt' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_EC' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_EC' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='nso' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='nso' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_CO' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_CO' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_CL' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_CL' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='th' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='es_AR' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='es_AR' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='zu' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='zu' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ro' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ro' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='pt_PT' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='pt_PT' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='en_GB' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='en_GB' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='en_CA' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='en_CA' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='fr' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='fr' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='bg' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='bg' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='hr' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='hr' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='zh_TW' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='zh_TW' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='da' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='da' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CH' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='fr_CH' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='fi' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='fi' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='hu' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='hu' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ja' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ja' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CA' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='fr_CA' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='he' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='he' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='fr_LU' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='fr_LU' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='de' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='sr' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='sr' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ko' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ko' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='sv' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='sv' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='mk' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='mk' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='st' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='st' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='it_CH' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='it_CH' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='pl' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='pl' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='ms' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='ms' ">Ecuador</xsl:when>
             
-               <xsl:when test="$license-locale='sl' ">country.ec</xsl:when>
+               <xsl:when test="$license-locale='sl' ">Ecuador</xsl:when>
             
 
             </xsl:choose>
