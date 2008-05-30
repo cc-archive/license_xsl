@@ -7318,7 +7318,7 @@
 
        
 	
-            <xsl:when test="$license-locale='nl' ">Gebaseerd op een werk op <xsl:copy-of select="$bron_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='nl' ">Gebaseerd op een werk op <xsl:copy-of select="$source_link"/>.</xsl:when>
 
        
 	
