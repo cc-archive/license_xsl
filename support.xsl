@@ -54,6 +54,7 @@
                 $jurisdiction='us' or
                 $jurisdiction='pr' or
                 $jurisdiction='hr' or
+                $jurisdiction='no' or
                 $jurisdiction='ec'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
