@@ -5622,7 +5622,7 @@
             
                <xsl:when test="$license-locale='pt' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='no' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='no' ">Norge</xsl:when>
             
                <xsl:when test="$license-locale='es_EC' ">Norway</xsl:when>
             
