@@ -5580,115 +5580,115 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='el' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='eo' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='eo' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='en' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='en' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_PR' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_PR' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ga' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ga' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='nso' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='nso' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_CO' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_CO' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='pt_PT' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='pt_PT' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='it' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='it' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_PE' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_PE' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='en_US' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='en_US' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='bg' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='bg' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fi' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='fi' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='eu' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='eu' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='zu' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='zu' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='gl' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='gl' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='zh' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='zh' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='sr_LATN' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='sr_LATN' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='de_CH' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='de_CH' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='nl' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='nl' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='pt' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='pt' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='no' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='no' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_EC' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_EC' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='af' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='af' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='tr' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='tr' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_CL' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_CL' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='th' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_AR' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_AR' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ro' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ro' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ca' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ca' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='pl' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='pl' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='en_CA' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='en_CA' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fr' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='fr' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='zh_TW' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='zh_TW' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='hr' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='hr' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='de' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='hu' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='hu' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CH' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='fr_CH' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='es_MX' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='es_MX' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='da' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='da' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ja' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ja' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CA' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='fr_CA' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='he' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='he' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fr_LU' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='fr_LU' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='sr' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='sr' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ko' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ko' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='sv' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='sv' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='mk' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='mk' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='st' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='st' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='it_CH' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='it_CH' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='en_GB' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='en_GB' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='ms' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='ms' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='sl' ">country.no</xsl:when>
+               <xsl:when test="$license-locale='sl' ">Norway</xsl:when>
             
 
             </xsl:choose>
