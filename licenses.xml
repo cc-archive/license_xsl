@@ -197,7 +197,7 @@
 <jurisdiction-info launched="true" id="no">
 <languages>no</languages>
 </jurisdiction-info>
-</jurisdictions>
+<jurisdiction-info launched="false" id="sg"><languages>en_UK</languages><uri>http://creativecommons.org/international/sg/</uri></jurisdiction-info></jurisdictions>
 <licenses>
  <licenseclass id="standard">
     <license id="by-nc">
