@@ -237,7 +237,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by-nc/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nc/2.1/jp/"/>
@@ -423,7 +424,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by-sa/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-sa/2.1/jp/"/>
@@ -564,7 +566,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by/2.1/jp/"/>
@@ -717,7 +720,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-nd/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/"/>
@@ -881,7 +885,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by-nd/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nd/2.1/jp/"/>
@@ -1022,7 +1027,8 @@
 </jurisdiction>
        <jurisdiction id="de">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/de/"/>
-       </jurisdiction>
+       <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-sa/3.0/de/"/>
+</jurisdiction>
        <jurisdiction id="jp">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/jp/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/"/>
