@@ -195,7 +195,7 @@
    
     <label xml:lang="fr_CH">Autorisez-vous les utilisations commerciales de votre création ?</label>
    
-    <label xml:lang="fi">Sallitko teoksen kaupallisen käytön?</label>
+    <label xml:lang="fi">Haluatko lisenssin koskevan myös kaupallista toimintaa?</label>
    
     <label xml:lang="hu">Engedélyezed a műved kereskedelmi célú felhasználását?</label>
    
@@ -661,7 +661,7 @@
    
    <label xml:lang="fr_LU">Autorisez-vous les modifications de votre création ?</label>
    
-   <label xml:lang="de">Möchten Sie Bearbeitungen Ihres Werkes erlauben?</label>
+   <label xml:lang="de">Möchten Sie Abwandlungen bzw. Bearbeitungen Ihres Werkes erlauben?</label>
    
    <label xml:lang="sr">Да ли дозвољавате прераде свог дела?</label>
    
@@ -774,7 +774,7 @@
    
    <description xml:lang="fr_LU">Le donneur de licence autorise les autres à reproduire, distribuer et communiquer publiquement l'œuvre, à condition qu'elle ne soit pas modifiée.</description>
    
-   <description xml:lang="de">Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe seines Werkes ausschließlich in unveränderter Form — Bearbeitungen sind nicht erlaubt.</description>
+   <description xml:lang="de">Der Lizenzgeber erlaubt die Vervielfältigung, Verbreitung und öffentliche Wiedergabe des lizenzierten Inhalts ausschließlich in unveränderter Form — Abwandlungen bzw. Bearbeitungen sind nicht erlaubt.</description>
    
    <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање примерака дела у непромењеном облику — прераде нису дозвољене.</description>
    
@@ -1188,7 +1188,7 @@
    
    <label xml:lang="es">Jurisdicción de su licencia:</label>
    
-   <label xml:lang="th">เขตอำนาจศาลสำหรับสัญญาอนุญาตของคุณ</label>
+   <label xml:lang="th">เขตอำนาจศาลสำหรับสัญญาอนุญาตของคุณ :</label>
    
    <label xml:lang="es_AR">Jurisdicción de su licencia:</label>
    
@@ -1228,7 +1228,7 @@
    
    <label xml:lang="fr_LU">Juridiction de votre contrat :</label>
    
-   <label xml:lang="de">Rechtsordnung:</label>
+   <label xml:lang="de">Rechtsordnung Ihrer Lizenz:</label>
    
    <label xml:lang="sr">Јурисдикција лиценце:</label>
    
@@ -1341,7 +1341,7 @@ scegli la versione giapponese della licenza.</description>
    
    <description xml:lang="fr_LU">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-   <description xml:lang="de">Falls Sie Ihr Werk unter Verwendung einer anderen Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende internationale Lizenzversion aus.</description>
+   <description xml:lang="de">Falls Sie den Inhalt für eine bestimmte Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende Rechtsordnung aus.</description>
    
    <description xml:lang="sr">Ако желите лиценцу неке посебне јурисдикције, изаберите јурисдикцију.</description>
    
@@ -3209,7 +3209,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="es">Alemania</label>
      
-       <label xml:lang="th">เยอรมัน</label>
+       <label xml:lang="th">เยอรมนี</label>
      
        <label xml:lang="es_AR">Alemania</label>
      
@@ -5601,7 +5601,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="fr_LU">Royaume-Uni : Angleterre &amp; Pays de Galles</label>
      
-       <label xml:lang="de">England &amp; Wales</label>
+       <label xml:lang="de">UK: England &amp; Wales</label>
      
        <label xml:lang="sr">ВБ: Енглеска и Велс</label>
      
@@ -5915,7 +5915,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="bg">Гърция</label>
      
-       <label xml:lang="de_AT">Greece</label>
+       <label xml:lang="de_AT">Griechenland</label>
      
        <label xml:lang="hr">Grčka</label>
      
@@ -5937,7 +5937,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="fr_LU">Grèce</label>
      
-       <label xml:lang="de">Greece</label>
+       <label xml:lang="de">Griechenland</label>
      
        <label xml:lang="sr">Грчка</label>
      
@@ -6139,7 +6139,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="bg">Нова Зеландия</label>
      
-       <label xml:lang="de_AT">New Zealand</label>
+       <label xml:lang="de_AT">Neuseeland</label>
      
        <label xml:lang="hr">Novi Zeland</label>
      
@@ -6161,7 +6161,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="fr_LU">Nouvelle Zélande</label>
      
-       <label xml:lang="de">New Zealand</label>
+       <label xml:lang="de">Neuseeland</label>
      
        <label xml:lang="sr">Нови Зеланд</label>
      
@@ -6479,7 +6479,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="hr">Ekvador</label>
      
-       <label xml:lang="zh_TW">Ecuador</label>
+       <label xml:lang="zh_TW">厄瓜多爾</label>
      
        <label xml:lang="da">Ecuador</label>
      
@@ -6569,7 +6569,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="es">Norway</label>
      
-       <label xml:lang="th">Norway</label>
+       <label xml:lang="th">นอร์เวย์</label>
      
        <label xml:lang="es_AR">Norway</label>
      
@@ -6583,7 +6583,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="en_CA">Norway</label>
      
-       <label xml:lang="fr">Norway</label>
+       <label xml:lang="fr">Norvège</label>
      
        <label xml:lang="bg">Norway</label>
      
@@ -6591,7 +6591,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="hr">Norveška</label>
      
-       <label xml:lang="zh_TW">Norway</label>
+       <label xml:lang="zh_TW">挪威</label>
      
        <label xml:lang="da">Norway</label>
      
@@ -6609,7 +6609,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="fr_LU">Norway</label>
      
-       <label xml:lang="de">Norway</label>
+       <label xml:lang="de">Norwegen</label>
      
        <label xml:lang="sr">Норвешка</label>
      
@@ -6727,7 +6727,7 @@ scegli la versione giapponese della licenza.</description>
   
    <label xml:lang="fr_LU">Public Domain</label>
   
-   <label xml:lang="de">Public Domain</label>
+   <label xml:lang="de">Public Domain (gemeinfreie oder nicht-schützbare Inhalte)</label>
   
    <label xml:lang="sr">Јавни домен</label>
   
@@ -6801,7 +6801,7 @@ scegli la versione giapponese della licenza.</description>
   
    <label xml:lang="es">Sampling</label>
   
-   <label xml:lang="th">การใช้ตัวอย่างงาน</label>
+   <label xml:lang="th">ใช้ตัวอย่าง</label>
   
    <label xml:lang="es_AR">Sampling</label>
   
@@ -6915,7 +6915,7 @@ scegli la versione giapponese della licenza.</description>
    
      <label xml:lang="es">Jurisdicción de su licencia:</label>
    
-     <label xml:lang="th">เขตอำนาจศาลสำหรับสัญญาอนุญาตของคุณ</label>
+     <label xml:lang="th">เขตอำนาจศาลสำหรับสัญญาอนุญาตของคุณ :</label>
    
      <label xml:lang="es_AR">Jurisdicción de su licencia:</label>
    
@@ -6955,7 +6955,7 @@ scegli la versione giapponese della licenza.</description>
    
      <label xml:lang="fr_LU">Juridiction de votre contrat :</label>
    
-     <label xml:lang="de">Rechtsordnung:</label>
+     <label xml:lang="de">Rechtsordnung Ihrer Lizenz:</label>
    
      <label xml:lang="sr">Јурисдикција лиценце:</label>
    
@@ -7069,7 +7069,7 @@ scegli la versione giapponese della licenza.</description>
    
      <description xml:lang="fr_LU">Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée.</description>
    
-     <description xml:lang="de">Falls Sie Ihr Werk unter Verwendung einer anderen Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende internationale Lizenzversion aus.</description>
+     <description xml:lang="de">Falls Sie den Inhalt für eine bestimmte Rechtsordnung lizenzieren wollen (bsp. USA oder Japan), wählen Sie bitte die entsprechende Rechtsordnung aus.</description>
    
      <description xml:lang="sr">Ако желите лиценцу неке посебне јурисдикције, изаберите јурисдикцију.</description>
    
@@ -7490,7 +7490,7 @@ scegli la versione giapponese della licenza.</description>
     
       <label xml:lang="es">¿Qué opción de licencia Sampling desea?</label>
     
-      <label xml:lang="th">What flavor of Sampling license?</label>
+      <label xml:lang="th">สัญญาอนุญาตใช้ตัวอย่างประเภทไหน ?</label>
     
       <label xml:lang="es_AR">¿Qué tipo de licencia Sampling desea?</label>
     
@@ -7601,7 +7601,7 @@ scegli la versione giapponese della licenza.</description>
     
       <description xml:lang="es">Las diferentes opciones de las licencias de Sampling permiten determinar la libertad que tienen los usuarios para utilizar la obra. Sólo Sampling permite el uso de fragmentos de la obra pero prohibe el intercambio de la obra completa. La opción Sampling Plus permite tomar y transformar fragmentos de la obra y además compartir la obra completa con finalidades no comerciales. Finalmente, la opción de Noncommercial Sampling Plus es más restrictiva que la de Sampling Plus ya que sólo autoriza la creación de obras derivadas no comerciales a partir de los fragmentos de la obra original.</description>
     
-      <description xml:lang="th">ประเภทการให้ใช้ตัวอย่างงาน (Sampling Flavor) จะกำหนดว่าผู้นำงานไปใช้นั้นจะมีเสรีภาพมากแค่ไหน. สัญญาอนุญาตให้ใช้ตัวอย่างงาน (Sampling) อนุญาตให้ใช้ชิ้นส่วนต่าง ๆ เท่านั้น และไม่อนุญาตการแบ่งปันผลงานทั้งชิ้น. สัญญาอนุญาตให้ใช้ตัวอย่างงานแบบพิเศษ (Sampling Plus) อนุญาตให้ผู้นำงานไปใช้สามารถใช้และดัดแปลงชิ้นส่วนของผลงานได้ และยังแบ่งปันผลงานทั้งชิ้นได้อีกด้วย เพื่อจุดประสงค์ที่ไม่เป็นการค้า. สัญญาอนุญาตให้ใช้ตัวอย่างงานแบบพิเศษและไม่ใช้เพื่อการค้า (Noncommercial Sampling Plus) จำกัดสิทธิ์ในสัญญาอนุญาตให้ใช้ตัวอย่างงานแบบพิเศษ โดยผลงานที่สร้างมาจากชิ้นส่วนของผลงานของคุณ จะทำเพื่อการค้าไม่ได้.</description>
+      <description xml:lang="th">ประเภทการใช้ตัวอย่างง (Sampling Flavor) จะกำหนดว่าผู้นำงานไปใช้นั้นจะมีเสรีภาพมากแค่ไหน. สัญญาอนุญาตใช้ตัวอย่าง (Sampling) อนุญาตให้ใช้ชิ้นส่วนต่าง ๆ เท่านั้น และไม่อนุญาตการแบ่งปันผลงานทั้งชิ้น. สัญญาอนุญาตใช้ตัวอย่างพิเศษ (Sampling Plus) อนุญาตให้ผู้นำงานไปใช้สามารถใช้และดัดแปลงชิ้นส่วนของผลงานได้ และยังแบ่งปันผลงานทั้งชิ้นได้อีกด้วย เพื่อจุดประสงค์ที่ไม่เป็นการค้า. สัญญาอนุญาตใช้ตัวอย่างพิเศษ-ไม่ใช้เพื่อการค้า (Noncommercial Sampling Plus) จำกัดสิทธิ์ในสัญญาอนุญาตใช้ตัวอย่างพิเศษ โดยงานที่สร้างมาจากชิ้นส่วนของงานคุณ จะใช้เพื่อการค้าไม่ได้.</description>
     
       <description xml:lang="es_AR">Los Tipos de Sampling determinan cuanta libertad tienen los licenciatarios. La licencia Sampling a secas permite el uso de fragmentos de la obra pero prohibe el intercambio de la obra completa. La opción Sampling Plus permite tomar y transformar fragmentos de la obra, pero además compartir la obra completa sin fines comerciales. La opción de Noncommercial Sampling Plus es más restrictiva que la de Sampling Plus ya que sólo autoriza la creación de obras derivadas no comerciales a partir de los fragmentos de su obra original.</description>
     
@@ -7727,7 +7727,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="es">Sampling</label>
      
-       <label xml:lang="th">การใช้ตัวอย่างงาน</label>
+       <label xml:lang="th">ใช้ตัวอย่าง</label>
      
        <label xml:lang="es_AR">Sampling</label>
      
@@ -7840,7 +7840,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="es">Sampling Plus</label>
      
-       <label xml:lang="th">Sampling Plus</label>
+       <label xml:lang="th">ใช้ตัวอย่างพิเศษ</label>
      
        <label xml:lang="es_AR">Sampling Plus</label>
      
@@ -7953,7 +7953,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="es">Sampling Plus No Comercial</label>
      
-       <label xml:lang="th">ไม่ใช้เพื่อการค้า ตัดตอนไปใช้ได้</label>
+       <label xml:lang="th">ใช้ตัวอย่างพิเศษ-ไม่ใช้เพื่อการค้า</label>
      
        <label xml:lang="es_AR">Sampling Plus NoComercial</label>
      
@@ -7993,7 +7993,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="fr_LU">NonCommercial Sampling Plus</label>
      
-       <label xml:lang="de">NichtKommerzielle Sampling Plus</label>
+       <label xml:lang="de">Nicht-kommerziell Sampling Plus</label>
      
        <label xml:lang="sr">Некомерцијална Sampling Plus</label>
      

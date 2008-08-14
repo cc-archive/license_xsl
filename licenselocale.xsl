@@ -2128,7 +2128,7 @@
             
                <xsl:when test="$license-locale='es' ">Alemania</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">เยอรมัน</xsl:when>
+               <xsl:when test="$license-locale='th' ">เยอรมนี</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Alemania</xsl:when>
             
@@ -4709,7 +4709,7 @@
             
                <xsl:when test="$license-locale='fr_LU' ">Royaume-Uni : Angleterre &amp; Pays de Galles</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">England &amp; Wales</xsl:when>
+               <xsl:when test="$license-locale='de' ">UK: England &amp; Wales</xsl:when>
             
                <xsl:when test="$license-locale='sr' ">ВБ: Енглеска и Велс</xsl:when>
             
@@ -5050,7 +5050,7 @@
             
                <xsl:when test="$license-locale='bg' ">Гърция</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">Greece</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Griechenland</xsl:when>
             
                <xsl:when test="$license-locale='hr' ">Grčka</xsl:when>
             
@@ -5072,7 +5072,7 @@
             
                <xsl:when test="$license-locale='fr_LU' ">Grèce</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">Greece</xsl:when>
+               <xsl:when test="$license-locale='de' ">Griechenland</xsl:when>
             
                <xsl:when test="$license-locale='sr' ">Грчка</xsl:when>
             
@@ -5292,7 +5292,7 @@
             
                <xsl:when test="$license-locale='bg' ">Нова Зеландия</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">New Zealand</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Neuseeland</xsl:when>
             
                <xsl:when test="$license-locale='hr' ">Novi Zeland</xsl:when>
             
@@ -5314,7 +5314,7 @@
             
                <xsl:when test="$license-locale='fr_LU' ">Nouvelle Zélande</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">New Zealand</xsl:when>
+               <xsl:when test="$license-locale='de' ">Neuseeland</xsl:when>
             
                <xsl:when test="$license-locale='sr' ">Нови Зеланд</xsl:when>
             
@@ -5659,7 +5659,7 @@
             
                <xsl:when test="$license-locale='hr' ">Ekvador</xsl:when>
             
-               <xsl:when test="$license-locale='zh_TW' ">Ecuador</xsl:when>
+               <xsl:when test="$license-locale='zh_TW' ">厄瓜多爾</xsl:when>
             
                <xsl:when test="$license-locale='da' ">Ecuador</xsl:when>
             
@@ -5758,7 +5758,7 @@
             
                <xsl:when test="$license-locale='es' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='th' ">นอร์เวย์</xsl:when>
             
                <xsl:when test="$license-locale='es_AR' ">Norway</xsl:when>
             
@@ -5772,7 +5772,7 @@
             
                <xsl:when test="$license-locale='en_CA' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='fr' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='fr' ">Norvège</xsl:when>
             
                <xsl:when test="$license-locale='bg' ">Norway</xsl:when>
             
@@ -5780,7 +5780,7 @@
             
                <xsl:when test="$license-locale='hr' ">Norveška</xsl:when>
             
-               <xsl:when test="$license-locale='zh_TW' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='zh_TW' ">挪威</xsl:when>
             
                <xsl:when test="$license-locale='da' ">Norway</xsl:when>
             
@@ -5798,7 +5798,7 @@
             
                <xsl:when test="$license-locale='fr_LU' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='de' ">Norwegen</xsl:when>
             
                <xsl:when test="$license-locale='sr' ">Норвешка</xsl:when>
             
@@ -6510,7 +6510,7 @@
          
            <xsl:when test="$license-locale='fr_LU' ">création</xsl:when>
          
-           <xsl:when test="$license-locale='de' ">Werk</xsl:when>
+           <xsl:when test="$license-locale='de' ">Werk oder Inhalt</xsl:when>
          
            <xsl:when test="$license-locale='sr' ">дело</xsl:when>
          
@@ -7197,7 +7197,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='fr' ">Ce/tte{work_type} par <xsl:copy-of select="$work_author"/> est mis à disposition selon les termes de la <a rel="license" href="{$license_url}">licence Creative Commons <xsl:copy-of select="$license_name"/></a>.</xsl:when>
+            <xsl:when test="$license-locale='fr' ">Cette <xsl:copy-of select="$work_type"/> par <xsl:copy-of select="$work_author"/> est mise à disposition selon les termes de la <a rel="license" href="{$license_url}">licence Creative Commons <xsl:copy-of select="$license_name"/></a>.</xsl:when>
 
        
 
@@ -7409,7 +7409,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_title"/> ได้อนุญาตให้ใช้ภายใต้ <a rel="license" href="{$license_url}">สัญญาอนุญาตครีเอทีฟคอมมอนส์แบบ<xsl:copy-of select="$license_name"/></a>.</xsl:when>
 
        
 
@@ -7669,7 +7669,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='fr' ">Ce/tte <xsl:copy-of select="$work_type"/> est mis/e à disposition sous un <a rel="license" href="{$license_url}">contrat Creative Commons</a>.</xsl:when>
+            <xsl:when test="$license-locale='fr' ">Cette <xsl:copy-of select="$work_type"/> est mise à disposition sous un <a rel="license" href="{$license_url}">contrat Creative Commons</a>.</xsl:when>
 
        
 
@@ -7689,7 +7689,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='da' ">Dette <xsl:copy-of select="$work_type"/> er licensieret under en <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> Licens</a>.</xsl:when>
+            <xsl:when test="$license-locale='da' ">Dette <xsl:copy-of select="$work_type"/> er licenseret under en <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> Licens</a>.</xsl:when>
 
        
 
@@ -7884,7 +7884,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 	
-            <xsl:when test="$license-locale='th' ">ตั้งอยู่บนพื้นฐานของงาน</xsl:when>
+            <xsl:when test="$license-locale='th' ">อยู่บนพื้นฐานของงานที่ <xsl:copy-of select="$source_link"/>.</xsl:when>
 
        
 	
@@ -7964,7 +7964,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 	
-            <xsl:when test="$license-locale='de' ">Beruht auf einem Werk unter <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='de' ">Beruht auf einem Inhalt unter <xsl:copy-of select="$source_link"/>.</xsl:when>
 
        
 	
