@@ -5696,6 +5696,127 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='ro' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='el' ">Ρουμανία</xsl:when>
+            
+               <xsl:when test="$license-locale='eo' ">Rumanio</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PR' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Roemenië</xsl:when>
+            
+               <xsl:when test="$license-locale='tr' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='ga' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Errumania</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">罗马尼亚</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='sr_LATN' ">Rumunija</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">Rumänien</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Roemenië</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='no' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='es_EC' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">Romaniya</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='th' ">โรมาเนีย</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">Rumanía</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">eRomania</xsl:when>
+            
+               <xsl:when test="$license-locale='ro' ">România</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">Roumanie</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Румъния</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Rumänien</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Rumunjska</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">羅馬尼亞</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Romænien</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">Roumanie</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">ルーマニア</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">Roumanie</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">רומניה</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">Roumanie</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Rumänien</xsl:when>
+            
+               <xsl:when test="$license-locale='sr' ">Румунија</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Rumänien</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">Романија</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Rumunia</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Romania</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Romunija</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
     </xsl:choose>
   </xsl:template>
 

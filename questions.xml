@@ -6629,6 +6629,118 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="sl">Norway</label>
      
+   </enum><enum id="ro">
+     
+       <label xml:lang="el">Ρουμανία</label>
+     
+       <label xml:lang="eo">Rumanio</label>
+     
+       <label xml:lang="en">Romania</label>
+     
+       <label xml:lang="es_PR">Rumanía</label>
+     
+       <label xml:lang="af">Roemenië</label>
+     
+       <label xml:lang="tr">Romania</label>
+     
+       <label xml:lang="ca">Romania</label>
+     
+       <label xml:lang="it">Romania</label>
+     
+       <label xml:lang="es_PE">Rumanía</label>
+     
+       <label xml:lang="en_US">Romania</label>
+     
+       <label xml:lang="ga">Romania</label>
+     
+       <label xml:lang="es_MX">Rumanía</label>
+     
+       <label xml:lang="eu">Errumania</label>
+     
+       <label xml:lang="zh">罗马尼亚</label>
+     
+       <label xml:lang="gl">Romania</label>
+     
+       <label xml:lang="sr_LATN">Rumunija</label>
+     
+       <label xml:lang="de_CH">Rumänien</label>
+     
+       <label xml:lang="nl">Roemenië</label>
+     
+       <label xml:lang="pt">Romania</label>
+     
+       <label xml:lang="no">Romania</label>
+     
+       <label xml:lang="es_EC">Rumanía</label>
+     
+       <label xml:lang="nso">Romaniya</label>
+     
+       <label xml:lang="es_CO">Rumanía</label>
+     
+       <label xml:lang="es_CL">Rumanía</label>
+     
+       <label xml:lang="es">Rumanía</label>
+     
+       <label xml:lang="th">โรมาเนีย</label>
+     
+       <label xml:lang="es_AR">Rumanía</label>
+     
+       <label xml:lang="zu">eRomania</label>
+     
+       <label xml:lang="ro">România</label>
+     
+       <label xml:lang="pt_PT">Romania</label>
+     
+       <label xml:lang="en_GB">Romania</label>
+     
+       <label xml:lang="en_CA">Romania</label>
+     
+       <label xml:lang="fr">Roumanie</label>
+     
+       <label xml:lang="bg">Румъния</label>
+     
+       <label xml:lang="de_AT">Rumänien</label>
+     
+       <label xml:lang="hr">Rumunjska</label>
+     
+       <label xml:lang="zh_TW">羅馬尼亞</label>
+     
+       <label xml:lang="da">Romænien</label>
+     
+       <label xml:lang="fr_CH">Roumanie</label>
+     
+       <label xml:lang="fi">Romania</label>
+     
+       <label xml:lang="hu">Romania</label>
+     
+       <label xml:lang="ja">ルーマニア</label>
+     
+       <label xml:lang="fr_CA">Roumanie</label>
+     
+       <label xml:lang="he">רומניה</label>
+     
+       <label xml:lang="fr_LU">Roumanie</label>
+     
+       <label xml:lang="de">Rumänien</label>
+     
+       <label xml:lang="sr">Румунија</label>
+     
+       <label xml:lang="ko">Romania</label>
+     
+       <label xml:lang="sv">Rumänien</label>
+     
+       <label xml:lang="mk">Романија</label>
+     
+       <label xml:lang="st">Romania</label>
+     
+       <label xml:lang="it_CH">Romania</label>
+     
+       <label xml:lang="pl">Rumunia</label>
+     
+       <label xml:lang="ms">Romania</label>
+     
+       <label xml:lang="sl">Romunija</label>
+     
    </enum>
 
   </field>
