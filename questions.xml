@@ -32,6 +32,8 @@
   
     <label xml:lang="zh">知识共享组织</label>
   
+    <label xml:lang="en_HK">Creative Commons</label>
+  
     <label xml:lang="gl">Creative Commons</label>
   
     <label xml:lang="sr_LATN">Creative Commons</label>
@@ -106,6 +108,8 @@
   
     <label xml:lang="st">Creative Commons</label>
   
+    <label xml:lang="zh_HK">共享創意</label>
+  
     <label xml:lang="it_CH">Creative Commons</label>
   
     <label xml:lang="pl">Creative Commons</label>
@@ -144,6 +148,8 @@
     <label xml:lang="eu">Zure lana merkataritza xedeetarako erabiltzea baimendu?</label>
    
     <label xml:lang="zh">允许对您的作品进行商业性使用吗？</label>
+   
+    <label xml:lang="en_HK">Allow commercial uses of your work?</label>
    
     <label xml:lang="gl">Quere permitir usos comerciais da sua obra?</label>
    
@@ -211,13 +217,15 @@
    
     <label xml:lang="sr">Да ли дозвољавате комерцијалну употребу дела?</label>
    
-    <label xml:lang="ko">Allow commercial uses of your work?</label>
+    <label xml:lang="ko">영리목적 이용을 허락합니까?</label>
    
     <label xml:lang="sv">Tillåt kommersiell användning av verket?</label>
    
     <label xml:lang="mk">Дали дозволувате комерцијално користење на вашето дело?</label>
    
     <label xml:lang="st">Allow commercial uses of your work?</label>
+   
+    <label xml:lang="zh_HK">是否允許您的著作被使用於商業目的?</label>
    
     <label xml:lang="it_CH">Allow commercial uses of your work?</label>
    
@@ -256,6 +264,8 @@
     <description xml:lang="eu">Lan hau kopiatu, banatu eta jendaurrean hedatzea onartzen du baimendunak. Ordainetan, lan hau ezin da merkataritza xedetarako erabili, baimendunak hartarako baimenik eman ezean.</description>
    
     <description xml:lang="zh">许可人允许他人复制、发行、展览、表演、放映、广播或者通过信息网络向公众传播本作品。但是，除非取得许可人同意，被许可人不得将本作品用于商业目的。</description>
+   
+    <description xml:lang="en_HK">The licensor permits others to copy, distribute, display, and perform the work. In return, licencees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
    
     <description xml:lang="gl">O licenciador permite copiar, distribuír e comunicar publicamente a obra. A cambio, esta obra non pode ser empregada con finalidades comerciais -- salvo que se obteña o permiso do licenciador.</description>
    
@@ -323,13 +333,15 @@
    
     <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуирање и јавно саопштавање дела. Стицалац лиценце не може да користи дело у комерцијалне сврхе, осим ако добије дозволу Даваоца лиценце.</description>
    
-    <description xml:lang="ko">이용허락자는 이 저작물을 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 그 대신 이용자는 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다.</description>
+    <description xml:lang="ko">이 저작물을 복제, 배포, 전시, 공연 및 공중송신하는 것을 허락합니다. 단 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다.</description>
    
     <description xml:lang="sv">Licensgivaren tillåter andra att kopiera, distribuera och sända verket. I gengäld får licenstagarna inte använda verket för kommersiella ändamål -- om de inte får licensgivarens tillstånd.</description>
    
     <description xml:lang="mk">Носителот на лиценцата им дозволува на другите да го копираат, дистрибуираат и пренесуваат делото. За возврат, корисниците не смеат да го користат делото за комерцијални цели – освен ако добијат дозвола од носителот на лиценцата.</description>
    
     <description xml:lang="st">The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.</description>
+   
+    <description xml:lang="zh_HK">授權人允許他人重製、散布、展示、演出本著作。相對地，除非得到授權人的允許，否則被授權人不得為商業目的使用本著作。</description>
    
     <description xml:lang="it_CH">Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano l'opera. In cambio i <em>licenziatari</em> non possono usare l'<em>opera</em> per scopi commerciali &amp;mdash; a meno che non abbiano ottenuto il permesso del <em>licenziante</em>.</description>
    
@@ -370,6 +382,8 @@
      <label xml:lang="eu">Bai</label>
      
      <label xml:lang="zh">是的</label>
+     
+     <label xml:lang="en_HK">Yes</label>
      
      <label xml:lang="gl">Si</label>
      
@@ -445,6 +459,8 @@
      
      <label xml:lang="st">Yes</label>
      
+     <label xml:lang="zh_HK">是</label>
+     
      <label xml:lang="it_CH">Si</label>
      
      <label xml:lang="pl">Tak</label>
@@ -483,6 +499,8 @@
      <label xml:lang="eu">Ez</label>
    
      <label xml:lang="zh">不</label>
+   
+     <label xml:lang="en_HK">No</label>
    
      <label xml:lang="gl">Non</label>
    
@@ -558,6 +576,8 @@
    
      <label xml:lang="st">No</label>
    
+     <label xml:lang="zh_HK">否</label>
+   
      <label xml:lang="it_CH">No</label>
    
      <label xml:lang="pl">Nie</label>
@@ -598,6 +618,8 @@
    <label xml:lang="eu">Zure lanaren aldaketak onartu?</label>
    
    <label xml:lang="zh">允许对您的作品进行修改吗？</label>
+   
+   <label xml:lang="en_HK">Allow modifications of your work?</label>
    
    <label xml:lang="gl">Quere permitir modificacións da sua obra?</label>
    
@@ -665,13 +687,15 @@
    
    <label xml:lang="sr">Да ли дозвољавате прераде свог дела?</label>
    
-   <label xml:lang="ko">Allow modifications of your work?</label>
+   <label xml:lang="ko">저작물의 변경을 허락하시겠습니까?</label>
    
    <label xml:lang="sv">Tillåt bearbetningar av verket?</label>
    
    <label xml:lang="mk">Дали дозволувате модификации на вашето дело?</label>
    
    <label xml:lang="st">Allow modifications of your work?</label>
+   
+   <label xml:lang="zh_HK">是否允許他人改作您的著作?</label>
    
    <label xml:lang="it_CH">Allow modifications of your work?</label>
    
@@ -709,6 +733,8 @@
    <description xml:lang="eu">Lanaren kopia aldatu gabeak kopiatu, banatu eta jendaurrean hedatzea onartzen du baimendunak, baina ez hartatik eratorritako lanik.</description>
    
    <description xml:lang="zh">许可人仅仅允许他人复制、发行、展览、表演、放映、广播或者通过信息网络传播对本作品未作改动的复制件——而不是本作品的演绎作品。</description>
+   
+   <description xml:lang="en_HK">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
    
    <description xml:lang="gl">O licenciador permite copiar, distribuír e comunicar publicamente soamente copias inalteradas da obra -- non obras derivadas baseadas nela.</description>
    
@@ -778,13 +804,15 @@
    
    <description xml:lang="sr">Давалац лиценце дозвољава умножавање, дистрибуцију и јавно саопштавање примерака дела у непромењеном облику — прераде нису дозвољене.</description>
    
-   <description xml:lang="ko">이용허락자는 이 저작물을 개작 또는 변경하지 않는 것을 조건으로 복제, 배포, 전송, 전시, 공연 및 방송하는 것을 허락합니다. 이 저작물에 기한 이차적 저작물의 작성과 복제, 배포, 전송, 전시, 공연 및 방송은 금지됩니다.</description>
+   <description xml:lang="ko">개작 또는 변경하지 않는 것을 조건으로 저작물의 복제, 배포, 전시, 공연 및 공중송신을 허락합니다. 이 저작물에 기한 이차적 저작물의 작성과 복제, 배포, 전시, 공연 및 공중송신은 금지됩니다.</description>
    
    <description xml:lang="sv">Licensgivaren tillåter andra att kopiera, distribuera och sända verket endast i oförändrad form — inte i bearbetad form.</description>
    
    <description xml:lang="mk">Носителот на лиценцата им дозволува на другите да го копираат, дистрибуираат и пренесуваат делото – но не и да прават адаптирани дела.</description>
    
    <description xml:lang="st">The licensor permits others to copy, distribute and transmit only unaltered copies of the work — not derivative works based on it.</description>
+   
+   <description xml:lang="zh_HK">授權人只允許他人重製、散布、展示及演出未經改變的本著作重製物，未允許對根據原著作而生的衍生著作進行上述行為。</description>
    
    <description xml:lang="it_CH">Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano solo copie inalterate dell'<em>opera</em> &amp;mdash; non <em>opere derivate</em> da essa.</description>
    
@@ -824,6 +852,8 @@
      <label xml:lang="eu">Bai</label>
    
      <label xml:lang="zh">是的</label>
+   
+     <label xml:lang="en_HK">Yes</label>
    
      <label xml:lang="gl">Si</label>
    
@@ -899,6 +929,8 @@
    
      <label xml:lang="st">Yes</label>
    
+     <label xml:lang="zh_HK">是</label>
+   
      <label xml:lang="it_CH">Si</label>
    
      <label xml:lang="pl">Tak</label>
@@ -937,6 +969,8 @@
      <label xml:lang="eu">PartekatuBerdin</label>
    
      <label xml:lang="zh">相同方式共享</label>
+   
+     <label xml:lang="en_HK">ShareAlike</label>
    
      <label xml:lang="gl">CompartirIgual</label>
    
@@ -1012,6 +1046,8 @@
    
      <label xml:lang="st">ShareAlike</label>
    
+     <label xml:lang="zh_HK">相同方式共享</label>
+   
      <label xml:lang="it_CH">StessaLicenza</label>
    
      <label xml:lang="pl">Na tych samych warunkach</label>
@@ -1050,6 +1086,8 @@
      <label xml:lang="eu">Ez</label>
    
      <label xml:lang="zh">不</label>
+   
+     <label xml:lang="en_HK">No</label>
    
      <label xml:lang="gl">Non</label>
    
@@ -1125,6 +1163,8 @@
    
      <label xml:lang="st">No</label>
    
+     <label xml:lang="zh_HK">否</label>
+   
      <label xml:lang="it_CH">No</label>
    
      <label xml:lang="pl">Nie</label>
@@ -1165,6 +1205,8 @@
    <label xml:lang="eu">Zure baimenaren jurisdikzioa:</label>
    
    <label xml:lang="zh">您想使用的许可协议所在的司法管辖区域</label>
+   
+   <label xml:lang="en_HK">Jurisdiction of your license:</label>
    
    <label xml:lang="gl">Xurisdicción da sua licenza:</label>
    
@@ -1232,13 +1274,15 @@
    
    <label xml:lang="sr">Јурисдикција лиценце:</label>
    
-   <label xml:lang="ko">Jurisdiction of your license:</label>
+   <label xml:lang="ko">라이선스의 관할</label>
    
    <label xml:lang="sv">Licensens jurisdiktion:</label>
    
    <label xml:lang="mk">Правна надлежност на вашата лиценца</label>
    
    <label xml:lang="st">Jurisdiction of your license:</label>
+   
+   <label xml:lang="zh_HK">您選擇之授權條款其所依據的司法管轄領域:</label>
    
    <label xml:lang="it_CH">Jurisdiction of your license:</label>
    
@@ -1278,6 +1322,8 @@ scegli la versione giapponese della licenza.</description>
    <description xml:lang="eu">Zure lana jurisdikzio jakin bateko jabetza intelektualaren legeen arabera babestu nahi baduzu, mesedez, aukeratu baimenaren aldaera egokia.</description>
    
    <description xml:lang="zh">如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。</description>
+   
+   <description xml:lang="en_HK">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
    <description xml:lang="gl">Se desexa protexe-la súa obra baixo as leis de propiedade intelectual dunha xurisdición específica, por favor, seleccione a versión apropiada da licenza.</description>
    
@@ -1345,13 +1391,15 @@ scegli la versione giapponese della licenza.</description>
    
    <description xml:lang="sr">Ако желите лиценцу неке посебне јурисдикције, изаберите јурисдикцију.</description>
    
-   <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
+   <description xml:lang="ko">이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당되는 국가를 선택하세요.</description>
    
    <description xml:lang="sv">Om du önskar att din licens lyder under ett specifikt lands upphovsrättslagstiftning, var god välj lämplig jurisdiktion.</description>
    
    <description xml:lang="mk">Ако сакате лиценца којашто ќе биде во согласност со Законот за авторски права во определен правен систем, ве молиме изберете соодветен правен систем.</description>
    
    <description xml:lang="st">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   
+   <description xml:lang="zh_HK">如果您想要受到某個特定司法管轄領域著作權法所約束的授權條款，請選擇此一適當的司法管轄領域。</description>
    
    <description xml:lang="it_CH">Se desideri una licenza adattata a una specifica giurisdizione, scegli la giurisdizione appropriata.
 Ad esempio, se desideri che la tua opera sia protetta secondo le leggi sul diritto d'autore vigenti in Giappone, 
@@ -1393,6 +1441,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Generikoa</label>
      
        <label xml:lang="zh">未本地化版本</label>
+     
+       <label xml:lang="en_HK">Generic</label>
      
        <label xml:lang="gl">Xenérica</label>
      
@@ -1468,6 +1518,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Generic</label>
      
+       <label xml:lang="zh_HK">通用版</label>
+     
        <label xml:lang="it_CH">Generico</label>
      
        <label xml:lang="pl">Ogólny</label>
@@ -1506,6 +1558,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Argentina</label>
      
        <label xml:lang="zh">阿根廷</label>
+     
+       <label xml:lang="en_HK">Argentina</label>
      
        <label xml:lang="gl">Argentina</label>
      
@@ -1581,6 +1635,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Argentina</label>
      
+       <label xml:lang="zh_HK">阿根廷</label>
+     
        <label xml:lang="it_CH">Argentina</label>
      
        <label xml:lang="pl">Argentyna</label>
@@ -1618,6 +1674,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Australia</label>
      
        <label xml:lang="zh">澳大利亚</label>
+     
+       <label xml:lang="en_HK">Australia</label>
      
        <label xml:lang="gl">Australia</label>
      
@@ -1693,6 +1751,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Australia</label>
      
+       <label xml:lang="zh_HK">澳大利亞</label>
+     
        <label xml:lang="it_CH">Australia</label>
      
        <label xml:lang="pl">Australia</label>
@@ -1730,6 +1790,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Austria</label>
      
        <label xml:lang="zh">奥地利</label>
+     
+       <label xml:lang="en_HK">Austria</label>
      
        <label xml:lang="gl">Austria</label>
      
@@ -1805,6 +1867,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Austria</label>
      
+       <label xml:lang="zh_HK">奧地利</label>
+     
        <label xml:lang="it_CH">Austria</label>
      
        <label xml:lang="pl">Austria</label>
@@ -1842,6 +1906,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Belgika</label>
      
        <label xml:lang="zh">比利时</label>
+     
+       <label xml:lang="en_HK">Belgium</label>
      
        <label xml:lang="gl">Bélxica</label>
      
@@ -1917,6 +1983,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Belgium</label>
      
+       <label xml:lang="zh_HK">比利時</label>
+     
        <label xml:lang="it_CH">Belgio</label>
      
        <label xml:lang="pl">Belgia</label>
@@ -1954,6 +2022,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Brasil</label>
      
        <label xml:lang="zh">巴西</label>
+     
+       <label xml:lang="en_HK">Brazil</label>
      
        <label xml:lang="gl">Brasil</label>
      
@@ -2029,6 +2099,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Brazil</label>
      
+       <label xml:lang="zh_HK">巴西</label>
+     
        <label xml:lang="it_CH">Brasile</label>
      
        <label xml:lang="pl">Brazylia</label>
@@ -2066,6 +2138,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Bulgaria</label>
      
        <label xml:lang="zh">保加利亚</label>
+     
+       <label xml:lang="en_HK">Bulgaria</label>
      
        <label xml:lang="gl">Bulgaria</label>
      
@@ -2141,6 +2215,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Bulgaria</label>
      
+       <label xml:lang="zh_HK">保加利亞</label>
+     
        <label xml:lang="it_CH">Bulgaria</label>
      
        <label xml:lang="pl">Bułgaria</label>
@@ -2178,6 +2254,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Kanada</label>
      
        <label xml:lang="zh">加拿大</label>
+     
+       <label xml:lang="en_HK">Canada</label>
      
        <label xml:lang="gl">Canadá</label>
      
@@ -2253,6 +2331,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Canada</label>
      
+       <label xml:lang="zh_HK">加拿大</label>
+     
        <label xml:lang="it_CH">Canada</label>
      
        <label xml:lang="pl">Kanada</label>
@@ -2290,6 +2370,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Txile</label>
      
        <label xml:lang="zh">智利</label>
+     
+       <label xml:lang="en_HK">Chile</label>
      
        <label xml:lang="gl">Chile</label>
      
@@ -2365,6 +2447,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Chile</label>
      
+       <label xml:lang="zh_HK">智利</label>
+     
        <label xml:lang="it_CH">Chile</label>
      
        <label xml:lang="pl">Chile</label>
@@ -2402,6 +2486,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Txina</label>
      
        <label xml:lang="zh">中国大陆</label>
+     
+       <label xml:lang="en_HK">China</label>
      
        <label xml:lang="gl">China</label>
      
@@ -2477,6 +2563,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">China Mainland</label>
      
+       <label xml:lang="zh_HK">中國大陸</label>
+     
        <label xml:lang="it_CH">Cina</label>
      
        <label xml:lang="pl">Chiny</label>
@@ -2514,6 +2602,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Kolonbia</label>
      
        <label xml:lang="zh">哥伦比亚</label>
+     
+       <label xml:lang="en_HK">Colombia</label>
      
        <label xml:lang="gl">Colombia</label>
      
@@ -2589,6 +2679,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Colombia</label>
      
+       <label xml:lang="zh_HK">哥倫比亞</label>
+     
        <label xml:lang="it_CH">Colombia</label>
      
        <label xml:lang="pl">Kolumbia</label>
@@ -2626,6 +2718,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Kroazia</label>
      
        <label xml:lang="zh">克罗地亚</label>
+     
+       <label xml:lang="en_HK">Croatia</label>
      
        <label xml:lang="gl">Croacia</label>
      
@@ -2701,6 +2795,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Croatia</label>
      
+       <label xml:lang="zh_HK">克羅地亞</label>
+     
        <label xml:lang="it_CH">Croazia</label>
      
        <label xml:lang="pl">Chorwacja</label>
@@ -2738,6 +2834,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Hungaria</label>
      
        <label xml:lang="zh">匈牙利</label>
+     
+       <label xml:lang="en_HK">Hungary</label>
      
        <label xml:lang="gl">Hungary</label>
      
@@ -2813,6 +2911,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Hungary</label>
      
+       <label xml:lang="zh_HK">匈牙利</label>
+     
        <label xml:lang="it_CH">Hungary</label>
      
        <label xml:lang="pl">Węgry</label>
@@ -2850,6 +2950,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Danimarka</label>
      
        <label xml:lang="zh">丹麦</label>
+     
+       <label xml:lang="en_HK">Denmark</label>
      
        <label xml:lang="gl">Denmark</label>
      
@@ -2925,6 +3027,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Denmark</label>
      
+       <label xml:lang="zh_HK">丹麥</label>
+     
        <label xml:lang="it_CH">Denmark</label>
      
        <label xml:lang="pl">Dania</label>
@@ -2962,6 +3066,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Finlandia</label>
      
        <label xml:lang="zh">芬兰</label>
+     
+       <label xml:lang="en_HK">Finland</label>
      
        <label xml:lang="gl">Finlandia</label>
      
@@ -3037,6 +3143,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Finland</label>
      
+       <label xml:lang="zh_HK">芬蘭</label>
+     
        <label xml:lang="it_CH">Finlandia</label>
      
        <label xml:lang="pl">Finlandia</label>
@@ -3074,6 +3182,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Frantzia</label>
      
        <label xml:lang="zh">法国</label>
+     
+       <label xml:lang="en_HK">France</label>
      
        <label xml:lang="gl">Francia</label>
      
@@ -3149,6 +3259,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">France</label>
      
+       <label xml:lang="zh_HK">法國</label>
+     
        <label xml:lang="it_CH">Francia</label>
      
        <label xml:lang="pl">Francja</label>
@@ -3186,6 +3298,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Alemania</label>
      
        <label xml:lang="zh">德国</label>
+     
+       <label xml:lang="en_HK">Germany</label>
      
        <label xml:lang="gl">Alemaña</label>
      
@@ -3261,6 +3375,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Germany</label>
      
+       <label xml:lang="zh_HK">德國</label>
+     
        <label xml:lang="it_CH">Germania</label>
      
        <label xml:lang="pl">Niemcy</label>
@@ -3298,6 +3414,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Israel</label>
      
        <label xml:lang="zh">以色列</label>
+     
+       <label xml:lang="en_HK">Israel</label>
      
        <label xml:lang="gl">Israel</label>
      
@@ -3373,6 +3491,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Israel</label>
      
+       <label xml:lang="zh_HK">以色列</label>
+     
        <label xml:lang="it_CH">Israel</label>
      
        <label xml:lang="pl">Izrael</label>
@@ -3410,6 +3530,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">India</label>
      
        <label xml:lang="zh">印度</label>
+     
+       <label xml:lang="en_HK">India</label>
      
        <label xml:lang="gl">India</label>
      
@@ -3485,6 +3607,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">India</label>
      
+       <label xml:lang="zh_HK">印度</label>
+     
        <label xml:lang="it_CH">India</label>
      
        <label xml:lang="pl">Indie</label>
@@ -3522,6 +3646,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Italia</label>
      
        <label xml:lang="zh">意大利</label>
+     
+       <label xml:lang="en_HK">Italy</label>
      
        <label xml:lang="gl">Italia</label>
      
@@ -3597,6 +3723,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Italy</label>
      
+       <label xml:lang="zh_HK">義大利</label>
+     
        <label xml:lang="it_CH">Italia</label>
      
        <label xml:lang="pl">Włochy</label>
@@ -3634,6 +3762,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Japonia</label>
      
        <label xml:lang="zh">日本</label>
+     
+       <label xml:lang="en_HK">Japan</label>
      
        <label xml:lang="gl">Xapón</label>
      
@@ -3709,6 +3839,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Japan</label>
      
+       <label xml:lang="zh_HK">日本</label>
+     
        <label xml:lang="it_CH">Giappone</label>
      
        <label xml:lang="pl">Japonia</label>
@@ -3746,6 +3878,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Korea</label>
      
        <label xml:lang="zh">韩国</label>
+     
+       <label xml:lang="en_HK">Korea</label>
      
        <label xml:lang="gl">Corea</label>
      
@@ -3821,6 +3955,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Korea</label>
      
+       <label xml:lang="zh_HK">韓國</label>
+     
        <label xml:lang="it_CH">Corea</label>
      
        <label xml:lang="pl">Korea</label>
@@ -3858,6 +3994,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Macedonia</label>
      
        <label xml:lang="zh">马其顿</label>
+     
+       <label xml:lang="en_HK">Macedonia</label>
      
        <label xml:lang="gl">Macedonia</label>
      
@@ -3933,6 +4071,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Macedonia</label>
      
+       <label xml:lang="zh_HK">馬其頓</label>
+     
        <label xml:lang="it_CH">Macedonia</label>
      
        <label xml:lang="pl">Macedonia</label>
@@ -3970,6 +4110,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Malaysia</label>
      
        <label xml:lang="zh">马来西亚</label>
+     
+       <label xml:lang="en_HK">Malaysia</label>
      
        <label xml:lang="gl">Malaysia</label>
      
@@ -4045,6 +4187,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Malaysia</label>
      
+       <label xml:lang="zh_HK">馬來西亞</label>
+     
        <label xml:lang="it_CH">Malaysia</label>
      
        <label xml:lang="pl">Malezja</label>
@@ -4082,6 +4226,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Malta</label>
      
        <label xml:lang="zh">马耳他</label>
+     
+       <label xml:lang="en_HK">Malta</label>
      
        <label xml:lang="gl">Malta</label>
      
@@ -4157,6 +4303,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Malta</label>
      
+       <label xml:lang="zh_HK">馬爾他</label>
+     
        <label xml:lang="it_CH">Malta</label>
      
        <label xml:lang="pl">Malta</label>
@@ -4194,6 +4342,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Mexiko</label>
      
        <label xml:lang="zh">墨西哥</label>
+     
+       <label xml:lang="en_HK">Mexico</label>
      
        <label xml:lang="gl">Mexico</label>
      
@@ -4269,6 +4419,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Mexico</label>
      
+       <label xml:lang="zh_HK">墨西哥</label>
+     
        <label xml:lang="it_CH">Mexico</label>
      
        <label xml:lang="pl">Meksyk</label>
@@ -4306,6 +4458,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Herbehereak</label>
      
        <label xml:lang="zh">荷兰</label>
+     
+       <label xml:lang="en_HK">Netherlands</label>
      
        <label xml:lang="gl">Holanda</label>
      
@@ -4381,6 +4535,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Netherlands</label>
      
+       <label xml:lang="zh_HK">荷蘭</label>
+     
        <label xml:lang="it_CH">Olanda</label>
      
        <label xml:lang="pl">Holandia</label>
@@ -4418,6 +4574,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Peru</label>
      
        <label xml:lang="zh">秘鲁</label>
+     
+       <label xml:lang="en_HK">Peru</label>
      
        <label xml:lang="gl">Peru</label>
      
@@ -4493,6 +4651,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Peru</label>
      
+       <label xml:lang="zh_HK">秘魯</label>
+     
        <label xml:lang="it_CH">Peru</label>
      
        <label xml:lang="pl">Peru</label>
@@ -4530,6 +4690,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Filipinak</label>
      
        <label xml:lang="zh">菲律宾</label>
+     
+       <label xml:lang="en_HK">Philippines</label>
      
        <label xml:lang="gl">Philippines</label>
      
@@ -4605,6 +4767,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Philippines</label>
      
+       <label xml:lang="zh_HK">菲律賓</label>
+     
        <label xml:lang="it_CH">Philippines</label>
      
        <label xml:lang="pl">Filipiny</label>
@@ -4642,6 +4806,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Polonia</label>
      
        <label xml:lang="zh">波兰</label>
+     
+       <label xml:lang="en_HK">Poland</label>
      
        <label xml:lang="gl">Polonia</label>
      
@@ -4717,6 +4883,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Poland</label>
      
+       <label xml:lang="zh_HK">波蘭</label>
+     
        <label xml:lang="it_CH">Polonia</label>
      
        <label xml:lang="pl">Polska</label>
@@ -4754,6 +4922,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Portugal</label>
      
        <label xml:lang="zh">葡萄牙</label>
+     
+       <label xml:lang="en_HK">Portugal</label>
      
        <label xml:lang="gl">Portugal</label>
      
@@ -4829,6 +4999,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Portugal</label>
      
+       <label xml:lang="zh_HK">葡萄牙</label>
+     
        <label xml:lang="it_CH">Portogallo</label>
      
        <label xml:lang="pl">Portugalia</label>
@@ -4866,6 +5038,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Eslovenia</label>
      
        <label xml:lang="zh">斯洛文尼亚</label>
+     
+       <label xml:lang="en_HK">Slovenia</label>
      
        <label xml:lang="gl">Slovenia</label>
      
@@ -4941,6 +5115,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Slovenia</label>
      
+       <label xml:lang="zh_HK">斯洛維尼亞</label>
+     
        <label xml:lang="it_CH">Slovenia</label>
      
        <label xml:lang="pl">Słowenia</label>
@@ -4978,6 +5154,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Hegoafrika</label>
      
        <label xml:lang="zh">南非</label>
+     
+       <label xml:lang="en_HK">South Africa</label>
      
        <label xml:lang="gl">Sudáfrica</label>
      
@@ -5053,6 +5231,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">South Africa</label>
      
+       <label xml:lang="zh_HK">南非</label>
+     
        <label xml:lang="it_CH">Sud Africa</label>
      
        <label xml:lang="pl">Południowa Afryka</label>
@@ -5090,6 +5270,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Espainia</label>
      
        <label xml:lang="zh">西班牙</label>
+     
+       <label xml:lang="en_HK">Spain</label>
      
        <label xml:lang="gl">España</label>
      
@@ -5165,6 +5347,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Spain</label>
      
+       <label xml:lang="zh_HK">西班牙</label>
+     
        <label xml:lang="it_CH">Spagna</label>
      
        <label xml:lang="pl">Hiszpania</label>
@@ -5202,6 +5386,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Suedia</label>
      
        <label xml:lang="zh">瑞典</label>
+     
+       <label xml:lang="en_HK">Sweden</label>
      
        <label xml:lang="gl">Sweden</label>
      
@@ -5277,6 +5463,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Sweden</label>
      
+       <label xml:lang="zh_HK">瑞典</label>
+     
        <label xml:lang="it_CH">Sweden</label>
      
        <label xml:lang="pl">Szwecja</label>
@@ -5314,6 +5502,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Suitza</label>
      
        <label xml:lang="zh">瑞士</label>
+     
+       <label xml:lang="en_HK">Switzerland</label>
      
        <label xml:lang="gl">Switzerland</label>
      
@@ -5389,6 +5579,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Switzerland</label>
      
+       <label xml:lang="zh_HK">瑞士</label>
+     
        <label xml:lang="it_CH">Switzerland</label>
      
        <label xml:lang="pl">Szwajcaria</label>
@@ -5426,6 +5618,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Taiwan</label>
      
        <label xml:lang="zh">台湾</label>
+     
+       <label xml:lang="en_HK">Taiwan</label>
      
        <label xml:lang="gl">Taiwan</label>
      
@@ -5501,6 +5695,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Taiwan</label>
      
+       <label xml:lang="zh_HK">台灣</label>
+     
        <label xml:lang="it_CH">Taiwan</label>
      
        <label xml:lang="pl">Tajwan</label>
@@ -5538,6 +5734,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Ingalaterra eta Gales</label>
      
        <label xml:lang="zh">英国：英格兰和威尔士</label>
+     
+       <label xml:lang="en_HK">UK: England &amp; Wales</label>
      
        <label xml:lang="gl">Inglaterra e País de Gales</label>
      
@@ -5613,6 +5811,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">UK: England &amp; Wales</label>
      
+       <label xml:lang="zh_HK">英國: 英格蘭及威爾斯</label>
+     
        <label xml:lang="it_CH">Inghilterra &amp; Galles</label>
      
        <label xml:lang="pl">Anglia i Walia</label>
@@ -5650,6 +5850,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Eskozia</label>
      
        <label xml:lang="zh">英国：苏格兰</label>
+     
+       <label xml:lang="en_HK">UK: Scotland</label>
      
        <label xml:lang="gl">UK: Scotland</label>
      
@@ -5725,6 +5927,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">UK: Scotland</label>
      
+       <label xml:lang="zh_HK">英國: 蘇格蘭</label>
+     
        <label xml:lang="it_CH">UK: Scotland</label>
      
        <label xml:lang="pl">Szkocja</label>
@@ -5762,6 +5966,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Estatu Batuak</label>
      
        <label xml:lang="zh">美国</label>
+     
+       <label xml:lang="en_HK">United States</label>
      
        <label xml:lang="gl">Estados Unidos</label>
      
@@ -5837,6 +6043,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">United States</label>
      
+       <label xml:lang="zh_HK">美國</label>
+     
        <label xml:lang="it_CH">United States</label>
      
        <label xml:lang="pl">Stany Zjednoczone</label>
@@ -5874,6 +6082,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Greece</label>
      
        <label xml:lang="zh">希腊</label>
+     
+       <label xml:lang="en_HK">Greece</label>
      
        <label xml:lang="gl">Greece</label>
      
@@ -5949,6 +6159,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Greece</label>
      
+       <label xml:lang="zh_HK">希臘</label>
+     
        <label xml:lang="it_CH">Greece</label>
      
        <label xml:lang="pl">Greece</label>
@@ -5986,6 +6198,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Luxemburg</label>
      
        <label xml:lang="zh">卢森堡</label>
+     
+       <label xml:lang="en_HK">Luxembourg</label>
      
        <label xml:lang="gl">Luxembourg</label>
      
@@ -6061,6 +6275,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Luxembourg</label>
      
+       <label xml:lang="zh_HK">盧森堡</label>
+     
        <label xml:lang="it_CH">Luxembourg</label>
      
        <label xml:lang="pl">Luksemburg</label>
@@ -6098,6 +6314,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">New Zealand</label>
      
        <label xml:lang="zh">新西兰</label>
+     
+       <label xml:lang="en_HK">New Zealand</label>
      
        <label xml:lang="gl">New Zealand</label>
      
@@ -6173,6 +6391,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">New Zealand</label>
      
+       <label xml:lang="zh_HK">紐西蘭</label>
+     
        <label xml:lang="it_CH">New Zealand</label>
      
        <label xml:lang="pl">New Zealand</label>
@@ -6180,6 +6400,122 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="ms">New Zealand</label>
      
        <label xml:lang="sl">Nova Zelandija</label>
+     
+   </enum><enum id="hk">
+     
+       <label xml:lang="el">Hong Kong</label>
+     
+       <label xml:lang="eo">Hong Kong</label>
+     
+       <label xml:lang="en">Hong Kong</label>
+     
+       <label xml:lang="es_PR">Hong Kong</label>
+     
+       <label xml:lang="af">Hong Kong</label>
+     
+       <label xml:lang="tr">Hong Kong</label>
+     
+       <label xml:lang="ca">Hong Kong</label>
+     
+       <label xml:lang="it">Hong Kong</label>
+     
+       <label xml:lang="es_PE">Hong Kong</label>
+     
+       <label xml:lang="en_US">Hong Kong</label>
+     
+       <label xml:lang="ga">Hong Kong</label>
+     
+       <label xml:lang="es_MX">Hong Kong</label>
+     
+       <label xml:lang="eu">Hong Kong</label>
+     
+       <label xml:lang="zh">香港</label>
+     
+       <label xml:lang="en_HK">Hong Kong</label>
+     
+       <label xml:lang="gl">Hong Kong</label>
+     
+       <label xml:lang="sr_LATN">Hong Kong</label>
+     
+       <label xml:lang="de_CH">Hong Kong</label>
+     
+       <label xml:lang="nl">Hong Kong</label>
+     
+       <label xml:lang="pt">Hong Kong</label>
+     
+       <label xml:lang="no">Hong Kong</label>
+     
+       <label xml:lang="es_EC">Hong Kong</label>
+     
+       <label xml:lang="nso">Hong Kong</label>
+     
+       <label xml:lang="es_CO">Hong Kong</label>
+     
+       <label xml:lang="es_CL">Hong Kong</label>
+     
+       <label xml:lang="es">Hong Kong</label>
+     
+       <label xml:lang="th">Hong Kong</label>
+     
+       <label xml:lang="es_AR">Hong Kong</label>
+     
+       <label xml:lang="zu">Hong Kong</label>
+     
+       <label xml:lang="ro">Hong Kong</label>
+     
+       <label xml:lang="pt_PT">Hong Kong</label>
+     
+       <label xml:lang="en_GB">Hong Kong</label>
+     
+       <label xml:lang="en_CA">Hong Kong</label>
+     
+       <label xml:lang="fr">Hong Kong</label>
+     
+       <label xml:lang="bg">Hong Kong</label>
+     
+       <label xml:lang="de_AT">Hong Kong</label>
+     
+       <label xml:lang="hr">Hong Kong</label>
+     
+       <label xml:lang="zh_TW">Hong Kong</label>
+     
+       <label xml:lang="da">Hong Kong</label>
+     
+       <label xml:lang="fr_CH">Hong Kong</label>
+     
+       <label xml:lang="fi">Hong Kong</label>
+     
+       <label xml:lang="hu">Hong Kong</label>
+     
+       <label xml:lang="ja">Hong Kong</label>
+     
+       <label xml:lang="fr_CA">Hong Kong</label>
+     
+       <label xml:lang="he">Hong Kong</label>
+     
+       <label xml:lang="fr_LU">Hong Kong</label>
+     
+       <label xml:lang="de">Hong Kong</label>
+     
+       <label xml:lang="sr">Hong Kong</label>
+     
+       <label xml:lang="ko">Hong Kong</label>
+     
+       <label xml:lang="sv">Hong Kong</label>
+     
+       <label xml:lang="mk">Hong Kong</label>
+     
+       <label xml:lang="st">Hong Kong</label>
+     
+       <label xml:lang="zh_HK">香港</label>
+     
+       <label xml:lang="it_CH">Hong Kong</label>
+     
+       <label xml:lang="pl">Hong Kong</label>
+     
+       <label xml:lang="ms">Hong Kong</label>
+     
+       <label xml:lang="sl">Hong Kong</label>
      
    </enum><enum id="rs">
      
@@ -6210,6 +6546,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Serbia</label>
      
        <label xml:lang="zh">塞尔维亚</label>
+     
+       <label xml:lang="en_HK">Serbia</label>
      
        <label xml:lang="gl">Serbia</label>
      
@@ -6285,6 +6623,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Serbia</label>
      
+       <label xml:lang="zh_HK">塞爾維亞</label>
+     
        <label xml:lang="it_CH">Serbia</label>
      
        <label xml:lang="pl">Serbia</label>
@@ -6322,6 +6662,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Puerto Rico</label>
      
        <label xml:lang="zh">Puerto Rico</label>
+     
+       <label xml:lang="en_HK">Puerto Rico</label>
      
        <label xml:lang="gl">Puerto Rico</label>
      
@@ -6397,6 +6739,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Puerto Rico</label>
      
+       <label xml:lang="zh_HK">波多黎各</label>
+     
        <label xml:lang="it_CH">Puerto Rico</label>
      
        <label xml:lang="pl">Puerto Rico</label>
@@ -6434,6 +6778,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Ecuador</label>
      
        <label xml:lang="zh">Ecuador</label>
+     
+       <label xml:lang="en_HK">Ecuador</label>
      
        <label xml:lang="gl">Ecuador</label>
      
@@ -6509,6 +6855,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Ecuador</label>
      
+       <label xml:lang="zh_HK">厄瓜多爾</label>
+     
        <label xml:lang="it_CH">Ecuador</label>
      
        <label xml:lang="pl">Ecuador</label>
@@ -6547,13 +6895,15 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="zh">Norway</label>
      
+       <label xml:lang="en_HK">Norway</label>
+     
        <label xml:lang="gl">Norway</label>
      
        <label xml:lang="sr_LATN">Norveška</label>
      
        <label xml:lang="de_CH">Norway</label>
      
-       <label xml:lang="nl">Norway</label>
+       <label xml:lang="nl">Norwegen </label>
      
        <label xml:lang="pt">Norway</label>
      
@@ -6621,6 +6971,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Norway</label>
      
+       <label xml:lang="zh_HK">挪威</label>
+     
        <label xml:lang="it_CH">Norway</label>
      
        <label xml:lang="pl">Norway</label>
@@ -6658,6 +7010,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Errumania</label>
      
        <label xml:lang="zh">罗马尼亚</label>
+     
+       <label xml:lang="en_HK">Romania</label>
      
        <label xml:lang="gl">Romania</label>
      
@@ -6733,6 +7087,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Romania</label>
      
+       <label xml:lang="zh_HK">羅馬尼亞</label>
+     
        <label xml:lang="it_CH">Romania</label>
      
        <label xml:lang="pl">Rumunia</label>
@@ -6776,6 +7132,8 @@ scegli la versione giapponese della licenza.</description>
    <label xml:lang="eu">Eskumen Publikoa</label>
   
    <label xml:lang="zh">公共领域</label>
+  
+   <label xml:lang="en_HK">Public Domain</label>
   
    <label xml:lang="gl">Dominio Público</label>
   
@@ -6851,6 +7209,8 @@ scegli la versione giapponese della licenza.</description>
   
    <label xml:lang="st">Public Domain</label>
   
+   <label xml:lang="zh_HK">公共領域 (Public Domain)</label>
+  
    <label xml:lang="it_CH">Pubblico Dominio</label>
   
    <label xml:lang="pl">Public Domain</label>
@@ -6890,6 +7250,8 @@ scegli la versione giapponese della licenza.</description>
    <label xml:lang="eu">Sampling</label>
   
    <label xml:lang="zh">取样使用</label>
+  
+   <label xml:lang="en_HK">Sampling</label>
   
    <label xml:lang="gl">Sampling</label>
   
@@ -6957,13 +7319,15 @@ scegli la versione giapponese della licenza.</description>
   
    <label xml:lang="sr">Стварање дела на основу узорка (sampling)</label>
   
-   <label xml:lang="ko">Sampling</label>
+   <label xml:lang="ko">샘플링</label>
   
    <label xml:lang="sv">Sampling</label>
   
    <label xml:lang="mk">Семплирање</label>
   
    <label xml:lang="st">Sampling</label>
+  
+   <label xml:lang="zh_HK">取樣</label>
   
    <label xml:lang="it_CH"><span lang="en">Sampling</span></label>
   
@@ -7004,6 +7368,8 @@ scegli la versione giapponese della licenza.</description>
      <label xml:lang="eu">Zure baimenaren jurisdikzioa:</label>
    
      <label xml:lang="zh">您想使用的许可协议所在的司法管辖区域</label>
+   
+     <label xml:lang="en_HK">Jurisdiction of your license:</label>
    
      <label xml:lang="gl">Xurisdicción da sua licenza:</label>
    
@@ -7071,13 +7437,15 @@ scegli la versione giapponese della licenza.</description>
    
      <label xml:lang="sr">Јурисдикција лиценце:</label>
    
-     <label xml:lang="ko">Jurisdiction of your license:</label>
+     <label xml:lang="ko">라이선스의 관할</label>
    
      <label xml:lang="sv">Licensens jurisdiktion:</label>
    
      <label xml:lang="mk">Правна надлежност на вашата лиценца</label>
    
      <label xml:lang="st">Jurisdiction of your license:</label>
+   
+     <label xml:lang="zh_HK">您選擇之授權條款其所依據的司法管轄領域:</label>
    
      <label xml:lang="it_CH">Jurisdiction of your license:</label>
    
@@ -7118,6 +7486,8 @@ scegli la versione giapponese della licenza.</description>
      <description xml:lang="eu">Zure lana jurisdikzio jakin bateko jabetza intelektualaren legeen arabera babestu nahi baduzu, mesedez, aukeratu baimenaren aldaera egokia.</description>
    
      <description xml:lang="zh">如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。</description>
+   
+     <description xml:lang="en_HK">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
      <description xml:lang="gl">Se desexa protexe-la súa obra baixo as leis de propiedade intelectual dunha xurisdición específica, por favor, seleccione a versión apropiada da licenza.</description>
    
@@ -7185,13 +7555,15 @@ scegli la versione giapponese della licenza.</description>
    
      <description xml:lang="sr">Ако желите лиценцу неке посебне јурисдикције, изаберите јурисдикцију.</description>
    
-     <description xml:lang="ko">이용허락관계의 해석 및 규율을 특정 국가의 저작권법에 따르도록 하고 싶으시면, 해당되는 재판관할을 선택해 주세요.</description>
+     <description xml:lang="ko">이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당되는 국가를 선택하세요.</description>
    
      <description xml:lang="sv">Om du önskar att din licens lyder under ett specifikt lands upphovsrättslagstiftning, var god välj lämplig jurisdiktion.</description>
    
      <description xml:lang="mk">Ако сакате лиценца којашто ќе биде во согласност со Законот за авторски права во определен правен систем, ве молиме изберете соодветен правен систем.</description>
    
      <description xml:lang="st">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   
+     <description xml:lang="zh_HK">如果您想要受到某個特定司法管轄領域著作權法所約束的授權條款，請選擇此一適當的司法管轄領域。</description>
    
      <description xml:lang="it_CH">Se desideri una licenza adattata a una specifica giurisdizione, scegli la giurisdizione appropriata.
 Ad esempio, se desideri che la tua opera sia protetta secondo le leggi sul diritto d'autore vigenti in Giappone, 
@@ -7235,6 +7607,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Generikoa</label>
      
        <label xml:lang="zh">未本地化版本</label>
+     
+       <label xml:lang="en_HK">Generic</label>
      
        <label xml:lang="gl">Xenérica</label>
      
@@ -7310,6 +7684,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Generic</label>
      
+       <label xml:lang="zh_HK">通用版</label>
+     
        <label xml:lang="it_CH">Generico</label>
      
        <label xml:lang="pl">Ogólny</label>
@@ -7349,6 +7725,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Brasil</label>
      
        <label xml:lang="zh">巴西</label>
+     
+       <label xml:lang="en_HK">Brazil</label>
      
        <label xml:lang="gl">Brasil</label>
      
@@ -7424,6 +7802,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Brazil</label>
      
+       <label xml:lang="zh_HK">巴西</label>
+     
        <label xml:lang="it_CH">Brasile</label>
      
        <label xml:lang="pl">Brazylia</label>
@@ -7463,6 +7843,8 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="eu">Taiwan</label>
      
        <label xml:lang="zh">台湾</label>
+     
+       <label xml:lang="en_HK">Taiwan</label>
      
        <label xml:lang="gl">Taiwan</label>
      
@@ -7538,6 +7920,8 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Taiwan</label>
      
+       <label xml:lang="zh_HK">台灣</label>
+     
        <label xml:lang="it_CH">Taiwan</label>
      
        <label xml:lang="pl">Tajwan</label>
@@ -7579,6 +7963,8 @@ scegli la versione giapponese della licenza.</description>
       <label xml:lang="eu">What flavor of Sampling license?</label>
     
       <label xml:lang="zh">取样使用许可协议的特点是什么？</label>
+    
+      <label xml:lang="en_HK">What flavor of Sampling license?</label>
     
       <label xml:lang="gl">Que opción de licenza Sampling desexa?</label>
     
@@ -7646,13 +8032,15 @@ scegli la versione giapponese della licenza.</description>
     
       <label xml:lang="sr">Која врста Sampling лиценце?</label>
     
-      <label xml:lang="ko">What flavor of Sampling license?</label>
+      <label xml:lang="ko">어떤 종류의 샘플링 라이선스인가요?</label>
     
       <label xml:lang="sv">Vilken smak av Samplingslicens?</label>
     
       <label xml:lang="mk">Која лиценца за семплирање ја сакате?</label>
     
       <label xml:lang="st">What flavor of Sampling license?</label>
+    
+      <label xml:lang="zh_HK">要選擇何種取樣授權條款?</label>
     
       <label xml:lang="it_CH">What flavor of Sampling license?</label>
     
@@ -7690,6 +8078,8 @@ scegli la versione giapponese della licenza.</description>
       <description xml:lang="eu">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
       <description xml:lang="zh">取样使用许可协议的特点决定了被许可人享有何种程度的自由。取样使用许可协议仅仅允许使用作品的片断，禁止共享整部作品。取样使用加强版许可协议允许被许可人获取和转换作品的片断，也允许基于非商业目的共享整部作品。非商业性取样使用加强版许可协议通过只允许对您的作品取样进行非商业性的演绎创作，进一步增加了取样使用加强版许可协议的限制。</description>
+    
+      <description xml:lang="en_HK">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
       <description xml:lang="gl">As diferentes opcións das licenzas de Sampling permiten determinar a liberdade que teñen os usuarios para emprega-la obra. Só Sampling permite o uso de fragmentos da obra mais prohibe o intercambio da obra completa. A opción Sampling Plus permite coller e transformar fragmentos da obra e ademáis comparti-la obra completa con finalidades non comerciais. Finalmente, a opción de Noncommercial Sampling Plus é máis restrictiva que a de Sampling Plus xa que só autoriza a creación de obras derivadas non comerciais a partir dos fragmentos da obra orixinal.</description>
     
@@ -7769,13 +8159,15 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
     
       <description xml:lang="sr">Sampling Flavor одређује колики обим права се уступа лиценцом. Sampling лиценце дозвољавају коришћење делова дела, а забрањују коришћење целог дела. Sampling Plus дозвољава узимање и прераду делова дела, као и дистрибуирање целог дела у некомерцијале сврхе. Некомерцијални услов ограничава права стицаоца лиценце, јер се дозвољава само некомерцијална прерада делова дела.</description>
     
-      <description xml:lang="ko">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+      <description xml:lang="ko">샘플링의 각 유형마다 이용자의 권한이 달라집니다. "샘플링"은 오직 일부분의 사용만 허락하고 전체 작품의 사용은 금지합니다. "샘플링 플러스"는 저작물의 일부분을 발췌, 변형하거나 전체작품을 비영리 목적으로 공유하는 것을 허락합니다. "비영리 샘플링 플러스"는 샘플링 플러스 라이선스를 좀 더 제한하여 오직 비영리 목적의 2차적저작물의 작성만을 허락합니다.   </description>
     
       <description xml:lang="sv">Smaken på Samplingslicensen avgör hur mycket frihet licenstagarna har. Sampling tillåter endast att delar används och förbjuder delning av hela verk. Sampling Plus tillåter licenstagarna att ta och omforma delar av verket, och att dela hela verket för icke-kommersiella ändamål. Icke-kommersiell Sampling Plus begränsar Sampling Plus licensen ytterligare genom att endast tillåta icke-kommersiella bearbetningar att skapas från delarna av ditt verk.</description>
     
       <description xml:lang="mk">Видот на лиценцата за семплирање определува колкава слобода ви нуди лиценцата. Семплирањето дозволува користење на делови, а забранува споделување на целото дело. Семлирање плус им дозволува на корисниците на лиценцата да преработуваат делови од делото, како и да го споделуваат целото дело некомерцијално. Некомерцијално семлирање плус дополнително ја ограничува лиценцата Семплирање плус дозволувајќи само некомерцијални преработки на вашето дело.</description>
     
       <description xml:lang="st">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
+    
+      <description xml:lang="zh_HK">取樣授權條款的差別，乃是在於各授權條款所擁有的自由度不同。【取樣】 (Sampling) 僅允許使用作品的片段，而禁止分享整份作品；【特別取樣】 (Sampling Plus) 不但允許被授權人得以取用及轉換作品的片段，同時還允許在非商業使用的情況下，分享整份作品；至於【非商業性特別取樣】 (Noncommercial Sampling Plus) 則對【特別取樣】加上了額外的限制：僅授權在非商業使用的情況下，被授權人才得以由您的著作片段加以改作。</description>
     
       <description xml:lang="it_CH">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
@@ -7816,6 +8208,8 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
        <label xml:lang="eu">Sampling</label>
      
        <label xml:lang="zh">取样使用</label>
+     
+       <label xml:lang="en_HK">Sampling</label>
      
        <label xml:lang="gl">Sampling</label>
      
@@ -7883,13 +8277,15 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="sr">Стварање дела на основу узорка (sampling)</label>
      
-       <label xml:lang="ko">Sampling</label>
+       <label xml:lang="ko">샘플링</label>
      
        <label xml:lang="sv">Sampling</label>
      
        <label xml:lang="mk">Семплирање</label>
      
        <label xml:lang="st">Sampling</label>
+     
+       <label xml:lang="zh_HK">取樣</label>
      
        <label xml:lang="it_CH"><span lang="en">Sampling</span></label>
      
@@ -7929,6 +8325,8 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
        <label xml:lang="eu">Sampling Plus</label>
      
        <label xml:lang="zh">取样使用加强版</label>
+     
+       <label xml:lang="en_HK">Sampling Plus</label>
      
        <label xml:lang="gl">Sampling Plus</label>
      
@@ -7996,13 +8394,15 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="sr">Sampling Plus</label>
      
-       <label xml:lang="ko">Sampling Plus</label>
+       <label xml:lang="ko">샘플링 플러스</label>
      
        <label xml:lang="sv">Sampling Plus</label>
      
        <label xml:lang="mk">Семплирање плус</label>
      
        <label xml:lang="st">Sampling Plus</label>
+     
+       <label xml:lang="zh_HK">特別取樣</label>
      
        <label xml:lang="it_CH"><span lang="en">Sampling Plus</span></label>
      
@@ -8042,6 +8442,8 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
        <label xml:lang="eu">Sampling Plus Ez Komertziala</label>
      
        <label xml:lang="zh">非商业性取样使用加强版</label>
+     
+       <label xml:lang="en_HK">Non-Commercial Sampling Plus</label>
      
        <label xml:lang="gl">NonComercial Sampling Plus</label>
      
@@ -8116,6 +8518,8 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
        <label xml:lang="mk">Некомерцијално Семплирање плус</label>
      
        <label xml:lang="st">NonCommercial Sampling Plus</label>
+     
+       <label xml:lang="zh_HK">非商業性特別取樣</label>
      
        <label xml:lang="it_CH">Sampling Plus NonCommerciale</label>
      
