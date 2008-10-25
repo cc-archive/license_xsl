@@ -180,7 +180,7 @@
       <languages>en_NZ mi</languages>
     </jurisdiction-info>
     <jurisdiction-info id="hk" launched="true">
-      <languages>en_HK,zh_HK</languages><uri>http://creativecommons.org/international/hk/</uri></jurisdiction-info>
+      <languages>en_HK zh_HK</languages><uri>http://creativecommons.org/international/hk/</uri></jurisdiction-info>
   <jurisdiction-info launched="true" id="rs">
 	<uri>http://creativecommons.org/international/rs/</uri>
 	<languages>sr sr_LATN</languages>
