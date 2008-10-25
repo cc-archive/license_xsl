@@ -176,7 +176,7 @@
       <languages>fr_LU</languages>
     </jurisdiction-info>
     <jurisdiction-info id="hk" launched="true">
-      <languages>en_HK zh_HK</languages><uri>http://creativecommons.org/international/hk/</uri></jurisdiction-info>
+      <languages>en_HK</languages><uri>http://hk.creativecommons.org</uri></jurisdiction-info>
   <jurisdiction-info launched="true" id="nz">
       <uri>http://creativecommons.org/international/nz/</uri>
       <languages>en_NZ</languages>
@@ -344,7 +344,6 @@
 </jurisdiction><jurisdiction id="ro">
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
-<version id="3.0" uri="http://creativecommons.org/licenses/by-nc/3.0/hk/"/>
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc/3.0/hk/"/>
 </jurisdiction></license>
       <license id="by-nd-nc">
@@ -538,7 +537,6 @@
 <version id="3.0" uri="http://creativecommons.org/licenses/by-sa/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
 <version id="3.0" uri="http://creativecommons.org/licenses/by-sa/3.0/hk/"/>
-<version id="3.0" uri="http://creativecommons.org/licenses/by-sa/3.0/hk/"/>
 </jurisdiction></license>
       <license id="by">
         <jurisdiction id="be">
@@ -685,7 +683,6 @@
 </jurisdiction><jurisdiction id="ro">
 <version id="3.0" uri="http://creativecommons.org/licenses/by/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
-<version id="3.0" uri="http://creativecommons.org/licenses/by/3.0/hk/"/>
 <version id="3.0" uri="http://creativecommons.org/licenses/by/3.0/hk/"/>
 </jurisdiction></license>
       <license id="nc-sa">
@@ -840,7 +837,6 @@
 </jurisdiction><jurisdiction id="ro">
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-nd/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
-<version id="3.0" uri="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/"/>
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-nd/3.0/hk/"/>
 </jurisdiction></license>
       <license id="nd-nc">
@@ -1017,7 +1013,6 @@
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nd/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nd/3.0/hk/"/>
-<version id="3.0" uri="http://creativecommons.org/licenses/by-nd/3.0/hk/"/>
 </jurisdiction></license>
       <license id="by-nc-sa">
         <jurisdiction id="be">
@@ -1164,7 +1159,6 @@
 </jurisdiction><jurisdiction id="ro">
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-sa/3.0/ro/"/>
 </jurisdiction><jurisdiction id="hk">
-<version id="3.0" uri="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/"/>
 <version id="3.0" uri="http://creativecommons.org/licenses/by-nc-sa/3.0/hk/"/>
 </jurisdiction></license>
     </licenseclass>
