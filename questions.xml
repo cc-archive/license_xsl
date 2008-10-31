@@ -6455,7 +6455,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="es">Hong Kong</label>
      
-       <label xml:lang="th">Hong Kong</label>
+       <label xml:lang="th">ฮ่องกง</label>
      
        <label xml:lang="es_AR">Hong Kong</label>
      
@@ -6497,7 +6497,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Hong Kong</label>
      
-       <label xml:lang="sr">Hong Kong</label>
+       <label xml:lang="sr">Хонг Конг</label>
      
        <label xml:lang="ko">Hong Kong</label>
      
@@ -7096,6 +7096,122 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="ms">Romania</label>
      
        <label xml:lang="sl">Romunija</label>
+     
+   </enum><enum id="gt">
+     
+       <label xml:lang="el">Guatemala</label>
+     
+       <label xml:lang="eo">Guatemala</label>
+     
+       <label xml:lang="en">Guatemala</label>
+     
+       <label xml:lang="es_PR">Guatemala</label>
+     
+       <label xml:lang="af">Guatemala</label>
+     
+       <label xml:lang="tr">Guatemala</label>
+     
+       <label xml:lang="ca">Guatemala</label>
+     
+       <label xml:lang="it">Guatemala</label>
+     
+       <label xml:lang="es_PE">Guatemala</label>
+     
+       <label xml:lang="en_US">Guatemala</label>
+     
+       <label xml:lang="ga">Guatemala</label>
+     
+       <label xml:lang="es_MX">Guatemala</label>
+     
+       <label xml:lang="eu">Guatemala</label>
+     
+       <label xml:lang="zh">Guatemala</label>
+     
+       <label xml:lang="en_HK">Guatemala</label>
+     
+       <label xml:lang="gl">Guatemala</label>
+     
+       <label xml:lang="sr_LATN">Guatemala</label>
+     
+       <label xml:lang="de_CH">Guatemala</label>
+     
+       <label xml:lang="nl">Guatemala</label>
+     
+       <label xml:lang="pt">Guatemala</label>
+     
+       <label xml:lang="no">Guatemala</label>
+     
+       <label xml:lang="es_EC">Guatemala</label>
+     
+       <label xml:lang="nso">Guatemala</label>
+     
+       <label xml:lang="es_CO">Guatemala</label>
+     
+       <label xml:lang="es_CL">Guatemala</label>
+     
+       <label xml:lang="es">Guatemala</label>
+     
+       <label xml:lang="th">Guatemala</label>
+     
+       <label xml:lang="es_AR">Guatemala</label>
+     
+       <label xml:lang="zu">Guatemala</label>
+     
+       <label xml:lang="ro">Guatemala</label>
+     
+       <label xml:lang="pt_PT">Guatemala</label>
+     
+       <label xml:lang="en_GB">Guatemala</label>
+     
+       <label xml:lang="en_CA">Guatemala</label>
+     
+       <label xml:lang="fr">Guatemala</label>
+     
+       <label xml:lang="bg">Guatemala</label>
+     
+       <label xml:lang="de_AT">Guatemala</label>
+     
+       <label xml:lang="hr">Guatemala</label>
+     
+       <label xml:lang="zh_TW">Guatemala</label>
+     
+       <label xml:lang="da">Guatemala</label>
+     
+       <label xml:lang="fr_CH">Guatemala</label>
+     
+       <label xml:lang="fi">Guatemala</label>
+     
+       <label xml:lang="hu">Guatemala</label>
+     
+       <label xml:lang="ja">Guatemala</label>
+     
+       <label xml:lang="fr_CA">Guatemala</label>
+     
+       <label xml:lang="he">Guatemala</label>
+     
+       <label xml:lang="fr_LU">Guatemala</label>
+     
+       <label xml:lang="de">Guatemala</label>
+     
+       <label xml:lang="sr">Guatemala</label>
+     
+       <label xml:lang="ko">Guatemala</label>
+     
+       <label xml:lang="sv">Guatemala</label>
+     
+       <label xml:lang="mk">Guatemala</label>
+     
+       <label xml:lang="st">Guatemala</label>
+     
+       <label xml:lang="zh_HK">Guatemala</label>
+     
+       <label xml:lang="it_CH">Guatemala</label>
+     
+       <label xml:lang="pl">Guatemala</label>
+     
+       <label xml:lang="ms">Guatemala</label>
+     
+       <label xml:lang="sl">Guatemala</label>
      
    </enum>
 
@@ -8330,7 +8446,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="gl">Sampling Plus</label>
      
-       <label xml:lang="sr_LATN">Sampling Plus</label>
+       <label xml:lang="sr_LATN">licenca Sampling Plus</label>
      
        <label xml:lang="de_CH">Sampling Plus</label>
      
@@ -8392,7 +8508,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
      
        <label xml:lang="de">Sampling Plus</label>
      
-       <label xml:lang="sr">Sampling Plus</label>
+       <label xml:lang="sr">лиценца Sampling Plus</label>
      
        <label xml:lang="ko">샘플링 플러스</label>
      
