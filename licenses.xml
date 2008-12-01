@@ -196,7 +196,8 @@
 <jurisdiction-info launched="true" id="no">
 <languages>no</languages>
 </jurisdiction-info>
-<jurisdiction-info launched="true" id="sg"><languages>es_SG</languages><uri>http://sg.creativecommons.org/</uri></jurisdiction-info><jurisdiction-info launched="true" id="ro"><languages>ro</languages><uri>http://creativecommons.org/international/ro/</uri></jurisdiction-info><jurisdiction-info launched="true" id="gt"><languages>es_GT</languages><uri>http://gt.creativecommons.org</uri></jurisdiction-info></jurisdictions>
+<jurisdiction-info launched="true"
+    id="sg"><languages>es_SG</languages><uri>http://sg.creativecommons.org/</uri></jurisdiction-info><jurisdiction-info launched="true" id="ro"><languages>ro</languages><uri>http://ro.creativecommons.org</uri></jurisdiction-info><jurisdiction-info launched="true" id="gt"><languages>es_GT</languages><uri>http://gt.creativecommons.org</uri></jurisdiction-info></jurisdictions>
 <licenses>
  <licenseclass id="standard">
     <license id="by-nc">
