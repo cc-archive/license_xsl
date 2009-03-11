@@ -1473,7 +1473,7 @@
             
                <xsl:when test="$license-locale='hr' ">Kina</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">China</xsl:when>
+               <xsl:when test="$license-locale='de' ">Volksrepublik China</xsl:when>
             
                <xsl:when test="$license-locale='hu' ">Kína</xsl:when>
             
@@ -5670,7 +5670,7 @@
             
                <xsl:when test="$license-locale='zu' ">Greece</xsl:when>
             
-               <xsl:when test="$license-locale='cs' ">Greece</xsl:when>
+               <xsl:when test="$license-locale='cs' ">Řecko</xsl:when>
             
                <xsl:when test="$license-locale='es_PR' ">Greece</xsl:when>
             
@@ -5944,7 +5944,7 @@
             
                <xsl:when test="$license-locale='zu' ">New Zealand</xsl:when>
             
-               <xsl:when test="$license-locale='cs' ">New Zealand</xsl:when>
+               <xsl:when test="$license-locale='cs' ">Nový Zéland</xsl:when>
             
                <xsl:when test="$license-locale='es_PR' ">New Zealand</xsl:when>
             
@@ -6629,7 +6629,7 @@
             
                <xsl:when test="$license-locale='zu' ">Norway</xsl:when>
             
-               <xsl:when test="$license-locale='cs' ">Norway</xsl:when>
+               <xsl:when test="$license-locale='cs' ">Norsko</xsl:when>
             
                <xsl:when test="$license-locale='es_PR' ">Norway</xsl:when>
             
@@ -7068,7 +7068,7 @@
             
                <xsl:when test="$license-locale='es_CL' ">Guatemala</xsl:when>
             
-               <xsl:when test="$license-locale='sr_LATN' ">Guatemala</xsl:when>
+               <xsl:when test="$license-locale='sr_LATN' ">Gvatemala</xsl:when>
             
                <xsl:when test="$license-locale='de_AT' ">Guatemala</xsl:when>
             
@@ -7114,7 +7114,7 @@
             
                <xsl:when test="$license-locale='fi' ">Guatemala</xsl:when>
             
-               <xsl:when test="$license-locale='sr' ">Guatemala</xsl:when>
+               <xsl:when test="$license-locale='sr' ">Гватемала</xsl:when>
             
                <xsl:when test="$license-locale='ko' ">Guatemala</xsl:when>
             
@@ -7184,7 +7184,7 @@
        
          <xsl:when test="$license-locale='zu' ">Qaphela Umnikazi</xsl:when>
        
-         <xsl:when test="$license-locale='cs' ">Attribution</xsl:when>
+         <xsl:when test="$license-locale='cs' ">Uveďte autora</xsl:when>
        
          <xsl:when test="$license-locale='es_PR' ">Reconocimiento</xsl:when>
        
@@ -7832,7 +7832,7 @@
          
            <xsl:when test="$license-locale='zu' ">umsebenzi</xsl:when>
          
-           <xsl:when test="$license-locale='cs' ">work</xsl:when>
+           <xsl:when test="$license-locale='cs' ">dílo</xsl:when>
          
            <xsl:when test="$license-locale='es_PR' ">obra</xsl:when>
          
@@ -7967,7 +7967,7 @@
 
        
 
-            <xsl:when test="$license-locale='en' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='en' ">This <xsl:copy-of select="$work_type"/> is in the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -8017,7 +8017,7 @@
 
        
 
-            <xsl:when test="$license-locale='en_US' ">This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
+            <xsl:when test="$license-locale='en_US' ">This <xsl:copy-of select="$work_type"/> is in the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:when>
 
        
 
@@ -8254,7 +8254,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">javni domeni</a>.</xsl:when>
 
        
-            <xsl:otherwise>This <xsl:copy-of select="$work_type"/> is dedicated to the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:otherwise>
+            <xsl:otherwise>This <xsl:copy-of select="$work_type"/> is in the <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.</xsl:otherwise>
       </xsl:choose>
 
   </xsl:when>
@@ -9739,7 +9739,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 	
-            <xsl:when test="$license-locale='ro' ">Permisiuni peste scopul acestei licenţe pot fi disponibile la <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='ro' ">Permisii dincolo de aria acestei licente ar putea fi disponibile la <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
 	
