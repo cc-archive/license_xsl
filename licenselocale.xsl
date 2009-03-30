@@ -242,7 +242,7 @@
             
                <xsl:when test="$license-locale='hy' ">Unported</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">ที่ยังไม่ได้ปรับแก้</xsl:when>
+               <xsl:when test="$license-locale='th' ">ต้นฉบับ</xsl:when>
             
                <xsl:when test="$license-locale='hr' ">neloklizirana licenca</xsl:when>
             
@@ -7625,7 +7625,7 @@
             
               <xsl:when test="$license-locale='hy' ">No Derivative Works</xsl:when>
             
-              <xsl:when test="$license-locale='th' ">ไม่ใช่งานดัดแปลง</xsl:when>
+              <xsl:when test="$license-locale='th' ">ไม่ดัดแปลง</xsl:when>
             
               <xsl:when test="$license-locale='hr' ">Bez prerada</xsl:when>
             
@@ -8418,7 +8418,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_type"/> นี้ถูกมอบให้เป็น <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">สาธารณสมบัติ</a>.</xsl:when>
+            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_type"/> นี้เป็น <a rel="license" href="http://creativecommons.org/licenses/publicdomain/">สาธารณสมบัติ</a>.</xsl:when>
 
        
 
