@@ -99,7 +99,7 @@
             
                <xsl:when test="$license-locale='hy' ">Unported</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">ที่ยังไม่ได้ปรับแก้</xsl:when>
+               <xsl:when test="$license-locale='th' ">ต้นฉบับ</xsl:when>
             
                <xsl:when test="$license-locale='hr' ">neloklizirana licenca</xsl:when>
             
@@ -7470,7 +7470,7 @@
             
               <xsl:when test="$license-locale='hy' ">No Derivative Works</xsl:when>
             
-              <xsl:when test="$license-locale='th' ">ไม่ใช่งานดัดแปลง</xsl:when>
+              <xsl:when test="$license-locale='th' ">ไม่ดัดแปลง</xsl:when>
             
               <xsl:when test="$license-locale='hr' ">Bez prerada</xsl:when>
             
