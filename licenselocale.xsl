@@ -7187,7 +7187,7 @@
             
                <xsl:when test="$license-locale='hy' ">Thailand</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">Thailand</xsl:when>
+               <xsl:when test="$license-locale='th' ">ประเทศไทย</xsl:when>
             
                <xsl:when test="$license-locale='hr' ">Thailand</xsl:when>
             
@@ -8483,7 +8483,7 @@
 
        
 
-            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_type"/>นี้ โดย {$work_author} ใช้<a rel="license" href="{$license_url}">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ <xsl:copy-of select="$license_name"/></a>.</xsl:when>
+            <xsl:when test="$license-locale='th' "><xsl:copy-of select="$work_type"/>นี้ โดย <xsl:copy-of select="$work_author"/> ใช้<a rel="license" href="{$license_url}">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ <xsl:copy-of select="$license_name"/></a>.</xsl:when>
 
        
 
@@ -9573,7 +9573,7 @@
 
        
 	
-            <xsl:when test="$license-locale='th' ">การอนุญาตนอกเหนือจากที่ระบุไว้ในสัญญาอนุญาตนี้ อาจมีอยู่ที่ <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='th' ">การอนุญาตนอกเหนือจากที่ระบุไว้ในสัญญาอนุญาตนี้ อาจมีอยู่ที่ <xsl:copy-of select="$more_perms_link"/></xsl:when>
 
        
 	
