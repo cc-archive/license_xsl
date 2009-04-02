@@ -31,13 +31,26 @@
             tal:content="structure python: lookupString('util.Yes', locale)">
       util.Yes</label>
      </metal:repeat>
+
+     <metal:repeat tal:repeat="locale locales">
+     <description tal:attributes="xml:lang locale"
+            tal:content="structure python: lookupString('license.help.commercial', locale)">
+      util.Yes</description>
+     </metal:repeat>
+
    </enum>
    <enum id="n">
      <metal:repeat tal:repeat="locale locales">
      <label tal:attributes="xml:lang locale"
             tal:content="structure python: lookupString('util.No', locale)">
       util.No</label>
-   </metal:repeat>
+     </metal:repeat>
+
+     <metal:repeat tal:repeat="locale locales">
+     <description tal:attributes="xml:lang locale"
+            tal:content="structure python: lookupString('license.help.noncommercial', locale)">
+      util.No</description>
+     </metal:repeat>
    </enum>
   </field>
 
@@ -58,21 +71,39 @@
      <label tal:attributes="xml:lang locale"
             tal:content="structure python: lookupString('util.Yes', locale)">
       util.Yes</label>
-   </metal:repeat>
+     </metal:repeat>
+
+     <metal:repeat tal:repeat="locale locales">
+     <description tal:attributes="xml:lang locale"
+            tal:content="structure python: lookupString('license.help.derivatives', locale)">
+      util.Yes</description>
+     </metal:repeat>
    </enum>
    <enum id="sa">
      <metal:repeat tal:repeat="locale locales">
      <label tal:attributes="xml:lang locale"
            tal:content="structure python: lookupString('licenses.pretty_sa', locale)">
       licenses.pretty_sa</label>
-   </metal:repeat>
+     </metal:repeat>
+
+     <metal:repeat tal:repeat="locale locales">
+     <description tal:attributes="xml:lang locale"
+           tal:content="structure python: lookupString('char.sa_description', locale)">
+      licenses.pretty_sa</description>
+     </metal:repeat>
    </enum>
    <enum id="n">
      <metal:repeat tal:repeat="locale locales">
      <label tal:attributes="xml:lang locale"
             tal:content="structure python: lookupString('util.No', locale)">
       util.No</label>
-   </metal:repeat>
+     </metal:repeat>
+
+     <metal:repeat tal:repeat="locale locales">
+     <description tal:attributes="xml:lang locale"
+            tal:content="structure python: lookupString('char.nd_description', locale)">
+      util.No</description>
+     </metal:repeat>
    </enum>
   </field>
 
