@@ -165,7 +165,7 @@
    
     <label xml:lang="en_SG">Allow commercial uses of your work?</label>
    
-    <label xml:lang="cs">Allow commercial uses of your work?</label>
+    <label xml:lang="cs">Dovolit využití vašeho díla pro komerční účely ?</label>
    
     <label xml:lang="zh">允许对您的作品进行商业性使用吗？</label>
    
@@ -295,7 +295,7 @@
    
     <description xml:lang="en_SG">The licensor permits others to copy, distribute, display, and perform the work. In return, licencees may not use the work for commercial purposes -- unless they get the licensor's permission.</description>
    
-    <description xml:lang="cs">The licensor permits others to copy, distribute, display, and perform the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.</description>
+    <description xml:lang="cs">Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, zobrazovali a užívali jeho dílo, ale pro komerční účely - pokud k tomu nezískají svolení přímo od poskytovatele licence,</description>
    
     <description xml:lang="zh">许可人允许他人复制、发行、展览、表演、放映、广播或者通过信息网络向公众传播本作品。但是，除非取得许可人同意，被许可人不得将本作品用于商业目的。</description>
    
@@ -427,7 +427,7 @@
      
      <label xml:lang="en_SG">Yes</label>
      
-     <label xml:lang="cs">Yes</label>
+     <label xml:lang="cs">Ano</label>
      
      <label xml:lang="zh">是的</label>
      
@@ -558,7 +558,7 @@
    
      <label xml:lang="en_SG">No</label>
    
-     <label xml:lang="cs">No</label>
+     <label xml:lang="cs">Ne</label>
    
      <label xml:lang="zh">不</label>
    
@@ -822,7 +822,7 @@
    
    <description xml:lang="en_SG">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work -- not derivative works based on it.</description>
    
-   <description xml:lang="cs">The licensor permits others to copy, distribute, display and perform only unaltered copies of the work — not derivative works based on it.</description>
+   <description xml:lang="cs">Poskytovatel licence souhlasí s tím, aby ostatní kopírovali, šířili, zobrazovali a užívali jeho dílo, ale pouze v jeho stávající podobě - tedy ne díla odvozená.</description>
    
    <description xml:lang="zh">许可人仅仅允许他人复制、发行、展览、表演、放映、广播或者通过信息网络传播对本作品未作改动的复制件——而不是本作品的演绎作品。</description>
    
@@ -953,7 +953,7 @@
    
      <label xml:lang="en_SG">Yes</label>
    
-     <label xml:lang="cs">Yes</label>
+     <label xml:lang="cs">Ano</label>
    
      <label xml:lang="zh">是的</label>
    
@@ -1215,7 +1215,7 @@
    
      <label xml:lang="en_SG">No</label>
    
-     <label xml:lang="cs">No</label>
+     <label xml:lang="cs">Ne</label>
    
      <label xml:lang="zh">不</label>
    
@@ -1348,7 +1348,7 @@
    
    <label xml:lang="en_SG">Jurisdiction of your license:</label>
    
-   <label xml:lang="cs">Jurisdiction of your license:</label>
+   <label xml:lang="cs">Stát, ve kterém chcete licenci použít:</label>
    
    <label xml:lang="zh">您想使用的许可协议所在的司法管辖区域</label>
    
@@ -1479,7 +1479,7 @@ scegli la versione giapponese della licenza.</description>
    
    <description xml:lang="en_SG">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
-   <description xml:lang="cs">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+   <description xml:lang="cs">Pokud si přejete, aby licence byla v souladu s právním řádem upravujícím autorské právo v dané zemi, vyberte požadovaný stát. </description>
    
    <description xml:lang="zh">如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。</description>
    
@@ -8297,7 +8297,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="hy">Thailand</label>
      
-       <label xml:lang="th">Thailand</label>
+       <label xml:lang="th">ประเทศไทย</label>
      
        <label xml:lang="hr">Thailand</label>
      
@@ -8340,6 +8340,136 @@ scegli la versione giapponese della licenza.</description>
        <label xml:lang="ms">Thailand</label>
      
        <label xml:lang="sl">Thailand</label>
+     
+   </enum><enum id="cz">
+     
+       <label xml:lang="az">Czech Republic</label>
+     
+       <label xml:lang="el">Δημοκρατία της Τσεχίας</label>
+     
+       <label xml:lang="eo">Ĉeĥio</label>
+     
+       <label xml:lang="en">Czech Republic</label>
+     
+       <label xml:lang="es_PR">República Checa</label>
+     
+       <label xml:lang="af">Tsjeggiese Republiek</label>
+     
+       <label xml:lang="vi">Czech Republic</label>
+     
+       <label xml:lang="ca">República Txeca</label>
+     
+       <label xml:lang="it">Czech Republic</label>
+     
+       <label xml:lang="eu">Txekiar Errepublika</label>
+     
+       <label xml:lang="es_PE">República Checa</label>
+     
+       <label xml:lang="bg">Чехия</label>
+     
+       <label xml:lang="en_US">Czech Republic</label>
+     
+       <label xml:lang="ga">Czech Republic</label>
+     
+       <label xml:lang="en_SG">Czech Republic</label>
+     
+       <label xml:lang="cs">Česká republika</label>
+     
+       <label xml:lang="zh">捷克共和国</label>
+     
+       <label xml:lang="en_HK">Czech Republic</label>
+     
+       <label xml:lang="gl">Czech Republic</label>
+     
+       <label xml:lang="id">Czech Republic</label>
+     
+       <label xml:lang="sr_LATN">Češka</label>
+     
+       <label xml:lang="de_CH">Tschechische Republik</label>
+     
+       <label xml:lang="es_MX">República Checa</label>
+     
+       <label xml:lang="es_GT">República Checa</label>
+     
+       <label xml:lang="nl">Tjechië</label>
+     
+       <label xml:lang="pt">Czech Republic</label>
+     
+       <label xml:lang="no">Tjekkia</label>
+     
+       <label xml:lang="es_EC">República Checa</label>
+     
+       <label xml:lang="nso">Czech Repabliki</label>
+     
+       <label xml:lang="es_CO">República Checa</label>
+     
+       <label xml:lang="es_CL">República Checa</label>
+     
+       <label xml:lang="tr">Czech Republic</label>
+     
+       <label xml:lang="es">República Checa</label>
+     
+       <label xml:lang="de_AT">Tschechische Republik</label>
+     
+       <label xml:lang="es_AR">República Checa</label>
+     
+       <label xml:lang="zu">ECzech Republic</label>
+     
+       <label xml:lang="ro">Cehia</label>
+     
+       <label xml:lang="pt_PT">Czech Republic</label>
+     
+       <label xml:lang="en_GB">Czech Republic</label>
+     
+       <label xml:lang="en_CA">Czech Republic</label>
+     
+       <label xml:lang="fr">République Tchèque</label>
+     
+       <label xml:lang="hy">Czech Republic</label>
+     
+       <label xml:lang="th">สาธารณรัฐเชค</label>
+     
+       <label xml:lang="hr">Češka</label>
+     
+       <label xml:lang="zh_TW">捷克</label>
+     
+       <label xml:lang="da">Tjekkiet</label>
+     
+       <label xml:lang="fr_CH">République Tchèque</label>
+     
+       <label xml:lang="fi">Tsekki</label>
+     
+       <label xml:lang="hu">Cseh Köztársaság</label>
+     
+       <label xml:lang="ja">チェコ共和国</label>
+     
+       <label xml:lang="fr_CA">République Tchèque</label>
+     
+       <label xml:lang="he">צ'כיה</label>
+     
+       <label xml:lang="fr_LU">République Tchèque</label>
+     
+       <label xml:lang="de">Tschechische Republik</label>
+     
+       <label xml:lang="sr">Чешка</label>
+     
+       <label xml:lang="ko">Czech Republic</label>
+     
+       <label xml:lang="sv">Tjeckien</label>
+     
+       <label xml:lang="mk">Чешка</label>
+     
+       <label xml:lang="st">Czech Republic</label>
+     
+       <label xml:lang="zh_HK">捷克</label>
+     
+       <label xml:lang="it_CH">Czech Republic</label>
+     
+       <label xml:lang="pl">Czechy</label>
+     
+       <label xml:lang="ms">Republik Czeck</label>
+     
+       <label xml:lang="sl">Češka</label>
      
    </enum>
 
@@ -8643,7 +8773,7 @@ scegli la versione giapponese della licenza.</description>
    
      <label xml:lang="en_SG">Jurisdiction of your license:</label>
    
-     <label xml:lang="cs">Jurisdiction of your license:</label>
+     <label xml:lang="cs">Stát, ve kterém chcete licenci použít:</label>
    
      <label xml:lang="zh">您想使用的许可协议所在的司法管辖区域</label>
    
@@ -8775,7 +8905,7 @@ scegli la versione giapponese della licenza.</description>
    
      <description xml:lang="en_SG">If you desire a licence governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
-     <description xml:lang="cs">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
+     <description xml:lang="cs">Pokud si přejete, aby licence byla v souladu s právním řádem upravujícím autorské právo v dané zemi, vyberte požadovaný stát. </description>
    
      <description xml:lang="zh">如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。</description>
    
