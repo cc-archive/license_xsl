@@ -7237,6 +7237,145 @@
          </xsl:when>
 
       
+         <xsl:when test="$jurisdiction='cz' ">
+
+            <xsl:choose>
+               
+            
+               <xsl:when test="$license-locale='az' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='el' ">Δημοκρατία της Τσεχίας</xsl:when>
+            
+               <xsl:when test="$license-locale='eo' ">Ĉeĥio</xsl:when>
+            
+               <xsl:when test="$license-locale='en' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PR' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='af' ">Tsjeggiese Republiek</xsl:when>
+            
+               <xsl:when test="$license-locale='vi' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='ca' ">República Txeca</xsl:when>
+            
+               <xsl:when test="$license-locale='it' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='eu' ">Txekiar Errepublika</xsl:when>
+            
+               <xsl:when test="$license-locale='es_PE' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='bg' ">Чехия</xsl:when>
+            
+               <xsl:when test="$license-locale='en_US' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='ga' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='en_SG' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='cs' ">Česká republika</xsl:when>
+            
+               <xsl:when test="$license-locale='zh' ">捷克共和国</xsl:when>
+            
+               <xsl:when test="$license-locale='en_HK' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='gl' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='id' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='sr_LATN' ">Češka</xsl:when>
+            
+               <xsl:when test="$license-locale='de_CH' ">Tschechische Republik</xsl:when>
+            
+               <xsl:when test="$license-locale='es_MX' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='es_GT' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='nl' ">Tjechië</xsl:when>
+            
+               <xsl:when test="$license-locale='pt' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='no' ">Tjekkia</xsl:when>
+            
+               <xsl:when test="$license-locale='es_EC' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='nso' ">Czech Repabliki</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CO' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='es_CL' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='tr' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='es' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='de_AT' ">Tschechische Republik</xsl:when>
+            
+               <xsl:when test="$license-locale='es_AR' ">República Checa</xsl:when>
+            
+               <xsl:when test="$license-locale='zu' ">ECzech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='ro' ">Cehia</xsl:when>
+            
+               <xsl:when test="$license-locale='pt_PT' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='en_GB' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='en_CA' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='fr' ">République Tchèque</xsl:when>
+            
+               <xsl:when test="$license-locale='hy' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='th' ">สาธารณรัฐเชค</xsl:when>
+            
+               <xsl:when test="$license-locale='hr' ">Češka</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_TW' ">捷克</xsl:when>
+            
+               <xsl:when test="$license-locale='da' ">Tjekkiet</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CH' ">République Tchèque</xsl:when>
+            
+               <xsl:when test="$license-locale='fi' ">Tsekki</xsl:when>
+            
+               <xsl:when test="$license-locale='hu' ">Cseh Köztársaság</xsl:when>
+            
+               <xsl:when test="$license-locale='ja' ">チェコ共和国</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_CA' ">République Tchèque</xsl:when>
+            
+               <xsl:when test="$license-locale='he' ">צ'כיה</xsl:when>
+            
+               <xsl:when test="$license-locale='fr_LU' ">République Tchèque</xsl:when>
+            
+               <xsl:when test="$license-locale='de' ">Tschechische Republik</xsl:when>
+            
+               <xsl:when test="$license-locale='sr' ">Чешка</xsl:when>
+            
+               <xsl:when test="$license-locale='ko' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='sv' ">Tjeckien</xsl:when>
+            
+               <xsl:when test="$license-locale='mk' ">Чешка</xsl:when>
+            
+               <xsl:when test="$license-locale='st' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='zh_HK' ">捷克</xsl:when>
+            
+               <xsl:when test="$license-locale='it_CH' ">Czech Republic</xsl:when>
+            
+               <xsl:when test="$license-locale='pl' ">Czechy</xsl:when>
+            
+               <xsl:when test="$license-locale='ms' ">Republik Czeck</xsl:when>
+            
+               <xsl:when test="$license-locale='sl' ">Češka</xsl:when>
+            
+
+            </xsl:choose>
+
+         </xsl:when>
+
+      
     </xsl:choose>
   </xsl:template>
 
@@ -7416,7 +7555,7 @@
             
               <xsl:when test="$license-locale='en_SG' ">No Derivative Works</xsl:when>
             
-              <xsl:when test="$license-locale='cs' ">No Derivative Works</xsl:when>
+              <xsl:when test="$license-locale='cs' ">Nezasahujte do díla</xsl:when>
             
               <xsl:when test="$license-locale='zh' ">禁止演绎</xsl:when>
             
@@ -8108,7 +8247,7 @@
 
        
 
-            <xsl:when test="$license-locale='cs' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='cs' "><xsl:copy-of select="$work_title"/> autora <xsl:copy-of select="$work_author"/> podléhí licenci <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
 
        
 
@@ -8375,7 +8514,7 @@
 
        
 
-            <xsl:when test="$license-locale='cs' ">This <xsl:copy-of select="$work_type"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='cs' ">Uvedené dílo (<xsl:copy-of select="$work_type"/>) vytvořené <xsl:copy-of select="$work_author"/> podléhá licenci <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
 
        
 
@@ -8651,7 +8790,7 @@
 
        
 
-            <xsl:when test="$license-locale='cs' "><xsl:copy-of select="$work_title"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='cs' "><xsl:copy-of select="$work_title"/> podléhá licenci <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/></a>.</xsl:when>
 
        
 
@@ -8919,7 +9058,7 @@
 
        
 
-            <xsl:when test="$license-locale='cs' ">This <xsl:copy-of select="$work_type"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
+            <xsl:when test="$license-locale='cs' ">Uvedené dílo (<xsl:copy-of select="$work_type"/>) podléhá licenci<a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/></a>.</xsl:when>
 
        
 
