@@ -7221,7 +7221,7 @@
             
                <xsl:when test="$license-locale='st' ">Thailand</xsl:when>
             
-               <xsl:when test="$license-locale='zh_HK' ">Thailand</xsl:when>
+               <xsl:when test="$license-locale='zh_HK' ">泰國</xsl:when>
             
                <xsl:when test="$license-locale='it_CH' ">Thailand</xsl:when>
             
@@ -9337,7 +9337,7 @@
 
        
 	
-            <xsl:when test="$license-locale='cs' ">Based on a work at <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='cs' ">Vytvořeno na základě tohoto díla: <xsl:copy-of select="$source_link"/></xsl:when>
 
        
 	
@@ -9604,7 +9604,7 @@
 
        
 	
-            <xsl:when test="$license-locale='cs' ">Permissions beyond the scope of this license may be available at <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='cs' ">Práva nad rámec této licence jsou popsána zde:  <xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
 	
