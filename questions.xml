@@ -952,7 +952,7 @@
    
    <label xml:lang="en_SG">Allow modifications of your work?</label>
    
-   <label xml:lang="cs">Povolit vytváření odvozených děl?</label>
+   <label xml:lang="cs">Dovolit vytváření odvozených děl?</label>
    
    <label xml:lang="zh">允许对您的作品进行修改吗？</label>
    
@@ -8984,7 +8984,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="st">Thailand</label>
      
-       <label xml:lang="zh_HK">Thailand</label>
+       <label xml:lang="zh_HK">泰國</label>
      
        <label xml:lang="it_CH">Thailand</label>
      
