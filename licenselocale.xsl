@@ -7418,7 +7418,7 @@
             
                <xsl:when test="$license-locale='en_SG' ">Czech Republic</xsl:when>
             
-               <xsl:when test="$license-locale='cs' ">Česká republika</xsl:when>
+               <xsl:when test="$license-locale='cs' ">Česko</xsl:when>
             
                <xsl:when test="$license-locale='zh' ">捷克共和国</xsl:when>
             
