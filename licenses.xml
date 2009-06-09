@@ -155,11 +155,11 @@
       <uri>http://creativecommons.org/worldwide/ua/</uri>
     </jurisdiction-info>
     <jurisdiction-info id="uk" launched="true">
-      <uri>http://www.creativecommons.org.uk</uri>
+        <uri>http://creativecommons.org/international/uk/</uri>
       <languages>en_GB</languages>
     </jurisdiction-info>
     <jurisdiction-info id="scotland" launched="true">
-      <uri>http://www.creativecommons.org.uk</uri>
+        <uri>http://creativecommons.org/international/uk/</uri>
       <languages>en_GB</languages>
     </jurisdiction-info>
     <jurisdiction-info id="us" launched="true">
