@@ -15,7 +15,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Unported</xsl:when>
+               <xsl:when test="$license-locale='el' ">Μη εισαγόμενο</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Neadaptita</xsl:when>
             
@@ -1960,7 +1960,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Φιναλνδία</xsl:when>
+               <xsl:when test="$license-locale='el' ">Φιλανδία</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Finnujo</xsl:when>
             
@@ -3072,7 +3072,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Macedonia</xsl:when>
+               <xsl:when test="$license-locale='el' ">Π.Γ.Δ.Μακεδονίας</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Makedonujo</xsl:when>
             
@@ -5296,7 +5296,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">UK: Scotland</xsl:when>
+               <xsl:when test="$license-locale='el' ">UK: Σκωτία</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Britujo: Skotujo</xsl:when>
             
@@ -5852,7 +5852,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Hong Kong</xsl:when>
+               <xsl:when test="$license-locale='el' ">Χονγκ Κονγκ</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Honkongo</xsl:when>
             
@@ -6408,7 +6408,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' "> Εκουαδόρ</xsl:when>
+               <xsl:when test="$license-locale='el' ">Εκουαδόρ</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Ekvadoro</xsl:when>
             
@@ -6964,7 +6964,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Guatemala</xsl:when>
+               <xsl:when test="$license-locale='el' ">Γουατεμάλα</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Gvatemalo</xsl:when>
             
@@ -7103,7 +7103,7 @@
             <xsl:choose>
                <!-- generated locale-specific jurisdiction choice lines -->
             
-               <xsl:when test="$license-locale='el' ">Thailand</xsl:when>
+               <xsl:when test="$license-locale='el' ">Ταϋλάνδη</xsl:when>
             
                <xsl:when test="$license-locale='eo' ">Tajujo</xsl:when>
             
@@ -7383,9 +7383,9 @@
     <xsl:choose>
        <!-- generated locale choice lines -->
        
-         <xsl:when test="$license-locale='el' ">Αναφορά</xsl:when>
+         <xsl:when test="$license-locale='el' ">Αναφορά προέλευσης</xsl:when>
        
-         <xsl:when test="$license-locale='eo' ">Atribuo</xsl:when>
+         <xsl:when test="$license-locale='eo' ">Atribuite</xsl:when>
        
          <xsl:when test="$license-locale='en' ">Attribution</xsl:when>
        
@@ -7527,7 +7527,7 @@
             
               <xsl:when test="$license-locale='el' ">Όχι Παράγωγα Έργα</xsl:when>
             
-              <xsl:when test="$license-locale='eo' ">Neniaj Ŝanĝoj</xsl:when>
+              <xsl:when test="$license-locale='eo' ">Neŝanĝite</xsl:when>
             
               <xsl:when test="$license-locale='en' ">No Derivative Works</xsl:when>
             
@@ -7664,7 +7664,7 @@
             
               <xsl:when test="$license-locale='el' ">Παρόμοια διανομή</xsl:when>
             
-              <xsl:when test="$license-locale='eo' ">Samkondiĉa Distribuo</xsl:when>
+              <xsl:when test="$license-locale='eo' ">Samkondiĉe</xsl:when>
             
               <xsl:when test="$license-locale='en' ">Share Alike</xsl:when>
             
@@ -7815,7 +7815,7 @@
           
             <xsl:when test="$license-locale='el' ">Μη Εμπορική Χρήση</xsl:when>
           
-            <xsl:when test="$license-locale='eo' ">Nekomerca Uzo</xsl:when>
+            <xsl:when test="$license-locale='eo' ">Nekomerce</xsl:when>
           
             <xsl:when test="$license-locale='en' ">Noncommercial</xsl:when>
           
@@ -8024,7 +8024,7 @@
        <!-- translate "work" -->
        <xsl:choose>
 	 
-           <xsl:when test="$license-locale='el' ">έργο</xsl:when>
+           <xsl:when test="$license-locale='el' ">εργασία</xsl:when>
          
            <xsl:when test="$license-locale='eo' ">verko</xsl:when>
          
@@ -8187,7 +8187,7 @@
        <!-- generated locale choice lines -->
        
 
-            <xsl:when test="$license-locale='el' "><xsl:copy-of select="$work_title"/> αναφορά <xsl:copy-of select="$work_author"/> διέπεται από άδεια <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
+            <xsl:when test="$license-locale='el' ">Το <xsl:copy-of select="$work_title"/> από τον <xsl:copy-of select="$work_author"/> διέπεται από την άδεια <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
 
        
 
@@ -8454,7 +8454,7 @@
        <!-- generated locale choice lines -->
        
 
-            <xsl:when test="$license-locale='el' ">Αυτό <xsl:copy-of select="$work_type"/>αναφορά <xsl:copy-of select="$work_author"/> χορηγείται με άδεια<a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
+            <xsl:when test="$license-locale='el' ">Αυτό το <xsl:copy-of select="$work_type"/>από τον <xsl:copy-of select="$work_author"/> χορηγείται με άδεια<a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
 
        
 
@@ -8998,7 +8998,7 @@
        <!-- generated locale choice lines -->
        
 
-            <xsl:when test="$license-locale='el' ">Αυτό <xsl:copy-of select="$work_type"/> χορηγείται με άδεια <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
+            <xsl:when test="$license-locale='el' ">Αυτό το <xsl:copy-of select="$work_type"/> χορηγείται με άδεια <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> </a>.</xsl:when>
 
        
 
@@ -9277,7 +9277,7 @@
        <!-- generated locale choice lines -->
        
 	
-            <xsl:when test="$license-locale='el' ">Βασισμένο σε ένα έργο στο <xsl:copy-of select="$source_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='el' ">Βασισμένο σε μία εργασία στο <xsl:copy-of select="$source_link"/>.</xsl:when>
 
        
 	
@@ -9544,7 +9544,7 @@
        <!-- generated locale choice lines -->
        
 	
-            <xsl:when test="$license-locale='el' ">Παραχωρήσεις πέρα από τα πλαίσα αυτής της άδειας ενδεχομένως να είναι διαθέσιμες στο<xsl:copy-of select="$more_perms_link"/>.</xsl:when>
+            <xsl:when test="$license-locale='el' ">Δικαιώματα πέρα από τα πλαίσια αυτής της άδειας ενδεχομένως να είναι διαθέσιμες στο<xsl:copy-of select="$more_perms_link"/>.</xsl:when>
 
        
 	

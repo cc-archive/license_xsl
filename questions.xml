@@ -135,7 +135,7 @@
 
   <field id="commercial">
    
-    <label xml:lang="el">Θα επιτρέψετε εμπορικές χρήσεις του έργου σας?</label>
+    <label xml:lang="el">Να επιτρέπονται εμπορικές χρήσεις του έργου σας;</label>
    
     <label xml:lang="eo">Ĉu permesi komercan uzon de via verko?</label>
    
@@ -527,7 +527,7 @@
      
 
      
-     <description xml:lang="el">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
+     <description xml:lang="el">Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, διανείμουν, απεικονίσουν και να εκτελέσουν την εργασία, ακόμη και για εμπορικούς σκοπούς.</description>
      
      <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui, aperigi kaj efektivigi la verkon, inkluzive komercajn celojn.</description>
      
@@ -789,7 +789,7 @@
      
 
      
-     <description xml:lang="el">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
+     <description xml:lang="el">Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, διανείμουν, απεικονίσουν, και να εκτελέσουν την εργασία για μη εμπορικούς σκοπούς μόνο.</description>
      
      <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui, aperigi kaj efektivigi la verkon, sed nur por nekomercaj celoj.</description>
      
@@ -922,7 +922,7 @@
 
   <field id="derivatives">
      
-   <label xml:lang="el">Θα επιτρέψετε τροποποιήσεις στο έργο σας?</label>
+   <label xml:lang="el">Θα επιτρέψετε τροποποιήσεις στο έργο σας;</label>
    
    <label xml:lang="eo">Ĉu permesi aliigon de via verko?</label>
    
@@ -1314,7 +1314,7 @@
      
 
      
-     <description xml:lang="el">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
+     <description xml:lang="el">Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, να διανείμουν, να εμφανίζουν και να εκτελέσουν τις εργασίες, καθώς και τα παράγωγα έργα που βασίζονται σε αυτό.</description>
      
      <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui, aperigi kaj efektivigi la verkon, same kiel krei devenaĵojn bazitajn sur ĝi.</description>
      
@@ -1447,7 +1447,7 @@
      
      <label xml:lang="el">Παρόμοια Διανομή</label>
      
-     <label xml:lang="eo">Samkondiĉa Distribuo</label>
+     <label xml:lang="eo">Samkondiĉe</label>
      
      <label xml:lang="en">ShareAlike</label>
      
@@ -1971,7 +1971,7 @@
 
   <field id="jurisdiction">
      
-   <label xml:lang="el">Διακιοδοσία της άδειάς σας:</label>
+   <label xml:lang="el">Δικαιοδοσία της άδειάς σας:</label>
    
    <label xml:lang="eo">Jurisdikcio de via permesilo:</label>
    
@@ -2235,7 +2235,7 @@ scegli la versione giapponese della licenza.</description>
    <type>enum</type>
    <enum id="">
      
-       <label xml:lang="el">Γενερικός</label>
+       <label xml:lang="el">Γενικό</label>
      
        <label xml:lang="eo">Ĝenerala</label>
      
@@ -4056,7 +4056,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="fi">
      
-       <label xml:lang="el">Φιναλνδία</label>
+       <label xml:lang="el">Φιλανδία</label>
      
        <label xml:lang="eo">Finnujo</label>
      
@@ -5096,7 +5096,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="mk">
      
-       <label xml:lang="el">Macedonia</label>
+       <label xml:lang="el">Π.Γ.Δ.Μακεδονίας</label>
      
        <label xml:lang="eo">Makedonujo</label>
      
@@ -7176,7 +7176,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="scotland">
      
-       <label xml:lang="el">UK: Scotland</label>
+       <label xml:lang="el">UK: Σκωτία</label>
      
        <label xml:lang="eo">Britujo: Skotujo</label>
      
@@ -7696,7 +7696,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="hk">
      
-       <label xml:lang="el">Hong Kong</label>
+       <label xml:lang="el">Χονγκ Κονγκ</label>
      
        <label xml:lang="eo">Honkongo</label>
      
@@ -8216,7 +8216,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="ec">
      
-       <label xml:lang="el"> Εκουαδόρ</label>
+       <label xml:lang="el">Εκουαδόρ</label>
      
        <label xml:lang="eo">Ekvadoro</label>
      
@@ -8736,7 +8736,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="gt">
      
-       <label xml:lang="el">Guatemala</label>
+       <label xml:lang="el">Γουατεμάλα</label>
      
        <label xml:lang="eo">Gvatemalo</label>
      
@@ -8866,7 +8866,7 @@ scegli la versione giapponese della licenza.</description>
      
    </enum><enum id="th">
      
-       <label xml:lang="el">Thailand</label>
+       <label xml:lang="el">Ταϋλάνδη</label>
      
        <label xml:lang="eo">Tajujo</label>
      
@@ -9132,7 +9132,7 @@ scegli la versione giapponese della licenza.</description>
 
  <licenseclass id="publicdomain">
   
-   <label xml:lang="el">Κοινά</label>
+   <label xml:lang="el">Δημόσιου τομέα</label>
   
    <label xml:lang="eo">Publikaĵo</label>
   
@@ -9264,7 +9264,7 @@ scegli la versione giapponese della licenza.</description>
 
  <licenseclass id="recombo">
   
-   <label xml:lang="el">Λήψη δειγμάτων</label>
+   <label xml:lang="el">Sampling</label>
   
    <label xml:lang="eo">Specimeno</label>
   
@@ -9396,7 +9396,7 @@ scegli la versione giapponese della licenza.</description>
 
   <field id="jurisdiction">
    
-     <label xml:lang="el">Διακιοδοσία της άδειάς σας:</label>
+     <label xml:lang="el">Δικαιοδοσία της άδειάς σας:</label>
    
      <label xml:lang="eo">Jurisdikcio de via permesilo:</label>
    
@@ -9663,7 +9663,7 @@ scegli la versione giapponese della licenza.</description>
 
    <enum id="">
      
-       <label xml:lang="el">Γενερικός</label>
+       <label xml:lang="el">Γενικό</label>
      
        <label xml:lang="eo">Ĝenerala</label>
      
@@ -10061,7 +10061,7 @@ scegli la versione giapponese della licenza.</description>
 
   <field id="sampling">
     
-      <label xml:lang="el">Ποιά έκδοση της άδειας Sampling ?</label>
+      <label xml:lang="el">Ποιά έκδοση της άδειας δειγματοποίησης;</label>
     
       <label xml:lang="eo">Kiu tipo de Specimena permesilo?</label>
     
@@ -10190,7 +10190,7 @@ scegli la versione giapponese della licenza.</description>
       <label xml:lang="sl">Katero vrsto licence Sampling?</label>
     
     
-      <description xml:lang="el">Η Sampling έκδοση ορίζει την ελευθερία που έχουν οι χρήστες. Η Sampling έκδοση επιτρέπει μόνο τη χρήση ορισμένων κομματιών και απαγορεύει να μοιραστείτε ολόκληρο το έργο. Η άδεια Sampling Plus επιτρέπει στους χρήστες να παίρνουν και να τροποποιούν κομμάτια του έργου, καθώς επίσης και να μοιράζεστε ολόκληρο το έργο για μη εμπορικούς σκοπούς. Η  άδεια Sampling Plus για μη εμπορικό σκοπό περιορίζει περαιτέρω την άδεια Sampling Plus με το να παρέχει την εξουσία να δημιουργούνται από τα κομμάτια του έργου σας μόνο  μη εμπορικά παράγωγα έργα.</description>
+      <description xml:lang="el">Η έκδοση δειγματοληψίας ορίζει την ελευθερία που έχουν οι χρήστες. Η Sampling έκδοση επιτρέπει μόνο τη χρήση ορισμένων κομματιών και απαγορεύει να μοιραστείτε ολόκληρο το έργο. Η άδεια Sampling Plus  επιτρέπει στους χρήστες να παίρνουν και να τροποποιούν κομμάτια του έργου, καθώς επίσης και να μοιράζεστε ολόκληρο το έργο για μη εμπορικούς σκοπούς. Η  άδεια Sampling Plus για μη εμπορικό σκοπό περιορίζει περαιτέρω την άδεια Sampling Plus  με το να παρέχει την εξουσία να δημιουργούνται από τα κομμάτια του έργου σας μόνο  μη εμπορικά παράγωγα έργα.</description>
     
       <description xml:lang="eo">La tipo de specimeno determinas kiom da libereco havas la uzantoj de verko. Specimeno rajtigas onin uzi nur partojn kaj malpermesas kunhavigon de la tuta verko. Specimeno Plus rajtigas onin uzi kaj aliigi partojn, same kiel kunhavigi la tutan verkon por nekomercaj celoj. Nekomerca Specimeno Plus plu limigas la permesilon Specimeno Plus, rajtigante onin krei devenaĵojn el la partoj de la verko nur por nekomercaj celoj.</description>
     
@@ -10334,7 +10334,7 @@ Le contrat "Sampling Plus Pas d'Utilisation Commerciale" est plus restrictif que
    <type>enum</type>
    <enum id="sampling">
      
-       <label xml:lang="el">Λήψη δειγμάτων</label>
+       <label xml:lang="el">Sampling</label>
      
        <label xml:lang="eo">Specimeno</label>
      
