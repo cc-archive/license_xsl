@@ -2,7 +2,7 @@
   <jurisdictions>
     <jurisdiction-info id="-" launched="true">
       <uri>http://creativecommons.org</uri>
-      <languages>en</languages>
+      <languages>en eo</languages>
     </jurisdiction-info>
     <jurisdiction-info id="ar" launched="true">
       <languages>es_AR</languages>
