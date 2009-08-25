@@ -134,7 +134,7 @@
     </jurisdiction-info>
     <jurisdiction-info id="za" launched="true">
       <uri>http://za.creativecommons.org</uri>
-      <languages>en_ZA af</languages>
+      <languages>en_ZA af nso st zu</languages>
     </jurisdiction-info>
     <jurisdiction-info id="es" launched="true">
       <uri>http://es.creativecommons.org/</uri>
