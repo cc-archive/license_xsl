@@ -37,8 +37,7 @@
 				$jurisdiction='in' or 
 				$jurisdiction='ch' or 
 				$jurisdiction='il' or 
-				$jurisdiction='mk' or 
-				$jurisdiction='tw'">2.5</xsl:when>
+				$jurisdiction='mk'">2.5</xsl:when>
 
   		<xsl:when test="$jurisdiction='' or
                                 $jurisdiction='generic' or
@@ -63,7 +62,8 @@
                                 $jurisdiction='sg' or
                                 $jurisdiction='th' or
                                 $jurisdiction='cz' or
-                                $jurisdiction='pl'">3.0</xsl:when>
+                                $jurisdiction='pl' or
+                                $jurisdiction='tw'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
 	   </xsl:choose>
