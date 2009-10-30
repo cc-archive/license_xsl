@@ -6,7 +6,7 @@
   
     <label xml:lang="el">Creative Commons</label>
   
-    <label xml:lang="eo">Creative Commons</label>
+    <label xml:lang="eo">Krea Komunaĵo</label>
   
     <label xml:lang="en">Creative Commons</label>
   
@@ -151,7 +151,7 @@
    
     <label xml:lang="en_SG">Allow commercial uses of your work?</label>
    
-    <label xml:lang="it">Allow commercial uses of your work?</label>
+    <label xml:lang="it">Permetti che la tua opera venga utilizzata a scopi commerciali?</label>
    
     <label xml:lang="eu">Zure lana merkataritza xedeetarako erabiltzea baimendu?</label>
    
@@ -267,7 +267,7 @@
    
     <description xml:lang="el">Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν και να μεταδίδουν το έργο. Σε αντάλλαγμα οι χρήστες δε μπορούν να χρησιμοποιήσουν το έργο για εμπορικούς σκοπούς, εκτός εάν πάρουν τη συναίνεση του χορηγούντος την άδεια.</description>
    
-    <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj transsendi la verkon. Tamen, interesatoj ne rajtas uzi la verkon por komercaj celoj&amp;nbsp;— krom se ili estas akirintaj rajtigon de la permesinto.</description>
+    <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj publikigi la verkon. Tamen, uzo por komercaj celoj ne licas&amp;nbsp;— krom se oni akiris de la permesinto apartan rajtigon.</description>
    
     <description xml:lang="en">The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.</description>
    
@@ -529,7 +529,7 @@
      
      <description xml:lang="el">Ο δικαιοπάροχος επιτρέπει σε άλλους να αντιγράψουν, διανείμουν, απεικονίσουν και να εκτελέσουν την εργασία, ακόμη και για εμπορικούς σκοπούς.</description>
      
-     <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui, aperigi kaj efektivigi la verkon, inkluzive komercajn celojn.</description>
+     <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui, aperigi kaj efektivigi la verkon, inkluzive por komercaj celoj.</description>
      
      <description xml:lang="en">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
      
@@ -543,7 +543,7 @@
      
      <description xml:lang="en_SG">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
      
-     <description xml:lang="it">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
+     <description xml:lang="it">Il licenziante consente ad altri di copiare, distribuire,  esporre, eseguire e recitare l'opera, anche per scopi commerciali.</description>
      
      <description xml:lang="eu">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
      
@@ -617,7 +617,7 @@
      
      <description xml:lang="de">Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen, auch für kommerzielle Zwecke.</description>
      
-     <description xml:lang="hu">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
+     <description xml:lang="hu">A Jogosult engedélyt adott a Mű lemásolására, terjesztésére, bemutatására, előadására, ide értve a kereskedelmi célú felhasználásokat is.</description>
      
      <description xml:lang="fr_CH">The licensor permits others to copy, distribute, display, and perform the work, including for commercial purposes.</description>
      
@@ -805,7 +805,7 @@
      
      <description xml:lang="en_SG">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
      
-     <description xml:lang="it">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
+     <description xml:lang="it">Il licenziante consente ad altri di copiare, distribuire, mostrare, esporre in pubblico, eseguire e recitare l'opera, soltanto per scopi non-commerciali.</description>
      
      <description xml:lang="eu">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
      
@@ -879,7 +879,7 @@
      
      <description xml:lang="de">Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand für nicht-kommerzielle Zwecke zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen und auszustellen.</description>
      
-     <description xml:lang="hu">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
+     <description xml:lang="hu">A Jogosult csak a Mű nem kereskedelmi célú másolását, terjesztését, bemutatását és előadását engedélyezte. </description>
      
      <description xml:lang="fr_CH">The licensor permits others to copy, distribute, display, and perform the work for non-commercial purposes only.</description>
      
@@ -924,7 +924,7 @@
      
    <label xml:lang="el">Θα επιτρέψετε τροποποιήσεις στο έργο σας;</label>
    
-   <label xml:lang="eo">Ĉu permesi aliigon de via verko?</label>
+   <label xml:lang="eo">Ĉu permesi aliigojn de via verko?</label>
    
    <label xml:lang="en">Allow modifications of your work?</label>
    
@@ -938,7 +938,7 @@
    
    <label xml:lang="en_SG">Allow modifications of your work?</label>
    
-   <label xml:lang="it">Allow modifications of your work?</label>
+   <label xml:lang="it">Permetti che la tua opera venga modificata?</label>
    
    <label xml:lang="eu">Zure lanaren aldaketak onartu?</label>
    
@@ -1053,7 +1053,7 @@
      
    <description xml:lang="el">Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν και να μεταδίδουν μόνο αναλλοίωτα αντίγραφα του έργου-όχι παράγωγα έργα που βασίζονται σε αυτό</description>
    
-   <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj transdoni nur neŝanĝitajn kopiojn de la verko&amp;nbsp;— ne devenaĵojn bazitajn sur ĝi.</description>
+   <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj publikigi nur nealiigitajn kopiaĵojn de la verko&amp;nbsp;— ne devenaĵojn bazitajn sur ĝi.</description>
    
    <description xml:lang="en">The licensor permits others to copy, distribute and transmit only unaltered copies of the work — not derivative works based on it.</description>
    
@@ -1330,7 +1330,7 @@
      
      <description xml:lang="en_SG">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
      
-     <description xml:lang="it">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
+     <description xml:lang="it">Il licenziante consente agli altri di copiare, distribuire, comunicare ed esporre al pubblico, eseguire e recitare l'opera, così come di produrre opere derivate basate su questo lavoro.</description>
      
      <description xml:lang="eu">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
      
@@ -1404,7 +1404,7 @@
      
      <description xml:lang="de">Der Lizenzgeber erlaubt jedermann, den Schutzgegenstand zu vervielfältigen, zu verbreiten, öffentlich zu zeigen und zugänglich zu machen, aufzuführen, auszustellen und Abwandlungen und Bearbeitungen davon anzufertigen.</description>
      
-     <description xml:lang="hu">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
+     <description xml:lang="hu">A jogosult engedélyt adott a mű másolására, terjesztésére, előadására és származékos művek létrehozására. </description>
      
      <description xml:lang="fr_CH">The licensor permits others to copy, distribute, display and perform the work, as well as make derivative works based on it.</description>
      
@@ -1577,7 +1577,7 @@
      
      <description xml:lang="el">Ο χορηγών την άδεια επιτρέπει στο κοινό να διανέμει παράγωγα έργα μόνο με μία άδεια ακριβώς ίδια με αυτή που διέπει το έργο του.</description>
      
-     <description xml:lang="eo">La permesinto rajtigas la aliulojn distribui devenaĵojn de la verko nur laŭ la sama aŭ kongrua permesilo.</description>
+     <description xml:lang="eo">La permesinto rajtigas la aliulojn distribui devenaĵojn nur laŭ la sama aŭ kongrua permesilo.</description>
      
      <description xml:lang="en">The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.</description>
      
@@ -1838,7 +1838,7 @@
      
      <description xml:lang="el">Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν και να μεταδίδουν μόνο αναλλοίωτα αντίγραφα του έργου-όχι παράγωγα έργα που βασίζονται σε αυτό</description>
      
-     <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj transdoni nur neŝanĝitajn kopiojn de la verko&amp;nbsp;— ne devenaĵojn bazitajn sur ĝi.</description>
+     <description xml:lang="eo">La permesinto rajtigas la aliulojn kopii, distribui kaj publikigi nur nealiigitajn kopiaĵojn de la verko&amp;nbsp;— ne devenaĵojn bazitajn sur ĝi.</description>
      
      <description xml:lang="en">The licensor permits others to copy, distribute and transmit only unaltered copies of the work — not derivative works based on it.</description>
      
@@ -2102,7 +2102,7 @@
      
    <description xml:lang="el">Εάν επιθυμείτε μία άδεια να διέπεται από το Νόμο Πνευματικής Ιδιοκτησίας μίας συγκεκριμένης δικαιοδοσίας, παρακαλώ επιλέξτε την αντίστοιχη δικαιοδοσία</description>
    
-   <description xml:lang="eo">Se vi deziras uzi permesilon adaptitan al aŭtorrajta leĝaro de konkreta jurisdikcio, bonvolu elekti la koncernan ŝtaton.</description>
+   <description xml:lang="eo">Se vi deziras uzi permesilon adaptitan por perfekta kongruo kun aŭtorrajta leĝaro de konkreta jurisdikcio, bonvolu elekti la koncernan ŝtaton.</description>
    
    <description xml:lang="en">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
@@ -3626,7 +3626,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Kolumbien</label>
      
-       <label xml:lang="hu">Colombia</label>
+       <label xml:lang="hu">Kolumbia</label>
      
        <label xml:lang="fr_CH">Colombie</label>
      
@@ -4462,7 +4462,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="en_SG">Israel</label>
      
-       <label xml:lang="it">Israel</label>
+       <label xml:lang="it">Israele</label>
      
        <label xml:lang="eu">Israel</label>
      
@@ -5892,7 +5892,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="en_SG">Philippines</label>
      
-       <label xml:lang="it">Philippines</label>
+       <label xml:lang="it">Filippine</label>
      
        <label xml:lang="eu">Filipinak</label>
      
@@ -7048,7 +7048,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="el">Η.Β: Αγγλία &amp; Ουαλία</label>
      
-       <label xml:lang="eo">Britujo: Anglujo kaj Kimrujo</label>
+       <label xml:lang="eo">Britujo: Anglujo &amp; Kimrujo</label>
      
        <label xml:lang="en">UK: England &amp; Wales</label>
      
@@ -7526,7 +7526,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Griechenland</label>
      
-       <label xml:lang="hu">Greece</label>
+       <label xml:lang="hu">Görögország</label>
      
        <label xml:lang="fr_CH">Greece</label>
      
@@ -7656,7 +7656,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Luxemburg</label>
      
-       <label xml:lang="hu">Luxembourg</label>
+       <label xml:lang="hu">Luxemburg</label>
      
        <label xml:lang="fr_CH">Luxembourg</label>
      
@@ -7916,7 +7916,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Neuseeland</label>
      
-       <label xml:lang="hu">New Zealand</label>
+       <label xml:lang="hu">Új-Zéland</label>
      
        <label xml:lang="fr_CH">New Zealand</label>
      
@@ -8046,7 +8046,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Serbien</label>
      
-       <label xml:lang="hu">Serbia</label>
+       <label xml:lang="hu">Szerbia</label>
      
        <label xml:lang="fr_CH">Serbie</label>
      
@@ -8088,7 +8088,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="el">Πουέρτο Ρίκο</label>
      
-       <label xml:lang="eo">Puerto Rico</label>
+       <label xml:lang="eo">Puertoriko</label>
      
        <label xml:lang="en">Puerto Rico</label>
      
@@ -8436,7 +8436,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Norwegen</label>
      
-       <label xml:lang="hu">Norway</label>
+       <label xml:lang="hu">Norvégia</label>
      
        <label xml:lang="fr_CH">Norway</label>
      
@@ -8566,7 +8566,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Singapur</label>
      
-       <label xml:lang="hu">Singapore</label>
+       <label xml:lang="hu">Szingapúr</label>
      
        <label xml:lang="fr_CH">Singapour</label>
      
@@ -8696,7 +8696,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Rumänien</label>
      
-       <label xml:lang="hu">Romania</label>
+       <label xml:lang="hu">Románia</label>
      
        <label xml:lang="fr_CH">Roumanie</label>
      
@@ -8956,7 +8956,7 @@ scegli la versione giapponese della licenza.</description>
      
        <label xml:lang="de">Thailand</label>
      
-       <label xml:lang="hu">Thailand</label>
+       <label xml:lang="hu">Thaiföld</label>
      
        <label xml:lang="fr_CH">Thailand</label>
      
@@ -9528,7 +9528,7 @@ scegli la versione giapponese della licenza.</description>
    
      <description xml:lang="el">Εάν επιθυμείτε μία άδεια να διέπεται από το Νόμο Πνευματικής Ιδιοκτησίας μίας συγκεκριμένης δικαιοδοσίας, παρακαλώ επιλέξτε την αντίστοιχη δικαιοδοσία</description>
    
-     <description xml:lang="eo">Se vi deziras uzi permesilon adaptitan al aŭtorrajta leĝaro de konkreta jurisdikcio, bonvolu elekti la koncernan ŝtaton.</description>
+     <description xml:lang="eo">Se vi deziras uzi permesilon adaptitan por perfekta kongruo kun aŭtorrajta leĝaro de konkreta jurisdikcio, bonvolu elekti la koncernan ŝtaton.</description>
    
      <description xml:lang="en">If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.</description>
    
@@ -10192,7 +10192,7 @@ scegli la versione giapponese della licenza.</description>
     
       <description xml:lang="el">Η έκδοση δειγματοληψίας ορίζει την ελευθερία που έχουν οι χρήστες. Η Sampling έκδοση επιτρέπει μόνο τη χρήση ορισμένων κομματιών και απαγορεύει να μοιραστείτε ολόκληρο το έργο. Η άδεια Sampling Plus  επιτρέπει στους χρήστες να παίρνουν και να τροποποιούν κομμάτια του έργου, καθώς επίσης και να μοιράζεστε ολόκληρο το έργο για μη εμπορικούς σκοπούς. Η  άδεια Sampling Plus για μη εμπορικό σκοπό περιορίζει περαιτέρω την άδεια Sampling Plus  με το να παρέχει την εξουσία να δημιουργούνται από τα κομμάτια του έργου σας μόνο  μη εμπορικά παράγωγα έργα.</description>
     
-      <description xml:lang="eo">La tipo de specimeno determinas kiom da libereco havas la uzantoj de verko. Specimeno rajtigas onin uzi nur partojn kaj malpermesas kunhavigon de la tuta verko. Specimeno Plus rajtigas onin uzi kaj aliigi partojn, same kiel kunhavigi la tutan verkon por nekomercaj celoj. Nekomerca Specimeno Plus plu limigas la permesilon Specimeno Plus, rajtigante onin krei devenaĵojn el la partoj de la verko nur por nekomercaj celoj.</description>
+      <description xml:lang="eo">Tipo de Specimena permesilo determinas kiom da libero havas la uzantoj de verko. Specimeno rajtigas onin uzi nur partojn kaj malpermesas kunhavigon de la tuta verko. Specimeno Plus rajtigas onin uzi kaj transformi partojn de la verko, same kiel kunhavigi la tutan verkon por nekomercaj celoj. Nekomerca Specimeno Plus plu limigas la permesilon Specimeno Plus, rajtigante onin krei devenaĵojn el partoj de la verko nur por nekomercaj celoj.</description>
     
       <description xml:lang="en">The Sampling Flavor determines how much freedom licensees have. Sampling only allows pieces to be used and prohibits sharing of the entire work.  Sampling Plus allows licensees to take and transform pieces of the work, as well as share the entire work for non-commercial purposes.  Noncommercial Sampling Plus further restricts the Sampling Plus license by only authorizing non-commercial derivatives to be created from the pieces of your work.</description>
     
