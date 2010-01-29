@@ -24,7 +24,6 @@
 				$jurisdiction='scotland' or 
 				$jurisdiction='ca' or 
 				$jurisdiction='my' or 
-				$jurisdiction='br' or 
 				$jurisdiction='bg' or 
 				$jurisdiction='mx' or 
 				$jurisdiction='cn' or 
@@ -63,7 +62,8 @@
                                 $jurisdiction='th' or
                                 $jurisdiction='cz' or
                                 $jurisdiction='pl' or
-                                $jurisdiction='tw'">3.0</xsl:when>
+                                $jurisdiction='tw' or
+                                $jurisdiction='br'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
 	   </xsl:choose>
