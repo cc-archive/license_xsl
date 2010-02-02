@@ -127,7 +127,7 @@
       <languages>pl</languages>
     </jurisdiction-info>
     <jurisdiction-info id="pt" launched="true">
-      <languages>pt_PT</languages>
+      <languages>pt pt_PT</languages>
     <uri>http://pt.creativecommons.org</uri></jurisdiction-info>
     <jurisdiction-info id="si" launched="true">
       <uri>http://creativecommons.si</uri>
