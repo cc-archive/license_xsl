@@ -150,6 +150,10 @@
   </metal:repeat>
  </licenseclass>
 
+ <licenseclass id="zero">
+   <label xml:lang="en">CC0</label>
+ </licenseclass>
+
  <licenseclass id="recombo">
   <metal:repeat tal:repeat="locale locales" >
    <label tal:attributes="xml:lang locale"
