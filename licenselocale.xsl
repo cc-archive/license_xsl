@@ -10284,7 +10284,7 @@ Important Reminder "The Creative Commons Public Domain License does not apply to
 
        
 
-            <xsl:when test="$license-locale='hy' "><xsl:copy-of select="$Հետևյալ հեղինակի/կատարողի"/> <xsl:copy-of select="$ստեղծագործության_վերնագիրը"/> լիցենզավորված է ըստ <span class="translation-highlight-html">&amp;lt;a rel="license" href="{$լիցենզիայի_url}"&amp;gt;</span>Creative Commons <xsl:copy-of select="$լիցենզիայի_անվանումը"/> Լիցենզիա<span class="translation-highlight-html">&amp;lt;/a&amp;gt;</span>.</xsl:when>
+            <xsl:when test="$license-locale='hy' "><xsl:copy-of select="$work_title"/> by <xsl:copy-of select="$work_author"/> is licensed under a <a rel="license" href="{$license_url}">Creative Commons <xsl:copy-of select="$license_name"/> License</a>.</xsl:when>
 
        
 
