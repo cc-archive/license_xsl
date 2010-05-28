@@ -64,7 +64,7 @@
                 $jurisdiction='pl' or
                 $jurisdiction='tw' or
                 $jurisdiction='br' or
-                $jurisdiction='vnr'">3.0</xsl:when>
+                $jurisdiction='vn'">3.0</xsl:when>
 
   		<xsl:otherwise>2.0</xsl:otherwise>
 	   </xsl:choose>
