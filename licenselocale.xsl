@@ -8715,155 +8715,155 @@
             <xsl:choose>
                
             
-               <xsl:when test="$license-locale='el' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='el' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='eo' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='eo' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_PR' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_PR' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='nso' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='nso' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='vi' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='vi' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='pt_PT' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='pt_PT' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en_SG' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en_SG' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='it' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='it' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='eu' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='eu' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='as' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='as' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_PE' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_PE' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='tr' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='tr' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en_US' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en_US' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ga' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ga' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='zu' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='zu' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='cs' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='cs' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='zh' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='zh' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en_HK' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en_HK' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='az' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='az' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='id' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='id' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='sr_LATN' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='sr_LATN' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_AR' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_AR' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='de_CH' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='de_CH' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ru' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ru' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_GT' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_GT' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='nl' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='nl' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='pt' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='pt' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='no' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='no' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='hy' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='hy' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_EC' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_EC' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='af' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='af' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_CO' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_CO' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_CL' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_CL' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='lv' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='lv' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='lt' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='lt' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='de_AT' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='de_AT' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='th' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='th' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='fi' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='fi' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='zh_TW' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='zh_TW' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ro' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ro' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ca' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ca' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en_GB' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en_GB' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='en_CA' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='en_CA' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='fr' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='fr' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='zh_HK' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='zh_HK' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='uk' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='uk' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='pt_BR' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='pt_BR' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='hr' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='hr' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='de' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='de' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='hu' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='hu' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CH' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='fr_CH' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='es_MX' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='es_MX' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='be' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='be' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='da' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='da' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ja' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ja' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='fr_CA' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='fr_CA' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='he' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='he' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='oci_ES' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='oci_ES' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ast_ES' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ast_ES' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='bg' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='bg' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='fr_LU' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='fr_LU' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ms' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ms' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='sr' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='sr' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='mn' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='mn' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ko' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ko' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='sv' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='sv' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='mk' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='mk' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='ur' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='ur' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='gl' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='gl' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='it_CH' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='it_CH' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='pl' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='pl' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='st' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='st' ">Vietnam</xsl:when>
             
-               <xsl:when test="$license-locale='sl' ">country.vn</xsl:when>
+               <xsl:when test="$license-locale='sl' ">Vietnam</xsl:when>
             
 
             </xsl:choose>
