@@ -253,6 +253,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/au/"/>
 	  <version id="2.1" uri="http://creativecommons.org/licenses/by-nc/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by-nc/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by-nc/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc/2.0/at/"/>
@@ -461,6 +462,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/au/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-sa/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by-sa/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by-sa/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-sa/2.0/at/"/>
@@ -624,6 +626,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/au/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by/2.0/at/"/>
@@ -799,6 +802,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/au/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nc-nd/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by-nc-nd/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by-nc-nd/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-nd/2.0/at/"/>
@@ -985,6 +989,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/au/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nd/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by-nd/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by-nd/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nd/2.0/at/"/>
@@ -1148,6 +1153,7 @@
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/au/"/>
           <version id="2.1" uri="http://creativecommons.org/licenses/by-nc-sa/2.1/au/"/>
        <version id="2.5" uri="http://creativecommons.org/licenses/by-nc-sa/2.5/au/"/>
+<version id="3.0" uri="http://creativecommons.org/licenses/by-nc-sa/3.0/au/"/>
 </jurisdiction>
        <jurisdiction id="at">
           <version id="2.0" uri="http://creativecommons.org/licenses/by-nc-sa/2.0/at/"/>
